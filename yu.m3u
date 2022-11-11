@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1 group-title="魔兽争霸",th000
+https://epg.112114.xyz/douyu/11017
+#EXTINF:-1 group-title="魔兽争霸",infi
+https://epg.112114.xyz/douyu/255865
 #EXTINF:-1 tvg-logo="null" group-title="自定义",小乃丸
 https://epg.112114.xyz/douyu/8747682
 #EXTINF:-1 tvg-logo="null" group-title="自定义",杰克螳螂
