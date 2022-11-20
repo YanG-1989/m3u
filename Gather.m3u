@@ -53,12 +53,12 @@ http://[2409:8087:1070:301:2028::1e]:80/wh7f454c46tw4200914459_582749386/gslbser
 http://[2409:8087:1070:301:2028::1e]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225898/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://wtv.tools.bianbingdang.com/prod/api/v1/tvg/logo/CCTV5" group-title="IPV6",CCTV5 「IPV6」
 http://[2409:8087:1070:301:2028::1e]:80/wh7f454c46tw4201204269_1958960221/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225964/10000100000000060000000000869060_0.smil/01.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://wtv.tools.bianbingdang.com/prod/api/v1/tvg/logo/CCTV5" group-title="IPV6",CCTV5+ 「IPV6」
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5+" tvg-logo="https://wtv.tools.bianbingdang.com/prod/api/v1/tvg/logo/CCTV5+" group-title="IPV6",CCTV5+ 「IPV6」
 http://[2409:8087:1070:301:2028::1a]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225663/index.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://wtv.tools.bianbingdang.com/prod/api/v1/tvg/logo/CCTV7" group-title="IPV6",CCTV7「IPV6」
-http://[2409:8087:1070:301:2028::1a]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225897/index.m3u8?fmt=ts2hls
 #EXTINF:-1 group-title="IPV6",CCTV 6 「IPV6」
 http://[2409:8087:1070:301:2028::14]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225965/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://wtv.tools.bianbingdang.com/prod/api/v1/tvg/logo/CCTV7" group-title="IPV6",CCTV7「IPV6」
+http://[2409:8087:1070:301:2028::1a]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225897/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://wtv.tools.bianbingdang.com/prod/api/v1/tvg/logo/CCTV8" group-title="IPV6",CCTV8「IPV6」
 http://[2409:8087:1070:301:2028::1f]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225966/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://wtv.tools.bianbingdang.com/prod/api/v1/tvg/logo/CCTV9" group-title="IPV6",CCTV9「IPV6」
@@ -79,6 +79,12 @@ http://[2409:8087:1070:301:2028::22]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888
 http://[2409:8087:1070:301:2028::18]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226300/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://wtv.tools.bianbingdang.com/prod/api/v1/tvg/logo/CCTV17" group-title="IPV6",CCTV17「IPV6」
 http://[2409:8087:1070:301:2028::11]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225977/index.m3u8?fmt=ts2hls
+#EXTINF:-1 group-title="IPV6",CETV4「IPV6」
+http://[2409:8087:5011:1020::15]/180000001001/00000001000000001017000000440665/index.m3u8?IASHttpSessionId=OTT
+#EXTINF:-1 group-title="IPV6",CGTN 纪录「IPV6」
+http://[2409:8087:5011:1020::1f]/180000001001/00000001000000000002000000028012/main.m3u8?IASHttpSessionId=OTT
+#EXTINF:-1 group-title="IPV6",CGTN「IPV6」
+http://[2409:8087:5011:1020::1f]/180000001001/00000001000000000002000000028019/main.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 group-title="IPV6",湖南卫视「IPV6」
 http://[2409:8087:1070:301:2028::1c]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225912/index.m3u8?fmt=ts2hls
 #EXTINF:-1 group-title="IPV6",浙江卫视「IPV6」
@@ -183,12 +189,6 @@ http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002305/index.m3
 http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001001000000000064/main.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 group-title="IPV6",东南卫视「IPV6」
 http://[2409:8087:5011:1020::1f]/180000001001/00000001000000000002000000028028/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 group-title="IPV6",CETV4台「IPV6」
-http://[2409:8087:5011:1020::15]/180000001001/00000001000000001017000000440665/index.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 group-title="IPV6",CGTN 纪录「IPV6」
-http://[2409:8087:5011:1020::1f]/180000001001/00000001000000000002000000028012/main.m3u8?IASHttpSessionId=OTT
-#EXTINF:-1 group-title="IPV6",CGTN「IPV6」
-http://[2409:8087:5011:1020::1f]/180000001001/00000001000000000002000000028019/main.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 group-title="IPV6",IPTV高清院线「IPV6」
 http://[2409:8087:5011:1020::2b]/180000001001/00000001000000001002000000000009/main.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 group-title="IPV6",IPTV高清院线「IPV6」
