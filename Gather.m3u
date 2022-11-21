@@ -2697,8 +2697,6 @@ http://198.16.64.10:8278/tvbs_n/playlist.m3u8?tid=MECE3233774032337740&ct=19225&
 http://198.16.64.10:8278/WarnerTV/playlist.m3u8?tid=MADA9911440699114406&ct=19225&tsum=19bde622e34ceabf296cf92a9a1adede
 #EXTINF:-1 group-title="港澳台",[MY]WWE
 http://198.16.64.10:8278/Wwe/playlist.m3u8?tid=ME9E9974073099740730&ct=19225&tsum=8840b20a73441662838a72c53f7889d8
-#EXTINF:-1 group-title="港澳台",[TW]爱尔达体育1台
-http://198.16.64.10:8278/eltasport_twn/playlist.m3u8?tid=MB5B8133126081331260&ct=19225&tsum=5cb9d121709b107014d31cf856f3572e
 #EXTINF:-1 group-title="港澳台",[TW]大愛
 http://198.16.64.10:8278/daai_twn/playlist.m3u8?tid=MF5F4357730143577301&ct=19225&tsum=10c092424b1c12259444b68ad663c9eb
 #EXTINF:-1 group-title="港澳台",[TW]东森电影
@@ -2743,10 +2741,6 @@ http://198.16.64.10:8278/jettv_japan/playlist.m3u8?tid=MA7A4202687942026879&ct=1
 http://198.16.64.10:8278/tlc_twn/playlist.m3u8?tid=MA0A5904082259040822&ct=19226&tsum=8fa7deead1d4b260825af15bc7378132
 #EXTINF:-1 group-title="港澳台",[TW]TVB星河
 http://198.16.64.10:8278/tvbxinhe_twn/playlist.m3u8?tid=ME2E8352893183528931&ct=19225&tsum=5f852c878e02000708a055c6b08a9405
-#EXTINF:-1 group-title="港澳台",爱尔达体育1台
-http://50.7.220.74:8278/eltasport_twn/playlist.m3u8?tid=md3567b35401611916221&ct=17874&tsum=be2a069324faa7f0737ca0d396d43745
-#EXTINF:-1 group-title="港澳台",爱尔达体育1台
-http://www.best336699.com:1935/besttv/IR01.stream/chunklist_w1140575877.m3u8
 #EXTINF:-1 group-title="港澳台",爱尔达影剧
 http://198.16.64.10:8278/eltadrama_twn/playlist.m3u8?tid=MFDF4206608342066083&ct=19225&tsum=c6e03c86e60731f01aef66e1b32dcc84
 #EXTINF:-1 group-title="港澳台",爱尔达影剧
@@ -3021,7 +3015,9 @@ http://220.134.196.147:9569/http/116.50.42.19:8081/hls/61/803/ch01.m3u8?token=73
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226629/index.m3u8
 #EXTINF:-1 group-title="港澳台",海豚综合台
 http://58.99.33.16:1935/liveedge17/live_077_3.stream/chunklist.m3u8
-#EXTINF:-1 group-title="港澳台",好莱坞电影
+#EXTINF:-1 group-title="港澳台",好莱坞电影 HD
+https://pull-l3-cny.douyincdn.com/live/06027cd7cadf310982fe67221578515b.m3u8
+#EXTINF:-1 group-title="港澳台",好莱坞电影 HD
 http://50.7.220.74:8278/hollywoodmovies_twn/playlist.m3u8?tid=MA8A4005638840056388&ct=18392&tsum=a1f1517d4ea64fd01267905f21d83859
 #EXTINF:-1 group-title="港澳台",好莱坞电影 HD
 http://www.372583307.top:4022/udp/233.50.201.228:5140
@@ -3040,10 +3036,12 @@ http://38.64.72.148:80/hls/modn/list/4003/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台",华语电视1
 http://38.64.72.148:80/hls/modn/list/4001/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台",寰宇新闻
+https://pull-l3-cny.douyincdn.com/live/a9e3982a798d13ba350075af6cff4119.m3u8
+#EXTINF:-1 group-title="港澳台",寰宇新闻
 http://tv.redrainl.site:9500/live.m3u8?c=22
-#EXTINF:-1 group-title="港澳台",寰宇新闻台湾台
+#EXTINF:-1 group-title="港澳台",寰宇新闻
 https://git.io/JgkpO
-#EXTINF:-1 group-title="港澳台",寰宇新闻台湾台
+#EXTINF:-1 group-title="港澳台",寰宇新闻
 https://raw.githubusercontent.com/etag2000/IPTV/YTlive/hyxw.m3u8
 #EXTINF:-1 group-title="港澳台",嘉义SHOW
 http://61.58.60.230:9319/live/100.m3u8
@@ -3089,25 +3087,27 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV55.m3u8
 http://50.7.220.74:8278/meiyamovie_twn/playlist.m3u8?tid=MD3D6323299363232993&ct=18392&tsum=3f73f541d33abe71140d28ada99a071b
 #EXTINF:-1 group-title="港澳台",面包台
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-#EXTINF:-1 group-title="港澳台",民视 HD
+#EXTINF:-1 group-title="港澳台",民视
+https://pull-l3-cny.douyincdn.com/live/b2478a833f3e8b439b680048fcbf7786.m3u8
+#EXTINF:-1 group-title="港澳台",民视
 http://50.7.220.74:8278/ftvhd_taiwan/playlist.m3u8?tid=m15b424641a89&ct=18335&tsum=ba82cdbfb8253c45a13df5354e6d0dbc
-#EXTINF:-1 group-title="港澳台",民视 HD
+#EXTINF:-1 group-title="港澳台",民视
 http://50.7.220.74:8278/ftvhd_taiwan/playlist.m3u8?tid=15141291&ct=17990&tsum=ab93fcdf581cc3f483e1ceede13312ce
-#EXTINF:-1 group-title="港澳台",民视 HD
+#EXTINF:-1 group-title="港澳台",民视
 http://23.237.10.66:16334
-#EXTINF:-1 group-title="港澳台",民视 HD
+#EXTINF:-1 group-title="港澳台",民视
 http://50.7.220.74:8278/ftvhd_taiwan/playlist.m3u8?tid=MF8F2804739628047396&ct=19193&tsum=73a49379fed74f8fc39359fcf589a9d8
 #EXTINF:-1 group-title="港澳台",民视台湾台
 http://198.16.64.10:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD8196635981966359&ct=19226&tsum=b82639ac8b4590b4206effe348e2f9c2
 #EXTINF:-1 group-title="港澳台",民视新闻
 http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
-#EXTINF:-1 group-title="港澳台",民视新闻 HD
+#EXTINF:-1 group-title="港澳台",民视新闻
 http://198.16.64.10:8278/ftvnew_taiwan/playlist.m3u8?tid=ME4E4172771041727710&ct=19226&tsum=7b91c7af6212419479b392ff575e0689
-#EXTINF:-1 group-title="港澳台",民视新闻 HD
+#EXTINF:-1 group-title="港澳台",民视新闻
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
-#EXTINF:-1 group-title="港澳台",民视新闻 HD
+#EXTINF:-1 group-title="港澳台",民视新闻
 http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
-#EXTINF:-1 group-title="港澳台",民视新闻HD
+#EXTINF:-1 group-title="港澳台",民视新闻
 http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8
 #EXTINF:-1 group-title="港澳台",明珠台
 http://120.84.96.62:808/hls/26/index.m3u8?blog.ntnas.top
@@ -3245,7 +3245,7 @@ http://23.237.10.66:16110
 http://9.zhxinda.xyz/tvbnews.php
 #EXTINF:-1 group-title="港澳台",无线新闻
 http://9.zhxinda.xyz/newss.php?id=1
-#EXTINF:-1 group-title="港澳台",无线新闻台
+#EXTINF:-1 group-title="港澳台",无线新闻
 http://198.16.64.10:8278/inews_twn/playlist.m3u8?tid=m2206a7a6925a&ct=18336&tsum=47d564f6425ee7ceb9ff1ed026f89669
 #EXTINF:-1 group-title="港澳台",香港卫视
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
@@ -3287,7 +3287,7 @@ https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
 http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",耀才财经
 http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000
-#EXTINF:-1 group-title="港澳台",耀才财经新闻
+#EXTINF:-1 group-title="港澳台",耀才财经
 http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000?zgangd
 #EXTINF:-1 group-title="港澳台",有线财经资讯台
 https://uc6.i-cable.com/live_freedirect/freehd208_h.live/playlist.m3u8
@@ -3307,21 +3307,23 @@ http://streamipcf.akamaized.net/live/_definst_/live_720/chunklist_b1500.m3u8
 http://streamipcf.akamaized.net/live/_definst_/smil:liveabr.smil/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",云林新闻网
 http://58.99.33.16:1935/liveedge17/live_854_3.stream/chunklist.m3u8
-#EXTINF:-1 group-title="港澳台",中视 HD
+#EXTINF:-1 group-title="港澳台",中视
 http://198.16.64.10:8278/zhongshihd_twn/playlist.m3u8?tid=MB8B7313326473133264&ct=19226&tsum=ae7506028e559f3a6e2a3519b2f6a91e
-#EXTINF:-1 group-title="港澳台",中视 HD
+#EXTINF:-1 group-title="港澳台",中视
 http://50.7.220.74:8278/zhongshihd_twn/playlist.m3u8?tid=MB4B2404962324049623&ct=19193&tsum=671b112a447ed494ae6219c14d0fab93
 #EXTINF:-1 group-title="港澳台",中视经典台
 http://50.7.220.74:8278/zhongshi_twn/playlist.m3u8?tid=mffe9aaf8765f&ct=18335&tsum=bcdd7a2ce4a5498b1449cb26a01150c0
 #EXTINF:-1 group-title="港澳台",中视新闻
+https://pull-l3-cny.douyincdn.com/live/cf93b19e055f2800058541033c0c4355.m3u8
+#EXTINF:-1 group-title="港澳台",中视新闻
 http://50.7.220.74:8278/zhongshinews_twn/playlist.m3u8?tid=MAAA4459856044598560&ct=19193&tsum=1b7bdea69c00cd48e31f13442c75c376
 #EXTINF:-1 group-title="港澳台",中视新闻
 http://tv.redrainl.site:9500/live.m3u8?c=02
-#EXTINF:-1 group-title="港澳台",中视新闻 HD
+#EXTINF:-1 group-title="港澳台",中视新闻
 http://198.16.64.10:8278/zhongshinews_twn/playlist.m3u8?tid=MD8D4836803548368035&ct=19226&tsum=a2f06c15a5e9c4dc67565c2b8598c8da
-#EXTINF:-1 group-title="港澳台",中视新闻 HD
+#EXTINF:-1 group-title="港澳台",中视新闻
 https://git.io/Jgkxz
-#EXTINF:-1 group-title="港澳台",中视新闻台
+#EXTINF:-1 group-title="港澳台",中视新闻
 https://raw.githubusercontent.com/etag2000/IPTV/YTlive/ctvnews.m3u8
 #EXTINF:-1 group-title="港澳台",中台湾生活网
 http://58.99.33.16:1935/liveedge17/live_020_3.stream/chunklist.m3u8
@@ -3335,11 +3337,11 @@ http://tv.redrainl.site:9500/live.m3u8?c=03
 http://50.7.220.74:8278/ctiasia_twn/playlist.m3u8?tid=MFFF9983745599837455&ct=19193&tsum=ee61e179a8c619a076c515514d68e24e
 #EXTINF:-1 group-title="港澳台",中天娱乐
 http://50.7.220.74:8278/ctient/playlist.m3u8?tid=MA8A3069789530697895&ct=19193&tsum=20c49fe9e15ad366c6e32b141f03bf8a
-#EXTINF:-1 group-title="港澳台",中天综合 HD
+#EXTINF:-1 group-title="港澳台",中天综合
 http://50.7.220.74:8278/ctizhonghe/playlist.m3u8?tid=MBBB1520797915207979&ct=19193&tsum=3a6f7f0c591c2ec6678d51b741f290b2
-#EXTINF:-1 group-title="港澳台",中天综合 HD
+#EXTINF:-1 group-title="港澳台",中天综合
 http://198.16.64.10:8278/ctizhonghe/playlist.m3u8?tid=ME3E9861589598615895&ct=19226&tsum=7e6a4896cab50c2c48d7a889c1076ffc
-#EXTINF:-1 group-title="港澳台",中天综合 HD
+#EXTINF:-1 group-title="港澳台",中天综合
 http://23.237.10.66:16372
 #EXTINF:-1 group-title="港澳台",足球频道
 https://nmglive.imfc.cn/5n1r1c/182396.m3u8
@@ -3541,11 +3543,20 @@ http://198.16.64.10:8278/viusix_twn/playlist.m3u8?tid=MC6C1412376614123766&ct=19
 https://cdn.hklive.tv/xxxx/96/index.m3u8
 #EXTINF:-1 group-title="港澳台",WWE
 http://50.7.220.74:8278/wwe_twn/playlist.m3u8?tid=MACA9233903292339032&ct=18393&tsum=e4cbbd3b73f34348c4a58d7dc6fbd7dc
-
 #EXTINF:-1 group-title="体育",ONE Golf「高尔夫」
 http://162.250.201.58:6211/pk/ONEGOLF/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="体育",爱尔达体育1台
+http://198.16.64.10:8278/eltasport_twn/playlist.m3u8?tid=MB5B8133126081331260&ct=19225&tsum=5cb9d121709b107014d31cf856f3572e
+#EXTINF:-1 group-title="体育",爱尔达体育1台
+http://www.best336699.com:1935/besttv/IR01.stream/chunklist_w1140575877.m3u8
+#EXTINF:-1 group-title="体育",爱尔达体育1台
+http://50.7.220.74:8278/eltasport_twn/playlist.m3u8?tid=md3567b35401611916221&ct=17874&tsum=be2a069324faa7f0737ca0d396d43745
+#EXTINF:-1 group-title="体育",爱尔达体育2台
+http://www.best336699.com:1935/besttv/IR02.stream/media_w27854583_5615.m3u8
 #EXTINF:-1 group-title="体育",爱尔达体育2台
 http://198.16.64.10:8278/eltasport2_twn/playlist.m3u8?tid=MCDC5093685750936857&ct=19225&tsum=592e009b281ea2abc43b21768cb1bec0
+#EXTINF:-1 group-title="体育",爱尔达体育3台
+http://www.best336699.com:1935/besttv/IR03.stream/media_w669091355_112279.m3u8
 #EXTINF:-1 group-title="体育",广东体育
 http://fyld.eatuo.com:9901/tsfile/live/1012_1.m3u8
 #EXTINF:-1 group-title="体育",广东体育
