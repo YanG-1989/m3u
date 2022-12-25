@@ -1,6 +1,8 @@
 #EXTM3U
+#EXTINF:-1 group-title="热门游戏",昔恩小姐姐
+https://epg.112114.xyz/douyu/6301433
 #EXTINF:-1 group-title="英雄联盟",芜湖大司马丶
-https://epg.112114.xyz/douyu/60618
+https://epg.112114.xyz/douyu/606118
 #EXTINF:-1 tvg-logo="https://sta-op.douyucdn.cn/vod-cover/2022/12/22/04b776b5960ee1a85cb64d7981d83ff6.png/vdy1" group-title="热门游戏",一条小团团OvO
 https://epg.112114.xyz/douyu/2222
 #EXTINF:-1 group-title="魔兽争霸",th000
