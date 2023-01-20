@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="https://sta-op.douyucdn.cn/vod-cover/2023/01/14/06f54e2b09a5be6968cc1806eadccbac.png/vdy1" group-title="DNF",旭旭宝宝
+https://epg.112114.xyz/douyu/99999
 #EXTINF:-1 group-title="热门游戏",昔恩小姐姐
 https://epg.112114.xyz/douyu/6301433
 #EXTINF:-1 group-title="英雄联盟",芜湖大司马丶
