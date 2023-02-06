@@ -1,24 +1,22 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="null" group-title="自定义",Zz1tai姿态
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1087/cb/ab41300582958653660b6620e05fd1_180_135.jpg?1577343415" group-title="王者荣耀",LING-树叶
+https://epg.112114.xyz/huya/296191
+#EXTINF:-1 tvg-logo="null" group-title="英雄联盟",Zz1tai姿态
 https://epg.112114.xyz/huya/333003
-#EXTINF:-1 tvg-logo="null" group-title="自定义",大熊小清新
-https://epg.112114.xyz/huya/585800
-#EXTINF:-1 tvg-logo="null" group-title="自定义",托马斯CzH
+#EXTINF:-1 tvg-logo="null" group-title="天天吃鸡",托马斯CzH
 https://epg.112114.xyz/huya/20641
-#EXTINF:-1 tvg-logo="null" group-title="自定义",4AM永远妖妖丷
+#EXTINF:-1 tvg-logo="null" group-title="天天吃鸡",4AM永远妖妖丷
 https://epg.112114.xyz/huya/791166
-#EXTINF:-1 tvg-logo="null" group-title="自定义",iFTY龙Skr
+#EXTINF:-1 tvg-logo="null" group-title="天天吃鸡",iFTY龙Skr
 https://epg.112114.xyz/huya/705377
-#EXTINF:-1 tvg-logo="null" group-title="自定义",4AMLong
+#EXTINF:-1 tvg-logo="null" group-title="天天吃鸡",4AMLong
 https://epg.112114.xyz/huya/791102
-#EXTINF:-1 tvg-logo="null" group-title="自定义",4AMCRAZY112代
+#EXTINF:-1 tvg-logo="null" group-title="天天吃鸡",4AMCRAZY112代
 https://epg.112114.xyz/huya/7911112
-#EXTINF:-1 tvg-logo="null" group-title="自定义",4AMGodv
+#EXTINF:-1 tvg-logo="null" group-title="天天吃鸡",4AMGodv
 https://epg.112114.xyz/huya/7911
-#EXTINF:-1 tvg-logo="null" group-title="自定义",久帝告白
-https://epg.112114.xyz/huya/88617
-#EXTINF:-1 tvg-logo="null" group-title="自定义",大熊小清新
-https://epg.112114.xyz/huya/585800
+#EXTINF:-1 group-title="金铲铲之战",校长
+https://epg.112114.xyz/huya/77357
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1016/b9/b6824c9d5593f03f5b5c4f71189023_180_135.jpg?1564815405" group-title="王者荣耀",张大仙
 https://epg.112114.xyz/huya/688
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1084/b7/896bc815db9560eabbcb4a227f62ba_180_135.jpg?1416387967" group-title="英雄联盟",卡尔
