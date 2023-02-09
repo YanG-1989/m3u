@@ -2485,10 +2485,18 @@ http://39.135.138.58:18890/PLTV/88888888/224/3221225703/index.m3u8
 http://112.19.214.90:8883/tsfile/live/0124_1.m3u8
 #EXTINF:-1 group-title="卫视",浙江卫视
 http://222.240.82.92:9901/tsfile/live/0124_1.m3u8
+#EXTINF:-1 tvg-name="J2",「HK」J2
+http://c-leung.homeip.net:8012/bysid/82
 #EXTINF:-1 group-title="港澳台",「HK」HOY TV
 http://uc6.i-cable.com/live_freedirect/opentvhd001_h.live/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",「HK」ViuTV
 https://cdn.hklive.tv/xxxx/99/index.m3u8
+#EXTINF:-1 tvg-name="ViuTV",「HK」ViuTV
+http://c-leung.homeip.net:8011/bysid/99
+#EXTINF:-1 tvg-name="ViuTV6",「HK」ViuTV6
+http://c-leung.homeip.net:8011/bysid/96
+#EXTINF:-1 tvg-name="翡翠台",「HK」翡翠台
+http://c-leung.homeip.net:8011/bysid/1
 #EXTINF:-1 group-title="港澳台",「HK」翡翠台
 http://23.237.10.66:16106
 #EXTINF:-1 group-title="港澳台",「HK」翡翠台
@@ -2499,6 +2507,8 @@ http://r.jdshipin.com/62WM7
 http://qwas.eatuo.com:9901/tsfile/live/1013_1.m3u8
 #EXTINF:-1 group-title="港澳台",「HK」华丽台
 http://23.237.10.66:16410
+#EXTINF:-1 tvg-id="明珠台",「HK」明珠台
+http://c-leung.homeip.net:8012/bysid/2
 #EXTINF:-1 group-title="港澳台",「HK」明珠台
 http://159.75.85.63:8765/telegram@feiyangdigital-mingzhu.m3u8
 #EXTINF:-1 group-title="港澳台",「HK」明珠台
@@ -2595,6 +2605,18 @@ https://api.leonardpark.dev/live/icable/110
 https://api.leonardpark.dev/live/icable/108
 #EXTINF:-1 group-title="港澳台",「HK」有线财经资讯台
 https://uc6.i-cable.com/live_freedirect/freehd208_h.live/playlist.m3u8
+#EXTINF:-1 tvg-name="无线新闻台",「HK」无线新闻台
+http://c-leung.homeip.net:8012/bysid/83
+#EXTINF:-1 tvg-name="无线财经资讯台",「HK」无线财经资讯台
+http://c-leung.homeip.net:8012/bysid/85
+#EXTINF:-1 tvg-name="RTHK32",「HK」RTHK31
+http://c-leung.homeip.net:8013/bysid/31
+#EXTINF:-1 tvg-name="RTHK32",「HK」RTHK32
+http://c-leung.homeip.net:8013/bysid/32
+#EXTINF:-1 tvg-name="CCTV1",「HK」RAHT33
+http://c-leung.homeip.net:8013/bysid/33
+#EXTINF:-1 tvg-name="GGTN记录频道",「HK」RTHK34
+http://c-leung.homeip.net:8013/bysid/34
 #EXTINF:-1 group-title="港澳台",「HK」RTHK31
 https://cdn.hklive.tv/xxxx/31/index.m3u8
 #EXTINF:-1 group-title="港澳台",「HK」RTHK31
