@@ -2619,6 +2619,28 @@ https://www.nettvpro.live/hls/lotustv.php
 http://anren.live/HK/BiIOU11uLA.m3u8
 #EXTINF:-1 group-title="港澳台",「MO」澳门莲花
 http://pull-l3-cny.douyincdn.com/third/stream-f3caad21816e3bfe2210a692387ab040.m3u8
+#EXTINF:-1 group-title="港澳台",「MO」澳门莲花
+http://anren.live/HK/BiIOU11uLA.m3u8
+#EXTINF:-1 group-title="港澳台",「MO」澳视葡语
+http://61.244.22.5/ch2/ch2.live/index.m3u8
+#EXTINF:-1 group-title="港澳台",「MO」澳门葡语
+http://61.244.22.5/ch2/ch2.live/chunklist_w1632175875.m3u8
+#EXTINF:-1 group-title="港澳台",「MO」澳门卫视
+http://61.244.22.5/ch3/ch3.live/chunklist_w1228316132.m3u8
+#EXTINF:-1 group-title="港澳台",「MO」澳门信息
+http://61.244.22.5/ch5/info_ch5.live/chunklist_w105010641.m3u8
+#EXTINF:-1 group-title="港澳台",「MO」澳门Macau
+http://61.244.22.5/ch3/ch3.live/index.m3u8
+#EXTINF:-1 group-title="港澳台",「MO」澳视澳门
+http://61.244.22.5/ch1/ch1.live/playelist.m3u8
+#EXTINF:-1 group-title="港澳台",「MO」澳视澳门
+http://61.244.22.5/ch1/ch1.live/index.m3u8
+#EXTINF:-1 group-title="港澳台",「MO」澳视体育
+http://61.244.22.5/ch4/sport_ch4.live/index.m3u8
+#EXTINF:-1 group-title="港澳台",「MO」澳视资讯
+http://61.244.22.5/ch5/info_ch5.live/index.m3u8
+#EXTINF:-1 group-title="港澳台",「MO」澳视综艺
+http://61.244.22.5/ch6/hd_ch6.live/index.m3u8
 #EXTINF:-1 group-title="港澳台",「MO」澳亚卫视
 https://live.mastvnet.com/lsdream/lY44pmm/2000/live.m3u8
 #EXTINF:-1 group-title="港澳台",「MO」澳亚卫视
