@@ -4,7 +4,7 @@
 ---
 * [分流参考](https://raw.githubusercontent.com/YanG-1989/list/main/IPTV.list)  
   
-港澳台和日本源大部分需要挂代理！
+日本源需要挂代理！
 
 ---
 ### 垃圾话语录
