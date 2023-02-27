@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/201807/4c4d2300f11c6a8cecdde89a1173093e_middle.jpg" group-title="炉石传说",驴哥LvGe
+https://epg.112114.xyz/douyu/5110403
+#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/201811/6a8d9bc682a067c2900ad076a6bab179_middle.jpg" group-title="炉石传说",一本稻
+https://epg.112114.xyz/douyu/300358
 #EXTINF:-1 tvg-logo="https://sta-op.douyucdn.cn/vod-cover/2023/01/14/06f54e2b09a5be6968cc1806eadccbac.png/vdy1" group-title="DNF",旭旭宝宝
 https://epg.112114.xyz/douyu/99999
 #EXTINF:-1 group-title="热门游戏",昔恩小姐姐
