@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1004/cd/e9d807c2ffef2f516d42eb50e7767e_180_135.jpg?1581420971" group-title="守望先锋",赤小兔
+https://epg.112114.xyz/huya/303517
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1087/cb/ab41300582958653660b6620e05fd1_180_135.jpg?1577343415" group-title="王者荣耀",LING-树叶
 https://epg.112114.xyz/huya/296191
 #EXTINF:-1 tvg-logo="null" group-title="英雄联盟",Zz1tai姿态
