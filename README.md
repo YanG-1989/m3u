@@ -1,7 +1,6 @@
 
 # 仓库简介
 #### 个人爱好，收集整合！佛系更新…
-##### 感谢各路大神的源...
 ---
 * [分流参考](https://raw.githubusercontent.com/YanG-1989/list/main/IPTV.list)  
   
