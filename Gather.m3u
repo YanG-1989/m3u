@@ -1,4 +1,4 @@
-#EXTM3U
+﻿#EXTM3U
 #EXTINF:-1 group-title="4K",8K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb04]/wh7f454c46tW1782571424_-1576923679/ott.mobaibox.com/PLTV/3/224/3221228132/index.m3u8?icpid=3&RTS=1674188624&from=40&popid=40&hms_devid=2041&prioritypopid=40&vge=3
 #EXTINF:-1 group-title="4K",CCTV16 4K 「IPV6」
@@ -30,7 +30,7 @@ http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
 #EXTINF:-1 group-title="4K",影院4k
 http://111.11.123.37:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3
 #EXTINF:-1 group-title="4K",斗鱼4k
-http://epg.112114.xyz/douyu/9249162
+http://live.aptvapp.com/live/douyu/9249162
 #EXTINF:-1 group-title="4K",Bloomberg TV+ 4K
 https://bloomberg-bloombergtv-1.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 group-title="4K",Clarity 4K
@@ -2961,13 +2961,13 @@ http://tc-tct.douyucdn2.cn/dyliveflv1/522423rw7NgKaYl9_2000p.flv?wsAuth=ce3c0d32
 http://tc-tct.douyucdn2.cn/dyliveflv1a/5040227raXQRnvWY_2000.flv?wsAuth=0654cc930e81f0d2b58264196ded38af&token=cpn-androidmpro-0-5040227-432528579fe947129e217c8f3c39d0a94c81c1426c347bfb&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="赛事",狼人杀官方赛事
 http://tc-tct.douyucdn2.cn/dyliveflv1/4615959rUFUtiJ3v.flv?wsAuth=7971ae0019a9ad2822153b7370372e8c&token=cpn-androidmpro-0-4615959-c88b2c2692ce476579452cdc62babd37285751f91f149297&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
-#EXTINF:-1 group-title="赛事",CF·手游
+#EXTINF:-1 group-title="赛事",CF•手游
 http://tc-tct.douyucdn2.cn/dyliveflv1/868191rjy69PsEAz_2000.flv?wsAuth=63d571126613feca6067da321aaf2df2&token=cpn-androidmpro-0-868191-846aacab1859214c037e4d0c263121580403540feea39901&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
 #EXTINF:-1 group-title="赛事",王者荣耀官方赛事
 http://tc-tct.douyucdn2.cn/dyliveflv1a/1863767rkpl2_2000p.flv?wsAuth=f73077d85e523eb95b6ce1ea3581b46b&token=cpn-androidmpro-0-1863767-7b520f6fe0a2b18db3c111c4e3c14350afd2dcaf43d0ef60&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="赛事",网易第五人格
 http://tc-tct.douyucdn2.cn/dyliveflv1a/3226194r73pCQamR_2000.flv?wsAuth=50ba16bb9998ec281101f2a5d8975be6&token=cpn-androidmpro-0-3226194-1c055b38aa29e2877292a9ffa392a948c894567c5e4b79ff&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
-#EXTINF:-1 group-title="赛事",跑跑卡丁车·手游
+#EXTINF:-1 group-title="赛事",跑跑卡丁车•手游
 http://tc-tct.douyucdn2.cn/dyliveflv1a/6672862r90xSwiRP_2000.flv?wsAuth=1c2c516dd80b1193241687841f128073&token=cpn-androidmpro-0-6672862-ee6297daa5d07f3494aad175947a679df4184f7934380258&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="赛事",永劫无间
 http://tc-tct.douyucdn2.cn/dyliveflv1a/9662891rlaeIAP3A_2000.flv?wsAuth=07d3125e1ec93068330e14be22a09454&token=cpn-androidmpro-0-9662891-7de7dc707e1a51dddb241f8ecad4f36806d04b45752cbbd8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
@@ -3106,13 +3106,13 @@ http://sk.cri.cn/887.m3u8
 #EXTINF:-1 group-title="广播",CRI NEWS Plus AM846
 http://sk.cri.cn/am846.m3u8
 #EXTINF:-1 group-title="影视",「动画」茶啊二中
-https://epg.112114.xyz/huya/11213191
+http://live.aptvapp.com/huya.php?id=11213191
 #EXTINF:-1 group-title="影视",「动画」王者峡谷生活
-http://epg.112114.xyz/douyu/9360149
+http://live.aptvapp.com/live/douyu/9360149
 #EXTINF:-1 group-title="影视",「录播」 RunningMan•韩综
-http://epg.112114.xyz/douyu/131977
+http://live.aptvapp.com/live/douyu/131977
 #EXTINF:-1 group-title="影视",「录播」 RunningMan•韩综
-http://epg.112114.xyz/douyu/7298973
+http://live.aptvapp.com/live/douyu/7298973
 #EXTINF:-1 group-title="影视",「解说」大象放映室
 http://live.aptvapp.com/huya.php?id=21277391
 #EXTINF:-1 group-title="影视",「解说」电视剧
@@ -3124,13 +3124,13 @@ http://live.aptvapp.com/huya.php?id=24983280
 #EXTINF:-1 group-title="影视",「解说」电影•3
 http://live.aptvapp.com/huya.php?id=24396428
 #EXTINF:-1 group-title="影视",「解说」动漫•1
-https://epg.112114.xyz/huya/19757963
+http://live.aptvapp.com/huya.php?id=19757963
 #EXTINF:-1 group-title="影视",「解说」动漫•2
-http://epg.112114.xyz/douyu/9716515
+http://live.aptvapp.com/live/douyu/9716515
 #EXTINF:-1 group-title="影视",「解说」动漫•3
-http://epg.112114.xyz/douyu/9455567
+http://live.aptvapp.com/live/douyu/9455567
 #EXTINF:-1 group-title="影视",「解说」科幻Fans
-http://epg.112114.xyz/douyu/3508304
+http://live.aptvapp.com/live/douyu/3508304
 #EXTINF:-1 group-title="影视",「解说」恐怖电影
 http://live.aptvapp.com/huya.php?id=23419131
 #EXTINF:-1 group-title="影视",「解说」漫威
@@ -3138,11 +3138,11 @@ http://live.aptvapp.com/huya.php?id=17089779
 #EXTINF:-1 group-title="影视",「解说」美剧
 http://live.aptvapp.com/huya.php?id=20488841
 #EXTINF:-1 group-title="影视",「解说」牛叔
-http://epg.112114.xyz/douyu/2758565
+http://live.aptvapp.com/live/douyu/2758565
 #EXTINF:-1 group-title="影视",「解说」七龙珠
 http://live.aptvapp.com/huya.php?id=25650806
 #EXTINF:-1 group-title="影视",「解说」奇幻电影
-http://epg.112114.xyz/douyu/3194372
+http://live.aptvapp.com/live/douyu/3194372
 #EXTINF:-1 group-title="影视",「解说」止戈电影
 http://live.aptvapp.com/huya.php?id=19863777
 #EXTINF:-1 group-title="影视",「录播」 斯诺克•1
@@ -3168,15 +3168,15 @@ http://live.aptvapp.com/huya.php?id=19197452d
 #EXTINF:-1 group-title="影视",「轮播」跳舞
 http://live.aptvapp.com/huya.php?id=24634408
 #EXTINF:-1 group-title="影视",「轮播」乐高大师赛
-https://epg.112114.xyz/huya/26355776
+http://live.aptvapp.com/huya.php?id=26355776
 #EXTINF:-1 group-title="影视",「轮播」手办•日配
-https://epg.112114.xyz/huya/26355832
+http://live.aptvapp.com/huya.php?id=26355832
 #EXTINF:-1 group-title="影视",「轮播」国产悬疑
 http://live.aptvapp.com/huya.php?id=11342395
 #EXTINF:-1 group-title="影视",「轮播」名侦探柯南
-http://epg.112114.xyz/douyu/7050342
+http://live.aptvapp.com/live/douyu/7050342
 #EXTINF:-1 group-title="影视",「轮播」 Hunter•动漫
-http://epg.112114.xyz/douyu/6610883
+http://live.aptvapp.com/live/douyu/6610883
 #EXTINF:-1 group-title="影视",「轮播」蓝光大片
 http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=24066336
 #EXTINF:-1 group-title="影视",奥特曼
@@ -3186,17 +3186,17 @@ http://lvbaiducdncmn.inter.iqiyi.com/tslive/c57_lb_210_600_t10/c57_lb_210_600_t1
 #EXTINF:-1 group-title="影视",奥特曼
 http://118.26.120.35:55336/tslive/c57_lb_210_600_t10/c57_lb_210_600_t10.m3u8?key=0b292c335e5837e94abe4b846218bbc95
 #EXTINF:-1 group-title="影视",「轮播」贝爷影厅•1
-http://epg.112114.xyz/douyu/252802
+http://live.aptvapp.com/live/douyu/252802
 #EXTINF:-1 group-title="影视",「轮播」贝爷影厅•2
-http://epg.112114.xyz/douyu/36337
+http://live.aptvapp.com/live/douyu/36337
 #EXTINF:-1 group-title="影视",「轮播」贝爷MAX厅
-http://epg.112114.xyz/douyu/4332
+http://live.aptvapp.com/live/douyu/4332
 #EXTINF:-1 group-title="影视",「轮播」电视剧
-http://epg.112114.xyz/douyu/9826611
+http://live.aptvapp.com/live/douyu/9826611
 #EXTINF:-1 group-title="影视",「轮播」经典电影
-http://epg.112114.xyz/douyu/74374
+http://live.aptvapp.com/live/douyu/74374
 #EXTINF:-1 group-title="影视",「轮播」怀旧动漫
-http://epg.112114.xyz/douyu/1174353
+http://live.aptvapp.com/live/douyu/1174353
 #EXTINF:-1 group-title="影视",成龙
 http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=34460526
 #EXTINF:-1 group-title="影视",成龙
@@ -3204,9 +3204,9 @@ http://txtest-xp2p.p2p.huya.com/src/1394565191-1394565191-5989611887484993536-27
 #EXTINF:-1 group-title="影视",成龙
 http://106.53.212.251/daili/yy.php?id=1354888751
 #EXTINF:-1 group-title="影视",吃米滴虫
-http://epg.112114.xyz/douyu/315457
+http://live.aptvapp.com/live/douyu/315457
 #EXTINF:-1 group-title="影视",「动画」宠物小精灵
-http://epg.112114.xyz/douyu/9765742
+http://live.aptvapp.com/live/douyu/9765742
 #EXTINF:-1 group-title="影视",「轮播」电影•1
 http://hpull.kktv8.com/livekktv/99592190/playlist.m3u8
 #EXTINF:-1 group-title="影视",「轮播」电影•2
@@ -3214,29 +3214,29 @@ http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=1353059120
 #EXTINF:-1 group-title="影视",「轮播」经典动漫
 http://tc-tct.douyucdn2.cn/dyliveflv3a/1174353rvfDfBUMa.flv?wsAuth=5e4b0650aeea0049fc0ee71f70daea58&token=cpn-androidmpro-0-1174353-4620877bf9ebd8e891d0159ae8dd3ee8092d33042c3557d1&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play4
 #EXTINF:-1 group-title="影视",动漫轮播
-http://epg.112114.xyz/douyu/206858
+http://live.aptvapp.com/live/douyu/206858
 #EXTINF:-1 group-title="影视",「轮播」动漫推荐
-http://epg.112114.xyz/douyu/5187099
+http://live.aptvapp.com/live/douyu/5187099
 #EXTINF:-1 group-title="影视",「轮播」动漫
-http://epg.112114.xyz/douyu/1487654
+http://live.aptvapp.com/live/douyu/1487654
 #EXTINF:-1 group-title="影视",「轮播」动作大片
 http://txtest-xp2p.p2p.huya.com/src/1524439840-1524439840-6547419257519472640-3049003136-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",「轮播」豆瓣高分
-http://epg.112114.xyz/douyu/8770422
+http://live.aptvapp.com/live/douyu/8770422
 #EXTINF:-1 group-title="影视",哆啦A梦
 http://txtest-xp2p.p2p.huya.com/1524418078-1524418078-6547325790441177088-3048959612-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",「解说」哆啦A梦
-http://epg.112114.xyz/douyu/9445279
+http://live.aptvapp.com/live/douyu/9445279
 #EXTINF:-1 group-title="影视",哆啦A梦
-https://epg.112114.xyz/huya/11601963
+http://live.aptvapp.com/huya.php?id=11601963
 #EXTINF:-1 group-title="影视",「轮播」赶海
 http://tc-tct.douyucdn2.cn/dyliveflv3/3647278rIlGn5ATc.flv?wsAuth=2dad33d167f078479b7add529c858c2c&token=cpn-androidmpro-0-3647278-dd5721af1e85855cd2a68a5ddbb92b3e4d3c2fd473e97b3a&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play3
 #EXTINF:-1 group-title="影视",「轮播」高帧电影
-http://epg.112114.xyz/douyu/6763930
+http://live.aptvapp.com/live/douyu/6763930
 #EXTINF:-1 group-title="影视",「轮播」搞笑鬼片
 http://txtest-xp2p.p2p.huya.com/src/1524418070-1524418070-6547325756081438720-3048959596-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",「动漫」搞笑篮球
-http://epg.112114.xyz/douyu/9401305
+http://live.aptvapp.com/live/douyu/9401305
 #EXTINF:-1 group-title="影视",「轮播」古墓系列
 http://txtest-xp2p.p2p.huya.com/src/1423782085-1423782085-6115097491705692160-2847687626-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",「轮播」古装武侠
@@ -3244,17 +3244,17 @@ http://txtest-xp2p.p2p.huya.com/src/1394575562-1394575562-5989656430590820352-27
 #EXTINF:-1 group-title="影视",「轮播」谷阿莫
 http://tc-tct.douyucdn2.cn/dyliveflv3/515005rCEIVtWIO2.flv?wsAuth=07cbb9ce10693f3f32594f401c9da6a5&token=cpn-androidmpro-0-515005-9b51c33b12b409763636191c20249fe563a63a3921429fca&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play3
 #EXTINF:-1 group-title="影视",「轮播」国产电影
-http://epg.112114.xyz/douyu/5423
+http://live.aptvapp.com/live/douyu/5423
 #EXTINF:-1 group-title="影视",海绵宝宝「中配」
-http://epg.112114.xyz/douyu/1569773
+http://live.aptvapp.com/live/douyu/1569773
 #EXTINF:-1 group-title="影视",海绵宝宝「中配」
-http://epg.112114.xyz/douyu/7528160
+http://live.aptvapp.com/live/douyu/7528160
 #EXTINF:-1 group-title="影视",「轮播」动漫
 http://tc-tct.douyucdn2.cn/dyliveflv1a/206858rtesHKjl.flv?wsAuth=874ec8068853bd13e2fa21a68f258440&token=cpn-androidmpro-0-206858-355488b41ed19088616f37e791a58fcf3679923943a09438&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="影视",「动漫」航海王
-https://epg.112114.xyz/huya/16913382
+http://live.aptvapp.com/huya.php?id=16913382
 #EXTINF:-1 group-title="影视",「轮播」动漫
-http://epg.112114.xyz/douyu/997925
+http://live.aptvapp.com/live/douyu/997925
 #EXTINF:-1 group-title="影视",「轮播」贺岁大片
 http://txtest-xp2p.p2p.huya.com/src/1524418118-1524418118-6547325962239868928-3048959692-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",「轮播」黑帮系列
@@ -3262,11 +3262,11 @@ http://txtest-xp2p.p2p.huya.com/src/1388472589-1388472589-5963444361147449344-27
 #EXTINF:-1 group-title="影视",洪金宝
 http://txtest-xp2p.p2p.huya.com/src/73821423-73821423-317060597529182208-2710090468-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",「轮播」华语电影
-http://epg.112114.xyz/douyu/3928
+http://live.aptvapp.com/live/douyu/3928
 #EXTINF:-1 group-title="影视",「轮播」华语经典
-http://epg.112114.xyz/douyu/434971
+http://live.aptvapp.com/live/douyu/434971
 #EXTINF:-1 group-title="影视",「轮播」怀旧90
-http://epg.112114.xyz/douyu/9275635
+http://live.aptvapp.com/live/douyu/9275635
 #EXTINF:-1 group-title="影视",怀旧动画
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c53_lb_86_600_t10/c53_lb_86_600_t10.m3u8?key=0b292c335e5837e943a226d3c381f872a
 #EXTINF:-1 group-title="影视",「轮播」环球纪录片•我去看世界
@@ -3274,13 +3274,13 @@ http://tc-tct.douyucdn2.cn/dyliveflv3/601930rwicFHJGB8.flv?wsAuth=525cd3b43141e4
 #EXTINF:-1 group-title="影视",黄渤
 http://txtest-xp2p.p2p.huya.com/src/1449698962-1449698962-6226409630835146752-2789274564-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",「轮播」霍格影片
-http://epg.112114.xyz/douyu/8814650
+http://live.aptvapp.com/live/douyu/8814650
 #EXTINF:-1 group-title="影视",「动漫」假面骑士
-http://epg.112114.xyz/douyu/1218414
+http://live.aptvapp.com/live/douyu/1218414
 #EXTINF:-1 group-title="影视",金庸
 http://txtest-xp2p.p2p.huya.com/src/1394575551-1394575551-5989656383346180096-2789274558-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",经典神剧
-http://epg.112114.xyz/douyu/3700024
+http://live.aptvapp.com/live/douyu/3700024
 #EXTINF:-1 group-title="影视",「广播」经典FM
 http://stream3.hndt.com/now/C5NvUpwy/playlist.m3u8
 #EXTINF:-1 group-title="影视",警匪系列
@@ -3296,15 +3296,15 @@ http://aliyuncdnct.inter.ptqy.gitv.tv/tslive/c53_lb_82_720P_t10/c53_lb_82_720P_t
 #EXTINF:-1 group-title="影视",柯南
 http://tc-tct.douyucdn2.cn/dyliveflv1/1783144rfOmlmBsl.flv?wsAuth=28505c6f4e0d21083c6673a6c88155f9&token=cpn-androidmpro-0-1783144-0e90e0b408c470cae6cdf2ad6aad11b162987d23cac243d8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
 #EXTINF:-1 group-title="影视",「轮播」可乐电影
-http://epg.112114.xyz/douyu/20415
+http://live.aptvapp.com/live/douyu/20415
 #EXTINF:-1 group-title="影视",「轮播」恐怖经典
-http://epg.112114.xyz/douyu/1165374
+http://live.aptvapp.com/live/douyu/1165374
 #EXTINF:-1 group-title="影视",拉拉队集锦
 http://111.62.156.15/tx.flv.huya.com/src/1099531627798-1099531627798-85899440409280512-2199063379052-10057-A-0-1.flv?wsSecret=eb319019991a1dbf62b1b50ae3742474&wsTime=6283abbe&u=0&seqid=16527099506830430&ctype=tars_mp&fs=bgct&t=102
 #EXTINF:-1 group-title="影视",拉拉队集锦
 http://111.62.156.15/tx.flv.huya.com/src/1099531728616-1099531728616-86332450422128640-2199063580688-10057-A-0-1.flv?wsSecret=7e141961f053572f9d60c7a281064b6d&wsTime=6283b049&u=0&seqid=16527111139279840&ctype=tars_mp&fs=bgct&t=102
 #EXTINF:-1 group-title="影视",蜡笔小新
-https://epg.112114.xyz/huya/11352970
+http://live.aptvapp.com/huya.php?id=11352970
 #EXTINF:-1 group-title="影视",蜡笔小新「中配」
 http://zzy789.xyz/bili.php?id=21570935
 #EXTINF:-1 group-title="影视",蜡笔小新「中配」
@@ -3320,7 +3320,7 @@ http://live.lsrmw.cn/ysyl/sd/live.m3u8
 #EXTINF:-1 group-title="影视",溧水影视
 https://live.lsrmw.cn/ysyl/sd/live.m3u8
 #EXTINF:-1 group-title="影视",林正英•1
-http://epg.112114.xyz/douyu/7356023
+http://live.aptvapp.com/live/douyu/7356023
 #EXTINF:-1 group-title="影视",林正英•2
 http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=1351505899
 #EXTINF:-1 group-title="影视",林正英•3
@@ -3328,7 +3328,7 @@ http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=1353685311
 #EXTINF:-1 group-title="影视",林正英•4
 http://txtest-xp2p.p2p.huya.com/src/1394575543-1394575543-5989656348986441728-2789274542-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",刘德华
-http://epg.112114.xyz/douyu/2516864
+http://live.aptvapp.com/live/douyu/2516864
 #EXTINF:-1 group-title="影视",刘德华
 http://txtest-xp2p.p2p.huya.com/src/1394575547-1394575547-5989656366166310912-2789274550-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",刘家辉
@@ -3336,17 +3336,17 @@ http://txtest-xp2p.p2p.huya.com/src/1449584124-1449584124-6225916405380808704-28
 #EXTINF:-1 group-title="影视",柳林影视
 http://pili-live-hls.212.i2863.com/i2863-212/live_212_316579.m3u8
 #EXTINF:-1 group-title="影视",麓山迷踪
-http://epg.112114.xyz/douyu/4505431
+http://live.aptvapp.com/live/douyu/4505431
 #EXTINF:-1 group-title="影视",漫威电影
-http://epg.112114.xyz/douyu/4282654
+http://live.aptvapp.com/live/douyu/4282654
 #EXTINF:-1 group-title="影视",漫威电影
-http://epg.112114.xyz/douyu/6140589
+http://live.aptvapp.com/live/douyu/6140589
 #EXTINF:-1 group-title="影视",漫威电影
 http://txtest-xp2p.p2p.huya.com/src/1448738325-1448738325-6222283726336819200-3048991600-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",猫和老鼠
 http://tc-tct.douyucdn2.cn/dyliveflv3/7888428rJkgdzXRH.flv?wsAuth=0a10575e72c84c01e77cf3fcfd4fc2e6&token=cpn-androidmpro-0-7888428-2b68c52db74716240f155edfe115fab33c7b8943aa4246af&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play3
 #EXTINF:-1 group-title="影视",猫和老鼠
-http://epg.112114.xyz/douyu/7888428
+http://live.aptvapp.com/live/douyu/7888428
 #EXTINF:-1 group-title="影视",猫和老鼠
 http://118.26.120.23:55336/tslive/c52_lb_83_600_t10/c52_lb_83_600_t10.m3u8?key=0b292c335e5837e94e2f0ba45f46717fa
 #EXTINF:-1 group-title="影视",猫和老鼠
@@ -3356,21 +3356,21 @@ http://tc-tct.douyucdn2.cn/dyliveflv1a/5028934rycTKS10z.flv?wsAuth=fca419aee212e
 #EXTINF:-1 group-title="影视",「轮播」每日影院
 http://182.151.211.171:808/hls/128/index.m3u8
 #EXTINF:-1 group-title="影视",「轮播」米娅电影
-http://epg.112114.xyz/douyu/6537888
+http://live.aptvapp.com/live/douyu/6537888
 #EXTINF:-1 group-title="影视",名侦探柯南
-http://epg.112114.xyz/douyu/6484910
+http://live.aptvapp.com/live/douyu/6484910
 #EXTINF:-1 group-title="影视",名侦探柯南
-http://epg.112114.xyz/douyu/1783144
+http://live.aptvapp.com/live/douyu/1783144
 #EXTINF:-1 group-title="影视",名侦探柯南
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c54_lb_157_600_t10/c54_lb_157_600_t10.m3u8?key=0b292c335e5837e948e91dd5d11efa525
 #EXTINF:-1 group-title="影视",名侦探柯南
 http://118.26.120.23:55336/tslive/c54_lb_157_600_t10/c54_lb_157_600_t10.m3u8?key=0b292c335e5837e948e91dd5d11efa525
 #EXTINF:-1 group-title="影视",名侦探柯南
-http://epg.112114.xyz/douyu/7620081
+http://live.aptvapp.com/live/douyu/7620081
 #EXTINF:-1 group-title="影视",名侦探柯南
-http://epg.112114.xyz/douyu/5377297
+http://live.aptvapp.com/live/douyu/5377297
 #EXTINF:-1 group-title="影视",「轮播」恐怖电影
-http://epg.112114.xyz/douyu/263824
+http://live.aptvapp.com/live/douyu/263824
 #EXTINF:-1 group-title="影视",「欧美」电影•1
 http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=24923327
 #EXTINF:-1 group-title="影视",「欧美」电影•2
@@ -3378,13 +3378,13 @@ http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=37988782
 #EXTINF:-1 group-title="影视",七龙珠改
 http://txtest-xp2p.p2p.huya.com/src/1524418081-1524418081-6547325803326078976-3048959618-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",七龙珠改
-https://epg.112114.xyz/huya/11601966
+http://live.aptvapp.com/huya.php?id=11601966
 #EXTINF:-1 group-title="影视",热播大片
 http://txtest-xp2p.p2p.huya.com/src/1423782052-1423782052-6115097349971771392-2847687560-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",神乐影片•1
-http://epg.112114.xyz/douyu/122402
+http://live.aptvapp.com/live/douyu/122402
 #EXTINF:-1 group-title="影视",神乐影片•2
-http://epg.112114.xyz/douyu/85894
+http://live.aptvapp.com/live/douyu/85894
 #EXTINF:-1 group-title="影视",沈腾
 http://txtest-xp2p.p2p.huya.com/src/1524418085-1524418085-6547325820505948160-3048959626-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",沈腾
@@ -3400,13 +3400,13 @@ http://txtest-xp2p.p2p.huya.com/1423782038-1423782038-6115097289842229248-284768
 #EXTINF:-1 group-title="影视",猫和老鼠
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c52_lb_83_600_t10/c52_lb_83_600_t10.m3u8?key=0b292c335e5837e94e2f0ba45f46717fa
 #EXTINF:-1 group-title="影视",猫和老鼠
-https://epg.112114.xyz/huya/11352879
+http://live.aptvapp.com/huya.php?id=11352879
 #EXTINF:-1 group-title="影视",特辑影院
-http://epg.112114.xyz/douyu/3637778
+http://live.aptvapp.com/live/douyu/3637778
 #EXTINF:-1 group-title="影视",体育賽场
 http://txtest-xp2p.p2p.huya.com/1099531627962-1099531627962-85900144783917056-2199063379380-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",童年动漫
-http://epg.112114.xyz/douyu/7256376
+http://live.aptvapp.com/live/douyu/7256376
 #EXTINF:-1 group-title="影视",童年经典
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c57_lb_211_600_t10/c57_lb_211_600_t10.m3u8?key=0f2a06793124310bce6ba95fc0ac76131
 #EXTINF:-1 group-title="影视",童年经典
@@ -3418,7 +3418,7 @@ http://txtest-xp2p.p2p.huya.com/src/1388457235-1388457235-5963378416219586560-27
 #EXTINF:-1 group-title="影视",舞迷心窍
 http://play-radio-stream3.hndt.com/now/WBhgSD3A/playlist.m3u8
 #EXTINF:-1 group-title="影视",喜剧经典
-http://epg.112114.xyz/douyu/9650887
+http://live.aptvapp.com/live/douyu/9650887
 #EXTINF:-1 group-title="影视",喜剧系列
 http://txtest-xp2p.p2p.huya.com/src/1524434089-1524434089-6547394557162553344-3048991634-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",香港电影
@@ -3426,11 +3426,11 @@ http://epg.112114.xyz/huya/11602058
 #EXTINF:-1 group-title="影视",香港黑帮系列
 http://txtest-xp2p.p2p.huya.com/src/1394575541-1394575541-5989656340396507136-2789274538-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",香港恐怖
-http://epg.112114.xyz/douyu/218859
+http://live.aptvapp.com/live/douyu/218859
 #EXTINF:-1 group-title="影视",玄幻系列
 http://txtest-xp2p.p2p.huya.com/src/1423787882-1423787882-6115122389631107072-2847699220-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",雅俗共赏
-http://epg.112114.xyz/douyu/9938431
+http://live.aptvapp.com/live/douyu/9938431
 #EXTINF:-1 group-title="影视",野生动物世界
 http://tc-tct.douyucdn2.cn/dyliveflv3a/4837387rlw2Uy8Vt.flv?wsAuth=0b4ed9b162a1abebabc424c2c8363445&token=cpn-androidmpro-0-4837387-8ad81bcd9db6237ceae3cf3aa8a2bef2ebaed5e0f6e6c25e&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play4
 #EXTINF:-1 group-title="影视",印度电影
@@ -3440,13 +3440,13 @@ http://zzy789.xyz/bili.php?id=23242774
 #EXTINF:-1 group-title="影视",咏春系列
 http://txtest-xp2p.p2p.huya.com/src/1448737814-1448737814-6222281531608530944-2777037662-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",宇哥电影
-http://epg.112114.xyz/douyu/413573
+http://live.aptvapp.com/live/douyu/413573
 #EXTINF:-1 group-title="影视",甄子丹
 http://txtest-xp2p.p2p.huya.com/src/1423787820-1423787820-6115122123343134720-2847699096-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",窒息的操作
 http://tc-tct.douyucdn2.cn/dyliveflv3/8881729rhLJl0hsz.flv?wsAuth=2b433f4e66b05beefd113941d6b710a4&token=cpn-androidmpro-0-8881729-08895ec5f5ffd3d1c22d68c88907ed10311932c6d00e86f8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play3
 #EXTINF:-1 group-title="影视",中二日记
-http://epg.112114.xyz/douyu/9505575
+http://live.aptvapp.com/live/douyu/9505575
 #EXTINF:-1 group-title="影视",中国功夫系列
 http://txtest-xp2p.p2p.huya.com/src/1448738174-1448738174-6222283077796757504-2847699112-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",中国美食
@@ -3454,7 +3454,7 @@ http://tc-tct.douyucdn2.cn/dyliveflv3a/5451871rB8yLvO4l.flv?wsAuth=8e624279edba1
 #EXTINF:-1 group-title="影视",中华小当家
 http://txtest-xp2p.p2p.huya.com/1449588921-1449588921-6225937008338927616-2789274526-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",中华小当家
-https://epg.112114.xyz/huya/11342413
+http://live.aptvapp.com/huya.php?id=11342413
 #EXTINF:-1 group-title="影视",周润发
 http://txtest-xp2p.p2p.huya.com/src/1394565192-1394565192-5989611891779960832-2789253840-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",周星驰
@@ -3502,7 +3502,7 @@ http://wtv.weetai.cn/iptv/2022/tyzb04.php?id=3800666
 #EXTINF:-1 group-title="少儿",成都大熊猫繁育研究基地
 https://gcwbcdtxy.liveplay.myqcloud.com/gcwbcd/cdrmipanda_1/index.m3u8
 #EXTINF:-1 group-title="少儿",成龙历险记
-https://epg.112114.xyz/huya/11352946
+http://live.aptvapp.com/huya.php?id=11352946
 #EXTINF:-1 group-title="少儿",倒霉熊
 http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c54_lb_140_600_t10/c54_lb_140_600_t10.m3u8?key
 #EXTINF:-1 group-title="少儿",倒霉熊
@@ -3538,13 +3538,13 @@ http://183.207.255.188/live/program/live/xdkt/1300000/mnf.m3u8
 #EXTINF:-1 group-title="少儿",哈哈炫动
 http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225720/index.m3u8
 #EXTINF:-1 group-title="少儿",海绵宝宝
-https://epg.112114.xyz/huya/1423782096
+http://live.aptvapp.com/huya.php?id=1423782096
 #EXTINF:-1 group-title="少儿",海绵宝宝
-http://epg.112114.xyz/douyu/8762358
+http://live.aptvapp.com/live/douyu/8762358
 #EXTINF:-1 group-title="少儿",海绵宝宝
-https://epg.112114.xyz/huya/11352919
+http://live.aptvapp.com/huya.php?id=11352919
 #EXTINF:-1 group-title="少儿",海绵宝宝
-http://epg.112114.xyz/douyu/2250349
+http://live.aptvapp.com/live/douyu/2250349
 #EXTINF:-1 group-title="少儿",海绵宝宝「原音」
 http://zzy789.xyz/bili.php?id=14495324
 #EXTINF:-1 group-title="少儿",海绵宝宝「中配」
@@ -3578,7 +3578,7 @@ http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225677/index.m3u8
 #EXTINF:-1 group-title="少儿",卡酷少儿
 http://111.59.189.40:8445/tsfile/live/1015_1.m3u8
 #EXTINF:-1 group-title="少儿",开心锤锤
-http://epg.112114.xyz/douyu/9018297
+http://live.aptvapp.com/live/douyu/9018297
 #EXTINF:-1 group-title="少儿",蜡笔小新「中配」
 http://zzy789.xyz/bili.php?id=10375360
 #EXTINF:-1 group-title="少儿",蜡笔小新「中配」
@@ -9405,3 +9405,4 @@ http://50.7.220.74:8278/cnn_twn/playlist.m3u8?tid=ME9E1590756115907561&ct=19225&
 http://50.7.220.74:8278/bbcnews_twn/playlist.m3u8?tid=ME2E9411781394117813&ct=19225&tsum=ffaa2caa60183eec89d730ed80b336d1
 #EXTINF:-1 group-title="国际",SBS World Movies
 http://58.96.43.228:9981/stream/channelid/808262435?ticket=4109758E42A9E086718DE2D647F70F3045DB802E&profile=pass
+
