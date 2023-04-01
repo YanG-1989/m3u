@@ -4353,6 +4353,18 @@ https://t15.cdn2020.com:12339/video/m3u8/2022/01/31/a08937ab/index.m3u8
 https://t15.cdn2020.com:12339/video/m3u8/2022/02/02/0bf471ba/index.m3u8
 #EXTINF:-1 group-title="日本",ysn-566高瀬
 https://t15.cdn2020.com:12339/video/m3u8/2022/01/27/96dc5cd0/index.m3u8
+#EXTINF:-1 group-title="欧美",VIVID TV
+http://de1cdn.plusx.tv:8880/354/mono.m3u8?token=b457d9d9a2dd39e2fa3333
+#EXTINF:-1 group-title="欧美",PENTHOUSE REALITY TV
+http://de1cdn.plusx.tv:8880/352/mono.m3u8?token=b457d9d9a2dd39e2fa3333
+#EXTINF:-1 group-title="欧美",PENTHOUSE TV
+http://de1cdn.plusx.tv:8880/353/mono.m3u8?token=b457d9d9a2dd39e2fa3333
+#EXTINF:-1 group-title="欧美",PRIVETP TV
+http://de1cdn.plusx.tv:8880/356/mono.m3u8?token=b457d9d9a2dd39e2fa3333
+#EXTINF:-1 group-title="欧美",REDLIGHT HD
+http://de1cdn.plusx.tv:8880/358/mono.m3u8?token=b457d9d9a2dd39e2fa3333
+#EXTINF:-1 group-title="欧美",DORCEL TV
+http://de1cdn.plusx.tv:8880/359/mono.m3u8?token=b457d9d9a2dd39e2fa3333
 #EXTINF:-1 tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="欧美",AdultIPTV.net Live Cams
 http://cdn.adultiptv.net/livecams.m3u8
 #EXTINF:-1 tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="欧美",AdultIPTV.net MILF
