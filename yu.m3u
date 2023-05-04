@@ -1,4 +1,6 @@
 ﻿#EXTM3U
+#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avanew/face/201707/31/08/10261cc4580588526811b7a4da775de8_middle.jpg" group-title="主机其他游戏",老皮历险记
+http://live.aptvapp.com/live/douyu/2140934
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar/000/39/12/70_avatar_middle.jpg" group-title="英雄联盟",微笑
 http://live.aptvapp.com/live/douyu/16101
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202107/7ba332e29d5a4210804b39d23fd56ea5_middle.jpg" group-title="英雄联盟",余小C
