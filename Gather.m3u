@@ -22,7 +22,7 @@ http://nas.jdshipin.com:8801/4kys.php
 http://111.11.123.37:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3
 #EXTINF:-1 group-title="4K",Clarity 4K
 https://d3thiix3tzne5u.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 group-title="4K",Love Nrture 4K「自然」
+#EXTINF:-1 tvg-name="LoveNrture" group-title="4K",Love Nrture 4K「自然」
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 #EXTINF:-1 group-title="4K",Fashion 4K「时尚」
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
@@ -46,11 +46,13 @@ http://[2409:8087:5e01:34::30]:6610/ZTE_CMS/00000001000000060000000000000202/ind
 http://[2409:8087:3800:2020:1000::81d]:8080/hwrr.jx.chinamobile.com/PLTV/3/224/3221225786/index.m3u8
 #EXTINF:-1 tvg-name="纯享4K" group-title="IPV6•4K",纯享4K「IPV6」
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225786/index.m3u8
-#EXTINF:-1 group-title="IPV6•4K",CCTV16 4K 「IPV6」•支持回看
+#EXTINF:-1 tvg-name="CCTV1" group-title="IPV6•4K",CCTV1 4K 「IPV6」•支持回看
+http://[2409:8087:2001:20:2800:0:df6e:eb03]/ott.mobaibox.com/PLTV/4/224/3221227896/index.m3u8
+#EXTINF:-1 tvg-name="CCTV16" group-title="IPV6•4K",CCTV16 4K 「IPV6」•支持回看
 http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
-#EXTINF:-1 group-title="IPV6•4K",河南卫视 4K 「IPV6」•支持回看
+#EXTINF:-1 tvg-name="河南卫视" group-title="IPV6•4K",河南卫视 4K 「IPV6」•支持回看
 http://[2409:8087:4402:20:1:1216:401:13]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226526/index.m3u8
-#EXTINF:-1 group-title="IPV6•4K",SiTV欢笑剧场4K 「IPV6」
+#EXTINF:-1 tvg-name="欢笑剧场" group-title="IPV6•4K",SiTV欢笑剧场4K 「IPV6」
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-name="CCTV4K" group-title="IPV6•央视",CCTV4K 「IPV6」•支持回看
 http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw4259108076_496521789/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8
@@ -149,7 +151,7 @@ http://[2409:8087:4402:20:1:1216:401:17]/iptv.cdn.ha.chinamobile.com/PLTV/888888
 #EXTINF:-1 tvg-name="湖北卫视" group-title="IPV6•卫视",湖北卫视「IPV6」•支持回看
 http://[2409:8087:4402:20:1:1216:401:14]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226424/index.m3u8
 #EXTINF:-1 tvg-name="贵州卫视" group-title="IPV6•卫视",贵州卫视「IPV6」•支持回看
-http://[2409:8087:4402:20:1:1216:401:12]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226632/index.m3u8
+http://[2409:8087:2001:20:2800:0:df6e:eb08]/wh7f454c46tw2087544744_109645303/ott.mobaibox.com/PLTV/3/224/3221228136/index.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视" group-title="IPV6•卫视",辽宁卫视「IPV6」•支持回看
 http://[2409:8087:4402:20:1:1216:401:2f]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226586/index.m3u8
 #EXTINF:-1 tvg-name="重庆卫视" group-title="IPV6•卫视",重庆卫视「IPV6」•支持回看
@@ -2410,7 +2412,7 @@ http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
 #EXTINF:-1 group-title="咪咕",咪咕直播-4K
 http://gslbserv.itv.cmvideo.cn:80/3000000010000005180/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000005180&livemode=1&stbId=3
-#EXTINF:-1 group-title="咪咕",咪咕直播-3K
+#EXTINF:-1 group-title="咪咕",咪咕直播-4K
 http://gslbserv.itv.cmvideo.cn:80/3000000010000015686/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000015686&livemode=1&stbId=3
 #EXTINF:-1 group-title="咪咕",咪咕直播-1
 http://39.136.33.66:6610/000000001001/3000000001000005308/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000005308&livemode=1&stbId=3
@@ -2596,8 +2598,6 @@ http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS07/master.m3u8
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS08/master.m3u8
 #EXTINF:-1 group-title="音乐",MTV Yo!
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8#EXTINF:-1%20group-title=%22%E5%B9%BF%E6%92%AD%22%20tvg-logo=%22https://live.fanmingming.com/radio/988.png%22,988%E5%8F%8B%E5%A3%B0%E6%9C%89%E8%89%B2
-#EXTINF:-1 group-title="音乐",MTV Yo!
-http://23023.live.streamtheworld.com/988_FMAAC.aac
 #EXTINF:-1 tvg-logo="https://cdn-radiotime-logos.tunein.com/s108977d.png" group-title="广播",Al Jazeera
 http://tunein.ord.streamguys1.com/secure-aljazeera-english
 #EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s249914/images/logod.png?t=1" group-title="广播",Alternative Hits
@@ -3454,8 +3454,6 @@ https://gcwbcdtxy.liveplay.myqcloud.com/gcwbcd/cdrmipanda_1/index.m3u8
 http://live.aptvapp.com/live/huya/11352946
 #EXTINF:-1 group-title="少儿",倒霉熊
 http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c54_lb_140_600_t10/c54_lb_140_600_t10.m3u8?key
-#EXTINF:-1 group-title="少儿",倒霉熊
-http://118.26.120.37:55336/tslive/c54_lb_140_600_t10/c54_lb_140_600_t10.m3u8?key=0f2a06793124310bccc587b5da61b57da
 #EXTINF:-1 group-title="少儿",动画电影
 http://118.26.120.36:55336/tslive/c51_lb_118_600_t10/c51_lb_118_600_t10.m3u8?key=0b292c335e5837e94f25985f7c35b1efe
 #EXTINF:-1 group-title="少儿",漫画说历史
@@ -3494,16 +3492,12 @@ http://zzy789.xyz/bili.php?id=10375360
 http://live.nbs.cn/channels/njtv/sepd/m3u8:500k/live.m3u8
 #EXTINF:-1 group-title="少儿",亲子启蒙
 http://aliyuncdnct.inter.ptqy.gitv.tv/tslive/c57_lb_213_600_t10/c57_lb_213_600_t10.m3u8?key
-#EXTINF:-1 group-title="少儿",亲子小游戏
-http://118.26.120.23:55336/tslive/c56_lb_178_600_t10/c56_lb_178_600_t10.m3u8?key=0b292c335e5837e94ffc1113a2140b54
 #EXTINF:-1 group-title="少儿",山东少儿
 http://119.164.216.162:9901/tsfile/live/1006_1.m3u8
 #EXTINF:-1 group-title="少儿",兔小贝
 http://ib302.zjcdn.com/baiducdncmn3.inter.iqiyi.com/tslive/c54_lb_136_720P_t10/c54_lb_136_720P_t10.m3u8?key
 #EXTINF:-1 group-title="少儿",玩具乐园
 http://aliyuncdnct.inter.ptqy.gitv.tv/tslive/c54_lb_175_600_t10/c54_lb_175_600_t10.m3u8?key
-#EXTINF:-1 group-title="少儿",喜羊羊
-http://lvbaiducdncmn.inter.iqiyi.com/tslive/c55_lb_91_1080P_t10/c55_lb_91_1080P_t10.m3u8?key=0b292c335e5837e943e554ef181bdcec1
 #EXTINF:-1 group-title="少儿",喜羊羊
 http://118.26.120.23:55336/tslive/c55_lb_91_1080P_t10/c55_lb_91_1080P_t10.m3u8?key=0b292c335e5837e943e554ef181bdcec1
 #EXTINF:-1 group-title="少儿",喜仔的动画世界
@@ -3518,8 +3512,6 @@ http://39.135.138.59:18890/PLTV/88888910/224/3221225665/index.m3u8
 http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8
 #EXTINF:-1 group-title="数字",NewTV超级电影
 http://39.135.138.59:18890/PLTV/88888910/224/3221225766/index.m3u8
-#EXTINF:-1 group-title="数字",北京海洋馆
-http://gctxyc.liveplay.myqcloud.com/gc/hkts03_1/index.m3u8
 #EXTINF:-1 group-title="数字",北京纪实
 http://39.135.138.58:18890/PLTV/88888888/224/3221225676/index.m3u8
 #EXTINF:-1 group-title="数字",滨海影视
@@ -3530,12 +3522,8 @@ http://39.135.138.58:18890/TVOD/88888888/224/3221225716/index.m3u8#EXTINF:-1%20g
 https://nmglive.imfc.cn/5n1r1c/182396.m3u8
 #EXTINF:-1 group-title="数字",法国时尚
 http://lb.streaming.sk/fashiontv/stream/chunklist.m3u8
-#EXTINF:-1 group-title="数字",法国时尚
-http://lb.streaming.sk/fashiontv/stream/chunklist_w1702070444.m3u8
 #EXTINF:-1 group-title="数字",点掌财经
 http://cclive2.aniu.tv/live/anzb.m3u8?zgangd
-#EXTINF:-1 group-title="数字",点掌财经
-http://cclive2.aniu.tv/live/anzb.m3u8
 #EXTINF:-1 group-title="数字",NewTV超级电视剧
 http://39.137.49.76:8080/PLTV/88888888/224/3221225625/index.m3u8?
 #EXTINF:-1 group-title="数字",NewTV超级电视剧
@@ -3792,16 +3780,14 @@ https://inwonder-samsung-canada.amagi.tv/playlist.m3u8
 http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
 #EXTINF:-1 group-title="国际",「DE」 Baden TV
 http://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8
-#EXTINF:-1 group-title="国际",「ID」 TVRI Kanal 3
+#EXTINF:-1 group-title="国际",「ID」 TVRI WORLD
 http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel%28TVRI3%29/Stream%2803%29/index.m3u8?zshijd
 #EXTINF:-1 group-title="国际",「KH」 Bayon TV
 http://203.176.130.123:8989/live/bayontv1_480k.stream/playlist.m3u8?zshijd
-#EXTINF:-1 group-title="国际",「KH」 Bayon TV
+#EXTINF:-1 group-title="国际",「KH」NATIONAL GEOGRAPHIC
 http://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/chunklist_b1800000_t64NzIwcA==.m3u8
 #EXTINF:-1 group-title="国际",「KH」 Bayon TV
 http://203.176.130.123:8989/live/bayontv1_480k.stream/playlist.m3u8
-#EXTINF:-1 group-title="国际",「KH」 Francophonie 24
-http://mv2.tvfrancophonie.org/live/Stream1/media_b776739_w671289549.m3u8
 #EXTINF:-1 group-title="国际",「KH」 Persiana Comedy
 http://51.210.199.27/hls/stream.m3u8
 #EXTINF:-1 group-title="国际",「KH」 Persiana Documentary
@@ -3812,7 +3798,7 @@ http://51.210.199.19/hls/stream.m3u8
 http://51.210.199.24/hls/stream.m3u8
 #EXTINF:-1 group-title="国际",「KH」 Persiana Nostalgia
 http://51.210.199.20/hls/stream.m3u8
-#EXTINF:-1 group-title="国际",「KH」 PersianaIranian
+#EXTINF:-1 group-title="国际",「KH」 Persiana Iranian
 http://51.210.199.22/hls/stream.m3u8
 #EXTINF:-1 group-title="国际",「KH」 PNN
 http://203.176.130.123:8989/live/pnn_480k.stream/playlist.m3u8
