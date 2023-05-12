@@ -2411,7 +2411,7 @@ http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
 http://gslbserv.itv.cmvideo.cn:80/3000000010000005180/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000005180&livemode=1&stbId=3
 #EXTINF:-1 group-title="咪咕",咪咕直播-4K
 http://gslbserv.itv.cmvideo.cn:80/3000000010000015686/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000015686&livemode=1&stbId=3
-#EXTINF#EXTINF:-1 tvg-logo="https://zuiai.tv/zb_users/upload/2021/1/2021013185584449.jpg" group-title="咪咕",咪咕直播-1
+#EXTINF:-1 tvg-logo="https://zuiai.tv/zb_users/upload/2021/1/2021013185584449.jpg" group-title="咪咕",咪咕直播-1
 http://39.136.35.7:6610/000000001001/3000000001000005308/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000005308&livemode=1&stbId=3
 #EXTINF:-1 tvg-logo="https://zuiai.tv/zb_users/upload/2021/1/2021013185584449.jpg" group-title="咪咕",咪咕直播-2
 http://39.136.35.7:6610/000000001001/3000000001000005969/index.m3u8?channel-id=FifastbLive&Contentid=3000000001000005969&livemode=1&stbId=3
