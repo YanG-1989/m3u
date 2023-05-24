@@ -1559,21 +1559,21 @@ http://198.16.100.90:8278/ctient/playlist.m3u8?tid=m6780c60bd34a13540795&ct=1787
 http://50.7.238.114:8278/ctizhonghe/playlist.m3u8?ct=19193&tid=MBBB1520797915207979&tsum=3a6f7f0c591c2ec6678d51b741f290b2
 #EXTINF:-1 group-title="港澳台「P」",中天綜合
 http://198.16.100.90:8278/ctizhonghe/playlist.m3u8?tid=m85005aeec85b14021104&ct=17874&tsum=69f19f4b12ab79d2ee683b28cdb1c8ca
-#EXTINF:-1 group-title="推荐",ONE Golf「高尔夫」
+#EXTINF:-1 group-title="特色",ONE Golf「高尔夫」
 http://162.250.201.58:6211/pk/ONEGOLF/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="推荐",Ski TV 「滑雪」
+#EXTINF:-1 group-title="特色",Ski TV 「滑雪」
 https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SynapseTV/193.m3u8
-#EXTINF:-1 group-title="推荐",Red Bull TV「红牛」
+#EXTINF:-1 group-title="特色",Red Bull TV「红牛」
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
-#EXTINF:-1 group-title="推荐",1
+#EXTINF:-1 group-title="特色",1
 http://1
-#EXTINF:-1 group-title="推荐",2
+#EXTINF:-1 group-title="特色",2
 http://2
-#EXTINF:-1 group-title="推荐",3
+#EXTINF:-1 group-title="特色",3
 http://3
-#EXTINF:-1 group-title="推荐",4
+#EXTINF:-1 group-title="特色",4
 http://4
-#EXTINF:-1 group-title="推荐",5
+#EXTINF:-1 group-title="特色",5
 http://5
 #EXTINF:-1 tvg-name="翡翠台" group-title="港澳台",「HK」翡翠台
 http://r.jdshipin.com/62WM7
