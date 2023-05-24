@@ -943,34 +943,6 @@ http://gslbserv.itv.cmvideo.cn:80/3000000010000027691/index.m3u8?channel-id=Fifa
 http://gslbserv.itv.cmvideo.cn:80/3000000010000031669/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000031669&livemode=1&stbId=3
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/L5frXm2p/mg.jpg" group-title="咪咕「双栈」",咪咕直播-53
 http://gslbserv.itv.cmvideo.cn:80/3000000010000032106/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000032106&livemode=1&stbId=3
-#EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://www.hklive.tv/png_logo/81.png" group-title="HK「P」",翡翠台
-http://cdn.hkdtmb.com/raw/81.ts
-#EXTINF:-1 tvg-name="明珠台" tvg-logo="https://www.hklive.tv/png_logo/84.png" group-title="HK「P」",明珠台
-http://cdn.hkdtmb.com/raw/84.ts
-#EXTINF:-1 tvg-name="J2台" tvg-logo="https://www.hklive.tv/png_logo/82.png" group-title="HK「P」",J2台
-http://cdn.hkdtmb.com/raw/82.ts
-#EXTINF:-1 tvg-name="无线新闻台" tvg-logo="https://www.hklive.tv/png_logo/83.png" group-title="HK「P」",无线新闻台
-http://cdn.hkdtmb.com/raw/83.ts
-#EXTINF:-1 tvg-name="无线财经资讯台" tvg-logo="https://www.hklive.tv/png_logo/85.png" group-title="HK「P」",无线财经•资讯台
-http://cdn.hkdtmb.com/raw/85.ts
-#EXTINF:-1 tvg-name="ViuTV" tvg-logo="https://www.hklive.tv/png_logo/99.png" group-title="HK「P」",ViuTV
-http://cdn.hkdtmb.com/raw/99.ts
-#EXTINF:-1 tvg-name="ViuTV" tvg-logo="https://www.hklive.tv/png_logo/96.png" group-title="HK「P」",ViuTVSix
-http://cdn.hkdtmb.com/raw/96.ts
-#EXTINF:-1 tvg-name="HOYTV" tvg-logo="https://www.hklive.tv/png_logo/77.png" group-title="HK「P」",HOY TV
-http://cdn.hkdtmb.com/raw/77.ts
-#EXTINF:-1 tvg-name="HOYTV 资讯台" tvg-logo="https://www.hklive.tv/png_logo/78.png" group-title="HK「P」",HOY TV 资讯台
-http://cdn.hkdtmb.com/raw/78.ts
-#EXTINF:-1 tvg-name="香港国际财经台" tvg-logo="https://www.hklive.tv/png_logo/76.png" group-title="HK「P」",香港国际财经台
-http://cdn.hkdtmb.com/raw/76.ts
-#EXTINF:-1 tvg-name="港台电视31" tvg-logo="https://www.hklive.tv/png_logo/31.png" group-title="HK「P」",港台电视31
-http://cdn.hkdtmb.com/raw/31.ts
-#EXTINF:-1 tvg-name="港台电视32" tvg-logo="https://www.hklive.tv/png_logo/32.png" group-title="HK「P」",港台电视32
-http://cdn.hkdtmb.com/raw/32.ts
-#EXTINF:-1 tvg-name="港台电视33" tvg-logo="https://www.hklive.tv/png_logo/33.png" group-title="HK「P」",港台电视33
-http://cdn.hkdtmb.com/raw/33.ts
-#EXTINF:-1 tvg-name="CGTN纪录频道" tvg-logo="https://www.hklive.tv/png_logo/34.png" group-title="HK「P」",CGTN纪录频道
-http://cdn.hkdtmb.com/raw/34.ts
 #EXTINF:-1 tvg-name="三立INEWS" group-title="YouTube「P」",三立INEWS
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV01.m3u8
 #EXTINF:-1 tvg-name="寰宇新闻" group-title="YouTube「P」",寰宇新闻
