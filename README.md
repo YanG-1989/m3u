@@ -4,7 +4,7 @@
 ---
 * [分流参考](https://raw.githubusercontent.com/YanG-1989/list/main/IPTV.list)  
   
-日本源需要挂代理！
+部分源需要挂代理！
 
 ---
 ### 垃圾话语录
@@ -20,6 +20,6 @@
 >Adult 更新维护（玩偶,其他等）暂无没大动作   
 >ya,hu 计划合并在一订阅  
 * 2023.5.25  
->Gather 近期不在维护！  
->Adhlt 佛系更新  
->ya,hu APTV 作者限制，看不了的自醒想方法。  
+>Gather 近期最后一次大更新！  
+>Adhlt 佛系更新！  
+>ya,hu APTV 作者限制，看不了的自行想方法。  
