@@ -3,8 +3,7 @@
 #### 个人爱好，收集整合！佛系更新…
 ---
 * [分流参考](https://raw.githubusercontent.com/YanG-1989/list/main/IPTV.list)    
-  
-部分源需要挂代理！  
+ 部分源需要代理。
 ---
 ### 收集器
 * [在线文档](https://docs.qq.com/doc/DYnRUbHl6akRLUUJi)  
