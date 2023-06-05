@@ -1,4 +1,7 @@
-﻿#EXTM3U
+#EXTM3U
+#EXT-X-APP APTV
+#EXT-X-APTV-TYPE local
+
 #EXTINF:-1 group-title="4K",BTV纪实科教 8K
 http://159.75.85.63:6798
 #EXTINF:-1 group-title="4K",爱上4k
@@ -60,7 +63,7 @@ http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001188/index.m3u8?
 #EXTINF:-1 tvg-name="CCTV7" group-title="IPV6•央视",CCTV7「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001236/index.m3u8?
 #EXTINF:-1 tvg-name="CCTV8" group-title="IPV6•央视",CCTV8「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001188/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001189/index.m3u8?
 #EXTINF:-1 tvg-name="CCTV9" group-title="IPV6•央视",CCTV9「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001237/index.m3u8?
 #EXTINF:-1 tvg-name="CCTV10" group-title="IPV6•央视",CCTV10「IPV6」
@@ -200,7 +203,7 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-name="精品萌宠" group-title="IPV6•数字",NewTv精品萌宠「IPV6」
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226505/index.m3u8
 #EXTINF:-1 tvg-name="哒啵电竞" group-title="IPV6•数字",NewTv哒啵电竞「IPV6」
-http://[2409:8087:7002:20::5]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226951/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226951/index.m3u8
 #EXTINF:-1 tvg-name="哒啵赛事" group-title="IPV6•数字",NewTv哒啵赛事「IPV6」
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8
 #EXTINF:-1 tvg-name="欢乐剧场" group-title="IPV6•数字",NewTv欢乐剧场「IPV6」
@@ -242,11 +245,11 @@ http://[2409:8087:2001:20:2800:0:df6e:eb1a]/wh7f454c46tw2837435881_530071425/ott
 #EXTINF:-1 tvg-name="明星大片" group-title="IPV6•数字",NewTv明星大片「IPV6」•支持回看
 http://[2409:8087:2001:20:2800:0:df6e:eb18]/wh7f454c46tw2856695654_946966165/ott.mobaibox.com/PLTV/3/224/3221227594/index.m3u8
 #EXTINF:-1 tvg-name="CHC动作电影" group-title="IPV6•数字",CHC动作电影「IPV6」•支持回看
-http://[2409:8087:7002:20::5]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8
 #EXTINF:-1 tvg-name="CHC 高清电影" group-title="IPV6•数字",CHC高清电影「IPV6」•支持回看
-http://[2409:8087:7002:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8
 #EXTINF:-1 tvg-name="CHC家庭影院" group-title="IPV6•数字",CHC家庭影院「IPV6」•支持回看
-http://[2409:8087:7002:20::5]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8
 #EXTINF:-1 tvg-name="生活时尚" group-title="IPV6•数字",SiTV五星体育「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001018/index.m3u8?
 #EXTINF:-1 tvg-name="东方财经" group-title="IPV6•数字",SiTV东方财经「IPV6」
@@ -277,7 +280,7 @@ http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001232/index.m3u8?
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001235/index.m3u8?
 #EXTINF:-1 tvg-name="茶频道" group-title="IPV6•数字",茶频道「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001234/index.m3u8?
-#EXTINF:-1 tvg-name="BRTV体育" group-title="IPV6•数字",BRTV体育休闲「IPV6」
+#EXTINF:-1 tvg-name="纪实科教" group-title="IPV6•数字",BRTV纪实科教「IPV6」
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001329/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-name="精彩综艺" group-title="IPV6•数字",精彩综艺「IPV6」
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001273/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
@@ -490,41 +493,41 @@ http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000382/ind
 #EXTINF:-1 tvg-name="三亚卫视" group-title="IPV6•地区",「海南」三亚卫视「IPV6」
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000136/index.m3u8?IAS
 #EXTINF:-1 group-title="IPV6•地区",「陕西」宝鸡1「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226383/index.m3u8
-#EXTINF:-1 group-title="IPV6•地区",「陕西」宝鸡2「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226384/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226383/index.m3u8
+#EXTINF:-1 tvg-id="2409:8087:7001:20:3::3" group-title="IPV6•地区",「陕西」宝鸡2「IPV6」
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226384/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」安康综合「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226385/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226385/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」西乡融媒「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226556/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226556/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」商洛1「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226378/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226378/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」城园「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226920/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226920/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」扶风「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221227005/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221227005/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」汉中1「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226331/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226331/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」汉中2「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225990/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225990/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」汉中3「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225991/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225991/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」千阳「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226945/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226945/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」神木1「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226993/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226993/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」石泉电视台
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226965/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226965/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」岐山「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226982/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226982/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」吴起电视台「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226967/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226967/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」洋县电视台1「IPV6」
 http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226938/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」紫阳综合「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221227002/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221227002/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」FGTV 1「IPV6」
-http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226990/index.m3u8
+http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226990/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」佛坪电视台「IPV6」
 http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226454/index.m3u8
 #EXTINF:-1 group-title="IPV6•BetTV",BetTV-1「IPV6」
@@ -1401,20 +1404,20 @@ http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
 http://113.117.74.45:8081/hls/1/index.m3u8
 #EXTINF:-1 group-title="特色",广东珠江
 http://113.117.74.45:8081/hls/139/index.m3u8
-#EXTINF:-1 group-title="特色",1
-http://3
-#EXTINF:-1 group-title="特色",2
-http://4
-#EXTINF:-1 group-title="特色",3
-http://5
+#EXTINF:-1 group-title="特色",国家地理频道
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=941665
+#EXTINF:-1 group-title="特色",国家地理野生频道
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=941664
+#EXTINF:-1 group-title="特色",BBCEarth
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=941667
 #EXTINF:-1 tvg-name="翡翠台" group-title="港澳台",「HK」翡翠台
-http://r.jdshipin.com/62WM7
+http://113.117.74.45:8081/hls/67/index.m3u8
 #EXTINF:-1 tvg-name="翡翠台" group-title="港澳台",「HK」翡翠台
 http://r.jdshipin.com/n90gt
 #EXTINF:-1 tvg-name="翡翠台" group-title="港澳台",「HK」翡翠台
 http://r.jdshipin.com/qClQf
 #EXTINF:-1 tvg-name="翡翠台" group-title="港澳台",「HK」翡翠台
-http://113.117.74.45:8081/hls/67/index.m3u8
+http://r.jdshipin.com/62WM7
 #EXTINF:-1 tvg-name="明珠台" group-title="港澳台",「HK」明珠台
 http://lu1.cc/a/play/php/gudou.php?id=mzt
 #EXTINF:-1 tvg-name="J2" group-title="港澳台",「HK」J2
@@ -1433,10 +1436,10 @@ http://r.jdshipin.com/0Rp07
 http://103.112.191.9:880/LAOSAT1068.m3u8
 #EXTINF:-1 tvg-name="凤凰香港" group-title="港澳台",「HK」凤凰香港
 http://113.117.74.45:8081/hls/38/index.m3u8
-#EXTINF:-1 tvg-name="星河台" group-title="港澳台",「HK」星河台
+#EXTINF:-1 tvg-name="星河台" group-title="港澳台",「HK」星河台·粤语
 http://113.117.74.45:8081/hls/135/index.m3u8
-#EXTINF:-1 tvg-name="星河台" group-title="港澳台",「HK」星河台
-http://103.112.191.9:880/LAOSAT1092.m3u8
+#EXTINF:-1 tvg-name="星河台" group-title="港澳台",「HK」星河台·国语
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571186&extension=ts
 #EXTINF:-1 tvg-name="面包台" group-title="港澳台",「HK」面包台
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 #EXTINF:-1 tvg-name="有线直播新闻" group-title="港澳台",「HK」有线直播新闻
@@ -1447,19 +1450,11 @@ http://103.112.191.9:880/LAOSAT1069.m3u8
 https://p.ggiptv.com/v/macaulotustv.php
 #EXTINF:-1 tvg-name="澳门卫视" group-title="港澳台",「MO」澳亚卫视
 http://lu1.cc/a/play/php/gudou.php?id=ayws
-#EXTINF:-1 group-title="港澳台",「佛」佛陀
-https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
-#EXTINF:-1 group-title="港澳台",「佛」佛卫慈悲台
-http://btsw-ott2b.cdn.hinet.net/live_bts/btsw01/chunklist.m3u8?fbclid=IwAR0tOOH5nMOCvkCFTXbHgyO6P95nuOS3MNCfYDflXYkqsUVGfApmPOLWeR0
-#EXTINF:-1 group-title="港澳台",「佛」儒释道经
-https://live.ciguang.tv/live/hdtv.m3u8?auth_key=5216465889-0-0-701a98b03302233fc07fa2ee9e85d39b
-#EXTINF:-1 group-title="港澳台",「佛」唯心
-http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
 #EXTINF:-1 group-title="港澳台",ANTV
 http://antvlive.ab5c6921.cdnviet.com/antv/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",HBO
 http://103.112.191.9:880/LAOSAT1089.m3u8
-#EXTINF:-1 group-title="港澳台",HBO 2
+#EXTINF:-1 group-title="港澳台",金马影视
 http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",ELEVEN 1
 http://awei.beimua.com/iptv.php?id=76
@@ -1473,7 +1468,7 @@ rtmp://119.81.124.89/sat/tv741
 http://awei.beimua.com/iptv.php?id=77
 #EXTINF:-1 group-title="港澳台",爱尔达体育1台
 http://awei.beimua.com/iptv.php?id=79
-#EXTINF:-1 group-title="港澳台",爱尔达体育1台
+#EXTINF:-1 group-title="港澳台",爱尔达体育2台
 http://awei.beimua.com/iptv.php?id=80
 #EXTINF:-1 group-title="港澳台",爱尔达体育2台
 http://awei.beimua.com/iptv.php?id=81
@@ -2227,12 +2222,6 @@ http://zzlive.zzc-media.com:8092/live/xwzh.m3u8?zshanxd
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226331/index.m3u8?zshanxid
 #EXTINF:-1 group-title="地区",「陕西」商洛电视
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226378/index.m3u8?zshanxid
-#EXTINF:-1 group-title="地区",「陕西」西安白鸽
-http://stream2.xiancity.cn/xatv2/sd/live.m3u8?zshanxid
-#EXTINF:-1 group-title="地区",「陕西」西安新闻
-http://stream2.xiancity.cn/xatv1/sd/live.m3u8?zshanxid
-#EXTINF:-1 group-title="地区",「陕西」西安影院
-http://stream2.xiancity.cn/xatv4/sd/live.m3u8?zshanxid
 #EXTINF:-1 group-title="地区",「上海」崇明电视台
 https://pili-live-hls.wdit.com.cn/wditlive/c038f4fafbdf4f97ba74c74ad67259b931ee.m3u8?zshangd
 #EXTINF:-1 group-title="地区",「上海」嘉定电视台
@@ -2595,7 +2584,7 @@ http://tc-tct.douyucdn2.cn/dyliveflv1a/488743rAHScWyyII_2000.flv?wsAuth=fd695c44
 http://tc-tct.douyucdn2.cn/dyliveflv1/522423rw7NgKaYl9_2000p.flv?wsAuth=ce3c0d32c960ce39c10717b795f7ddf9&token=cpn-androidmpro-0-522423-99737a9b5bf363c27f62ed65c0f1025bd1ccd3a301de7e93&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
 #EXTINF:-1 group-title="赛事",QQ飞车•手游
 http://tc-tct.douyucdn2.cn/dyliveflv1a/5040227raXQRnvWY_2000.flv?wsAuth=0654cc930e81f0d2b58264196ded38af&token=cpn-androidmpro-0-5040227-432528579fe947129e217c8f3c39d0a94c81c1426c347bfb&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
-#EXTINF:-1 group-title="赛事",狼人杀官方赛事
+#EXTINF:-1 group-title="赛事",狼人杀
 http://tc-tct.douyucdn2.cn/dyliveflv1/4615959rUFUtiJ3v.flv?wsAuth=7971ae0019a9ad2822153b7370372e8c&token=cpn-androidmpro-0-4615959-c88b2c2692ce476579452cdc62babd37285751f91f149297&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
 #EXTINF:-1 group-title="赛事",CF•手游
 http://tc-tct.douyucdn2.cn/dyliveflv1/868191rjy69PsEAz_2000.flv?wsAuth=63d571126613feca6067da321aaf2df2&token=cpn-androidmpro-0-868191-846aacab1859214c037e4d0c263121580403540feea39901&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
