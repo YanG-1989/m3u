@@ -1,8 +1,4 @@
 #EXTM3U
-#EXT-X-APP APTV
-#EXT-X-APTV-TYPE remote
-#EXT-X-SUB-URL https://raw.githubusercontent.com/YanG-1989/m3u/main/yu.m3u
-
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avanew/face/201707/31/08/10261cc4580588526811b7a4da775de8_middle.jpg" group-title="主机其他游戏",老皮历险记
 https://www.goodiptv.club/douyu/2140934
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar/000/39/12/70_avatar_middle.jpg" group-title="英雄联盟",微笑
