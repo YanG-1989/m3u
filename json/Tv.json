@@ -31,21 +31,17 @@
 		},
 		{
 			"name": "广东地区",
-			"url": " http://tv.733240.xyz"
+			"url": " http://tv.733240.xyz",
 			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
 		{
 			"name": "虎牙直播",
-			"url": "https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/ya.m3u",
-			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
+			"url": "https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/ya.m3u"
 		},
 		{
 			"name": "斗鱼直播",
-			"url": "https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/yu.m3u",
-			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
+			"url": "https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/yu.m3u"
 		}
 	]
 }
