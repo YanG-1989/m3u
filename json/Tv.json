@@ -13,7 +13,7 @@
 		},
 		{
 			"name": "香港节目",
-			"url": http://hkanime:hkanime@www.hkdtmb.com/hls.m3u",
+			"url": "http://hkanime:hkanime@www.hkdtmb.com/hls.m3u",
 			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
