@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epg.112114.xyz/,http://epg.51zmt.top:8000/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+﻿#EXTM3U url-tvg="https://epg.112114.xyz/,http://epg.51zmt.top:8000/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 group-title="4K",BTV纪实科教 8K
 http://159.75.85.63:6798
 #EXTINF:-1 group-title="4K",爱上4k
@@ -589,27 +589,27 @@ http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/322122
 http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226990/index.m3u8
 #EXTINF:-1 group-title="IPV6•地区",「陕西」佛坪电视台「IPV6」
 http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226454/index.m3u8
-#EXTINF:-1 group-title="IPV6•BetTV",BetTV-1「IPV6」
+#EXTINF:-1 group-title="IPV6•BesTV",BesTV-1「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001148/index.m3u8?
-#EXTINF:-1 group-title="IPV6•BetTV",BetTV-2「IPV6」
+#EXTINF:-1 group-title="IPV6•BesTV",BesTV-2「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001149/index.m3u8?
-#EXTINF:-1 group-title="IPV6•BetTV",BetTV-3「IPV6」
+#EXTINF:-1 group-title="IPV6•BesTV",BesTV-3「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001150/index.m3u8?
-#EXTINF:-1 group-title="IPV6•BetTV",BetTV-4「IPV6」
+#EXTINF:-1 group-title="IPV6•BesTV",BesTV-4「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001151/index.m3u8?
-#EXTINF:-1 group-title="IPV6•BetTV",BetTV-5「IPV6」
+#EXTINF:-1 group-title="IPV6•BesTV",BesTV-5「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001152/index.m3u8?
-#EXTINF:-1 group-title="IPV6•BetTV",BetTV-6「IPV6」
+#EXTINF:-1 group-title="IPV6•BesTV",BesTV-6「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001153/index.m3u8?
-#EXTINF:-1 group-title="IPV6•BetTV",BetTV-77「IPV6」
+#EXTINF:-1 group-title="IPV6•BesTV",BesTV-7「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001154/index.m3u8?
-#EXTINF:-1 group-title="IPV6•BetTV",BetTV-8「IPV6」
+#EXTINF:-1 group-title="IPV6•BesTV",BesTV-8「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001359/index.m3u8?
-#EXTINF:-1 group-title="IPV6•BetTV",BetTV-9「IPV6」
+#EXTINF:-1 group-title="IPV6•BesTV",BesTV-9「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001378/index.m3u8?
-#EXTINF:-1 group-title="IPV6•BetTV",BetTV-10「IPV6」
+#EXTINF:-1 group-title="IPV6•BesTV",BesTV-10「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001388/index.m3u8?
-#EXTINF:-1 group-title="IPV6•BetTV",BetTV-11「IPV6」
+#EXTINF:-1 group-title="IPV6•BesTV",BesTV-11「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001398/index.m3u8?
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/L5frXm2p/mg.jpg" group-title="IPV6•咪咕",咪咕直播4K-1「IPV6」
 http://[2409:8087:1a01:df::4001]/PLTV/88888888/224/3221225655/index.m3u8
@@ -993,6 +993,12 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV76.m3u8
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV77.m3u8
 #EXTINF:-1 tvg-name="Taiwan+" group-title="YouTube「P」",Taiwan+
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV78.m3u8
+#EXTINF:-1 group-title="港澳台「P」",香港国际财经
+https://hoytv-live-stream.hoy.tv/ch76/index-fhd.m3u8
+#EXTINF:-1 tvg-name="香港开电视" group-title="港澳台「P」",HOY TV
+https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8
+#EXTINF:-1 group-title="港澳台「P」",HOY 资讯台
+https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ABCNEWS.png" group-title="港澳台「P」",ABC News
 http://50.7.238.114:8278/abcnews_glo/playlist.m3u8?tid=MAEA6759929367599293&ct=19225&tsum=edd59704e2182262583ea5b0e1093b9d
 #EXTINF:-1 group-title="港澳台「P」",AnimalPlanet
@@ -1453,17 +1459,22 @@ http://198.16.100.90:8278/ctient/playlist.m3u8?tid=m6780c60bd34a13540795&ct=1787
 http://50.7.238.114:8278/ctizhonghe/playlist.m3u8?ct=19193&tid=MBBB1520797915207979&tsum=3a6f7f0c591c2ec6678d51b741f290b2
 #EXTINF:-1 group-title="港澳台「P」",中天綜合
 http://198.16.100.90:8278/ctizhonghe/playlist.m3u8?tid=m85005aeec85b14021104&ct=17874&tsum=69f19f4b12ab79d2ee683b28cdb1c8ca
-#EXTINF:-1 group-title="特色",ONE Golf「高尔夫」
-http://162.250.201.58:6211/pk/ONEGOLF/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="特色",Ski TV 「滑雪」
 https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SynapseTV/193.m3u8
-#EXTINF:-1 group-title="特色",Red Bull TV「红牛」
+#EXTINF:-1 group-title="特色",In WILD「自然」
+https://inwild-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="特色",Deluxe Lounge HD「自然」
+https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips&checkedby:iptvcat.com
+#EXTINF:-1 group-title="特色",Red Bull TV「体育」
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
+#EXTINF:-1 group-title="特色",广东卫视
+https://live6.itouchtv.cn/live/6213271134fe626b900fd1f7.m3u8
+#EXTINF:-1 group-title="特色",广东新闻
+https://live6.itouchtv.cn/live/6155953543f952738c0bcb44.m3u8
 #EXTINF:-1 group-title="特色",广东体育
 http://113.117.74.45:8081/hls/1/index.m3u8
 #EXTINF:-1 group-title="特色",广东珠江
-http://113.117.74.45:8081/hls/139/index.m3u8
-#EXTINF:-1 group-title="特色",国家地理频道
+http://113.117.74.45:8081/hls/139/index.m3u8#EXTINF:-1 group-title="特色",国家地理频道
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=941665
 #EXTINF:-1 group-title="特色",国家地理野生频道
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=941664
@@ -1485,62 +1496,32 @@ http://r.jdshipin.com/Nr5jq
 http://r.jdshipin.com/vSJvl
 #EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台",「HK」凤凰中文
 http://113.117.74.45:8081/hls/36/index.m3u8
-#EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台",「HK」凤凰中文
-http://103.112.191.9:880/LAOSAT1015.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台",「HK」凤凰资讯
 http://113.117.74.45:8081/hls/37/index.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台",「HK」凤凰资讯
 http://r.jdshipin.com/0Rp07
-#EXTINF:-1 tvg-name="凤凰香港" group-title="港澳台",「HK」凤凰资讯
-http://103.112.191.9:880/LAOSAT1068.m3u8
 #EXTINF:-1 tvg-name="凤凰香港" group-title="港澳台",「HK」凤凰香港
 http://113.117.74.45:8081/hls/38/index.m3u8
 #EXTINF:-1 tvg-name="星河台" group-title="港澳台",「HK」星河台•粤语
 http://113.117.74.45:8081/hls/135/index.m3u8
 #EXTINF:-1 tvg-name="星河台" group-title="港澳台",「HK」星河台•国语
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571186&extension=ts
-#EXTINF:-1 tvg-name="面包台" group-title="港澳台",「HK」面包台
-https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-#EXTINF:-1 tvg-name="有线直播新闻" group-title="港澳台",「HK」有线直播新闻
-https://api.leonardpark.dev/live/icable/110
-#EXTINF:-1 tvg-name="澳门莲花" group-title="港澳台",「MO」澳门莲花
-http://103.112.191.9:880/LAOSAT1069.m3u8
 #EXTINF:-1 tvg-name="澳门莲花" group-title="港澳台",「MO」澳门莲花
 https://p.ggiptv.com/v/macaulotustv.php
 #EXTINF:-1 tvg-name="澳门卫视" group-title="港澳台",「MO」澳亚卫视
 http://lu1.cc/a/play/php/gudou.php?id=ayws
-#EXTINF:-1 group-title="港澳台",ANTV
-http://antvlive.ab5c6921.cdnviet.com/antv/playlist.m3u8
-#EXTINF:-1 group-title="港澳台",HBO
-http://103.112.191.9:880/LAOSAT1089.m3u8
-#EXTINF:-1 group-title="港澳台",金马影视
-http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
 #EXTINF:-1 group-title="港澳台",ELEVEN 1
-http://awei.beimua.com/iptv.php?id=76
+http://61.221.81.93:8078/hls/25/80/esport.m3u8
 #EXTINF:-1 group-title="港澳台",ELEVEN 1
 rtmp://119.81.124.89/sat/tv731
 #EXTINF:-1 group-title="港澳台",ELEVEN 2
 http://61.221.81.93:8078/hls/26/80/esport2.m3u8
 #EXTINF:-1 group-title="港澳台",ELEVEN 2
 rtmp://119.81.124.89/sat/tv741
-#EXTINF:-1 group-title="港澳台",ELEVEN 2
-http://awei.beimua.com/iptv.php?id=77
-#EXTINF:-1 group-title="港澳台",爱尔达体育1台
-http://awei.beimua.com/iptv.php?id=79
-#EXTINF:-1 group-title="港澳台",爱尔达体育2台
-http://awei.beimua.com/iptv.php?id=80
-#EXTINF:-1 group-title="港澳台",爱尔达体育2台
-http://awei.beimua.com/iptv.php?id=81
-#EXTINF:-1 group-title="港澳台",纬来体育
-http://awei.beimua.com/iptv.php?id=73
 #EXTINF:-1 group-title="港澳台",纬来体育
 rtmp://119.81.124.89/sat/tv721
 #EXTINF:-1 group-title="港澳台",纬来日本
-http://awei.beimua.com/iptv.php?id=74
-#EXTINF:-1 group-title="港澳台",纬来日本
 rtmp://119.81.124.89/sat/tv771
-#EXTINF:-1 group-title="港澳台",纬来育乐
-http://awei.beimua.com/iptv.php?id=75
 #EXTINF:-1 group-title="港澳台",纬来育乐
 rtmp://119.81.124.89/sat/tv701
 #EXTINF:-1 group-title="港澳台",MOMO综合
@@ -1558,49 +1539,21 @@ http://38.64.72.148:80/hls/modn/list/4002/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台",华语电视
 http://38.64.72.148:80/hls/modn/list/4003/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台",民视
-http://awei.beimua.com/iptv.php?id=62
-#EXTINF:-1 group-title="港澳台",民视
 rtmp://119.81.124.89/sat/tv051
-#EXTINF:-1 group-title="港澳台",华视
-http://awei.beimua.com/iptv.php?id=63
 #EXTINF:-1 group-title="港澳台",华视
 rtmp://119.81.124.89/sat/tv111
 #EXTINF:-1 group-title="港澳台",台视
-http://awei.beimua.com/iptv.php?id=61
-#EXTINF:-1 group-title="港澳台",台视
 rtmp://119.81.124.89/sat/tv071
-#EXTINF:-1 group-title="港澳台",中视
-http://awei.beimua.com/iptv.php?id=60
 #EXTINF:-1 group-title="港澳台",中视
 rtmp://119.81.124.89/sat/tv091
 #EXTINF:-1 group-title="港澳台",东森超视
 rtmp://119.81.124.89/sat/tv331
 #EXTINF:-1 group-title="港澳台",东森财经新闻
 rtmp://119.81.124.89/sat/tv571
-#EXTINF:-1 group-title="港澳台",中天新闻
-http://awei.beimua.com/iptv.php?id=43
-#EXTINF:-1 group-title="港澳台",东森新闻
-http://awei.beimua.com/iptv.php?id=44
-#EXTINF:-1 group-title="港澳台",中视新闻
-http://awei.beimua.com/iptv.php?id=46
 #EXTINF:-1 group-title="港澳台",台视新闻
 http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
-#EXTINF:-1 group-title="港澳台",台视新闻
-http://awei.beimua.com/iptv.php?id=47
-#EXTINF:-1 group-title="港澳台",三立新闻
-http://awei.beimua.com/iptv.php?id=48
 #EXTINF:-1 group-title="港澳台",民视新闻
 http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
-#EXTINF:-1 group-title="港澳台",民视新闻
-http://awei.beimua.com/iptv.php?id=50
-#EXTINF:-1 group-title="港澳台",华视新闻
-http://awei.beimua.com/iptv.php?id=51
-#EXTINF:-1 group-title="港澳台",镜电视新闻
-http://awei.beimua.com/iptv.php?id=52
-#EXTINF:-1 group-title="港澳台",寰宇新闻
-http://awei.beimua.com/iptv.php?id=53
-#EXTINF:-1 group-title="港澳台",TVBS新闻
-http://awei.beimua.com/iptv.php?id=54
 #EXTINF:-1 group-title="港澳台",TVBS新闻
 rtmp://119.81.124.89/sa
 #EXTINF:-1 group-title="港澳台",TVBS新闻
@@ -1611,8 +1564,6 @@ http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
 rtmp://119.81.124.89/sat/tv421
 #EXTINF:-1 group-title="港澳台",人间卫视
 http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
-#EXTINF:-1 group-title="港澳台",1905电影
-http://awei.beimua.com/1905.php
 #EXTINF:-1 group-title="央视",CCTV1
 http://39.134.61.218/PLTV/88888888/224/3221227005/index.m3u8
 #EXTINF:-1 group-title="央视",CCTV1
@@ -3691,8 +3642,6 @@ http://592f16fa90d9b.streamlock.net/retrotv/smil:retrotv2.smil/chunklist.m3u8
 http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/playlist.m3u8
 #EXTINF:-1 group-title="国际",「US」*News max「新闻」
 http://nmxlive.akamaized.net/hls/live/529965/Live_1/index_720.m3u8
-#EXTINF:-1 group-title="国际",*In WILD「自然」
-https://inwild-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="国际",半岛新闻「阿拉伯」
 http://live-hls-web-aja.getaj.net/AJA/02.m3u8
 #EXTINF:-1 group-title="国际",朝鲜中央台
@@ -4963,8 +4912,6 @@ http://vs8.live.opencaster.com/cultura24/_definst_/mp4:cultura24_480/chunklist_w
 http://video.oct.dc.gov/out/u/15_12.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="杂货",Deen TV (576p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/deentv.stream/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="杂货",Deluxe Lounge HD
-https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips&checkedby:iptvcat.com
 #EXTINF:-1 group-title="杂货",Divine Vision
 http://divineplayout-us2.tulix.tv/live/Stream1/.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="杂货",Dove Channel
