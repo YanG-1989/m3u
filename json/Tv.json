@@ -31,7 +31,7 @@
 		},
 		{
 			"name": "广东地区",
-			"url": " http://tv.733240.xyz",
+			"url": "http://tv.733240.xyz",
 			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
