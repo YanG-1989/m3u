@@ -1,4 +1,4 @@
-﻿#EXTM3U url-tvg="https://epg.112114.xyz/,http://epg.51zmt.top:8000/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+特色﻿#EXTM3U url-tvg="https://epg.112114.xyz/,http://epg.51zmt.top:8000/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 group-title="4K",BTV纪实科教 8K
 http://159.75.85.63:6798
 #EXTINF:-1 group-title="4K",爱上4k
@@ -1474,7 +1474,8 @@ https://live6.itouchtv.cn/live/6155953543f952738c0bcb44.m3u8
 #EXTINF:-1 group-title="特色",广东体育
 http://113.117.74.45:8081/hls/1/index.m3u8
 #EXTINF:-1 group-title="特色",广东珠江
-http://113.117.74.45:8081/hls/139/index.m3u8#EXTINF:-1 group-title="特色",国家地理频道
+http://113.117.74.45:8081/hls/139/index.m3u8
+#EXTINF:-1 group-title="特色",国家地理频道
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=941665
 #EXTINF:-1 group-title="特色",国家地理野生频道
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=941664
