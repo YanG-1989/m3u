@@ -37,6 +37,8 @@ http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002156/index.m3
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="CCTV16" group-title="IPV6•4K",CCTV16 4K 「IPV6」•支持回看
 http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
+#EXTINF:-1 tvg-name="CCTV1" group-title="IPV6•4K",CCTV1 4K 「IPV6」•支持回看
+http://[2409:8087:2001:20:2800:0:df6e:eb03]:80/PLTV/1/224/3221230805/1.m3u8
 #EXTINF:-1 tvg-name="CCTV4K" group-title="IPV6•央视",CCTV4K 「IPV6」•支持回看
 http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw4259108076_496521789/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8
 #EXTINF:-1 tvg-name="CCTV1" group-title="IPV6•央视",CCTV1「IPV6」
