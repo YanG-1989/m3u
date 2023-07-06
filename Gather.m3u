@@ -857,7 +857,7 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV28.m3u8
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV29.m3u8
 #EXTINF:-1 tvg-name="大爱" group-title="YouTube「P」",大爱
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV30.m3u8
-#EXTINF:-1 tvg-name="TVBS网路新闻" group-title="YouTube「P」",TVBS网路新闻
+#EXTINF:-1 tvg-name="TVBS新闻" group-title="YouTube「P」",TVBS网路新闻
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV31.m3u8
 #EXTINF:-1 tvg-name="三立NEWS+" group-title="YouTube「P」",三立NEWS+
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV32.m3u8
@@ -1328,7 +1328,7 @@ http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台",民视新闻
 http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台",TVBS新闻
-rtmp://119.81.124.89/sa
+rtmp://119.81.124.89/sat/tv551
 #EXTINF:-1 group-title="港澳台",TVBS新闻
 http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8
 #EXTINF:-1 group-title="港澳台",TVBS亚洲
