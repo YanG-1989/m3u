@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epg.112114.xyz,http://epg.51zmt.top:8000/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+﻿#EXTM3U url-tvg="https://epg.112114.xyz,http://epg.51zmt.top:8000/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 group-title="4K",BTV纪实科教 8K
 http://159.75.85.63:6798
 #EXTINF:-1 group-title="4K",Clarity 4K
@@ -813,8 +813,6 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV01.m3u8
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV02.m3u8
 #EXTINF:-1 tvg-name="东森财经新闻" group-title="YouTube「P」",东森财经新闻
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV03.m3u8
-#EXTINF:-1 tvg-name="MOMO购物1" group-title="YouTube「P」",MOMO购物1
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV04.m3u8
 #EXTINF:-1 tvg-name="MOMO购物2" group-title="YouTube「P」",MOMO购物2
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV05.m3u8
 #EXTINF:-1 tvg-name="运通财经F运通" group-title="YouTube「P」",运通财经
@@ -831,23 +829,15 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV10.m3u8
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV11.m3u8
 #EXTINF:-1 group-title="YouTube「P」",警世剧场「台剧」
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV12.m3u8
-#EXTINF:-1 tvg-name="null" group-title="YouTube「P」",未知
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV13.m3u8
 #EXTINF:-1 tvg-name="半岛新闻" group-title="YouTube「P」",半岛新闻「阿拉伯」
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV14.m3u8
-#EXTINF:-1 tvg-name="null" group-title="YouTube「P」",未知
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV15.m3u8
 #EXTINF:-1 tvg-name="K-POP" group-title="YouTube「P」",K-POP
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV16.m3u8
 #EXTINF:-1 tvg-name="民视新闻" group-title="YouTube「P」",民视新闻
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV17.m3u8
-#EXTINF:-1 tvg-name="东森购物3" group-title="YouTube「P」",东森购物3
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV18.m3u8
-#EXTINF:-1 tvg-name="东森购物2" group-title="YouTube「P」",东森购物2
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV19.m3u8
 #EXTINF:-1 tvg-name="CCTV4" group-title="YouTube「P」",CCTV4中文国际
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV20.m3u8
-#EXTINF:-1 tvg-name="null" group-title="YouTube「P」",未知
+#EXTINF:-1 tvg-name="null" group-title="YouTube「P」",未知新闻
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV21.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="YouTube「P」",凤凰资讯
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV22.m3u8
@@ -879,8 +869,6 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV34.m3u8
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV35.m3u8
 #EXTINF:-1 tvg-name="INDIATODAY" group-title="YouTube「P」",INDIA TODAY
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV36.m3u8
-#EXTINF:-1 tvg-name="EURONEWS" group-title="YouTube「P」",EURO NEWS
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV37.m3u8
 #EXTINF:-1 tvg-name="FRANCE24" group-title="YouTube「P」",FRANCE 24
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV38.m3u8
 #EXTINF:-1 tvg-name="NBCNEWS" group-title="YouTube「P」",NBC NEWS
@@ -907,16 +895,10 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV48.m3u8
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV49.m3u8
 #EXTINF:-1 tvg-name="LIVENEWS" group-title="YouTube「P」",LIVE NEWS
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV50.m3u8
-#EXTINF:-1 tvg-name="Arirang" group-title="YouTube「P」",Arirang 阿里郎
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV51.m3u8
 #EXTINF:-1 tvg-name="CNA" group-title="YouTube「P」",CNA
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV52.m3u8
 #EXTINF:-1 tvg-name="HTBNEWS" group-title="YouTube「P」",HTB NEWS
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV53.m3u8
-#EXTINF:-1 tvg-name="VIVA购物1" group-title="YouTube「P」",VIVA购物1
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV54.m3u8
-#EXTINF:-1 tvg-name="VIVA购物2" group-title="YouTube「P」",VIVA购物2
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV55.m3u8
 #EXTINF:-1 tvg-name="国会频道1" group-title="YouTube「P」",国会频道1
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV56.m3u8
 #EXTINF:-1 tvg-name="国会频道2" group-title="YouTube「P」",国会频道2
@@ -943,8 +925,6 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV66.m3u8
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV67.m3u8
 #EXTINF:-1 tvg-name="儿童歌曲2" group-title="YouTube「P」",儿童歌曲2
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV68.m3u8
-#EXTINF:-1 group-title="YouTube「P」",未知
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV69.m3u8
 #EXTINF:-1 tvg-name="镜新闻" group-title="YouTube「P」",镜新闻
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV70.m3u8
 #EXTINF:-1 group-title="YouTube「P」",大陆寻奇「纪录」
@@ -955,8 +935,6 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV72.m3u8
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV73.m3u8
 #EXTINF:-1 group-title="YouTube「P」",公主小妹「台剧」
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV74.m3u8
-#EXTINF:-1 tvg-name="null" group-title="YouTube「P」",未知
-https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV75.m3u8
 #EXTINF:-1 group-title="YouTube「P」",新玫瑰瞳铃眼「台剧」
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV76.m3u8
 #EXTINF:-1 tvg-name="null" group-title="YouTube「P」",未知
@@ -1259,8 +1237,22 @@ https://inwild-samsungau.amagi.tv/playlist.m3u8
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips&checkedby:iptvcat.com
 #EXTINF:-1 group-title="特色",Red Bull TV「体育」
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
+#EXTINF:-1 group-title="特色",广东珠江
+http://60.208.16.27:1505/gudou.php?id=364&id=gdzhujiangHD_7500
+#EXTINF:-1 group-title="特色",广东体育
+http://60.208.16.27:1505/gudou.php?id=364&id=1413
+#EXTINF:-1 group-title="特色",广东民生
+http://60.208.16.27:1505/gudou.php?id=364&id=1455
+#EXTINF:-1 group-title="特色",广东经济
+http://60.208.16.27:1505/gudou.php?id=364&id=GDjingjikejiaoHD_7000
+#EXTINF:-1 group-title="特色",大湾区卫视
+http://60.208.16.27:1505/gudou.php?id=364&id=1456
+#EXTINF:-1 group-title="特色",广东影视
+http://60.208.16.27:1505/gudou.php?id=364&id=1458
 #EXTINF:-1 tvg-name="翡翠台" group-title="港澳台",「HK」翡翠台
-http://113.117.74.45:8081/hls/67/index.m3u8
+http://113.64.147.186:8081/hls/67/index.m3u8
+#EXTINF:-1 tvg-name="翡翠台" group-title="港澳台",「HK」翡翠台
+http://60.208.16.27:1505/gudou.php?id=364&id=1350_4500
 #EXTINF:-1 tvg-name="翡翠台" group-title="港澳台",「HK」翡翠台
 http://r.jdshipin.com/n90gt
 #EXTINF:-1 tvg-name="翡翠台" group-title="港澳台",「HK」翡翠台
@@ -1268,21 +1260,23 @@ http://r.jdshipin.com/qClQf
 #EXTINF:-1 tvg-name="翡翠台" group-title="港澳台",「HK」翡翠台
 http://r.jdshipin.com/62WM7
 #EXTINF:-1 tvg-name="明珠台" group-title="港澳台",「HK」明珠台
+http://60.208.16.27:1505/gudou.php?id=364&id=1351_4500
+#EXTINF:-1 tvg-name="明珠台" group-title="港澳台",「HK」明珠台
 http://lu1.cc/a/play/php/gudou.php?id=mzt
 #EXTINF:-1 tvg-name="J2" group-title="港澳台",「HK」J2
 http://r.jdshipin.com/Nr5jq
 #EXTINF:-1 tvg-name="VIUTV" group-title="港澳台",「HK」VIU TV
 http://r.jdshipin.com/vSJvl
 #EXTINF:-1 tvg-name="凤凰中文" group-title="港澳台",「HK」凤凰中文
-http://113.117.74.45:8081/hls/36/index.m3u8
+http://113.64.147.186:8081/hls/36/index.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台",「HK」凤凰资讯
-http://113.117.74.45:8081/hls/37/index.m3u8
+http://113.64.147.186:8081/hls/37/index.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="港澳台",「HK」凤凰资讯
 http://r.jdshipin.com/0Rp07
 #EXTINF:-1 tvg-name="凤凰香港" group-title="港澳台",「HK」凤凰香港
-http://113.117.74.45:8081/hls/38/index.m3u8
+http://113.64.147.186:8081/hls/38/index.m3u8
 #EXTINF:-1 tvg-name="星河台" group-title="港澳台",「HK」星河台•粤语
-http://113.117.74.45:8081/hls/135/index.m3u8
+http://113.64.147.186:8081/hls/135/index.m3u8
 #EXTINF:-1 tvg-name="星河台" group-title="港澳台",「HK」星河台•国语
 http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571186&extension=ts
 #EXTINF:-1 tvg-name="澳门莲花" group-title="港澳台",「MO」澳门莲花
@@ -3055,12 +3049,6 @@ https://www.goodiptv.club/huya/23734169
 https://www.goodiptv.club/huya/23728674
 #EXTINF:-1 group-title="影视",「动画」茶啊二中
 https://www.goodiptv.club/huya/11213191
-#EXTINF:-1 group-title="影视",「动画」王者峡谷生活
-https://www.goodiptv.club/huya/9360149
-#EXTINF:-1 group-title="影视",「录播」 RunningMan•韩综
-https://www.goodiptv.club/huya/131977
-#EXTINF:-1 group-title="影视",「录播」 RunningMan•韩综
-https://www.goodiptv.club/huya/7298973
 #EXTINF:-1 group-title="影视",「解说」大象放映室
 https://www.goodiptv.club/huya/21277391
 #EXTINF:-1 group-title="影视",「解说」电视剧
@@ -3073,24 +3061,14 @@ https://www.goodiptv.club/huya/24983280
 https://www.goodiptv.club/huya/24396428
 #EXTINF:-1 group-title="影视",「解说」动漫•1
 https://www.goodiptv.club/huya/19757963
-#EXTINF:-1 group-title="影视",「解说」动漫•2
-https://www.goodiptv.club/huya/9716515
-#EXTINF:-1 group-title="影视",「解说」动漫•3
-https://www.goodiptv.club/huya/9455567
-#EXTINF:-1 group-title="影视",「解说」科幻Fans
-https://www.goodiptv.club/huya/3508304
 #EXTINF:-1 group-title="影视",「解说」恐怖电影
 https://www.goodiptv.club/huya/23419131
 #EXTINF:-1 group-title="影视",「解说」漫威
 https://www.goodiptv.club/huya/17089779
 #EXTINF:-1 group-title="影视",「解说」美剧
 https://www.goodiptv.club/huya/20488841
-#EXTINF:-1 group-title="影视",「解说」牛叔
-https://www.goodiptv.club/huya/2758565
 #EXTINF:-1 group-title="影视",「解说」七龙珠
 https://www.goodiptv.club/huya/25650806
-#EXTINF:-1 group-title="影视",「解说」奇幻电影
-https://www.goodiptv.club/huya/3194372
 #EXTINF:-1 group-title="影视",「解说」止戈电影
 https://www.goodiptv.club/huya/19863777
 #EXTINF:-1 group-title="影视",「录播」 斯诺克•1
@@ -3105,244 +3083,58 @@ https://www.goodiptv.club/huya/17693860
 https://www.goodiptv.club/huya/20072873
 #EXTINF:-1 group-title="影视",「录像」 荒野求生
 https://www.goodiptv.club/huya/593667
-#EXTINF:-1 group-title="影视",「录像」 赛车系列
-https://www.goodiptv.club/huya/18152408
 #EXTINF:-1 group-title="影视",「录像」 野行者
 https://www.goodiptv.club/huya/20072663
-#EXTINF:-1 group-title="影视",「录像」 WWE•1
-https://www.goodiptv.club/huya/18386768
-#EXTINF:-1 group-title="影视",「录像」 WWE•2
-https://www.goodiptv.club/huya/19197452d
 #EXTINF:-1 group-title="影视",「轮播」跳舞
 https://www.goodiptv.club/huya/24634408
 #EXTINF:-1 group-title="影视",「轮播」乐高大师赛
 https://www.goodiptv.club/huya/26355776
-#EXTINF:-1 group-title="影视",「轮播」手办•日配
-https://www.goodiptv.club/huya/26355832
 #EXTINF:-1 group-title="影视",「轮播」国产悬疑
 https://www.goodiptv.club/huya/11342395
-#EXTINF:-1 group-title="影视",「轮播」名侦探柯南
-https://www.goodiptv.club/huya/7050342
-#EXTINF:-1 group-title="影视",「轮播」 Hunter•动漫
-https://www.goodiptv.club/huya/6610883
 #EXTINF:-1 group-title="影视",奥特曼
 http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c57_lb_210_600_t10/c57_lb_210_600_t10.m3u8?key
-#EXTINF:-1 group-title="影视",「轮播」贝爷影厅•1
-https://www.goodiptv.club/huya/252802
-#EXTINF:-1 group-title="影视",「轮播」贝爷影厅•2
-https://www.goodiptv.club/huya/36337
-#EXTINF:-1 group-title="影视",「轮播」贝爷MAX厅
-https://www.goodiptv.club/huya/4332
-#EXTINF:-1 group-title="影视",「轮播」电视剧
-https://www.goodiptv.club/huya/9826611
-#EXTINF:-1 group-title="影视",「轮播」经典电影
-https://www.goodiptv.club/huya/74374
-#EXTINF:-1 group-title="影视",「轮播」怀旧动漫
-https://www.goodiptv.club/huya/1174353
 #EXTINF:-1 group-title="影视",「轮播」成龙
 http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=34460526
-#EXTINF:-1 group-title="影视",成龙
-http://txtest-xp2p.p2p.huya.com/src/1394565191-1394565191-5989611887484993536-2789253838-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",「轮播」吃米滴虫
-https://www.goodiptv.club/huya/315457
-#EXTINF:-1 group-title="影视",「动画」宠物小精灵
-https://www.goodiptv.club/huya/9765742
 #EXTINF:-1 group-title="影视",「轮播」电影•1
-http://hpull.kktv8.com/livekktv/99592190/playlist.m3u8
-#EXTINF:-1 group-title="影视",「轮播」电影•2
 http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=1353059120
-#EXTINF:-1 group-title="影视",「轮播」经典动漫
-http://tc-tct.douyucdn2.cn/dyliveflv3a/1174353rvfDfBUMa.flv?wsAuth=5e4b0650aeea0049fc0ee71f70daea58&token=cpn-androidmpro-0-1174353-4620877bf9ebd8e891d0159ae8dd3ee8092d33042c3557d1&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play4
-#EXTINF:-1 group-title="影视",「轮播」动漫
-https://www.goodiptv.club/huya/206858
-#EXTINF:-1 group-title="影视",「轮播」动漫推荐
-https://www.goodiptv.club/huya/5187099
-#EXTINF:-1 group-title="影视",「轮播」动漫
-https://www.goodiptv.club/huya/1487654
-#EXTINF:-1 group-title="影视",「轮播」动作大片
-http://txtest-xp2p.p2p.huya.com/src/1524439840-1524439840-6547419257519472640-3049003136-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",「轮播」豆瓣高分
-https://www.goodiptv.club/huya/8770422
-#EXTINF:-1 group-title="影视",哆啦A梦
-http://txtest-xp2p.p2p.huya.com/1524418078-1524418078-6547325790441177088-3048959612-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",「解说」哆啦A梦
-https://www.goodiptv.club/huya/9445279
 #EXTINF:-1 group-title="影视",「轮播」哆啦A梦
 https://www.goodiptv.club/huya/11601963
-#EXTINF:-1 group-title="影视",「轮播」高帧电影
-https://www.goodiptv.club/huya/6763930
-#EXTINF:-1 group-title="影视",「轮播」搞笑鬼片
-http://txtest-xp2p.p2p.huya.com/src/1524418070-1524418070-6547325756081438720-3048959596-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",「动漫」搞笑篮球
-https://www.goodiptv.club/huya/9401305
-#EXTINF:-1 group-title="影视",「轮播」古墓系列
-http://txtest-xp2p.p2p.huya.com/src/1423782085-1423782085-6115097491705692160-2847687626-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",「轮播」古装武侠
-http://txtest-xp2p.p2p.huya.com/src/1394575562-1394575562-5989656430590820352-2789274580-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",「轮播」谷阿莫
-http://tc-tct.douyucdn2.cn/dyliveflv3/515005rCEIVtWIO2.flv?wsAuth=07cbb9ce10693f3f32594f401c9da6a5&token=cpn-androidmpro-0-515005-9b51c33b12b409763636191c20249fe563a63a3921429fca&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play3
-#EXTINF:-1 group-title="影视",「轮播」国产电影
-https://www.goodiptv.club/huya/5423
-#EXTINF:-1 group-title="影视",海绵宝宝「中配」
-https://www.goodiptv.club/huya/1569773
-#EXTINF:-1 group-title="影视",海绵宝宝「中配」
-https://www.goodiptv.club/huya/7528160
 #EXTINF:-1 group-title="影视",「轮播」动漫
 http://tc-tct.douyucdn2.cn/dyliveflv1a/206858rtesHKjl.flv?wsAuth=874ec8068853bd13e2fa21a68f258440&token=cpn-androidmpro-0-206858-355488b41ed19088616f37e791a58fcf3679923943a09438&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="影视",「动漫」航海王
 https://www.goodiptv.club/huya/16913382
-#EXTINF:-1 group-title="影视",「轮播」动漫
-https://www.goodiptv.club/huya/997925
-#EXTINF:-1 group-title="影视",「轮播」贺岁大片
-http://txtest-xp2p.p2p.huya.com/src/1524418118-1524418118-6547325962239868928-3048959692-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",「轮播」黑帮系列
-http://txtest-xp2p.p2p.huya.com/src/1388472589-1388472589-5963444361147449344-2777068634-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",洪金宝
-http://txtest-xp2p.p2p.huya.com/src/73821423-73821423-317060597529182208-2710090468-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",「轮播」华语电影
-https://www.goodiptv.club/huya/3928
-#EXTINF:-1 group-title="影视",「轮播」华语经典
-https://www.goodiptv.club/huya/434971
-#EXTINF:-1 group-title="影视",「轮播」怀旧90
-https://www.goodiptv.club/huya/9275635
 #EXTINF:-1 group-title="影视",怀旧动画
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c53_lb_86_600_t10/c53_lb_86_600_t10.m3u8?key=0b292c335e5837e943a226d3c381f872a
-#EXTINF:-1 group-title="影视",「轮播」环球纪录片•我去看世界
-http://tc-tct.douyucdn2.cn/dyliveflv3/601930rwicFHJGB8.flv?wsAuth=525cd3b43141e4320868639b8b61060e&token=cpn-androidmpro-0-601930-ca6364825deedd44363bca70c28ae01dde0dce181b5bd5b6&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play3
-#EXTINF:-1 group-title="影视",「轮播」霍格影片
-https://www.goodiptv.club/huya/8814650
-#EXTINF:-1 group-title="影视",「动漫」假面骑士
-https://www.goodiptv.club/huya/1218414
-#EXTINF:-1 group-title="影视",金庸
-http://txtest-xp2p.p2p.huya.com/src/1394575551-1394575551-5989656383346180096-2789274558-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",经典神剧
-https://www.goodiptv.club/huya/3700024
-#EXTINF:-1 group-title="影视",警匪系列
-http://txtest-xp2p.p2p.huya.com/src/1449581589-1449581589-6225905517638713344-3048959636-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",「轮播」经典小品
 http://tc-tct.douyucdn2.cn/dyliveflv3/10153463r0oBSmAG.flv?wsAuth=327f9acf257abce343423d9ca46ef9ae&token=cpn-androidmpro-0-10153463-ee6c60cb51b36154827caa4c2303ce140c03be821c37ac32&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play3
 #EXTINF:-1 group-title="影视",铠甲勇士
 http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c53_lb_82_720P_t10/c53_lb_82_720P_t10.m3u8?key
-#EXTINF:-1 group-title="影视",柯南
-http://tc-tct.douyucdn2.cn/dyliveflv1/1783144rfOmlmBsl.flv?wsAuth=28505c6f4e0d21083c6673a6c88155f9&token=cpn-androidmpro-0-1783144-0e90e0b408c470cae6cdf2ad6aad11b162987d23cac243d8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
-#EXTINF:-1 group-title="影视",「轮播」可乐电影
-https://www.goodiptv.club/huya/20415
-#EXTINF:-1 group-title="影视",「轮播」恐怖经典
-https://www.goodiptv.club/huya/1165374
 #EXTINF:-1 group-title="影视",拉拉队集锦
 http://111.62.156.15/tx.flv.huya.com/src/1099531627798-1099531627798-85899440409280512-2199063379052-10057-A-0-1.flv?wsSecret=eb319019991a1dbf62b1b50ae3742474&wsTime=6283abbe&u=0&seqid=16527099506830430&ctype=tars_mp&fs=bgct&t=102
-#EXTINF:-1 group-title="影视",蜡笔小新
-https://www.goodiptv.club/huya/11352970
 #EXTINF:-1 group-title="影视",林正英•1
-https://www.goodiptv.club/huya/7356023
-#EXTINF:-1 group-title="影视",林正英•2
 http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=1351505899
-#EXTINF:-1 group-title="影视",林正英•3
+#EXTINF:-1 group-title="影视",林正英•2
 http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=1353685311
-#EXTINF:-1 group-title="影视",刘德华
-https://www.goodiptv.club/huya/2516864
-#EXTINF:-1 group-title="影视",麓山迷踪
-https://www.goodiptv.club/huya/4505431
-#EXTINF:-1 group-title="影视",漫威电影
-https://www.goodiptv.club/huya/4282654
-#EXTINF:-1 group-title="影视",漫威电影
-https://www.goodiptv.club/huya/6140589
-#EXTINF:-1 group-title="影视",猫和老鼠
-https://www.goodiptv.club/huya/7888428
 #EXTINF:-1 group-title="影视",猫和老鼠
 http://118.26.120.23:55336/tslive/c52_lb_83_600_t10/c52_lb_83_600_t10.m3u8?key=0b292c335e5837e94e2f0ba45f46717fa
-#EXTINF:-1 group-title="影视",「轮播」冒险•雷探长
-http://tc-tct.douyucdn2.cn/dyliveflv1a/5028934rycTKS10z.flv?wsAuth=fca419aee212ec16d1a4a16a222fe17a&token=cpn-androidmpro-0-5028934-6f2c979be2bac93e305af1e33b2ebe68ba4dd328d626c87a&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
-#EXTINF:-1 group-title="影视",「轮播」米娅电影
-https://www.goodiptv.club/huya/6537888
-#EXTINF:-1 group-title="影视",名侦探柯南
-https://www.goodiptv.club/huya/6484910
-#EXTINF:-1 group-title="影视",名侦探柯南
-https://www.goodiptv.club/huya/1783144
 #EXTINF:-1 group-title="影视",名侦探柯南
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c54_lb_157_600_t10/c54_lb_157_600_t10.m3u8?key=0b292c335e5837e948e91dd5d11efa525
-#EXTINF:-1 group-title="影视",名侦探柯南
-https://www.goodiptv.club/huya/7620081
-#EXTINF:-1 group-title="影视",名侦探柯南
-https://www.goodiptv.club/huya/5377297
-#EXTINF:-1 group-title="影视",「轮播」恐怖电影
-https://www.goodiptv.club/huya/263824
 #EXTINF:-1 group-title="影视",「欧美」电影•1
-http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=24923327
-#EXTINF:-1 group-title="影视",「欧美」电影•2
 http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=37988782
 #EXTINF:-1 group-title="影视",七龙珠改
-http://txtest-xp2p.p2p.huya.com/src/1524418081-1524418081-6547325803326078976-3048959618-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",七龙珠改
 https://www.goodiptv.club/huya/11601966
-#EXTINF:-1 group-title="影视",热播大片
-http://txtest-xp2p.p2p.huya.com/src/1423782052-1423782052-6115097349971771392-2847687560-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",神乐影片•1
-https://www.goodiptv.club/huya/122402
-#EXTINF:-1 group-title="影视",神乐影片•2
-https://www.goodiptv.club/huya/85894
-#EXTINF:-1 group-title="影视",沈腾
-http://txtest-xp2p.p2p.huya.com/src/1524418085-1524418085-6547325820505948160-3048959626-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",沈腾
-http://txtest-xp2p.p2p.huya.com/src/1524439855-1524439855-6547419321943982080-3049003166-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",死神来了系列
-http://txtest-xp2p.p2p.huya.com/src/1423782074-1423782074-6115097444461051904-2847687604-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",猫和老鼠
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c52_lb_83_600_t10/c52_lb_83_600_t10.m3u8?key=0b292c335e5837e94e2f0ba45f46717fa
 #EXTINF:-1 group-title="影视",猫和老鼠
 https://www.goodiptv.club/huya/11352879
-#EXTINF:-1 group-title="影视",童年动漫
-https://www.goodiptv.club/huya/7256376
 #EXTINF:-1 group-title="影视",童年经典
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c57_lb_211_600_t10/c57_lb_211_600_t10.m3u8?key=0f2a06793124310bce6ba95fc0ac76131
-#EXTINF:-1 group-title="影视",王晶导演
-http://txtest-xp2p.p2p.huya.com/src/1524434111-1524434111-6547394651651833856-3048991678-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",吴孟达
-http://txtest-xp2p.p2p.huya.com/src/1388457235-1388457235-5963378416219586560-2777037926-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",舞迷心窍
-http://play-radio-stream3.hndt.com/now/WBhgSD3A/playlist.m3u8
-#EXTINF:-1 group-title="影视",喜剧经典
-https://www.goodiptv.club/huya/9650887
-#EXTINF:-1 group-title="影视",喜剧系列
-http://txtest-xp2p.p2p.huya.com/src/1524434089-1524434089-6547394557162553344-3048991634-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",香港电影
 http://epg.112114.xyz/huya/11602058
-#EXTINF:-1 group-title="影视",香港黑帮系列
-http://txtest-xp2p.p2p.huya.com/src/1394575541-1394575541-5989656340396507136-2789274538-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",香港恐怖
-https://www.goodiptv.club/huya/218859
-#EXTINF:-1 group-title="影视",玄幻系列
-http://txtest-xp2p.p2p.huya.com/src/1423787882-1423787882-6115122389631107072-2847699220-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",雅俗共赏
-https://www.goodiptv.club/huya/9938431
-#EXTINF:-1 group-title="影视",野生动物世界
-http://tc-tct.douyucdn2.cn/dyliveflv3a/4837387rlw2Uy8Vt.flv?wsAuth=0b4ed9b162a1abebabc424c2c8363445&token=cpn-androidmpro-0-4837387-8ad81bcd9db6237ceae3cf3aa8a2bef2ebaed5e0f6e6c25e&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play4
 #EXTINF:-1 group-title="影视",樱桃小丸子「中配」
 http://zzy789.xyz/bili.php?id=23242774
-#EXTINF:-1 group-title="影视",咏春系列
-http://txtest-xp2p.p2p.huya.com/src/1448737814-1448737814-6222281531608530944-2777037662-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",宇哥电影
-https://www.goodiptv.club/huya/413573
-#EXTINF:-1 group-title="影视",甄子丹
-http://txtest-xp2p.p2p.huya.com/src/1423787820-1423787820-6115122123343134720-2847699096-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",窒息的操作
-http://tc-tct.douyucdn2.cn/dyliveflv3/8881729rhLJl0hsz.flv?wsAuth=2b433f4e66b05beefd113941d6b710a4&token=cpn-androidmpro-0-8881729-08895ec5f5ffd3d1c22d68c88907ed10311932c6d00e86f8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play3
-#EXTINF:-1 group-title="影视",中二日记
-https://www.goodiptv.club/huya/9505575
-#EXTINF:-1 group-title="影视",中国功夫系列
-http://txtest-xp2p.p2p.huya.com/src/1448738174-1448738174-6222283077796757504-2847699112-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",中国美食
-http://tc-tct.douyucdn2.cn/dyliveflv3a/5451871rB8yLvO4l.flv?wsAuth=8e624279edba18d0d95286037c5a44fc&token=cpn-androidmpro-0-5451871-8e1b2cb697537ede84d70b2086baceca2018b357a6b1294f&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play4
-#EXTINF:-1 group-title="影视",中华小当家
-http://txtest-xp2p.p2p.huya.com/1449588921-1449588921-6225937008338927616-2789274526-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",中华小当家
 https://www.goodiptv.club/huya/11342413
-#EXTINF:-1 group-title="影视",周润发
-http://txtest-xp2p.p2p.huya.com/src/1394565192-1394565192-5989611891779960832-2789253840-10057-A-0-1.xs
-#EXTINF:-1 group-title="影视",周星驰
-http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=1353881242
-#EXTINF:-1 group-title="影视",周星驰「粤语」
-http://txtest-xp2p.p2p.huya.com/src/1250011-1250011-5368756364640256-2777036638-10057-A-0-1.xs
 #EXTINF:-1 group-title="影视",T-ARA
 http://tc-tct.douyucdn2.cn/dyliveflv3/17732rtara.flv?wsAuth=444b28368bc6cf374a8f22734242cdec&token=cpn-androidmpro-0-17732-2c028a7d8b69ac4c6a43608933105351f464f9543343a70c&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play3
 #EXTINF:-1 group-title="少儿",「电影」棉花糖和云朵妈妈
@@ -3381,14 +3173,10 @@ http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c57_lb_2
 http://tc-tct.douyucdn2.cn/dyliveflv1a/206858rtesHKjl.flv?wsAuth=9eaefce6cc13570baaeff857204a4d5c&token=cpn-androidmpro-0-206858-355488b41ed19088c77925a51949944b3aeedf4a96fd30f8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="少儿",海绵宝宝
 https://www.goodiptv.club/huya/11352919
-#EXTINF:-1 group-title="少儿",海绵宝宝
-https://www.goodiptv.club/huya/2250349
 #EXTINF:-1 group-title="少儿",嘉佳卡通
 http://xjayrf.eatuo.com:9901/tsfile/live/1045_1.m3u8
 #EXTINF:-1 group-title="少儿",金鹰卡通
 http://223.151.51.27:85/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="少儿",卡酷少儿
-http://39.135.138.60:18890/PLTV/88888910/224/3221225677/index.m3u8
 #EXTINF:-1 group-title="少儿",蜡笔小新「中配」
 http://zzy789.xyz/bili.php?id=10375360
 #EXTINF:-1 group-title="少儿",南京少儿
@@ -4621,8 +4409,6 @@ http://vd3.bdstatic.com/mda-ihai9qt3yny3sx53/hd/mda-ihai9qt3yny3sx53.mp4?pd=19&v
 https://vdse.bdstatic.com//b35227847ccb42d48ea6414d47087ce9.mp4?authorization=bce-auth-v1%2F40f207e648424f47b2e3dfbb1014b1a5%2F2020-01-31T15%3A26%3A59Z%2F-1%2Fhost
 #EXTINF:-1 group-title="MTV",「中」sheep张艺兴
 https://vdse.bdstatic.com/971347deaddd6fdb5ada6e87e4722ece.mp4?authorization=bce-auth-v1%2Ffb297a5cc0fb434c971b8fa103e8dd7b%2F2017-05-11T09%3A02%3A31Z%2F-1%2F
-#EXTINF:-1 group-title="杂货",1 TV
-http://amtv1.livestreamingcdn.com/am2abr/index.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="杂货",30A Investment Pitch
 http://www.30a-tv.com/InvPit.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="杂货",30A Music
@@ -4639,8 +4425,6 @@ https://reflect-access-sacramento.cablecast.tv/live-7/live/live.m3u8?checkedby:i
 https://reflect-access-sacramento.cablecast.tv/live-8/live/live.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="杂货",Action Hollywood Movies
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="杂货",AD Sports 6
-http://www.elahmad.com/tv/m3u8/adtv.m3u8?id=abudhabi_Sports6&checkedby:iptvcat.com
 #EXTINF:-1 group-title="杂货",AFV Family
 http://linear-12.frequency.stream/dist/roku/12/hls/master/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="杂货",Ahlulbayt TV
@@ -4649,8 +4433,6 @@ http://109.123.126.14:1935/live/livestream1.sdp/chunklist.m3u8?checkedby:iptvcat
 http://media.smc-host.com:1935/alhorreya.tv/_definst_/mp4:alhorreya3/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="杂货",Al Maali TV (1080p)
 https://kali.vdopanel.com:3986/live/mbashalive.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="杂货",Aliento Vision
-http://livestreamcdn.net:1935/AlientoSD/smil:AlientoSD.smil/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="杂货",American Horrors
 http://170.178.189.66:1935/live/Stream1/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="杂货",American Horrors
@@ -5807,3 +5589,4 @@ https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/25c049869a174f5fa58
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/4d0dc6b22b8e48efa4a984ec990a4faf/1200.m3u8
 #EXTINF:-1 group-title="动物世界",足球超级猎食者(下)
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/d7aec4db75da469d915a5dd7a0fb3d70/1200.m3u8
+
