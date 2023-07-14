@@ -1,0 +1,55 @@
+﻿#EXTM3U
+#EXTINF:-1 group-title="🌙月光宝盒",TVB 翡翠台
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571187&extension=ts
+#EXTINF:-1 group-title="🌙月光宝盒",TVB 经典台
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571197&extension=ts
+#EXTINF:-1 group-title="🌙月光宝盒",TVB 娱乐新闻台
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571188&extension=ts
+#EXTINF:-1 group-title="🌙月光宝盒",TVBJ1
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=153395
+#EXTINF:-1 group-title="🌙月光宝盒",TVB1
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=153396
+#EXTINF:-1 group-title="🌙月光宝盒",TVBE
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=153398
+#EXTINF:-1 group-title="🌙月光宝盒",TVB XING HE
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=153506
+#EXTINF:-1 group-title="🌙月光宝盒",TVB CHINESE
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=153401
+#EXTINF:-1 group-title="🌙月光宝盒",TVB CLASSIC
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=153503
+#EXTINF:-1 group-title="🌙月光宝盒",TVB E NEWS
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=153504
+#EXTINF:-1 group-title="🌙月光宝盒",TVB PEARL
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=153399
+#EXTINF:-1 group-title="🌙月光宝盒",TVB DRAMA
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=153400
+#EXTINF:-1 group-title="🌙月光宝盒",TVB JADE
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&extension=ts&stream=153505
+#EXTINF:-1 group-title="🌙月光宝盒",astro 爱奇艺
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571198&extension=ts
+#EXTINF:-1 group-title="🌙月光宝盒",astro 小太阳
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571230&extension=ts
+#EXTINF:-1 group-title="🌙月光宝盒",astro AOD 351
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571226&extension=ts
+#EXTINF:-1 group-title="🌙月光宝盒",astro AOD 353
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571229&extension=ts
+#EXTINF:-1 group-title="🌙月光宝盒",天映经典
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571182&extension=ts
+#EXTINF:-1 group-title="🌙月光宝盒",天映频道
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571218&extension=ts
+#EXTINF:-1 group-title="🌙月光宝盒",中天亚洲台
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571212&extension=ts
+#EXTINF:-1 group-title="🌙月光宝盒",探索亚洲
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571181&extension=ts
+#EXTINF:-1 group-title="🌙月光宝盒",探索频道
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571210&extension=ts
+#EXTINF:-1 group-title="🌙太阳宝盒",astro 爱艺
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571198&extension=ts
+#EXTINF:-1 group-title="🌙太阳宝盒",astro 小阳
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571230&extension=ts
+#EXTINF:-1 group-title="🌙太阳宝盒",翡翠
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571187&extension=ts
+#EXTINF:-1 group-title="🌙太阳宝盒",经典
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571197&extension=ts
+#EXTINF:-1 group-title="🌙太阳宝盒",娱乐新闻
+http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571188&extension=ts
