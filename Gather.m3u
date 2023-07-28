@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epg.112114.xyz,http://epg.51zmt.top:8000/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+﻿#EXTM3U 
 #EXTINF:-1 group-title="4K",BTV纪实科教 8K
 http://159.75.85.63:6798
 #EXTINF:-1 group-title="4K",Clarity 4K
@@ -10,11 +10,11 @@ https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_
 #EXTINF:-1 group-title="4K",苏州4K
 http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
 #EXTINF:-1 group-title="4K",CCTV16 4K
-https://iptv.yang-1989.top/api/bestv.php?id=cctv16hd4k/15000000
+https://live.goodiptv.club/api/bestv.php?id=cctv16hd4k/15000000
 #EXTINF:-1 group-title="4K",CCTV 4K
-https://iptv.yang-1989.top/api/bestv.php?id=cctv4k/15000000
+https://live.goodiptv.club/api/bestv.php?id=cctv4k/15000000
 #EXTINF:-1 group-title="4K",欢笑剧场 4k
-https://iptv.yang-1989.top/api/bestv.php?id=hxjc4k/15000000
+https://live.goodiptv.club/api/bestv.php?id=hxjc4k/15000000
 #EXTINF:-1 group-title="4K",影视 4K「移动」
 http://111.11.123.37:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3
 #EXTINF:-1 group-title="IPV6•4K",CCTV8K 测试
@@ -1340,181 +1340,183 @@ rtmp://119.81.124.89/sat/tv421
 #EXTINF:-1 group-title="港澳台",人间卫视
 http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 #EXTINF:-1 group-title="央视",CCTV1
-https://iptv.yang-1989.top/api/bestv.php?id=cctv1hd8m/8000000
+http://jh.d7g.cn/tv/migu.php?id=cctv1b
 #EXTINF:-1 group-title="央视",CCTV2
-https://iptv.yang-1989.top/api/bestv.php?id=cctv2hd8m/8000000
+http://jh.d7g.cn/tv/migu.php?id=cctv2
 #EXTINF:-1 group-title="央视",CCTV3
-https://iptv.yang-1989.top/api/bestv.php?id=cctv38m/8000000
+http://jh.d7g.cn/tv/migu.php?id=cctv3
 #EXTINF:-1 group-title="央视",CCTV4
-https://iptv.yang-1989.top/api/bestv.php?id=cctv4hd8m/8000000
+http://jh.d7g.cn/tv/migu.php?id=cctv4
 #EXTINF:-1 group-title="央视",CCTV5
-https://iptv.yang-1989.top/api/bestv.php?id=cctv58m/8000000
+http://jh.d7g.cn/tv/migu.php?id=cctv5b
 #EXTINF:-1 group-title="央视",CCTV5+
-https://iptv.yang-1989.top/api/bestv.php?id=cctv5phd8m/8000000
+http://jh.d7g.cn/tv/migu.php?id=cctv5p2
 #EXTINF:-1 group-title="央视",CCTV6
-https://iptv.yang-1989.top/api/bestv.php?id=cctv6hd8m/8000000
+http://jh.d7g.cn/tv/migu.php?id=cctv6
 #EXTINF:-1 group-title="央视",CCTV7
-https://iptv.yang-1989.top/api/bestv.php?id=cctv7hd8m/8000000
+http://jh.d7g.cn/tv/migu.php?id=cctv7
 #EXTINF:-1 group-title="央视",CCTV8
-https://iptv.yang-1989.top/api/bestv.php?id=cctv8hd8m/8000000
+CCTV-8HD,http://jh.d7g.cn/tv/migu.php?id=cctv8
 #EXTINF:-1 group-title="央视",CCTV9
-https://iptv.yang-1989.top/api/bestv.php?id=cctv9hd8m/8000000
+CCTV-9HD,http://jh.d7g.cn/tv/migu.php?id=cctv9
 #EXTINF:-1 group-title="央视",CCTV10
-https://iptv.yang-1989.top/api/bestv.php?id=cctv10hd8m/8000000
+CCTV-10HD,http://jh.d7g.cn/tv/migu.php?id=cctv10
 #EXTINF:-1 group-title="央视",CCTV11
-https://iptv.yang-1989.top/api/bestv.php?id=cctv11hd8m/8000000
+CCTV-11HD,http://jh.d7g.cn/tv/migu.php?id=cctv11
 #EXTINF:-1 group-title="央视",CCTV12
-https://iptv.yang-1989.top/api/bestv.php?id=cctv12hd8m/8000000
+CCTV-11HD,http://jh.d7g.cn/tv/migu.php?id=cctv12
 #EXTINF:-1 group-title="央视",CCTV13
-https://iptv.yang-1989.top/api/bestv.php?id=cctv13xwhd8m/8000000
+CCTV-11HD,http://jh.d7g.cn/tv/migu.php?id=cctv13
 #EXTINF:-1 group-title="央视",CCTV14
-https://iptv.yang-1989.top/api/bestv.php?id=cctvsehd8m/8000000
+CCTV-11HD,http://jh.d7g.cn/tv/migu.php?id=cctv14
 #EXTINF:-1 group-title="央视",CCTV15
-https://iptv.yang-1989.top/api/bestv.php?id=cctv15hd8m/8000000
+CCTV-11HD,http://jh.d7g.cn/tv/migu.php?id=cctv15
 #EXTINF:-1 group-title="央视",CCTV16
-https://iptv.yang-1989.top/api/bestv.php?id=cctv16hd8m/8000000
+CCTV-11HD,http://jh.d7g.cn/tv/migu.php?id=cctv16
 #EXTINF:-1 group-title="央视",CCTV17
-https://iptv.yang-1989.top/api/bestv.php?id=cctv17hd8m/8000000
+CCTV-11HD,http://jh.d7g.cn/tv/migu.php?id=cctv17
 #EXTINF:-1 group-title="卫视",江苏卫视
-https://iptv.yang-1989.top/api/bestv.php?id=jswshd8m/8000000
-#EXTINF:-1 group-title="卫视",广西卫视
-https://iptv.yang-1989.top/api/bestv.php?id=gxwshd8m/8000000
-#EXTINF:-1 group-title="卫视",四川卫视
-https://iptv.yang-1989.top/api/bestv.php?id=scwshd/8000000
+http://jh.d7g.cn/tv/migu.php?id=jsws
 #EXTINF:-1 group-title="卫视",湖南卫视
-https://iptv.yang-1989.top/api/bestv.php?id=hunanwshd8m/8000000
+http://jh.d7g.cn/tv/migu.php?id=hunws
 #EXTINF:-1 group-title="卫视",浙江卫视
-https://iptv.yang-1989.top/api/bestv.php?id=zjwshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=zjwshd8m/8000000
 #EXTINF:-1 group-title="卫视",东方卫视
-https://iptv.yang-1989.top/api/bestv.php?id=dfwshd8m/8000000
-#EXTINF:-1 group-title="卫视",北京卫视
-https://iptv.yang-1989.top/api/bestv.php?id=bjwshd8m/8000000
-#EXTINF:-1 group-title="卫视",天津卫视
-https://iptv.yang-1989.top/api/bestv.php?id=tjwshd8m/8000000
-#EXTINF:-1 group-title="卫视",辽宁卫视
-https://iptv.yang-1989.top/api/bestv.php?id=lnwshd8m/8000000
-#EXTINF:-1 group-title="卫视",安徽卫视
-https://iptv.yang-1989.top/api/bestv.php?id=ahwshd8m/8000000
-#EXTINF:-1 group-title="卫视",黑龙江卫视
-https://iptv.yang-1989.top/api/bestv.php?id=hljwshd8m/8000000
+http://jh.d7g.cn/tv/migu.php?id=dfws2
 #EXTINF:-1 group-title="卫视",广东卫视
-https://iptv.yang-1989.top/api/bestv.php?id=gdwshd8m/8000000
+http://jh.d7g.cn/tv/migu.php?id=gdws2
 #EXTINF:-1 group-title="卫视",深圳卫视
-https://iptv.yang-1989.top/api/bestv.php?id=szwshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=szwshd8m/8000000
+#EXTINF:-1 group-title="卫视",陕西卫视
+http://jh.d7g.cn/tv/migu.php?id=sxws
 #EXTINF:-1 group-title="卫视",湖北卫视
-https://iptv.yang-1989.top/api/bestv.php?id=hubeiws8m/8000000
+http://jh.d7g.cn/tv/migu.php?id=hubws
+#EXTINF:-1 group-title="卫视",广西卫视
+https://live.goodiptv.club/api/bestv.php?id=gxwshd8m/8000000
+#EXTINF:-1 group-title="卫视",四川卫视
+http://jh.d7g.cn/tv/migu.php?id=scws
+#EXTINF:-1 group-title="卫视",北京卫视
+http://jh.d7g.cn/tv/migu.php?id=bjws
+#EXTINF:-1 group-title="卫视",天津卫视
+https://live.goodiptv.club/api/bestv.php?id=tjwshd8m/8000000
+#EXTINF:-1 group-title="卫视",辽宁卫视
+http://jh.d7g.cn/tv/migu.php?id=lnws
+#EXTINF:-1 group-title="卫视",安徽卫视
+https://live.goodiptv.club/api/bestv.php?id=ahwshd8m/8000000
+#EXTINF:-1 group-title="卫视",黑龙江卫视
+https://live.goodiptv.club/api/bestv.php?id=hljwshd8m/8000000
 #EXTINF:-1 group-title="卫视",吉林卫视
-https://iptv.yang-1989.top/api/bestv.php?id=jlwshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=jlwshd8m/8000000
 #EXTINF:-1 group-title="卫视",山东卫视
-https://iptv.yang-1989.top/api/bestv.php?id=sdws8m/8000000
+http://jh.d7g.cn/tv/migu.php?id=sdws
 #EXTINF:-1 group-title="卫视",江西卫视
-https://iptv.yang-1989.top/api/bestv.php?id=jxws8m/8000000
+http://jh.d7g.cn/tv/migu.php?id=jxws
 #EXTINF:-1 group-title="卫视",河南卫视
-https://iptv.yang-1989.top/api/bestv.php?id=hnwshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=hnwshd8m/8000000
 #EXTINF:-1 group-title="卫视",河北卫视
-https://iptv.yang-1989.top/api/bestv.php?id=hbwshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=hbwshd8m/8000000
 #EXTINF:-1 group-title="卫视",甘肃卫视
-https://iptv.yang-1989.top/api/bestv.php?id=gswshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=gswshd8m/8000000
 #EXTINF:-1 group-title="卫视",重庆卫视
-https://iptv.yang-1989.top/api/bestv.php?id=cqws8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=cqws8m/8000000
 #EXTINF:-1 group-title="卫视",东南卫视
-https://iptv.yang-1989.top/api/bestv.php?id=dnwshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=dnwshd8m/8000000
 #EXTINF:-1 group-title="卫视",云南卫视
-https://iptv.yang-1989.top/api/bestv.php?id=ynwshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=ynwshd8m/8000000
 #EXTINF:-1 group-title="卫视",贵州卫视
-https://iptv.yang-1989.top/api/bestv.php?id=gzwshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=gzwshd8m/8000000
 #EXTINF:-1 group-title="卫视",海南卫视
-https://iptv.yang-1989.top/api/bestv.php?id=hainanwshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=hainanwshd8m/8000000
 #EXTINF:-1 group-title="数字",五星体育
-https://iptv.yang-1989.top/api/bestv.php?id=wxtyhd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=wxtyhd8m/8000000
 #EXTINF:-1 group-title="数字",东方财经
-https://iptv.yang-1989.top/api/bestv.php?id=dfcjhd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=dfcjhd8m/8000000
 #EXTINF:-1 group-title="数字",上海第一财经
-https://iptv.yang-1989.top/api/bestv.php?id=dycjhd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=dycjhd8m/8000000
 #EXTINF:-1 group-title="数字",上视新闻
-https://iptv.yang-1989.top/api/bestv.php?id=xwzhhd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=xwzhhd8m/8000000
 #EXTINF:-1 group-title="数字",上海都市
-https://iptv.yang-1989.top/api/bestv.php?id=dshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=dshd8m/8000000
 #EXTINF:-1 group-title="数字",上海纪实
-https://iptv.yang-1989.top/api/bestv.php?id=jspdhd/4000000
+https://live.goodiptv.club/api/bestv.php?id=jspdhd/4000000
 #EXTINF:-1 group-title="数字",东方影视
-https://iptv.yang-1989.top/api/bestv.php?id=dfyshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=dfyshd8m/8000000
 #EXTINF:-1 group-title="数字",华语影院
-https://iptv.yang-1989.top/api/bestv.php?id=hyyy8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=hyyy8m/8000000
 #EXTINF:-1 group-title="数字",星光影院
-https://iptv.yang-1989.top/api/bestv.php?id=xgyy8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=xgyy8m/8000000
 #EXTINF:-1 group-title="数字",谍战剧场
-https://iptv.yang-1989.top/api/bestv.php?id=dzjc8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=dzjc8m/8000000
 #EXTINF:-1 group-title="数字",全球大片
-https://iptv.yang-1989.top/api/bestv.php?id=qqdp8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=qqdp8m/8000000
 #EXTINF:-1 group-title="数字",热门剧场
-https://iptv.yang-1989.top/api/bestv.php?id=rmjc8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=rmjc8m/8000000
 #EXTINF:-1 group-title="数字",都市剧场
-https://iptv.yang-1989.top/api/bestv.php?id=dsjc8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=dsjc8m/8000000
 #EXTINF:-1 group-title="数字",卡酷少儿
-https://iptv.yang-1989.top/api/bestv.php?id=kkse8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=kkse8m/8000000
 #EXTINF:-1 group-title="数字",炫动卡通
-https://iptv.yang-1989.top/api/bestv.php?id=hhxd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=hhxd8m/8000000
 #EXTINF:-1 group-title="数字",青春动漫
-https://iptv.yang-1989.top/api/bestv.php?id=qcdm8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=qcdm8m/8000000
 #EXTINF:-1 group-title="数字",宝宝动画
-https://iptv.yang-1989.top/api/bestv.php?id=bbdh8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=bbdh8m/8000000
 #EXTINF:-1 group-title="数字",动漫秀场
-https://iptv.yang-1989.top/api/bestv.php?id=dmxc8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=dmxc8m/8000000
 #EXTINF:-1 group-title="数字",欢笑剧场
-https://iptv.yang-1989.top/api/bestv.php?id=hxjc8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=hxjc8m/8000000
 #EXTINF:-1 group-title="数字",劲爆体育
-https://iptv.yang-1989.top/api/bestv.php?id=jbtyhd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=jbtyhd8m/8000000
 #EXTINF:-1 group-title="数字",超级体育
-https://iptv.yang-1989.top/api/bestv.php?id=qcsj8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=qcsj8m/8000000
 #EXTINF:-1 group-title="数字",快乐垂钓
-https://iptv.yang-1989.top/api/bestv.php?id=klcd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=klcd8m/8000000
 #EXTINF:-1 group-title="数字",金鹰纪实
-https://iptv.yang-1989.top/api/bestv.php?id=jyjs8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=jyjs8m/8000000
 #EXTINF:-1 group-title="数字",戏曲精选
-https://iptv.yang-1989.top/api/bestv.php?id=xqjx8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=xqjx8m/8000000
 #EXTINF:-1 group-title="数字",上视外语
-https://iptv.yang-1989.top/api/bestv.php?id=icshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=icshd8m/8000000
 #EXTINF:-1 group-title="数字",七彩戏剧
-https://iptv.yang-1989.top/api/bestv.php?id=qcxjhd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=qcxjhd8m/8000000
 #EXTINF:-1 group-title="数字",上海教育
-https://iptv.yang-1989.top/api/bestv.php?id=setvhd/8000000
+https://live.goodiptv.club/api/bestv.php?id=setvhd/8000000
 #EXTINF:-1 group-title="数字",全纪实
-https://iptv.yang-1989.top/api/bestv.php?id=qjshd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=qjshd8m/8000000
 #EXTINF:-1 group-title="数字",生活时尚
-https://iptv.yang-1989.top/api/bestv.php?id=shss8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=shss8m/8000000
 #EXTINF:-1 group-title="数字",新视觉
-https://iptv.yang-1989.top/api/bestv.php?id=xsjhd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=xsjhd8m/8000000
 #EXTINF:-1 group-title="数字",游戏风云
-https://iptv.yang-1989.top/api/bestv.php?id=yxfy8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=yxfy8m/8000000
 #EXTINF:-1 group-title="数字",热门综艺
-https://iptv.yang-1989.top/api/bestv.php?id=rmzy8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=rmzy8m/8000000
 #EXTINF:-1 group-title="数字",健康养生
-https://iptv.yang-1989.top/api/bestv.php?id=jkys8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=jkys8m/8000000
 #EXTINF:-1 group-title="数字",百变课堂
-https://iptv.yang-1989.top/api/bestv.php?id=bbkt8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=bbkt8m/8000000
 #EXTINF:-1 group-title="数字",看天下精选
-https://iptv.yang-1989.top/api/bestv.php?id=ktxjx8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=ktxjx8m/8000000
 #EXTINF:-1 group-title="数字",电竞天堂
-https://iptv.yang-1989.top/api/bestv.php?id=djtt8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=djtt8m/8000000
 #EXTINF:-1 group-title="数字",陶瓷高清
-https://iptv.yang-1989.top/api/bestv.php?id=taocihd/8000000
+https://live.goodiptv.club/api/bestv.php?id=taocihd/8000000
 #EXTINF:-1 group-title="数字",中国教育-1
-https://iptv.yang-1989.top/api/bestv.php?id=zgjy1t8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=zgjy1t8m/8000000
 #EXTINF:-1 group-title="数字",中国教育-4
-https://iptv.yang-1989.top/api/bestv.php?id=zgjy4hd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=zgjy4hd8m/8000000
 #EXTINF:-1 group-title="数字",纪实科教
-https://iptv.yang-1989.top/api/bestv.php?id=dajs8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=dajs8m/8000000
 #EXTINF:-1 group-title="数字",茶频道
-https://iptv.yang-1989.top/api/bestv.php?id=cpdhdavs8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=cpdhdavs8m/8000000
 #EXTINF:-1 group-title="数字",足球高清
-https://iptv.yang-1989.top/api/bestv.php?id=zqpd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=zqpd8m/8000000
 #EXTINF:-1 group-title="数字",法治天地
-https://iptv.yang-1989.top/api/bestv.php?id=fztd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=fztd8m/8000000
 #EXTINF:-1 group-title="数字",金色学堂
-https://iptv.yang-1989.top/api/bestv.php?id=jingsepd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=jingsepd8m/8000000
 #EXTINF:-1 group-title="数字",魅力足球
-https://iptv.yang-1989.top/api/bestv.php?id=mlyyhd8m/8000000
+https://live.goodiptv.club/api/bestv.php?id=mlyyhd8m/8000000
 #EXTINF:-1 group-title="地区",「安徽」安徽经济生活
 http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8?zanhd
 #EXTINF:-1 group-title="地区",「安徽」安徽影院
@@ -2284,7 +2286,7 @@ http://live1.plus.wifizs.cn/xwzh/sd/live.m3u8?zzhed
 #EXTINF:-1 group-title="地区",「浙江」诸暨新闻综合
 http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed
 #EXTINF:-1 group-title="赛事",绝地求生
-https://iptv.yang-1989.top/api/huya.php?id=100
+https://www.goodiptv.club/huya/100
 #EXTINF:-1 group-title="赛事",穿越火线
 http://tc-tct.douyucdn2.cn/dyliveflv1/605964rzzgGEOZHr.flv?wsAuth=43ef2d796067cbec9c238c73235a1005&token=cpn-androidmpro-0-605964-b9be22700076c085e82232beb0fbe7838e28994acafb3964&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
 #EXTINF:-1 group-title="赛事",和平精英•手游
@@ -2294,11 +2296,11 @@ http://tc-tct.douyucdn2.cn/dyliveflv1/9163712rMgvzHPS8.flv?wsAuth=08386df29327fb
 #EXTINF:-1 group-title="赛事",跑跑卡丁车
 http://tc-tct.douyucdn2.cn/dyliveflv1/7722576rWHyhVf6Z_2000.flv?wsAuth=05a690d94290609839e7c868f44fbc3d&token=cpn-androidmpro-0-7722576-6b878e1c279c4ee5468d3b8183a8170664764100093885bc&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
 #EXTINF:-1 group-title="赛事",王者荣耀
-https://iptv.yang-1989.top/api/huya.php?id=998
+https://www.goodiptv.club/huya/998
 #EXTINF:-1 group-title="赛事",英雄联盟
-https://iptv.yang-1989.top/api/huya.php?id=288016
+https://www.goodiptv.club/huya/288016
 #EXTINF:-1 group-title="赛事",英雄联盟•手游
-https://iptv.yang-1989.top/api/huya.php?id=33
+https://www.goodiptv.club/huya/33
 #EXTINF:-1 group-title="赛事",CSGO
 http://tc-tct.douyucdn2.cn/dyliveflv1/601514rYyuBBDiJK_2000.flv?wsAuth=392e2081de888c961c5b04e1cc969e2a&token=cpn-androidmpro-0-601514-ef59ba1cfb089365430a29ba0e9fabff647f749d2b368bd8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
 #EXTINF:-1 group-title="赛事",JJ斗地主
@@ -2320,13 +2322,13 @@ http://tc-tct.douyucdn2.cn/dyliveflv1a/6672862r90xSwiRP_2000.flv?wsAuth=1c2c516d
 #EXTINF:-1 group-title="赛事",永劫无间
 http://tc-tct.douyucdn2.cn/dyliveflv1a/9662891rlaeIAP3A_2000.flv?wsAuth=07d3125e1ec93068330e14be22a09454&token=cpn-androidmpro-0-9662891-7de7dc707e1a51dddb241f8ecad4f36806d04b45752cbbd8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="音乐",音乐石榴
-https://iptv.yang-1989.top/api/huya.php?id=17091681
+https://www.goodiptv.club/huya/17091681
 #EXTINF:-1 group-title="音乐",治愈•放松
-https://iptv.yang-1989.top/api/huya.php?id=21241811
+https://www.goodiptv.club/huya/21241811
 #EXTINF:-1 group-title="音乐",新歌速递
-https://iptv.yang-1989.top/api/huya.php?id=19439762
+https://www.goodiptv.club/huya/19439762
 #EXTINF:-1 group-title="音乐",阅读•学习
-https://iptv.yang-1989.top/api/huya.php?id=21241813
+https://www.goodiptv.club/huya/21241813
 #EXTINF:-1 group-title="音乐",PMC
 https://hls.pmchd.live/hls/stream.m3u8
 #EXTINF:-1 group-title="音乐",Retro
@@ -2882,87 +2884,87 @@ http://stream.rcs.revma.com/ks4vsmg3qtzuv
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/radio/重庆广播.png" group-title="广播",重庆广播
 https://satellitepull.cnr.cn/live/wxcqyygb/playlist.m3u8
 #EXTINF:-1 group-title="埋堆堆",埋堆堆1
-https://iptv.yang-1989.top/api/huya.php?id=23749096
+https://www.goodiptv.club/huya/23749096
 #EXTINF:-1 group-title="埋堆堆",埋堆堆2
-https://iptv.yang-1989.top/api/huya.php?id=23735126
+https://www.goodiptv.club/huya/23735126
 #EXTINF:-1 group-title="埋堆堆",埋堆堆3
-https://iptv.yang-1989.top/api/huya.php?id=23865152
+https://www.goodiptv.club/huya/23865152
 #EXTINF:-1 group-title="埋堆堆",埋堆堆4
-https://iptv.yang-1989.top/api/huya.php?id=23903196
+https://www.goodiptv.club/huya/23903196
 #EXTINF:-1 group-title="埋堆堆",埋堆堆5
-https://iptv.yang-1989.top/api/huya.php?id=23740156
+https://www.goodiptv.club/huya/23740156
 #EXTINF:-1 group-title="埋堆堆",埋堆堆6
-https://iptv.yang-1989.top/api/huya.php?id=23728660
+https://www.goodiptv.club/huya/23728660
 #EXTINF:-1 group-title="埋堆堆",埋堆堆7
-https://iptv.yang-1989.top/api/huya.php?id=23865058
+https://www.goodiptv.club/huya/23865058
 #EXTINF:-1 group-title="埋堆堆",埋堆堆8
-https://iptv.yang-1989.top/api/huya.php?id=23734183
+https://www.goodiptv.club/huya/23734183
 #EXTINF:-1 group-title="埋堆堆",埋堆堆9
-https://iptv.yang-1989.top/api/huya.php?id=23865036
+https://www.goodiptv.club/huya/23865036
 #EXTINF:-1 group-title="埋堆堆",埋堆堆10
-https://iptv.yang-1989.top/api/huya.php?id=23734246
+https://www.goodiptv.club/huya/23734246
 #EXTINF:-1 group-title="埋堆堆",埋堆堆11
-https://iptv.yang-1989.top/api/huya.php?id=23863796
+https://www.goodiptv.club/huya/23863796
 #EXTINF:-1 group-title="埋堆堆",埋堆堆12
-https://iptv.yang-1989.top/api/huya.php?id=23749083
+https://www.goodiptv.club/huya/23749083
 #EXTINF:-1 group-title="埋堆堆",埋堆堆13
-https://iptv.yang-1989.top/api/huya.php?id=23824164
+https://www.goodiptv.club/huya/23824164
 #EXTINF:-1 group-title="埋堆堆",埋堆堆14
-https://iptv.yang-1989.top/api/huya.php?id=23863804
+https://www.goodiptv.club/huya/23863804
 #EXTINF:-1 group-title="埋堆堆",埋堆堆15
-https://iptv.yang-1989.top/api/huya.php?id=23865142
+https://www.goodiptv.club/huya/23865142
 #EXTINF:-1 group-title="埋堆堆",埋堆堆16
-https://iptv.yang-1989.top/api/huya.php?id=23903183
+https://www.goodiptv.club/huya/23903183
 #EXTINF:-1 group-title="埋堆堆",埋堆堆17
-https://iptv.yang-1989.top/api/huya.php?id=23903130
+https://www.goodiptv.club/huya/23903130
 #EXTINF:-1 group-title="埋堆堆",埋堆堆18
-https://iptv.yang-1989.top/api/huya.php?id=23734169
+https://www.goodiptv.club/huya/23734169
 #EXTINF:-1 group-title="埋堆堆",埋堆堆19
-https://iptv.yang-1989.top/api/huya.php?id=23728674
+https://www.goodiptv.club/huya/23728674
 #EXTINF:-1 group-title="影视",「动画」茶啊二中
-https://iptv.yang-1989.top/api/huya.php?id=11213191
+https://www.goodiptv.club/huya/11213191
 #EXTINF:-1 group-title="影视",「解说」大象放映室
-https://iptv.yang-1989.top/api/huya.php?id=21277391
+https://www.goodiptv.club/huya/21277391
 #EXTINF:-1 group-title="影视",「解说」电视剧
-https://iptv.yang-1989.top/api/huya.php?id=25018873
+https://www.goodiptv.club/huya/25018873
 #EXTINF:-1 group-title="影视",「解说」电影•1
-https://iptv.yang-1989.top/api/huya.php?id=20289754
+https://www.goodiptv.club/huya/20289754
 #EXTINF:-1 group-title="影视",「解说」电影•2
-https://iptv.yang-1989.top/api/huya.php?id=24983280
+https://www.goodiptv.club/huya/24983280
 #EXTINF:-1 group-title="影视",「解说」电影•3
-https://iptv.yang-1989.top/api/huya.php?id=24396428
+https://www.goodiptv.club/huya/24396428
 #EXTINF:-1 group-title="影视",「解说」动漫•1
-https://iptv.yang-1989.top/api/huya.php?id=19757963
+https://www.goodiptv.club/huya/19757963
 #EXTINF:-1 group-title="影视",「解说」恐怖电影
-https://iptv.yang-1989.top/api/huya.php?id=23419131
+https://www.goodiptv.club/huya/23419131
 #EXTINF:-1 group-title="影视",「解说」漫威
-https://iptv.yang-1989.top/api/huya.php?id=17089779
+https://www.goodiptv.club/huya/17089779
 #EXTINF:-1 group-title="影视",「解说」美剧
-https://iptv.yang-1989.top/api/huya.php?id=20488841
+https://www.goodiptv.club/huya/20488841
 #EXTINF:-1 group-title="影视",「解说」七龙珠
-https://iptv.yang-1989.top/api/huya.php?id=25650806
+https://www.goodiptv.club/huya/25650806
 #EXTINF:-1 group-title="影视",「解说」止戈电影
-https://iptv.yang-1989.top/api/huya.php?id=19863777
+https://www.goodiptv.club/huya/19863777
 #EXTINF:-1 group-title="影视",「录播」 斯诺克•1
-https://iptv.yang-1989.top/api/huya.php?id=880214
+https://www.goodiptv.club/huya/880214
 #EXTINF:-1 group-title="影视",「录播」 斯诺克•2
-https://iptv.yang-1989.top/api/huya.php?id=880625
+https://www.goodiptv.club/huya/880625
 #EXTINF:-1 group-title="影视",「录像」 挨饿德•1
-https://iptv.yang-1989.top/api/huya.php?id=20985858
+https://www.goodiptv.club/huya/20985858
 #EXTINF:-1 group-title="影视",「录像」 挨饿德•2
-https://iptv.yang-1989.top/api/huya.php?id=17693860
+https://www.goodiptv.club/huya/17693860
 #EXTINF:-1 group-title="影视",「录像」 互扇巴掌大赛
-https://iptv.yang-1989.top/api/huya.php?id=20072873
+https://www.goodiptv.club/huya/20072873
 #EXTINF:-1 group-title="影视",「录像」 荒野求生
-https://iptv.yang-1989.top/api/huya.php?id=593667
+https://www.goodiptv.club/huya/593667
 #EXTINF:-1 group-title="影视",「录像」 野行者
-https://iptv.yang-1989.top/api/huya.php?id=20072663
+https://www.goodiptv.club/huya/20072663
 #EXTINF:-1 group-title="影视",「轮播」跳舞
-https://iptv.yang-1989.top/api/huya.php?id=24634408
+https://www.goodiptv.club/huya/24634408
 #EXTINF:-1 group-title="影视",「轮播」乐高大师赛
-https://iptv.yang-1989.top/api/huya.php?id=26355776
+https://www.goodiptv.club/huya/26355776
 #EXTINF:-1 group-title="影视",「轮播」国产悬疑
-https://iptv.yang-1989.top/api/huya.php?id=11342395
+https://www.goodiptv.club/huya/11342395
 #EXTINF:-1 group-title="影视",奥特曼
 http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c57_lb_210_600_t10/c57_lb_210_600_t10.m3u8?key
 #EXTINF:-1 group-title="影视",「轮播」成龙
@@ -2970,11 +2972,11 @@ http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=34460526
 #EXTINF:-1 group-title="影视",「轮播」电影•1
 http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=1353059120
 #EXTINF:-1 group-title="影视",「轮播」哆啦A梦
-https://iptv.yang-1989.top/api/huya.php?id=11601963
+https://www.goodiptv.club/huya/11601963
 #EXTINF:-1 group-title="影视",「轮播」动漫
 http://tc-tct.douyucdn2.cn/dyliveflv1a/206858rtesHKjl.flv?wsAuth=874ec8068853bd13e2fa21a68f258440&token=cpn-androidmpro-0-206858-355488b41ed19088616f37e791a58fcf3679923943a09438&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="影视",「动漫」航海王
-https://iptv.yang-1989.top/api/huya.php?id=16913382
+https://www.goodiptv.club/huya/16913382
 #EXTINF:-1 group-title="影视",怀旧动画
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c53_lb_86_600_t10/c53_lb_86_600_t10.m3u8?key=0b292c335e5837e943a226d3c381f872a
 #EXTINF:-1 group-title="影视",「轮播」经典小品
@@ -2994,11 +2996,11 @@ http://lvbaiducdncmn.inter.iqiyi.com/tslive/c54_lb_157_600_t10/c54_lb_157_600_t1
 #EXTINF:-1 group-title="影视",「欧美」电影•1
 http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=37988782
 #EXTINF:-1 group-title="影视",七龙珠改
-https://iptv.yang-1989.top/api/huya.php?id=11601966
+https://www.goodiptv.club/huya/11601966
 #EXTINF:-1 group-title="影视",猫和老鼠
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c52_lb_83_600_t10/c52_lb_83_600_t10.m3u8?key=0b292c335e5837e94e2f0ba45f46717fa
 #EXTINF:-1 group-title="影视",猫和老鼠
-https://iptv.yang-1989.top/api/huya.php?id=11352879
+https://www.goodiptv.club/huya/11352879
 #EXTINF:-1 group-title="影视",童年经典
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c57_lb_211_600_t10/c57_lb_211_600_t10.m3u8?key=0f2a06793124310bce6ba95fc0ac76131
 #EXTINF:-1 group-title="影视",香港电影
@@ -3006,7 +3008,7 @@ http://epg.112114.xyz/huya/11602058
 #EXTINF:-1 group-title="影视",樱桃小丸子「中配」
 http://zzy789.xyz/bili.php?id=23242774
 #EXTINF:-1 group-title="影视",中华小当家
-https://iptv.yang-1989.top/api/huya.php?id=11342413
+https://www.goodiptv.club/huya/11342413
 #EXTINF:-1 group-title="影视",T-ARA
 http://tc-tct.douyucdn2.cn/dyliveflv3/17732rtara.flv?wsAuth=444b28368bc6cf374a8f22734242cdec&token=cpn-androidmpro-0-17732-2c028a7d8b69ac4c6a43608933105351f464f9543343a70c&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play3
 #EXTINF:-1 group-title="少儿",「电影」棉花糖和云朵妈妈
@@ -3034,7 +3036,7 @@ http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c54_lb_1
 #EXTINF:-1 group-title="少儿",动画电影
 http://118.26.120.36:55336/tslive/c51_lb_118_600_t10/c51_lb_118_600_t10.m3u8?key=0b292c335e5837e94f25985f7c35b1efe
 #EXTINF:-1 group-title="少儿",漫画说历史
-https://iptv.yang-1989.top/api/huya.php?id=20985824
+https://www.goodiptv.club/huya/20985824
 #EXTINF:-1 group-title="少儿",动画小天地
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c55_lb_139_600_t10/c55_lb_139_600_t10.m3u8?key=0f2a06793124310bc475d77d809f3ab51
 #EXTINF:-1 group-title="少儿",儿歌大全
@@ -3044,7 +3046,7 @@ http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c57_lb_2
 #EXTINF:-1 group-title="少儿",「轮播」二次猿动画
 http://tc-tct.douyucdn2.cn/dyliveflv1a/206858rtesHKjl.flv?wsAuth=9eaefce6cc13570baaeff857204a4d5c&token=cpn-androidmpro-0-206858-355488b41ed19088c77925a51949944b3aeedf4a96fd30f8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="少儿",海绵宝宝
-https://iptv.yang-1989.top/api/huya.php?id=11352919
+https://www.goodiptv.club/huya/11352919
 #EXTINF:-1 group-title="少儿",嘉佳卡通
 http://xjayrf.eatuo.com:9901/tsfile/live/1045_1.m3u8
 #EXTINF:-1 group-title="少儿",金鹰卡通
@@ -3064,7 +3066,7 @@ http://aliyuncdnct.inter.ptqy.gitv.tv/tslive/c54_lb_175_600_t10/c54_lb_175_600_t
 #EXTINF:-1 group-title="少儿",喜羊羊
 http://118.26.120.23:55336/tslive/c55_lb_91_1080P_t10/c55_lb_91_1080P_t10.m3u8?key=0b292c335e5837e943e554ef181bdcec1
 #EXTINF:-1 group-title="少儿",喜仔的动画世界
-https://iptv.yang-1989.top/api/huya.php?id=20036751
+https://www.goodiptv.club/huya/20036751
 #EXTINF:-1 group-title="少儿",小猪佩奇
 http://baiducdncmn2.inter.iqiyi.com/tslive/c53_lb_78_1080P_t10/c53_lb_78_1080P_t10.m3u8?key
 #EXTINF:-1 group-title="少儿",英文儿歌
