@@ -1339,93 +1339,93 @@ http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
 rtmp://119.81.124.89/sat/tv421
 #EXTINF:-1 group-title="港澳台「D」",人间卫视
 http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
-#EXTINF:-1 group-title="央视",CCTV1
+#EXTINF:-1 group-title="央视「D」",CCTV1
 https://tv.iill.top/bestv/migu/cctv1b
-#EXTINF:-1 group-title="央视",CCTV2
+#EXTINF:-1 group-title="央视「D」",CCTV2
 https://tv.iill.top/bestv/migu/cctv2
-#EXTINF:-1 group-title="央视",CCTV3
+#EXTINF:-1 group-title="央视「D」",CCTV3
 https://tv.iill.top/bestv/migu/cctv3
-#EXTINF:-1 group-title="央视",CCTV4
+#EXTINF:-1 group-title="央视「D」",CCTV4
 https://tv.iill.top/bestv/migu/cctv4
-#EXTINF:-1 group-title="央视",CCTV5
+#EXTINF:-1 group-title="央视「D」",CCTV5
 https://tv.iill.top/bestv/migu/cctv5b
-#EXTINF:-1 group-title="央视",CCTV5+
+#EXTINF:-1 group-title="央视「D」",CCTV5+
 https://tv.iill.top/bestv/migu/cctv5p2
-#EXTINF:-1 group-title="央视",CCTV6
+#EXTINF:-1 group-title="央视「D」",CCTV6
 https://tv.iill.top/bestv/migu/cctv6
-#EXTINF:-1 group-title="央视",CCTV7
+#EXTINF:-1 group-title="央视「D」",CCTV7
 https://tv.iill.top/bestv/migu/cctv7
-#EXTINF:-1 group-title="央视",CCTV8
+#EXTINF:-1 group-title="央视「D」",CCTV8
 CCTV-8HD,https://tv.iill.top/bestv/migu/cctv8
-#EXTINF:-1 group-title="央视",CCTV9
+#EXTINF:-1 group-title="央视「D」",CCTV9
 CCTV-9HD,https://tv.iill.top/bestv/migu/cctv9
-#EXTINF:-1 group-title="央视",CCTV10
+#EXTINF:-1 group-title="央视「D」",CCTV10
 CCTV-10HD,https://tv.iill.top/bestv/migu/cctv10
-#EXTINF:-1 group-title="央视",CCTV11
+#EXTINF:-1 group-title="央视「D」",CCTV11
 CCTV-11HD,https://tv.iill.top/bestv/migu/cctv11
-#EXTINF:-1 group-title="央视",CCTV12
+#EXTINF:-1 group-title="央视「D」",CCTV12
 CCTV-11HD,https://tv.iill.top/bestv/migu/cctv12
-#EXTINF:-1 group-title="央视",CCTV13
+#EXTINF:-1 group-title="央视「D」",CCTV13
 CCTV-11HD,https://tv.iill.top/bestv/migu/cctv13
-#EXTINF:-1 group-title="央视",CCTV14
+#EXTINF:-1 group-title="央视「D」",CCTV14
 CCTV-11HD,https://tv.iill.top/bestv/migu/cctv14
-#EXTINF:-1 group-title="央视",CCTV15
+#EXTINF:-1 group-title="央视「D」",CCTV15
 CCTV-11HD,https://tv.iill.top/bestv/migu/cctv15
-#EXTINF:-1 group-title="央视",CCTV16
+#EXTINF:-1 group-title="央视「D」",CCTV16
 CCTV-11HD,https://tv.iill.top/bestv/migu/cctv16
-#EXTINF:-1 group-title="央视",CCTV17
+#EXTINF:-1 group-title="央视「D」",CCTV17
 CCTV-11HD,https://tv.iill.top/bestv/migu/cctv17
-#EXTINF:-1 group-title="卫视",江苏卫视
+#EXTINF:-1 group-title="卫视「D」",江苏卫视
 https://tv.iill.top/bestv/migu/jsws
-#EXTINF:-1 group-title="卫视",湖南卫视
+#EXTINF:-1 group-title="卫视「D」",湖南卫视
 https://tv.iill.top/bestv/migu/hunws
-#EXTINF:-1 group-title="卫视",浙江卫视
+#EXTINF:-1 group-title="卫视「D」",浙江卫视
 https://tv.iill.top/bestv/zjwshd8m/8000000
-#EXTINF:-1 group-title="卫视",东方卫视
+#EXTINF:-1 group-title="卫视「D」",东方卫视
 https://tv.iill.top/bestv/migu/dfws2
-#EXTINF:-1 group-title="卫视",广东卫视
+#EXTINF:-1 group-title="卫视「D」",广东卫视
 https://tv.iill.top/bestv/migu/gdws2
-#EXTINF:-1 group-title="卫视",深圳卫视
+#EXTINF:-1 group-title="卫视「D」",深圳卫视
 https://tv.iill.top/bestv/szwshd8m/8000000
-#EXTINF:-1 group-title="卫视",陕西卫视
+#EXTINF:-1 group-title="卫视「D」",陕西卫视
 https://tv.iill.top/bestv/migu/sxws
-#EXTINF:-1 group-title="卫视",湖北卫视
+#EXTINF:-1 group-title="卫视「D」",湖北卫视
 https://tv.iill.top/bestv/migu/hubws
-#EXTINF:-1 group-title="卫视",广西卫视
+#EXTINF:-1 group-title="卫视「D」",广西卫视
 https://tv.iill.top/bestv/gxwshd8m/8000000
-#EXTINF:-1 group-title="卫视",四川卫视
+#EXTINF:-1 group-title="卫视「D」",四川卫视
 https://tv.iill.top/bestv/migu/scws
-#EXTINF:-1 group-title="卫视",北京卫视
+#EXTINF:-1 group-title="卫视「D」",北京卫视
 https://tv.iill.top/bestv/migu/bjws
-#EXTINF:-1 group-title="卫视",天津卫视
+#EXTINF:-1 group-title="卫视「D」",天津卫视
 https://tv.iill.top/bestv/tjwshd8m/8000000
-#EXTINF:-1 group-title="卫视",辽宁卫视
+#EXTINF:-1 group-title="卫视「D」",辽宁卫视
 https://tv.iill.top/bestv/migu/lnws
-#EXTINF:-1 group-title="卫视",安徽卫视
+#EXTINF:-1 group-title="卫视「D」",安徽卫视
 https://tv.iill.top/bestv/ahwshd8m/8000000
-#EXTINF:-1 group-title="卫视",黑龙江卫视
+#EXTINF:-1 group-title="卫视「D」",黑龙江卫视
 https://tv.iill.top/bestv/hljwshd8m/8000000
-#EXTINF:-1 group-title="卫视",吉林卫视
+#EXTINF:-1 group-title="卫视「D」",吉林卫视
 https://tv.iill.top/bestv/jlwshd8m/8000000
-#EXTINF:-1 group-title="卫视",山东卫视
+#EXTINF:-1 group-title="卫视「D」",山东卫视
 https://tv.iill.top/bestv/migu/sdws
-#EXTINF:-1 group-title="卫视",江西卫视
+#EXTINF:-1 group-title="卫视「D」",江西卫视
 https://tv.iill.top/bestv/migu/jxws
-#EXTINF:-1 group-title="卫视",河南卫视
+#EXTINF:-1 group-title="卫视「D」",河南卫视
 https://tv.iill.top/bestv/hnwshd8m/8000000
-#EXTINF:-1 group-title="卫视",河北卫视
+#EXTINF:-1 group-title="卫视「D」",河北卫视
 https://tv.iill.top/bestv/hbwshd8m/8000000
-#EXTINF:-1 group-title="卫视",甘肃卫视
+#EXTINF:-1 group-title="卫视「D」",甘肃卫视
 https://tv.iill.top/bestv/gswshd8m/8000000
-#EXTINF:-1 group-title="卫视",重庆卫视
+#EXTINF:-1 group-title="卫视「D」",重庆卫视
 https://tv.iill.top/bestv/cqws8m/8000000
-#EXTINF:-1 group-title="卫视",东南卫视
+#EXTINF:-1 group-title="卫视「D」",东南卫视
 https://tv.iill.top/bestv/dnwshd8m/8000000
-#EXTINF:-1 group-title="卫视",云南卫视
+#EXTINF:-1 group-title="卫视「D」",云南卫视
 https://tv.iill.top/bestv/ynwshd8m/8000000
-#EXTINF:-1 group-title="卫视",贵州卫视
+#EXTINF:-1 group-title="卫视「D」",贵州卫视
 https://tv.iill.top/bestv/gzwshd8m/8000000
-#EXTINF:-1 group-title="卫视",海南卫视
+#EXTINF:-1 group-title="卫视「D」",海南卫视
 https://tv.iill.top/bestv/hainanwshd8m/8000000
 #EXTINF:-1 group-title="数字",五星体育
 https://tv.iill.top/bestv/wxtyhd8m/8000000
