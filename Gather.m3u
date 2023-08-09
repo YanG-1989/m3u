@@ -1375,7 +1375,8 @@ http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
 #EXTINF:-1 group-title="•港澳台",TVBS欢乐
 rtmp://119.81.124.89/sat/tv421
 #EXTINF:-1 group-title="•港澳台",人间卫视
-http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="•央视",CCTV1
+http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="•央视",CCTV1
 https://tv.iill.top/bestv/cctv1hd8m/8000000
 #EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="•央视",CCTV2
 https://tv.iill.top/bestv/cctv2hd8m/8000000
@@ -3001,7 +3002,7 @@ https://tv.iill.top/huya/11352879
 #EXTINF:-1 group-title="•影视",童年经典
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c57_lb_211_600_t10/c57_lb_211_600_t10.m3u8?key=0f2a06793124310bce6ba95fc0ac76131
 #EXTINF:-1 group-title="•影视",香港电影
-http://epg.112114.xyz/huya/11602058
+https://tv.iill.top/huya/11602058
 #EXTINF:-1 group-title="•影视",樱桃小丸子「中配」
 http://zzy789.xyz/bili.php?id=23242774
 #EXTINF:-1 group-title="•影视",中华小当家
