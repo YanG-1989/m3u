@@ -1183,19 +1183,95 @@ http://198.16.100.90:8278/ctient/playlist.m3u8?tid=MDED1780059017800590&ct=19226
 http://198.16.100.90:8278/ctient/playlist.m3u8?tid=m6780c60bd34a13540795&ct=17874&tsum=06089e289a460b0685447b7656d550e3
 #EXTINF:-1 group-title="港澳台「P」",中天綜合
 http://198.16.100.90:8278/ctizhonghe/playlist.m3u8?tid=m85005aeec85b14021104&ct=17874&tsum=69f19f4b12ab79d2ee683b28cdb1c8ca
-#EXTINF:-1 group-title="•游戏赛事",绝地求生
-https://tv.iill.top/huya/100
-#EXTINF:-1 group-title="•游戏赛事",王者荣耀
-https://tv.iill.top/huya/998
-#EXTINF:-1 group-title="•游戏赛事",英雄联盟
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」英雄联盟-1
 https://tv.iill.top/huya/660000
-#EXTINF:-1 group-title="•游戏赛事",英雄联盟•手游
-https://tv.iill.top/huya/33
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」英雄联盟-2
+https://tv.iill.top/huya/660001
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」英雄联盟-3
+https://tv.iill.top/douyu/288016
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」英雄联盟-4
+https://tv.iill.top/douyu/705690
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」王者荣耀-1
+https://tv.iill.top/huya/660002
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」王者荣耀-2
+https://tv.iill.top/huya/660164
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-3
+https://tv.iill.top/douyu/1863767
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-4
+https://tv.iill.top/douyu/1984839
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-5
+https://tv.iill.top/douyu/3606468
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-5
+https://tv.iill.top/douyu/2045445
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生-1
+https://tv.iill.top/huya/660004
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生-2
+https://tv.iill.top/huya/660005
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生-3
+https://tv.iill.top/huya/660136
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」绝地求生-4
+https://tv.iill.top/douyu/100
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」和平精英-1
+https://tv.iill.top/huya/660006
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」和平精英-2
+https://tv.iill.top/douyu/999
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」金铲铲之战-1
+https://tv.iill.top/huya/660579
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」金铲铲之战-2
+https://tv.iill.top/douyu/9715241
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」CSGO
+https://tv.iill.top/huya/eslcsgo
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」DOTA2-1
+https://tv.iill.top/huya/660118
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」DOTA2-2
+https://tv.iill.top/douyu/30
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」云顶之弈
+https://tv.iill.top/douyu/522423
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」永劫无间
+https://tv.iill.top/huya/660115
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」使命召唤
+https://tv.iill.top/huya/11718629
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」使命召唤·手游
+https://tv.iill.top/douyu/9223245
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」穿越火线-1
+https://tv.iill.top/huya/660101
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」穿越火线-2
+https://tv.iill.top/douyu/605964
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」穿越火线-3
+https://tv.iill.top/douyu/5388537
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」穿越火线·手游
+https://tv.iill.top/huya/660102
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」第五人格-1
+https://tv.iill.top/huya/idvesports
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」第五人格-2
+https://tv.iill.top/douyu/3226194
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」第五人格-3
+https://tv.iill.top/douyu/11030737
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」逆战
+https://tv.iill.top/huya/nsl2021
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」原神
+https://tv.iill.top/douyu/10853239
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」QQ飞车·手游
+https://tv.iill.top/douyu/5040227
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」无畏契约
+https://tv.iill.top/douyu/4585645
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」JJ斗地主
+https://tv.iill.top/douyu/488743
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」我的世界
+https://tv.iill.top/douyu/738878
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」FIFA
+https://tv.iill.top/douyu/7692166
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」火影忍者
+https://tv.iill.top/douyu/1997723
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」跑跑卡丁车
+https://tv.iill.top/douyu/7722576
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」跑跑卡丁车·手游
+https://tv.iill.top/douyu/6672862
 #EXTINF:-1 group-title="•游戏赛事",穿越火线
 http://tc-tct.douyucdn2.cn/dyliveflv1/605964rzzgGEOZHr.flv?wsAuth=43ef2d796067cbec9c238c73235a1005&token=cpn-androidmpro-0-605964-b9be22700076c085e82232beb0fbe7838e28994acafb3964&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
-#EXTINF:-1 group-title="•游戏赛事",和平精英•手游
+#EXTINF:-1 group-title="•游戏赛事",和平精英·手游
 http://tc-tct.douyucdn2.cn/dyliveflv1/999rx47n2pp8pKD_2000.flv?wsAuth=6c429f39afed615e842e02ad1a9b1c6e&token=cpn-androidmpro-0-999-d32d75306aab2a7980ad37445844bcccf012d2bb110b5c33&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
-#EXTINF:-1 group-title="•游戏赛事",梦幻西游•手游
+#EXTINF:-1 group-title="•游戏赛事",梦幻西游·手游
 http://tc-tct.douyucdn2.cn/dyliveflv1/9163712rMgvzHPS8.flv?wsAuth=08386df29327fb79ef1cf360dd01e99c&token=cpn-androidmpro-0-9163712-b202112df1a8ff8ce762e1d3561b3623df9da0ea0a74880e&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
 #EXTINF:-1 group-title="•游戏赛事",跑跑卡丁车
 http://tc-tct.douyucdn2.cn/dyliveflv1/7722576rWHyhVf6Z_2000.flv?wsAuth=05a690d94290609839e7c868f44fbc3d&token=cpn-androidmpro-0-7722576-6b878e1c279c4ee5468d3b8183a8170664764100093885bc&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
@@ -1203,19 +1279,19 @@ http://tc-tct.douyucdn2.cn/dyliveflv1/7722576rWHyhVf6Z_2000.flv?wsAuth=05a690d94
 http://tc-tct.douyucdn2.cn/dyliveflv1/601514rYyuBBDiJK_2000.flv?wsAuth=392e2081de888c961c5b04e1cc969e2a&token=cpn-androidmpro-0-601514-ef59ba1cfb089365430a29ba0e9fabff647f749d2b368bd8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
 #EXTINF:-1 group-title="•游戏赛事",JJ斗地主
 http://tc-tct.douyucdn2.cn/dyliveflv1a/488743rAHScWyyII_2000.flv?wsAuth=fd695c444eeee99cc6122ed396c805ba&token=cpn-androidmpro-0-488743-df8b1830ef2e6ce156759645768df95bf77749da61fcc901&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
-#EXTINF:-1 group-title="•游戏赛事",LOL•云顶之弈
+#EXTINF:-1 group-title="•游戏赛事",云顶之弈
 http://tc-tct.douyucdn2.cn/dyliveflv1/522423rw7NgKaYl9_2000p.flv?wsAuth=ce3c0d32c960ce39c10717b795f7ddf9&token=cpn-androidmpro-0-522423-99737a9b5bf363c27f62ed65c0f1025bd1ccd3a301de7e93&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
-#EXTINF:-1 group-title="•游戏赛事",QQ飞车•手游
+#EXTINF:-1 group-title="•游戏赛事",QQ飞车·手游
 http://tc-tct.douyucdn2.cn/dyliveflv1a/5040227raXQRnvWY_2000.flv?wsAuth=0654cc930e81f0d2b58264196ded38af&token=cpn-androidmpro-0-5040227-432528579fe947129e217c8f3c39d0a94c81c1426c347bfb&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="•游戏赛事",狼人杀
 http://tc-tct.douyucdn2.cn/dyliveflv1/4615959rUFUtiJ3v.flv?wsAuth=7971ae0019a9ad2822153b7370372e8c&token=cpn-androidmpro-0-4615959-c88b2c2692ce476579452cdc62babd37285751f91f149297&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
-#EXTINF:-1 group-title="•游戏赛事",CF•手游
+#EXTINF:-1 group-title="•游戏赛事",CF·手游
 http://tc-tct.douyucdn2.cn/dyliveflv1/868191rjy69PsEAz_2000.flv?wsAuth=63d571126613feca6067da321aaf2df2&token=cpn-androidmpro-0-868191-846aacab1859214c037e4d0c263121580403540feea39901&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
 #EXTINF:-1 group-title="•游戏赛事",王者荣耀
 http://tc-tct.douyucdn2.cn/dyliveflv1a/1863767rkpl2_2000p.flv?wsAuth=f73077d85e523eb95b6ce1ea3581b46b&token=cpn-androidmpro-0-1863767-7b520f6fe0a2b18db3c111c4e3c14350afd2dcaf43d0ef60&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
-#EXTINF:-1 group-title="•游戏赛事",网易第五人格
+#EXTINF:-1 group-title="•游戏赛事",第五人格
 http://tc-tct.douyucdn2.cn/dyliveflv1a/3226194r73pCQamR_2000.flv?wsAuth=50ba16bb9998ec281101f2a5d8975be6&token=cpn-androidmpro-0-3226194-1c055b38aa29e2877292a9ffa392a948c894567c5e4b79ff&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
-#EXTINF:-1 group-title="•游戏赛事",跑跑卡丁车•手游
+#EXTINF:-1 group-title="•游戏赛事",跑跑卡丁车·手游
 http://tc-tct.douyucdn2.cn/dyliveflv1a/6672862r90xSwiRP_2000.flv?wsAuth=1c2c516dd80b1193241687841f128073&token=cpn-androidmpro-0-6672862-ee6297daa5d07f3494aad175947a679df4184f7934380258&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="•游戏赛事",永劫无间
 http://tc-tct.douyucdn2.cn/dyliveflv1a/9662891rlaeIAP3A_2000.flv?wsAuth=07d3125e1ec93068330e14be22a09454&token=cpn-androidmpro-0-9662891-7de7dc707e1a51dddb241f8ecad4f36806d04b45752cbbd8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
@@ -1241,10 +1317,14 @@ http://lu1.cc/a/play/php/gudou.php?id=mzt
 https://tv.iill.top/tvb/1
 #EXTINF:-1 tvg-name="J2" group-title="•港澳台",「HK」J2
 http://r.jdshipin.com/Nr5jq
-#EXTINF:-1 tvg-name="J2" group-title="•港澳台",「HK」无线新闻
+#EXTINF:-1 tvg-name="无线新闻" group-title="•港澳台",「HK」无线新闻
 https://tv.iill.top/tvb/4
-#EXTINF:-1 tvg-name="J2" group-title="•港澳台",「HK」无线财经体育资讯台
+#EXTINF:-1 tvg-name="无线财经体育资讯台" group-title="•港澳台",「HK」无线财经体育资讯台
 https://tv.iill.top/tvb/6
+#EXTINF:-1 tvg-name="事件直播頻道1" group-title="•港澳台",「HK」事件直播頻道1
+https://tv.iill.top/tvb/8
+#EXTINF:-1 tvg-name="事件直播頻道2" group-title="•港澳台",「HK」事件直播頻道2
+https://tv.iill.top/tvb/10
 #EXTINF:-1 tvg-name="VIUTV" group-title="•港澳台",「HK」VIU TV
 http://r.jdshipin.com/vSJvl
 #EXTINF:-1 tvg-name="凤凰中文" group-title="•港澳台",「HK」凤凰中文
