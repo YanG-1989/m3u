@@ -1184,7 +1184,7 @@ http://198.16.100.90:8278/ctient/playlist.m3u8?tid=m6780c60bd34a13540795&ct=1787
 #EXTINF:-1 group-title="港澳台「P」",中天綜合
 http://198.16.100.90:8278/ctizhonghe/playlist.m3u8?tid=m85005aeec85b14021104&ct=17874&tsum=69f19f4b12ab79d2ee683b28cdb1c8ca
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」英雄联盟-1
-https://tv.iill.top/huya/17455052
+https://tv.iill.top/huya/660000
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」英雄联盟-2
 https://tv.iill.top/huya/660001
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」英雄联盟-3
@@ -1300,7 +1300,7 @@ http://tc-tct.douyucdn2.cn/dyliveflv1a/6672862r90xSwiRP_2000.flv?wsAuth=1c2c516d
 #EXTINF:-1 group-title="•游戏赛事",永劫无间
 http://tc-tct.douyucdn2.cn/dyliveflv1a/9662891rlaeIAP3A_2000.flv?wsAuth=07d3125e1ec93068330e14be22a09454&token=cpn-androidmpro-0-9662891-7de7dc707e1a51dddb241f8ecad4f36806d04b45752cbbd8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="•特色",村AB·贵州
-https://tv.iill.top/huya/660000
+https://tv.iill.top/huya/17455052
 #EXTINF:-1 group-title="•特色",斯洛克-1
 https://tv.iill.top/huya/880214
 #EXTINF:-1 group-title="•特色",斯洛克-2
