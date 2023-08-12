@@ -1184,7 +1184,7 @@ http://198.16.100.90:8278/ctient/playlist.m3u8?tid=m6780c60bd34a13540795&ct=1787
 #EXTINF:-1 group-title="港澳台「P」",中天綜合
 http://198.16.100.90:8278/ctizhonghe/playlist.m3u8?tid=m85005aeec85b14021104&ct=17874&tsum=69f19f4b12ab79d2ee683b28cdb1c8ca
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」英雄联盟-1
-https://tv.iill.top/huya/660000
+https://tv.iill.top/huya/17455052
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」英雄联盟-2
 https://tv.iill.top/huya/660001
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」英雄联盟-3
@@ -1201,8 +1201,10 @@ https://tv.iill.top/douyu/1863767
 https://tv.iill.top/douyu/1984839
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-5
 https://tv.iill.top/douyu/3606468
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-5
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-6
 https://tv.iill.top/douyu/2045445
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-♀
+https://tv.iill.top/douyu/667319
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生-1
 https://tv.iill.top/huya/660004
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生-2
@@ -1229,9 +1231,9 @@ https://tv.iill.top/douyu/30
 https://tv.iill.top/douyu/522423
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」永劫无间
 https://tv.iill.top/huya/660115
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」使命召唤
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」使命召唤·手游-1
 https://tv.iill.top/huya/11718629
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」使命召唤·手游
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」使命召唤·手游-2
 https://tv.iill.top/douyu/9223245
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」穿越火线-1
 https://tv.iill.top/huya/660101
@@ -1253,7 +1255,9 @@ https://tv.iill.top/huya/nsl2021
 https://tv.iill.top/douyu/10853239
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」QQ飞车·手游
 https://tv.iill.top/douyu/5040227
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」无畏契约
+#EXTINF:-1 group-title="•游戏赛事",「虎牙」无畏契约-1
+https://tv.iill.top/huya/660679
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」无畏契约-2
 https://tv.iill.top/douyu/4585645
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」JJ斗地主
 https://tv.iill.top/douyu/488743
@@ -1295,6 +1299,14 @@ http://tc-tct.douyucdn2.cn/dyliveflv1a/3226194r73pCQamR_2000.flv?wsAuth=50ba16bb
 http://tc-tct.douyucdn2.cn/dyliveflv1a/6672862r90xSwiRP_2000.flv?wsAuth=1c2c516dd80b1193241687841f128073&token=cpn-androidmpro-0-6672862-ee6297daa5d07f3494aad175947a679df4184f7934380258&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="•游戏赛事",永劫无间
 http://tc-tct.douyucdn2.cn/dyliveflv1a/9662891rlaeIAP3A_2000.flv?wsAuth=07d3125e1ec93068330e14be22a09454&token=cpn-androidmpro-0-9662891-7de7dc707e1a51dddb241f8ecad4f36806d04b45752cbbd8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
+#EXTINF:-1 group-title="•特色",村AB·贵州
+https://tv.iill.top/huya/660000
+#EXTINF:-1 group-title="•特色",斯洛克-1
+https://tv.iill.top/huya/880214
+#EXTINF:-1 group-title="•特色",斯洛克-2
+https://tv.iill.top/huya/880625
+#EXTINF:-1 group-title="•特色",UFC
+https://tv.iill.top/huya/880223
 #EXTINF:-1 group-title="•特色",In WILD「自然」
 https://inwild-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="•特色",Deluxe Lounge HD「自然」
