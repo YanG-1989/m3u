@@ -1,4 +1,4 @@
-﻿#EXTM3U
+#EXTM3U
 #EXTINF:-1 group-title="4K",BTV纪实科教 8K
 http://159.75.85.63:6798
 #EXTINF:-1 group-title="4K",Clarity 4K
@@ -371,34 +371,12 @@ http://[2409:8087:2001:20:2800:0:df6e:eb02]/wh7f454c46tw933154163_1181121507/ott
 http://[2409:8087:2001:20:2800:0:df6e:eb02]/wh7f454c46tw1001680748_68258733/ott.mobaibox.com/PLTV/3/224/3221227940/index.m3u8
 #EXTINF:-1 tvg-name="null" group-title="IPV6·地区",「江苏」江苏音乐广播「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb02]/wh7f454c46tw1053240669_34336301/ott.mobaibox.com/PLTV/3/224/3221227949/index.m3u8
-#EXTINF:-1 tvg-name="江苏体育休闲" group-title="IPV6·地区",「江苏」江苏体育休闲「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb15]/wh7f454c46tw4122585160_1534269250/ott.mobaibox.com/PLTV/3/224/3221225935/index.m3u8
-#EXTINF:-1 tvg-name="江苏公共新闻" group-title="IPV6·地区",「江苏」江苏公共新闻「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb0e]/wh7f454c46tw4180964299_994803683/ott.mobaibox.com/PLTV/3/224/3221225925/index.m3u8
-#EXTINF:-1 tvg-name="江苏城市" group-title="IPV6·地区",「江苏」江苏城市「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb14]/wh7f454c46tw4264340981_727917420/ott.mobaibox.com/PLTV/3/224/3221225929/index.m3u8
-#EXTINF:-1 tvg-name="江苏综艺" group-title="IPV6·地区",「江苏」江苏综艺「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb14]/wh7f454c46tw105610815_-1378935043/ott.mobaibox.com/PLTV/3/224/3221225931/index.m3u8
-#EXTINF:-1 tvg-name="江苏影视" group-title="IPV6·地区",「江苏」江苏影视「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb14]/wh7f454c46tw25164341_-1061241932/ott.mobaibox.com/PLTV/3/224/3221225937/index.m3u8
-#EXTINF:-1 tvg-name="江苏教育" group-title="IPV6·地区",「江苏」江苏教育「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb15]/wh7f454c46tw329009742_-1392321549/ott.mobaibox.com/PLTV/3/224/3221225923/index.m3u8
 #EXTINF:-1 tvg-name="南京信息" group-title="IPV6·地区",「江苏」南京信息「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb10]/wh7f454c46tw3029680014_-204362700/ott.mobaibox.com/PLTV/3/224/3221227730/index.m3u8
 #EXTINF:-1 tvg-name="南京娱乐" group-title="IPV6·地区",「江苏」南京娱乐「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb10]/wh7f454c46tw3055198838_-954191684/ott.mobaibox.com/PLTV/3/224/3221227722/index.m3u8
 #EXTINF:-1 tvg-name="南京新闻综合" group-title="IPV6·地区",「江苏」南京新闻综合「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb14]/wh7f454c46tw3127461495_-1929938189/ott.mobaibox.com/PLTV/3/224/3221227213/index.m3u8
-#EXTINF:-1 tvg-name="南京少儿" group-title="IPV6·地区",「江苏」南京少儿「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb10]/wh7f454c46tw3425352611_209642410/ott.mobaibox.com/PLTV/4/224/3221227733/index.m3u8
-#EXTINF:-1 tvg-name="南京科技" group-title="IPV6·地区",「江苏」南京科技「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb04]/wh7f454c46tw3484211223_471033633/ott.mobaibox.com/PLTV/4/224/3221227194/index.m3u8
-#EXTINF:-1 tvg-name="南京生活" group-title="IPV6·地区",「江苏」南京生活「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb11]/wh7f454c46tw3530023629_201686832/ott.mobaibox.com/PLTV/4/224/3221227786/index.m3u8
-#EXTINF:-1 tvg-name="南京十八" group-title="IPV6·地区",「江苏」南京十八「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb04]/wh7f454c46tw3568749588_-1882152959/ott.mobaibox.com/PLTV/4/224/3221227178/index.m3u8
-#EXTINF:-1 tvg-name="南京影视" group-title="IPV6·地区",「江苏」南京影视「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb10]/wh7f454c46tw3614839407_-1644050596/ott.mobaibox.com/PLTV/4/224/3221227719/index.m3u8
 #EXTINF:-1 tvg-name="崇川" group-title="IPV6·地区",「江苏」崇川「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb25]/wh7f454c46tw1512301981_1454766575/ott.mobaibox.com/PLTV/4/224/3221228533/index.m3u8
 #EXTINF:-1 tvg-name="南通3" group-title="IPV6·地区",「江苏」南通3「IPV6」
@@ -479,8 +457,6 @@ http://[2409:8087:2001:20:2800:0:df6e:eb08]/wh7f454c46tw3271148643_-1965191630/o
 http://[2409:8087:2001:20:2800:0:df6e:eb23]/wh7f454c46tw2461344193_395316009/ott.mobaibox.com/PLTV/3/224/3221228208/index.m3u8
 #EXTINF:-1 group-title="IPV6·地区",「江苏」国学与家道「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb10]/wh7f454c46tw3793293799_-1723707003/ott.mobaibox.com/PLTV/4/224/3221227736/index.m3u8
-#EXTINF:-1 tvg-name="影视剧频道" group-title="IPV6·地区",「江苏」影视剧频道「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb08]/wh7f454c46tw3833147877_659161399/ott.mobaibox.com/PLTV/4/224/3221227372/index.m3u8
 #EXTINF:-1 tvg-name="镇江新闻综合l" group-title="IPV6·地区",「江苏」镇江新闻综合「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb24]/wh7f454c46tw3949322656_1360725434/ott.mobaibox.com/PLTV/4/224/3221228246/index.m3u8
 #EXTINF:-1 tvg-name="黑龙江文体" group-title="IPV6·地区",「黑龙江」黑龙江文体「IPV6」
@@ -899,8 +875,6 @@ https://hoytv-live-stream.hoy.tv/ch76/index-fhd.m3u8
 https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8
 #EXTINF:-1 group-title="港澳台「P」",HOY 资讯台
 https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/ABCNEWS.png" group-title="港澳台「P」",ABC News
-http://50.7.238.114:8278/abcnews_glo/playlist.m3u8?tid=MAEA6759929367599293&ct=19225&tsum=edd59704e2182262583ea5b0e1093b9d
 #EXTINF:-1 group-title="港澳台「P」",AnimalPlanet
 http://198.16.100.90:8278/AnimalPlanet/playlist.m3u8?tid=MC3C3856400538564005&ct=19225&tsum=6255ab9649411a8a70c7cbf2ebd7eb23
 #EXTINF:-1 group-title="港澳台「P」",Awani
@@ -919,10 +893,6 @@ http://198.16.100.90:8278/bbc2_antik/playlist.m3u8?tid=MA6A4519490645194906&ct=1
 http://50.7.238.114:8278/bloomberg_twn/playlist.m3u8?tid=MBDB5111864051118640&ct=19254&tsum=20e267ffc313070f5fff457700929457
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CBSNEWS.png" group-title="港澳台「P」",CBS News
 http://50.7.238.114:8278/cbsn_glo/playlist.m3u8?tid=ME2E7003518970035189&ct=19225&tsum=c1cc67ff59df6d6f608a400760be0bda
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CINEMAX.png" group-title="港澳台「P」",Cinemax
-http://50.7.238.114:8278/cinemax_twn/playlist.m3u8?tid=MCEC1614519816145198&ct=19193&tsum=e635ddeeb683b5cbcda1319d0cc18f84
-#EXTINF:-1 group-title="港澳台「P」",CINEMAX
-http://198.16.100.90:8278/cinemax_twn/playlist.m3u8?tid=MF6F1142326311423263&ct=19254&tsum=716939f2b6d75d0bb83a4c780e00dbd3
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNA.png" group-title="港澳台「P」",CNA
 http://50.7.238.114:8278/cna/playlist.m3u8?tid=MFAF1272681512726815&ct=19225&tsum=4d6a781648283b1bb018bc5c098432d0
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/CNBCHONGKONG.png" group-title="港澳台「P」",CNBC
@@ -931,30 +901,12 @@ http://50.7.238.114:8278/cnbc_twn/playlist.m3u8?tid=MCBC5251518852515188&ct=1925
 http://50.7.238.114:8278/golfchannel_twn/playlist.m3u8?tid=MFBF2798068027980680&ct=18393&tsum=d8204023f67120512c75a8882f121120
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/EYETV旅遊.png" group-title="港澳台「P」",EYETV旅遊
 http://50.7.238.114:8278/eyetvtravel_twn/playlist.m3u8?tid=MFDF5066608450666084&ct=19254&tsum=0bb4cbfc0d32bff89ab5b3a5352fcf94
-#EXTINF:-1 group-title="港澳台「P」",EYETV旅遊
-http://198.16.100.90:8278/eyetvtravel_twn/playlist.m3u8?tid=m3e96290c929116279255&ct=17874&tsum=7c060d25738e52e57372f408b9ccd0bc
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/EYETV戲劇.png" group-title="港澳台「P」",EYETV戲劇
 http://50.7.238.114:8278/eyetvxiju_twn/playlist.m3u8?tid=ME3E6686724066867240&ct=19254&tsum=728fc49fcd53cd770381ffd87883b1d1
 #EXTINF:-1 group-title="港澳台「P」",EYETV戲劇
 http://198.16.100.90:8278/eyetvxiju_twn/playlist.m3u8?tid=m379e8846d31b14432367&ct=17874&tsum=2c4c2acd16a5a5e00797ad6f4c4cb586
-#EXTINF:-1 group-title="港澳台「P」",EYETV戲劇
-http://198.16.100.90:8278/eyetvxiju_twn/playlist.m3u8?tid=ME3E6686724066867240&ct=19254&tsum=728fc49fcd53cd770381ffd87883b1d1
 #EXTINF:-1 group-title="港澳台「P」",GOODTVCH02真理台
 http://198.16.100.90:8278/good2_twn/playlist.m3u8?tid=ME9E3966510439665104&ct=19225&tsum=a2788b2ccea04a8a8082d663fb7838e5
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HBO.png" group-title="港澳台「P」",HBO 家庭
-http://50.7.238.114:8278/fyi_twn/playlist.m3u8?tid=18186902&ct=17988&&tsum=7a21abab0a5912afb0ebc01db111e59f
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HBO.png" group-title="港澳台「P」",HBO 強檔巨獻
-http://50.7.238.114:8278/hbohead_twn/playlist.m3u8?tid=MCDC6663932966639329&ct=19193&tsum=6999a99699b097f3af2ef550e5c81f93
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/HBO.png" group-title="港澳台「P」",HBO 原創钜獻
-http://50.7.238.114:8278/hbosignature_twn/playlist.m3u8?tid=MC5C5754321157543211&ct=19225&tsum=2b86077147813534b4cae6dd85bb3c4a
-#EXTINF:-1 group-title="港澳台「P」",HBO家庭
-http://198.16.100.90:8278/fyi_twn/playlist.m3u8?tid=m99b80124e3b4&ct=18337&tsum=73f6f540497de9a5615b9bd55bec8853
-#EXTINF:-1 group-title="港澳台「P」",HBO家庭
-http://198.16.100.90:8278/fyi_twn/playlist.m3u8?tid=MFCF7312728573127285&ct=18393&tsum=bc4d3db9ca83c3765cc75512a1bbbbe3
-#EXTINF:-1 group-title="港澳台「P」",HBO原創
-http://198.16.100.90:8278/hbosignature_twn/playlist.m3u8?tid=m48ee99a5dacb15948906&ct=17874&tsum=3d127801d49fa098b4118400117b4fbb
-#EXTINF:-1 group-title="港澳台「P」",HBO原創
-http://198.16.100.90:8278/hbosignature_twn/playlist.m3u8?tid=MD6D5767423357674233&ct=18392&tsum=995709f1100cf1b07964790160bfb4ee
 #EXTINF:-1 group-title="港澳台「P」",M-BBCLifestyle
 http://198.16.100.90:8278/bbclifestyle_twn/playlist.m3u8?tid=MFCF4299842642998426&ct=19225&tsum=d9cac5a62e5c33574ac9c3e860e01623
 #EXTINF:-1 group-title="港澳台「P」",M--SkyZ
@@ -989,7 +941,7 @@ http://50.7.238.114:8278/tvbs_n/playlist.m3u8?tid=MC3C9358473393584733&ct=19193&
 http://50.7.238.114:8278/viusix_twn/playlist.m3u8?tid=MD7D9950629799506297&ct=19234&tsum=83ba3013be3e325b775bcd348b38eab1
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/阿里郎ARIRANG.png" group-title="港澳台「P」",阿里郎 Arirang
 http://50.7.238.114:8278/arirang_twn/playlist.m3u8?tid=MF5F3988861839888618&ct=19249&tsum=781d490a6abe9f48f5b93e211cbe0307
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/愛爾達體育.png" group-title="港澳台「P」",愛爾達體育
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/愛爾達體育.png" group-title="港澳台「P」",愛爾達體育1台
 http://50.7.238.114:8278/eltasport_twn/playlist.m3u8?tid=md3567b35401611916221&ct=17874&tsum=be2a069324faa7f0737ca0d396d43745
 #EXTINF:-1 group-title="港澳台「P」",愛爾達體育1台
 http://198.16.100.90:8278/eltasport_twn/playlist.m3u8?tid=md3567b35401611916221&ct=17874&tsum=be2a069324faa7f0737ca0d396d43745
@@ -1001,12 +953,8 @@ http://50.7.238.114:8278/eltasport2_twn/playlist.m3u8?tid=ME3E4844502848445028&c
 http://198.16.100.90:8278/eltasport_twn/playlist.m3u8?tid=MB5B8133126081331260&ct=19225&tsum=5cb9d121709b107014d31cf856f3572e
 #EXTINF:-1 group-title="港澳台「P」",愛爾達體育2台
 http://198.16.100.90:8278/eltasport2_twn/playlist.m3u8?tid=MB2B3966739039667390&ct=19249&tsum=20bdbd3a22909e8d89aabe7a923c8c5b
-#EXTINF:-1 group-title="港澳台「P」",八大第一
-http://198.16.100.90:8278/badafirst/playlist.m3u8?tid=mb8efded78b4e12042621&ct=17874&tsum=028ad819cd9a0f949a043d652fa3e164
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/八大第一台.png" group-title="港澳台「P」",八大第一台
 http://50.7.238.114:8278/badafirst/playlist.m3u8?tid=mb8efded78b4e12042621&ct=17874&tsum=028ad819cd9a0f949a043d652fa3e164
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/八大戲劇.png" group-title="港澳台「P」",八大戲劇
-http://50.7.238.114:8278/badadrama/playlist.m3u8?ct=19225&tid=ME4E4734124647341246&tsum=c4e596572a79ad99675ee2137d1cc43d
 #EXTINF:-1 group-title="港澳台「P」",八大戲劇
 http://198.16.100.90:8278/badadrama/playlist.m3u8?tid=m4970c4e1b988&ct=18335&tsum=20cb1d15d4e116ab9e44edb542cf51a5
 #EXTINF:-1 group-title="港澳台「P」",八大戲劇
@@ -1015,14 +963,10 @@ http://198.16.100.90:8278/badadrama/playlist.m3u8?tid=m4a65d3abd9ee13871929&ct=1
 http://50.7.238.114:8278/badazhonghe/playlist.m3u8?ct=19225&tid=MC7C4692263546922635&tsum=ffdc7a6397b511103e0df0b92e678790
 #EXTINF:-1 group-title="港澳台「P」",八大綜合
 http://198.16.100.90:8278/badazhonghe/playlist.m3u8?tid=mfb8d64b6276514171054&ct=17874&tsum=a87466c997089ea7dce98cd17301667d
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/博斯高球1台.png" group-title="港澳台「P」",博斯高球1
-http://50.7.238.114:8278/bosigolf1_twn/playlist.m3u8?tid=m51c41c232c43&ct=18335&tsum=26e2e08302bf0409db94a692921fa08b
 #EXTINF:-1 group-title="港澳台「P」",博斯高球1
 http://198.16.100.90:8278/bosigolf1_twn/playlist.m3u8?tid=m51c41c232c43&ct=18335&tsum=26e2e08302bf0409db94a692921fa08b
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/博斯高球2台.png" group-title="港澳台「P」",博斯高球2
 http://50.7.238.114:8278/bosigolf2_twn/playlist.m3u8?tid=MC1C7192072371920723&ct=19249&tsum=fbea99cd84e7284f2cd3f8eab29435dc
-#EXTINF:-1 group-title="港澳台「P」",博斯高球2
-http://198.16.100.90:8278/bosigolf2_twn/playlist.m3u8?tid=MC1C7192072371920723&ct=19249&tsum=fbea99cd84e7284f2cd3f8eab29435dc
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/博斯魅力网.png" group-title="港澳台「P」",博斯魅力
 http://50.7.238.114:8278/bosisport1_twn/playlist.m3u8?tid=MCEC3596356835963568&ct=19234&tsum=b4f0f6248548de66e4ff5d230c130d1a
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/博斯網球.png" group-title="港澳台「P」",博斯網球
@@ -1031,48 +975,28 @@ http://50.7.238.114:8278/bositennis_twn/playlist.m3u8?tid=m60f4fd9da4d1&ct=18335
 http://198.16.100.90:8278/bositennis_twn/playlist.m3u8?tid=MA9A5922328659223286&ct=19225&tsum=c83f112dbae37be6d20618138fddcf77
 #EXTINF:-1 group-title="港澳台「P」",博斯網球
 http://198.16.100.90:8278/bositennis_twn/playlist.m3u8?tid=m60f4fd9da4d1&ct=18335&tsum=4d026bfb332da29886aa772f2e149edb
-#EXTINF:-1 group-title="港澳台「P」",博斯網球
-http://198.16.100.90:8278/bositennis_twn/playlist.m3u8?tid=MDCD2148551721485517&ct=19249&tsum=bab41ccd3843b938886a64a656463af0
 #EXTINF:-1 group-title="港澳台「P」",博斯運動2
 http://198.16.100.90:8278/bosisport2_twn/playlist.m3u8?tid=mb50f39eebf51&ct=18335&tsum=4f8960c36a3e7f2b069d574293809283
 #EXTINF:-1 group-title="港澳台「P」",博斯運動2
 http://198.16.100.90:8278/bosisport2_twn/playlist.m3u8?tid=ME9E7698135376981353&ct=19249&tsum=9eadcc8585f74357f09f1465844024c9
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/博斯運動II.png" group-title="港澳台「P」",博斯運動II
-http://50.7.238.114:8278/bosisport2_twn/playlist.m3u8?tid=mb50f39eebf51&ct=18335&tsum=4f8960c36a3e7f2b069d574293809283
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/大愛電視.png" group-title="港澳台「P」",大愛電視
 http://50.7.238.114:8278/daai_twn/playlist.m3u8?tid=m22178fccc70212656308&ct=17874&tsum=68bbc63cc5cb649ef5df75b1f0296336
 #EXTINF:-1 group-title="港澳台「P」",东森电影
 http://198.16.100.90:8278/ettvmovie/playlist.m3u8?tid=MEDE1688528216885282&ct=19193&tsum=843fbd698e260c1fcda128dce85ead3b
 #EXTINF:-1 group-title="港澳台「P」",东森洋片
-http://198.16.100.90:8278/ettvwestern/playlist.m3u8?tid=MC2C7134276471342764&ct=19225&tsum=4889d0c08d077336bd5066b912891aee
-#EXTINF:-1 group-title="港澳台「P」",东森洋片
 http://198.16.100.90:8278/ettvwestern/playlist.m3u8?tid=MA6A9686180296861802&ct=19193&tsum=79b2173b4455c70b50330eed478049a4
 #EXTINF:-1 group-title="港澳台「P」",東森LIVE
 http://198.16.100.90:8278/ettvnews/playlist.m3u8?ct=19225&tid=MAEA2793211727932117&tsum=151345e2ab6bc0c89ac85598f1988cd3
-#EXTINF:-1 group-title="港澳台「P」",東森財經
-http://198.16.100.90:8278/ettvcaijing_twn/playlist.m3u8?tid=MD5D9010164090101640&ct=19225&tsum=cc229773020f89af853b23d81e0e6371
-#EXTINF:-1 group-title="港澳台「P」",東森財經
-http://198.16.100.90:8278/ettvcaijing_twn/playlist.m3u8?tid=m999b5a0f7fca17599138&ct=17874&tsum=345085d2d6d4401fdb3da968dfee5a54
-#EXTINF:-1 group-title="港澳台「P」",東森財經新聞
-http://198.16.100.90:8278/ettvcaijing_twn/playlist.m3u8?tid=MB8B2069463920694639&ct=19249&tsum=05ff51a1b274ce7d31d05bbf11df18ad
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/東森電影.png" group-title="港澳台「P」",東森電影
-http://50.7.238.114:8278/ettvmovie/playlist.m3u8?tid=MBDB9268852192688521&ct=19254&tsum=7514b50ebc2e4b06f2e402578d0ac996
 #EXTINF:-1 group-title="港澳台「P」",東森電影
 http://198.16.100.90:8278/ettvmovie/playlist.m3u8?tid=md2ba4c243ed411481253&ct=17874&tsum=4637ffbc3260e78931b566300e618313
-#EXTINF:-1 group-title="港澳台「P」",東森戲劇
-http://198.16.100.90:8278/ettvdrama/playlist.m3u8?tid=MA2A9945921599459215&ct=19249&tsum=c9097ecdf4a17c0922196dbf04b0c6e7
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/東森新聞.png" group-title="港澳台「P」",東森新聞
-http://50.7.238.114:8278/ettvnews/playlist.m3u8?tid=m1785954e5a67&ct=18336&tsum=ce82c650c85a63fe1ead9e30f2d4bfb4
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/東森洋片.png" group-title="港澳台「P」",東森洋片
 http://50.7.238.114:8278/ettvwestern/playlist.m3u8?tid=MB7B8303252483032524&ct=19249&tsum=14f89967cdf6c504230be29a87cc54f0
-#EXTINF:-1 group-title="港澳台「P」",東森洋片
+#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/東森洋片.png" group-title="港澳台「P」",東森洋片
 http://198.16.100.90:8278/ettvwestern/playlist.m3u8?tid=mfdfc048e6c2416337202&ct=17874&tsum=cad39b26202d525ea820bee1d69e545f
 #EXTINF:-1 group-title="港澳台「P」",東森綜合
 http://198.16.100.90:8278/ettvzhonghe/playlist.m3u8?tid=m65c4e525f24617101171&ct=17874&tsum=663db593cfeefc92ce4b5d7461988f3f
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/动物星球.png" group-title="港澳台「P」",动物星球
 http://50.7.238.114:8278/animalplanet_twn/playlist.m3u8?tid=MABA3681856636818566&ct=18393&tsum=2066d4c793195f8449577d35af941288
-#EXTINF:-1 group-title="港澳台「P」",動物星球
-http://198.16.100.90:8278/animalplanet_twn/playlist.m3u8?tid=ME1E7303496773034967&ct=19225&tsum=07b0edc521a4edcb7a00d7e943b8aa72
 #EXTINF:-1 group-title="港澳台「P」",動物星球
 http://198.16.100.90:8278/animalplanet_twn/playlist.m3u8?tid=m4da2c053371613331372&ct=17874&tsum=4481f502bb91c2c67964feecfbc4b702
 #EXTINF:-1 group-title="港澳台「P」",動物星球
@@ -1081,7 +1005,7 @@ http://198.16.100.90:8278/animalplanet_twn/playlist.m3u8?tid=MABA368185663681856
 http://198.16.100.90:8278/feifannews_twn/playlist.m3u8?tid=ME3E6962233269622332&ct=19225&tsum=eea4d84db71e12ba91bfcf328f4dec9d
 #EXTINF:-1 group-title="港澳台「P」",翡翠台
 http://198.16.100.90:8278/jade_twn/playlist.m3u8?tid=ME6E1330319113303191&ct=19225&tsum=d76985c4965fd63807e131035f66af09
-#EXTINF:-1 group-title="港澳台「P」",翡翠台
+#EXTINF:-1 group-title="港澳台「P」",星河台
 http://198.16.100.90:8278/tvbxinhe_twn/playlist.m3u8?tid=ME2E8352893183528931&ct=19225&tsum=5f852c878e02000708a055c6b08a9405
 #EXTINF:-1 group-title="港澳台「P」",翡翠台
 http://198.16.100.90:8278/Wlt/playlist.m3u8?tid=MC9C7523788875237888&ct=19225&tsum=fc74aa160d3ca61369c2e5f3ae79ee8e
@@ -1103,20 +1027,10 @@ http://198.16.100.90:8278/jingtianintl_twn/playlist.m3u8?tid=ME4E763247957632479
 http://198.16.100.90:8278/jingtiancartoon_twn/playlist.m3u8?tid=m1465dab025b5&ct=18335&tsum=ba935e583d90bfbe1d1d9662e9ac600c
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/靖天卡通台.png" group-title="港澳台「P」",靖天卡通
 http://50.7.238.114:8278/jingtiancartoon_twn/playlist.m3u8?tid=m1465dab025b5&ct=18335&tsum=ba935e583d90bfbe1d1d9662e9ac600c
-#EXTINF:-1 group-title="港澳台「P」",龍祥時代
-http://198.16.100.90:8278/lungxiangtime_twn/playlist.m3u8?tid=MADA6805114368051143&ct=18392&tsum=d6a1f02ca9abd5368d2a365e40247ae8
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/美食星球.png" group-title="港澳台「P」",美食星球
-http://50.7.238.114:8278/foodplanet_twn/playlist.m3u8?tid=MADA1874549618745496&ct=19234&tsum=1a26f3cc623666b6bd2e40d2c16c214d
-#EXTINF:-1 group-title="港澳台「P」",美食星球
-http://198.16.100.90:8278/foodplanet_twn/playlist.m3u8?tid=MCCC8639507586395075&ct=19226&tsum=69f5a90ff21aa5f4f58667bcdd713353
 #EXTINF:-1 group-title="港澳台「P」",美亞電影
 http://198.16.100.90:8278/meiyamovie_twn/playlist.m3u8?tid=mcfe3e109029013892155&ct=17874&tsum=164baeda6ab6c4160f2775128cfc6f4e
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/民視第一台.png" group-title="港澳台「P」",民視第一台
-http://50.7.238.114:8278/lunghuajingdian_twn/playlist.m3u8?tid=MC2C7597780175977801&ct=19249&tsum=b7602981567d8f0171e8de29154f5014
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/民視臺灣.png" group-title="港澳台「P」",民視臺灣
 http://50.7.238.114:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD8196635981966359&ct=19226&tsum=b82639ac8b4590b4206effe348e2f9c2
-#EXTINF:-1 group-title="港澳台「P」",民視新聞
-http://198.16.100.90:8278/ftvnew_taiwan/playlist.m3u8?tid=md953ce86cdad16241449&ct=17874&tsum=949d4aace793a001dd41392b210ba406
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立台灣.png" group-title="港澳台「P」",三立台灣
 http://50.7.238.114:8278/sanlitaiwan/playlist.m3u8?tid=MBFB2351438523514385&ct=19193&tsum=15393958be0bf6c0905bbb578dad1240
 #EXTINF:-1 group-title="港澳台「P」",三立台灣
@@ -1125,12 +1039,6 @@ http://198.16.100.90:8278/sanlitaiwan/playlist.m3u8?tid=m92ccadc4dc3718157816&ct
 http://198.16.100.90:8278/sanlixiju_twn/playlist.m3u8?tid=MCFC5174201151742011&ct=19193&tsum=27477ddeec029345da276c2c903f09c2
 #EXTINF:-1 group-title="港澳台「P」",三立戏剧台
 http://198.16.100.90:8278/sanlixiju_twn/playlist.m3u8?tid=MA8A4626080046260800&ct=19053&tsum=205a453781925ebfb8996c1db8d4ed59
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/三立綜合.png" group-title="港澳台「P」",三立綜合
-http://50.7.238.114:8278/sanlizhonghe/playlist.m3u8?ct=17874&tid=m3362167a08a014596868&tsum=4472a7c943b67bf52fe5e836ca9f3b6b
-#EXTINF:-1 group-title="港澳台「P」",三立綜合
-http://198.16.100.90:8278/sanlizhonghe/playlist.m3u8?tid=m3362167a08a014596868&ct=17874&tsum=4472a7c943b67bf52fe5e836ca9f3b6b
-#EXTINF:-1 group-title="港澳台「P」",三立綜合
-http://198.16.100.90:8278/sanlizhonghe/playlist.m3u8?tid=MF4F9472920894729208&ct=19249&tsum=874aaa2015440b417746e5c11fa40220
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/時尚頻道.png" group-title="港澳台「P」",時尚台FTV
 http://50.7.238.114:8278/fashiontv_twn/playlist.m3u8?tid=ma97f669e7343&ct=18335&tsum=732ba26aa334bf6c1fad8812deda83d1
 #EXTINF:-1 group-title="港澳台「P」",時尚台FTV
@@ -1153,28 +1061,18 @@ http://198.16.100.90:8278/ba86fcd935/playlist.m3u8?tid=m1b458a366fcb&ct=18335&ts
 http://198.16.100.90:8278/discoverytwn_twn/playlist.m3u8?tid=m42a2d91d6f2413622196&ct=17874&tsum=3653c4c61f0a0443dbb256dc465b4715
 #EXTINF:-1 group-title="港澳台「P」",探索亞洲
 http://198.16.100.90:8278/discoverytwn_twn/playlist.m3u8?tid=MAAA4463833744638337&ct=18393&tsum=c4bd4c633430327425e073012785525e
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/緯來電影.png" group-title="港澳台「P」",緯來電影
-http://50.7.238.114:8278/videolandmovie/playlist.m3u8?ct=18335&tid=ma2dac66da407&tsum=9a5a39559f64a71081ef9b3a85f2886c
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/緯來日本.png" group-title="港澳台「P」",緯來日本
 http://50.7.238.114:8278/videolandjapan/playlist.m3u8?tid=MBAB7250273772502737&ct=19344&tsum=2b580b485643235654de4a1bbc9639cb
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/衛視中文.png" group-title="港澳台「P」",衛視中文
 http://50.7.238.114:8278/weishichinese_twn/playlist.m3u8?ct=19226&tid=MA8A7894022878940228&tsum=c0323ce59263e0096d4181626874e17c
 #EXTINF:-1 group-title="港澳台「P」",衛視中文台
 http://198.16.100.90:8278/weishichinese_twn/playlist.m3u8?tid=MB7B8325601583256015&ct=19249&tsum=88f84634240050b869fbbe8cfeb43cc7
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/星衛電影.png" group-title="港澳台「P」",星衛電影
-http://50.7.238.114:8278/xingwei_movie/playlist.m3u8?ct=17874&tid=ma80888ed462f18082236&tsum=2824e7b9d4ec19ce7b4f8f69d23d7ceb
-#EXTINF:-1 group-title="港澳台「P」",星衛電影
-http://198.16.100.90:8278/xingwei_movie/playlist.m3u8?tid=MBAB2096754620967546&ct=18392&tsum=2c800c1f0b6cc98d2404608c294dcbc2
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/中視經典.png" group-title="港澳台「P」",中視經典
 http://50.7.238.114:8278/zhongshi_twn/playlist.m3u8?tid=14379667&ct=17988&tsum=de63d02f44741580b5070077d1949841
 #EXTINF:-1 group-title="港澳台「P」",中視經典
 http://198.16.100.90:8278/zhongshi_twn/playlist.m3u8?tid=14379667&ct=17988&tsum=de63d02f44741580b5070077d1949841
 #EXTINF:-1 group-title="港澳台「P」",中視經典
 http://198.16.100.90:8278/zhongshi_twn/playlist.m3u8?tid=mffe9aaf8765f&ct=18335&tsum=bcdd7a2ce4a5498b1449cb26a01150c0
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/中視新聞.png" group-title="港澳台「P」",中視新聞
-http://50.7.238.114:8278/ca73a13c37/playlist.m3u8?tid=mee3f06f682eb&ct=18335&tsum=7491cceca17c1e2af05824583855f8bd
-#EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/中天新聞.png" group-title="港澳台「P」",中天新聞
-http://50.7.238.114:8278/ctinews/playlist.m3u8?tid=MC3C3915550439155504&ct=19193&tsum=a8168b7967dda9bfebdd5b1403dc19b0
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/中天娛樂.png" group-title="港澳台「P」",中天娛樂
 http://50.7.238.114:8278/ctient/playlist.m3u8?tid=MDED1780059017800590&ct=19226&tsum=4d05ea700aa8fd436b51ce703680e674
 #EXTINF:-1 group-title="港澳台「P」",中天娛樂
@@ -1200,9 +1098,9 @@ https://tv.iill.top/douyu/1863767
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-4
 https://tv.iill.top/douyu/1984839
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-5
-https://tv.iill.top/douyu/3606468
-#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-6
 https://tv.iill.top/douyu/2045445
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-6
+https://tv.iill.top/douyu/3606468
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-♀
 https://tv.iill.top/douyu/667319
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生-1
@@ -1237,9 +1135,9 @@ https://tv.iill.top/huya/11718629
 https://tv.iill.top/douyu/9223245
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」穿越火线-1
 https://tv.iill.top/huya/660101
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」穿越火线-2
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」穿越火线-2
 https://tv.iill.top/douyu/605964
-#EXTINF:-1 group-title="•游戏赛事",「虎牙」穿越火线-3
+#EXTINF:-1 group-title="•游戏赛事",「斗鱼」穿越火线-3
 https://tv.iill.top/douyu/5388537
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」穿越火线·手游
 https://tv.iill.top/huya/660102
@@ -1316,17 +1214,13 @@ http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
 #EXTINF:-1 group-title="•特色",广东体育
 http://113.117.74.47:8081/hls/1/index.m3u8
 #EXTINF:-1 tvg-name="翡翠台" group-title="•港澳台",「HK」翡翠台
-https://tv.iill.top/tvb/0
-#EXTINF:-1 tvg-name="翡翠台" group-title="•港澳台",「HK」翡翠台
 http://r.jdshipin.com/n90gt
 #EXTINF:-1 tvg-name="翡翠台" group-title="•港澳台",「HK」翡翠台
 http://r.jdshipin.com/qClQf
 #EXTINF:-1 tvg-name="翡翠台" group-title="•港澳台",「HK」翡翠台
 http://r.jdshipin.com/62WM7
 #EXTINF:-1 tvg-name="明珠台" group-title="•港澳台",「HK」明珠台
-http://lu1.cc/a/play/php/gudou.php?id=mzt
-#EXTINF:-1 tvg-name="J2" group-title="•港澳台",「HK」J2
-https://tv.iill.top/tvb/1
+http://113.117.74.47:8081/hls/26/index.m3u8
 #EXTINF:-1 tvg-name="J2" group-title="•港澳台",「HK」J2
 http://r.jdshipin.com/Nr5jq
 #EXTINF:-1 tvg-name="无线新闻" group-title="•港澳台",「HK」无线新闻
@@ -1349,24 +1243,10 @@ http://r.jdshipin.com/0Rp07
 http://113.117.74.47:8081/hls/38/index.m3u8
 #EXTINF:-1 tvg-name="星河台" group-title="•港澳台",「HK」星河台•粤语
 http://113.117.74.47:8081/hls/135/index.m3u8
-#EXTINF:-1 tvg-name="星河台" group-title="•港澳台",「HK」星河台•国语
-http://4ksuper.live/play/live.php?mac=00:1A:79:50:63:9E&stream=571186&extension=ts
 #EXTINF:-1 tvg-name="澳门莲花" group-title="•港澳台",「MO」澳门莲花
 https://p.ggiptv.com/v/macaulotustv.php
 #EXTINF:-1 tvg-name="澳门卫视" group-title="•港澳台",「MO」澳亚卫视
 http://lu1.cc/a/play/php/gudou.php?id=ayws
-#EXTINF:-1 group-title="•港澳台",ELEVEN 1
-rtmp://119.81.124.89/sat/tv731
-#EXTINF:-1 group-title="•港澳台",ELEVEN 2
-rtmp://119.81.124.89/sat/tv741
-#EXTINF:-1 group-title="•港澳台",纬来体育
-rtmp://119.81.124.89/sat/tv721
-#EXTINF:-1 group-title="•港澳台",纬来日本
-rtmp://119.81.124.89/sat/tv771
-#EXTINF:-1 group-title="•港澳台",纬来育乐
-rtmp://119.81.124.89/sat/tv701
-#EXTINF:-1 group-title="•港澳台",MOMO综合
-rtmp://119.81.124.89/sat/tv761
 #EXTINF:-1 group-title="•港澳台",大爱2
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 group-title="•港澳台",大立电视
@@ -1379,30 +1259,14 @@ http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
 http://38.64.72.148:80/hls/modn/list/4002/chunklist0.m3u8
 #EXTINF:-1 group-title="•港澳台",华语电视
 http://38.64.72.148:80/hls/modn/list/4003/chunklist0.m3u8
-#EXTINF:-1 group-title="•港澳台",民视
-rtmp://119.81.124.89/sat/tv051
-#EXTINF:-1 group-title="•港澳台",华视
-rtmp://119.81.124.89/sat/tv111
-#EXTINF:-1 group-title="•港澳台",台视
-rtmp://119.81.124.89/sat/tv071
-#EXTINF:-1 group-title="•港澳台",中视
-rtmp://119.81.124.89/sat/tv091
-#EXTINF:-1 group-title="•港澳台",东森超视
-rtmp://119.81.124.89/sat/tv331
-#EXTINF:-1 group-title="•港澳台",东森财经新闻
-rtmp://119.81.124.89/sat/tv571
 #EXTINF:-1 group-title="•港澳台",台视新闻
 http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
 #EXTINF:-1 group-title="•港澳台",民视新闻
 http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
 #EXTINF:-1 group-title="•港澳台",TVBS新闻
-rtmp://119.81.124.89/sat/tv551
-#EXTINF:-1 group-title="•港澳台",TVBS新闻
 http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8
 #EXTINF:-1 group-title="•港澳台",TVBS亚洲
 http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
-#EXTINF:-1 group-title="•港澳台",TVBS欢乐
-rtmp://119.81.124.89/sat/tv421
 #EXTINF:-1 group-title="•港澳台",人间卫视
 http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="•央视",CCTV1
@@ -2851,10 +2715,6 @@ https://tv.iill.top/huya/20488841
 https://tv.iill.top/huya/25650806
 #EXTINF:-1 group-title="•影视",「解说」止戈电影
 https://tv.iill.top/huya/19863777
-#EXTINF:-1 group-title="•影视",「录播」 斯诺克•1
-https://tv.iill.top/huya/880214
-#EXTINF:-1 group-title="•影视",「录播」 斯诺克•2
-https://tv.iill.top/huya/880625
 #EXTINF:-1 group-title="•影视",「录像」 挨饿德•1
 https://tv.iill.top/huya/20985858
 #EXTINF:-1 group-title="•影视",「录像」 挨饿德•2
@@ -2937,46 +2797,20 @@ http://aliyuncdnct.inter.ptqy.gitv.tv/tslive/c57_lb_225_600_t10/c57_lb_225_600_t
 http://aliyuncdnct.inter.ptqy.gitv.tv/tslive/c56_lb_188_600_t10/c56_lb_188_600_t10.m3u8?key
 #EXTINF:-1 group-title="•少儿",成都大熊猫繁育研究基地
 https://gcwbcdtxy.liveplay.myqcloud.com/gcwbcd/cdrmipanda_1/index.m3u8
-#EXTINF:-1 group-title="•少儿",倒霉熊
-http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c54_lb_140_600_t10/c54_lb_140_600_t10.m3u8?key
-#EXTINF:-1 group-title="•少儿",动画电影
-http://118.26.120.36:55336/tslive/c51_lb_118_600_t10/c51_lb_118_600_t10.m3u8?key=0b292c335e5837e94f25985f7c35b1efe
 #EXTINF:-1 group-title="•少儿",漫画说历史
 https://tv.iill.top/huya/20985824
-#EXTINF:-1 group-title="•少儿",动画小天地
-http://lvbaiducdncmn.inter.iqiyi.com/tslive/c55_lb_139_600_t10/c55_lb_139_600_t10.m3u8?key=0f2a06793124310bc475d77d809f3ab51
-#EXTINF:-1 group-title="•少儿",儿歌大全
-http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c57_lb_242_600_t10/c57_lb_242_600_t10.m3u8?key
-#EXTINF:-1 group-title="•少儿",儿童乐园
-http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c57_lb_215_600_t10/c57_lb_215_600_t10.m3u8?key
 #EXTINF:-1 group-title="•少儿",「轮播」二次猿动画
 http://tc-tct.douyucdn2.cn/dyliveflv1a/206858rtesHKjl.flv?wsAuth=9eaefce6cc13570baaeff857204a4d5c&token=cpn-androidmpro-0-206858-355488b41ed19088c77925a51949944b3aeedf4a96fd30f8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
-#EXTINF:-1 group-title="•少儿",海绵宝宝
-https://tv.iill.top/huya/11352919
-#EXTINF:-1 group-title="•少儿",嘉佳卡通
-http://xjayrf.eatuo.com:9901/tsfile/live/1045_1.m3u8
 #EXTINF:-1 group-title="•少儿",金鹰卡通
 http://223.151.51.27:85/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="•少儿",蜡笔小新「中配」
-http://zzy789.xyz/bili.php?id=10375360
 #EXTINF:-1 group-title="•少儿",南京少儿
 http://live.nbs.cn/channels/njtv/sepd/m3u8:500k/live.m3u8
-#EXTINF:-1 group-title="•少儿",亲子启蒙
-http://aliyuncdnct.inter.ptqy.gitv.tv/tslive/c57_lb_213_600_t10/c57_lb_213_600_t10.m3u8?key
 #EXTINF:-1 group-title="•少儿",山东少儿
 http://119.164.216.162:9901/tsfile/live/1006_1.m3u8
-#EXTINF:-1 group-title="•少儿",兔小贝
-http://ib302.zjcdn.com/baiducdncmn3.inter.iqiyi.com/tslive/c54_lb_136_720P_t10/c54_lb_136_720P_t10.m3u8?key
-#EXTINF:-1 group-title="•少儿",玩具乐园
-http://aliyuncdnct.inter.ptqy.gitv.tv/tslive/c54_lb_175_600_t10/c54_lb_175_600_t10.m3u8?key
-#EXTINF:-1 group-title="•少儿",喜羊羊
-http://118.26.120.23:55336/tslive/c55_lb_91_1080P_t10/c55_lb_91_1080P_t10.m3u8?key=0b292c335e5837e943e554ef181bdcec1
 #EXTINF:-1 group-title="•少儿",喜仔的动画世界
 https://tv.iill.top/huya/20036751
 #EXTINF:-1 group-title="•少儿",小猪佩奇
 http://baiducdncmn2.inter.iqiyi.com/tslive/c53_lb_78_1080P_t10/c53_lb_78_1080P_t10.m3u8?key
-#EXTINF:-1 group-title="•少儿",英文儿歌
-http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c55_lb_128_600_t10/c55_lb_128_600_t10.m3u8?key
 #EXTINF:-1 group-title="•少儿",浙江少儿
 http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8
 #EXTINF:-1 group-title="•国际",「CA」 CA
@@ -4377,284 +4211,6 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-wondernz-sa
 https://lds-wonder-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="•杂货",Xplore
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00111-hearstmediaprod-xploreintlnl-samsungnl/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•景区",八达岭长城南七楼
-http://gcalic.v.myalicdn.com/gc/bgws7_1/index.m3u8
-#EXTINF:-1 group-title="•景区",坝达景点观景台
-http://gccncc.v.wscdns.com/gc/hnttbdjd_1/index.m3u8
-#EXTINF:-1 group-title="•景区",趵突泉
-http://gcksc.v.kcdnvip.com/gc/btq01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",车八岭国家自然保护区
-https://gcalic.v.myalicdn.com/gc/hsxkscj_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",重庆开州城区
-https://gccncc.v.wscdns.com/gc/zsslsgc_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",崇圣寺三塔湖面
-http://gcalic.v.myalicdn.com/gc/dlst02_1/index.m3u8
-#EXTINF:-1 group-title="•景区",崇圣寺三塔远景
-http://gcbsc.v.live.baishancdnx.cn/gc/dlst01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",崇圣寺三塔中景
-http://gcksc.v.kcdnvip.com/gc/dlst03_1/index.m3u8
-#EXTINF:-1 group-title="•景区",淳安界首渔港码头
-https://gccncc.v.wscdns.com/gc/ytsxzg_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",大容山莲花山顶
-http://gctxyc.liveplay.myqcloud.com/gc/drs01_1_md.m3u8
-#EXTINF:-1 group-title="•景区",大研花巷观景
-http://gcbsc.v.live.baishancdnx.cn/gc/ljgcdyhxgjt_1/index.m3u8
-#EXTINF:-1 group-title="•景区",丹霞山丹梯铁锁
-http://gctxyc.liveplay.myqcloud.com/gc/dxsdtts_1_md.m3u8
-#EXTINF:-1 group-title="•景区",多依树景点
-http://gcksc.v.kcdnvip.com/gc/hnttdysjd_1/index.m3u8
-#EXTINF:-1 group-title="•景区",峨眉山普贤菩萨
-http://gcalic.v.myalicdn.com/gc/gccntv241-slf01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",凤凰古城东关门
-http://gcksc.v.kcdnvip.com/gc/fhgcdgm_1/index.m3u8
-#EXTINF:-1 group-title="•景区",凤凰古城南华山
-https://gccncc.v.wscdns.com/gc/fhgcdnhs_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",凤凰古城南华山
-http://gctxyc.liveplay.myqcloud.com/gc/fhgcdnhs_1_md.m3u8
-#EXTINF:-1 group-title="•景区",福建华安土楼
-http://gccncc.v.wscdns.com/gc/syns01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",福建宁德太姥山景区
-http://gcksc.v.kcdnvip.com/gc/tms01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",福建三坊七巷
-http://gcksc.v.kcdnvip.com/gc/hhdxg01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",甘肃火星1号基地
-http://gcksc.v.kcdnvip.com/gc/hgsylztpb_1/index.m3u8
-#EXTINF:-1 group-title="•景区",贡嘎雪山
-https://gctxyc.liveplay.myqcloud.com/gc/emsyh_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",广西崇左白头猴国家级自然保护区
-https://gcalic.v.myalicdn.com/gc/ztd_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",广州塔和海心桥
-https://gcalic.v.myalicdn.com/gc/ztb_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",贵阳甲秀楼
-http://gccncc.v.wscdns.com/gc/nxsptdmgychlr_1/index.m3u8
-#EXTINF:-1 group-title="•景区",桂林象山公园
-http://gcksc.v.kcdnvip.com/gc/glxs01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",哈尼梯田
-http://gcalic.v.myalicdn.com/gc/hnttpgsz_1/index.m3u8
-#EXTINF:-1 group-title="•景区",河南二七塔
-http://gctxyc.liveplay.myqcloud.com/gc/xysrf_1_md.m3u8
-#EXTINF:-1 group-title="•景区",宏村月沼
-http://gcbsc.v.live.baishancdnx.cn/gc/yxhcyz_1/index.m3u8
-#EXTINF:-1 group-title="•景区",湖北荆州长江江豚保护区
-https://gccncc.v.wscdns.com/gc/cntv429-zbzg_1/index.m3u8
-#EXTINF:-1 group-title="•景区",湖南岳阳楼
-http://gcalic.v.myalicdn.com/gc/pts01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",黄花城水长城1
-https://gcalic.v.myalicdn.com/gc/wgw01_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黄花城水长城2
-https://gcalic.v.myalicdn.com/gc/wgw02_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黄花城水长城4
-https://gccncc.v.wscdns.com/gc/wgw04_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黄龙?争艳彩池
-http://gcalic.v.myalicdn.com/gc/hlzycc_1/index.m3u8
-#EXTINF:-1 group-title="•景区",黄龙望乡台
-http://gcksc.v.kcdnvip.com/gc/hlwxt_1/index.m3u8
-#EXTINF:-1 group-title="•景区",黄龙洗身洞
-http://gcalic.v.myalicdn.com/gc/hlxsd_1/index.m3u8
-#EXTINF:-1 group-title="•景区",黄山飞来石
-https://gccncc.v.wscdns.com/gc/hsptgy_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黄山光明顶
-https://gccncc.v.wscdns.com/gc/hsgmd_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黄山梦笔生花
-https://gccncc.v.wscdns.com/gc/hsmbsh_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黄山排云亭
-https://gcalic.v.myalicdn.com/gc/hspyt_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黄山平天矼
-https://gcalic.v.myalicdn.com/gc/hsptgz_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黄山始信峰
-https://gctxyc.liveplay.myqcloud.com/gc/hssxf_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黄山卧云峰
-https://gcalic.v.myalicdn.com/gc/hswlf_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黄山西海峡谷
-https://gcalic.v.myalicdn.com/gc/hsxhdxg_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黄山信兴道
-https://gccncc.v.wscdns.com/gc/hsyg_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",吉安井冈山红旗广场
-https://gcalic.v.myalicdn.com/gc/ljgcdyhxgjt_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",济南千佛山望泉城
-https://gcalic.v.myalicdn.com/gc/taishan05_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",嘉峪关关城
-http://gcalic.v.myalicdn.com/gc/jyg04_1/index.m3u8
-#EXTINF:-1 group-title="•景区",江苏聚龙湖
-http://gctxyc.liveplay.myqcloud.com/gc/nxsptdmgy_1_md.m3u8
-#EXTINF:-1 group-title="•景区",江苏南京牛首山
-http://gctxyc.liveplay.myqcloud.com/gc/nss01_1_md.m3u8
-#EXTINF:-1 group-title="•景区",江西武功山云顶
-https://gctxyc.liveplay.myqcloud.com/gc/jyg04_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",九华山
-http://gctxyc.liveplay.myqcloud.com/gc/jhs05_1_md.m3u8
-#EXTINF:-1 group-title="•景区",蓝印花布
-http://gctxyc.liveplay.myqcloud.com/gc/zjwzlyhb_1_md.m3u8
-#EXTINF:-1 group-title="•景区",六角亭瀑布
-http://gcalic.v.myalicdn.com/gc/hgsspzxdpb_1/index.m3u8
-#EXTINF:-1 group-title="•景区",龙形田
-http://gcalic.v.myalicdn.com/gc/zjwzlxt_1/index.m3u8
-#EXTINF:-1 group-title="•景区",隆珠措
-http://gctxyc.liveplay.myqcloud.com/gc/sgns02_1_md.m3u8
-#EXTINF:-1 group-title="•景区",芦村远眺
-http://gcalic.v.myalicdn.com/gc/yxlcyt_1/index.m3u8
-#EXTINF:-1 group-title="•景区",梅州梅江
-http://gctxyc.liveplay.myqcloud.com/gc/gllj01_1_md.m3u8
-#EXTINF:-1 group-title="•景区",鸣沙山
-http://gcksc.v.kcdnvip.com/gc/dhyyqst_1/index.m3u8
-#EXTINF:-1 group-title="•景区",鸣沙山山门
-http://gcalic.v.myalicdn.com/gc/dhyyqyyq_1/index.m3u8
-#EXTINF:-1 group-title="•景区",鸣沙山月牙泉
-http://gcalic.v.myalicdn.com/gc/dhyyqsm_1/index.m3u8
-#EXTINF:-1 group-title="•景区",南昌滕王阁
-https://gccncc.v.wscdns.com/gc/wygjt2_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",南京玄武湖公园
-http://gcksc.v.kcdnvip.com/gc/xwh01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",南天一柱
-https://gctxyc.liveplay.myqcloud.com/gc/tyhjntyz_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",内蒙古额济纳胡杨林
-http://gcksc.v.kcdnvip.com/gc/ljgcdsc_1/index.m3u8
-#EXTINF:-1 group-title="•景区",内蒙古云计算信息园
-http://gcksc.v.kcdnvip.com/gc/tyhjntyz_1/index.m3u8
-#EXTINF:-1 group-title="•景区",宁夏大漠孤烟
-http://gcksc.v.kcdnvip.com/gc/tjhh01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",宁夏黄河漂流
-http://gctxyc.liveplay.myqcloud.com/gc/nxspthhpl_1_md.m3u8
-#EXTINF:-1 group-title="•景区",宁夏回族上滩村
-http://gctxyc.liveplay.myqcloud.com/gc/tyhjrys_1_md.m3u8
-#EXTINF:-1 group-title="•景区",普高老寨
-http://gctxyc.liveplay.myqcloud.com/gc/hnttpgsz_1_md.m3u8
-#EXTINF:-1 group-title="•景区",普贤菩萨铜像
-http://gcalic.v.myalicdn.com/gc/emspxps_1/index.m3u8
-#EXTINF:-1 group-title="•景区",七曲山风景区
-http://gcbsc.v.live.baishancdnx.cn/gc/wysyxdhp_1/index.m3u8
-#EXTINF:-1 group-title="•景区",千岛湖
-http://gctxyc.liveplay.myqcloud.com/gc/caqdh_1_md.m3u8
-#EXTINF:-1 group-title="•景区",嵌雪楼
-https://gccncc.v.wscdns.com/gc/ljgcdsc_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",全国风景总览
-https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",厦门鼓浪屿
-http://gctxyc.liveplay.myqcloud.com/gc/gly01_1_md.m3u8
-#EXTINF:-1 group-title="•景区",山涧栈道
-http://gcbsc.v.live.baishancdnx.cn/gc/lhssjzd_1/index.m3u8
-#EXTINF:-1 group-title="•景区",山西省宋家沟村
-http://gcalic.v.myalicdn.com/gc/wysdhpcy_1/index.m3u8
-#EXTINF:-1 group-title="•景区",韶音亭
-http://gctxyc.liveplay.myqcloud.com/gc/dxssyt_1_md.m3u8
-#EXTINF:-1 group-title="•景区",深圳世界之窗
-http://gcalic.v.myalicdn.com/gc/sjzc01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",十八洞村
-http://gcksc.v.kcdnvip.com/gc/sbd01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",四川达古冰川
-https://gccncc.v.wscdns.com/gc/ztx_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",四川凉山邛海景区
-http://gctxyc.liveplay.myqcloud.com/gc/xcqh01_1_md.m3u8
-#EXTINF:-1 group-title="•景区",四姑娘山幺妹峰
-http://gcbsc.v.live.baishancdnx.cn/gc/sgns01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",泰山大观峰
-https://gctxyc.liveplay.myqcloud.com/gc/taishan03_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",泰山拱北石
-https://gcalic.v.myalicdn.com/gc/taishan04_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",泰山黄岘岭
-https://gctxyc.liveplay.myqcloud.com/gc/taishan01_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",泰山天街
-https://gccncc.v.wscdns.com/gc/taishan07_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",泰山玉皇顶
-https://gcalic.v.myalicdn.com/gc/taishan06_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",天界山-玻璃栈道
-http://gcalic.v.myalicdn.com/gc/blg03_1/index.m3u8
-#EXTINF:-1 group-title="•景区",天界山-桃花湾瀑布
-http://gccncc.v.wscdns.com/gc/blg05_1/index.m3u8
-#EXTINF:-1 group-title="•景区",天津滨海新区
-https://gccncc.v.wscdns.com/gc/ljgcszsnkgc_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",天津滨海新区
-http://gccncc.v.wscdns.com/gc/ljgcwglytylxs_1/index.m3u8
-#EXTINF:-1 group-title="•景区",天津滨海新区2
-https://gcalic.v.myalicdn.com/gc/ljgcwglytylxs_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",天空步道
-http://gcalic.v.myalicdn.com/gc/tms02_1/index.m3u8
-#EXTINF:-1 group-title="•景区",天门洞
-http://gcalic.v.myalicdn.com/gc/tmstmd01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",天山-灯杆山
-http://gctxyc.liveplay.myqcloud.com/gc/xjtcdgs_1_md.m3u8
-#EXTINF:-1 group-title="•景区",天山-定海神针
-http://gctxyc.liveplay.myqcloud.com/gc/xjtcdhsz_1_md.m3u8
-#EXTINF:-1 group-title="•景区",天山-海西平台
-http://gctxyc.liveplay.myqcloud.com/gc/xjtchxpt_1_md.m3u8
-#EXTINF:-1 group-title="•景区",天山-马牙山
-http://gctxyc.liveplay.myqcloud.com/gc/xjtcmys_1_md.m3u8
-#EXTINF:-1 group-title="•景区",乌镇?西市河
-http://gcalic.v.myalicdn.com/gc/zjwzbblh_1/index.m3u8
-#EXTINF:-1 group-title="•景区",无锡惠山二茅峰望锡城
-https://gctxyc.liveplay.myqcloud.com/gc/wysdhpcy_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",五彩池
-http://gccncc.v.wscdns.com/gc/hlwcc_1/index.m3u8
-#EXTINF:-1 group-title="•景区",武汉两江四岸
-https://gcalic.v.myalicdn.com/gc/emspxps_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",西递半山亭
-http://gcalic.v.myalicdn.com/gc/yxxdbst_1/index.m3u8
-#EXTINF:-1 group-title="•景区",西递牌坊
-http://gcbsc.v.live.baishancdnx.cn/gc/yxxdpf_1/index.m3u8
-#EXTINF:-1 group-title="•景区",西汉南越王博物馆
-http://gctxyc.liveplay.myqcloud.com/gc/nywbwg01_1_md.m3u8
-#EXTINF:-1 group-title="•景区",峡谷石林
-http://gcalic.v.myalicdn.com/gc/pshdxg02_1/index.m3u8
-#EXTINF:-1 group-title="•景区",新疆红山
-https://gccncc.v.wscdns.com/gc/ytsbjy_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",悬空寺全景
-https://gcalic.v.myalicdn.com/gc/hsxksqj_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",雪乡大石碑
-https://gcalic.v.myalicdn.com/gc/mdjxxdsb_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",雪乡梦幻家园
-https://gctxyc.liveplay.myqcloud.com/gc/mdjxxmhjyxj_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",伊犁巩留县蝶湖公园
-https://gctxyc.liveplay.myqcloud.com/gc/tyhjtynl_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黟县?西递牌坊
-http://gcalic.v.myalicdn.com/gc/yxxdpf_1/index.m3u8
-#EXTINF:-1 group-title="•景区",黟县宏村南湖
-https://gcalic.v.myalicdn.com/gc/yxhcnh_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黟县卢村远眺
-https://gccncc.v.wscdns.com/gc/yxlcyt_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黟县西递半山亭
-https://gcalic.v.myalicdn.com/gc/yxxdbst_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",黟县西递牌坊
-https://gcalic.v.myalicdn.com/gc/yxxdpf_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",印象大红袍
-https://gctxyc.liveplay.myqcloud.com/gc/wysyxdhp_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",玉液湖
-http://gcksc.v.kcdnvip.com/gc/hkylxs02_1/index.m3u8
-#EXTINF:-1 group-title="•景区",远眺贡嘎雪山
-http://gcalic.v.myalicdn.com/gc/emsyh_1/index.m3u8
-#EXTINF:-1 group-title="•景区",远眺万佛顶
-https://gcalic.v.myalicdn.com/gc/emswfs_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",远眺万佛顶
-http://gcalic.v.myalicdn.com/gc/emswfs_1/index.m3u8
-#EXTINF:-1 group-title="•景区",云龙山观景台西
-http://gcalic.v.myalicdn.com/gc/ylh04_1/index.m3u8
-#EXTINF:-1 group-title="•景区",云梦仙顶
-http://gctxyc.liveplay.myqcloud.com/gc/tms04_1_md.m3u8
-#EXTINF:-1 group-title="•景区",云台山-百家岩
-http://gccncc.v.wscdns.com/gc/ytsbjy_1/index.m3u8
-#EXTINF:-1 group-title="•景区",云台山-红石峡
-http://gcalic.v.myalicdn.com/gc/ytshsx_1/index.m3u8
-#EXTINF:-1 group-title="•景区",云台山-小寨沟
-http://gctxyc.liveplay.myqcloud.com/gc/ytsxzg_1_md.m3u8
-#EXTINF:-1 group-title="•景区",云台山红石硖
-https://gcalic.v.myalicdn.com/gc/ytshsx_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",张家界阿凡达悬浮山
-https://gcalic.v.myalicdn.com/gc/zjjafdxfs_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",张家界玻璃桥
-https://gcalic.v.myalicdn.com/gc/hsxkssqdzrqj_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",张家界将军列队
-https://gctxyc.liveplay.myqcloud.com/gc/zjjjjdl_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",张家界迷魂台
-https://gccncc.v.wscdns.com/gc/zjjmht_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",张家界水绕4门
-https://gccncc.v.wscdns.com/gc/zjjsrsm_1/index.m3u8?contentid=2820180516001
-#EXTINF:-1 group-title="•景区",漳州六鳌翡翠湾
-http://gcalic.v.myalicdn.com/gc/fcw01_1/index.m3u8
-#EXTINF:-1 group-title="•景区",郑东新区千玺广场
-http://gctxyc.liveplay.myqcloud.com/gc/zdxq01_1_md.m3u8
-#EXTINF:-1 group-title="•景区",舟山东极岛
-http://gctxyc.liveplay.myqcloud.com/gc/djd01_1_md.m3u8
-#EXTINF:-1 group-title="•景区",醉美沙滩翡翠湾
-http://gcksc.v.kcdnvip.com/gc/fcw03_1/index.m3u8
 #EXTINF:-1 group-title="•动物世界",爱吃鱼的棕熊
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/79c7bb4495f74ca698f3111a6f7ba567/1200.m3u8
 #EXTINF:-1 group-title="•动物世界",爱的奉献1
@@ -5315,4 +4871,3 @@ https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/25c049869a174f5fa58
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/4d0dc6b22b8e48efa4a984ec990a4faf/1200.m3u8
 #EXTINF:-1 group-title="•动物世界",足球超级猎食者(下)
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/d7aec4db75da469d915a5dd7a0fb3d70/1200.m3u8
-
