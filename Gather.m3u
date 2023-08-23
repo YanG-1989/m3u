@@ -38,6 +38,8 @@ http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000003000004748/index.
 #EXTINF:-1 tvg-name="CCTV1" group-title="IPV6·央视",CCTV [随机4K] 「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb03]:80/PLTV/1/224/3221230805/1.m3u8
 #EXTINF:-1 tvg-name="CCTV1" group-title="IPV6·央视",CCTV [随机4K] 「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb02]/ott.mobaibox.com/PLTV/4/224/3221227896/index.m3u8
+#EXTINF:-1 tvg-name="CCTV1" group-title="IPV6·央视",CCTV [随机4K] 「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228502/index.m3u8
 #EXTINF:-1 tvg-name="CCTV16" group-title="IPV6·央视",CCTV16 4K 「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
@@ -1199,6 +1201,12 @@ http://tc-tct.douyucdn2.cn/dyliveflv1a/3226194r73pCQamR_2000.flv?wsAuth=50ba16bb
 http://tc-tct.douyucdn2.cn/dyliveflv1a/6672862r90xSwiRP_2000.flv?wsAuth=1c2c516dd80b1193241687841f128073&token=cpn-androidmpro-0-6672862-ee6297daa5d07f3494aad175947a679df4184f7934380258&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="•游戏赛事",永劫无间
 http://tc-tct.douyucdn2.cn/dyliveflv1a/9662891rlaeIAP3A_2000.flv?wsAuth=07d3125e1ec93068330e14be22a09454&token=cpn-androidmpro-0-9662891-7de7dc707e1a51dddb241f8ecad4f36806d04b45752cbbd8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
+#EXTINF:-1 group-title="•特色",随机电影「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb04]:80/PLTV/1/224/3221230435/1.m3u8
+#EXTINF:-1 group-title="•特色",广场舞「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb27]:80/PLTV/1/224/3221231236/1.m3u8
+#EXTINF:-1 group-title="•特色",阅读「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb22]:80/PLTV/1/224/3221231174/1.m3u8
 #EXTINF:-1 group-title="•特色",村AB·贵州
 https://tv.iill.top/huya/17455052
 #EXTINF:-1 group-title="•特色",斯诺克-1
