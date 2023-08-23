@@ -17,16 +17,16 @@ https://tv.iill.top/bestv/cctv4k/15000000
 https://tv.iill.top/bestv/hxjc4k/15000000
 #EXTINF:-1 group-title="4K",影视 4K「移动」
 http://111.11.123.37:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3
-#EXTINF:-1 group-title="IPV6·4K",CCTV8K 测试
-http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw1981574683_-2118700426/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8
 #EXTINF:-1 group-title="IPV6·4K",8K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb04]/wh7f454c46tW1782571424_-1576923679/ott.mobaibox.com/PLTV/3/224/3221228132/index.m3u8
 #EXTINF:-1 group-title="IPV6·4K",爱上4K 「IPV6」
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000459/index.m3u8?IAS
-#EXTINF:-1 group-title="IPV6·4K",4K 修复「IPV6」•支持回看
+#EXTINF:-1 group-title="IPV6·4K",4K 修复「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb15]/wh7f454c46tw1958249448_-1314265822/ott.mobaibox.com/PLTV/3/224/3221228141/index.m3u8
 #EXTINF:-1 group-title="IPV6·4K",BesTV 4K 「IPV6」
 http://[2409:8087:5e01:34::30]:6610/ZTE_CMS/00000001000000060000000000000202/index.m3u8?IAS
+#EXTINF:-1 tvg-name="纯享4K" group-title="IPV6·4K",纯享 4K「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw4259108076_496521789/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8
 #EXTINF:-1 tvg-name="纯享4K" group-title="IPV6·4K",纯享 4K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb10]:80/ott.mobaibox.com/PLTV/4/224/3221228242/index.m3u8
 #EXTINF:-1 tvg-name="纯享4K" group-title="IPV6·4K",纯享 4K「IPV6」
@@ -35,12 +35,14 @@ http://[2409:8087:2001:20:2800:0:df6e:eb13]:80/ott.mobaibox.com/PLTV/3/224/32212
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-name="null" group-title="IPV6·4K",华数4K「IPV6」
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3
-#EXTINF:-1 tvg-name="CCTV16" group-title="IPV6·4K",CCTV16 4K 「IPV6」•支持回看
-http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
-#EXTINF:-1 tvg-name="CCTV1" group-title="IPV6·4K",CCTV1 4K 「IPV6」•支持回看
+#EXTINF:-1 tvg-name="CCTV1" group-title="IPV6·央视",CCTV [随机4K] 「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb03]:80/PLTV/1/224/3221230805/1.m3u8
-#EXTINF:-1 tvg-name="CCTV4K" group-title="IPV6·央视",CCTV4K 「IPV6」•支持回看
-http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw4259108076_496521789/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8
+#EXTINF:-1 tvg-name="CCTV1" group-title="IPV6·央视",CCTV [随机4K] 「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228502/index.m3u8
+#EXTINF:-1 tvg-name="CCTV16" group-title="IPV6·央视",CCTV16 4K 「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
+#EXTINF:-1 group-title="IPV6·央视",CCTV8K「IPV6」
+http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw1981574683_-2118700426/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8
 #EXTINF:-1 tvg-name="CCTV1" group-title="IPV6·央视",CCTV1「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001022/index.m3u8?
 #EXTINF:-1 tvg-name="CCTV2" group-title="IPV6·央视",CCTV2「IPV6」
@@ -159,9 +161,9 @@ http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001223/index.m3u8?
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8?IAS
 #EXTINF:-1 tvg-name="黑龙江卫视" group-title="IPV6·卫视",黑龙江卫视「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001031/index.m3u8?
-#EXTINF:-1 tvg-name="凤凰中文" group-title="IPV6·数字",凤凰中文「IPV6」•支持回看
+#EXTINF:-1 tvg-name="凤凰中文" group-title="IPV6·数字",凤凰中文「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb27]/wh7f454c46tw3352677969_1732462333/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="IPV6·数字",凤凰资讯「IPV6」•支持回看
+#EXTINF:-1 tvg-name="凤凰资讯" group-title="IPV6·数字",凤凰资讯「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb24]/wh7f454c46tw3553140416_-2021535160/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8
 #EXTINF:-1 tvg-name="第一财经" group-title="IPV6·数字",第一财经「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001017/index.m3u8?
@@ -187,11 +189,11 @@ http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001232/index.m3u8?
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001273/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-name="null" group-title="IPV6·数字",精彩影视「IPV6」
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000320630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000320630&livemode=1&stbId=3
-#EXTINF:-1 tvg-name="CHC动作电影" group-title="IPV6·数字",CHC动作电影「IPV6」•支持回看
+#EXTINF:-1 tvg-name="CHC动作电影" group-title="IPV6·数字",CHC动作电影「IPV6」
 http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8
-#EXTINF:-1 tvg-name="CHC 高清电影" group-title="IPV6·数字",CHC高清电影「IPV6」•支持回看
+#EXTINF:-1 tvg-name="CHC 高清电影" group-title="IPV6·数字",CHC高清电影「IPV6」
 http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8
-#EXTINF:-1 tvg-name="CHC家庭影院" group-title="IPV6·数字",CHC家庭影院「IPV6」•支持回看
+#EXTINF:-1 tvg-name="CHC家庭影院" group-title="IPV6·数字",CHC家庭影院「IPV6」
 http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8
 #EXTINF:-1 tvg-name="生活时尚" group-title="IPV6·数字",SiTV五星体育「IPV6」
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001018/index.m3u8?
@@ -237,39 +239,39 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 #EXTINF:-1 tvg-name="黑莓动画" group-title="IPV6·数字",NewTv黑莓动画「IPV6」
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
-#EXTINF:-1 tvg-name="黑莓电影" group-title="IPV6·数字",NewTv黑莓电影「IPV6」•支持回看
+#EXTINF:-1 tvg-name="黑莓电影" group-title="IPV6·数字",NewTv黑莓电影「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb04]/ott.mobaibox.com/PLTV/3/224/3221225567/index.m3u8
-#EXTINF:-1 tvg-name="怡伴健康" group-title="IPV6·数字",NewTv怡伴健康「IPV6」•支持回看
+#EXTINF:-1 tvg-name="怡伴健康" group-title="IPV6·数字",NewTv怡伴健康「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb19]/wh7f454c46tw1986735481_995129881/ott.mobaibox.com/PLTV/3/224/3221227612/index.m3u8
-#EXTINF:-1 tvg-name="潮妈辣婆" group-title="IPV6·数字",NewTv潮妈辣婆「IPV6」•支持回看
+#EXTINF:-1 tvg-name="潮妈辣婆" group-title="IPV6·数字",NewTv潮妈辣婆「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb19]/wh7f454c46tw1705588260_46164741/ott.mobaibox.com/PLTV/3/224/3221227527/index.m3u8
-#EXTINF:-1 tvg-name="军旅剧场" group-title="IPV6·数字",NewTv军旅剧场「IPV6」•支持回看
+#EXTINF:-1 tvg-name="军旅剧场" group-title="IPV6·数字",NewTv军旅剧场「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb06]/wh7f454c46tw1807611386_-262631246/ott.mobaibox.com/PLTV/3/224/3221227603/index.m3u8
-#EXTINF:-1 tvg-name="中国功夫" group-title="IPV6·数字",NewTv中国功夫「IPV6」•支持回看
+#EXTINF:-1 tvg-name="中国功夫" group-title="IPV6·数字",NewTv中国功夫「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb19]/wh7f454c46tw1934355864_2070028581/ott.mobaibox.com/PLTV/3/224/3221227530/index.m3u8
-#EXTINF:-1 tvg-name="农业致富" group-title="IPV6·数字",NewTv农业致富「IPV6」•支持回看
+#EXTINF:-1 tvg-name="农业致富" group-title="IPV6·数字",NewTv农业致富「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb18]/wh7f454c46tw2105966330_1690115505/ott.mobaibox.com/PLTV/3/224/3221227588/index.m3u8
-#EXTINF:-1 tvg-name="动作电影" group-title="IPV6·数字",NewTv动作电影「IPV6」•支持回看
+#EXTINF:-1 tvg-name="动作电影" group-title="IPV6·数字",NewTv动作电影「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb06]/wh7f454c46tw2169742343_-422728889/ott.mobaibox.com/PLTV/3/224/3221227606/index.m3u8
-#EXTINF:-1 tvg-name="家庭剧场" group-title="IPV6·数字",NewTv家庭剧场「IPV6」•支持回看
+#EXTINF:-1 tvg-name="家庭剧场" group-title="IPV6·数字",NewTv家庭剧场「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb06]/wh7f454c46tw3441504651_1879058580/ott.mobaibox.com/PLTV/3/224/3221227600/index.m3u8
-#EXTINF:-1 tvg-name="惊悚悬疑" group-title="IPV6·数字",NewTv惊悚悬疑「IPV6」•支持回看
+#EXTINF:-1 tvg-name="惊悚悬疑" group-title="IPV6·数字",NewTv惊悚悬疑「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb18]/wh7f454c46tw2482771376_951312812/ott.mobaibox.com/PLTV/3/224/3221227536/index.m3u8
-#EXTINF:-1 tvg-name="武博世界" group-title="IPV6·数字",NewTv武博世界「IPV6」•支持回看
+#EXTINF:-1 tvg-name="武博世界" group-title="IPV6·数字",NewTv武博世界「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb19]/wh7f454c46tw2554338791_49940138/ott.mobaibox.com/PLTV/3/224/3221227533/index.m3u8
-#EXTINF:-1 tvg-name="炫舞未来" group-title="IPV6·数字",NewTv炫舞未来「IPV6」•支持回看
+#EXTINF:-1 tvg-name="炫舞未来" group-title="IPV6·数字",NewTv炫舞未来「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb09]/wh7f454c46tw2582593423_1721070986/ott.mobaibox.com/PLTV/3/224/3221227475/index.m3u8
-#EXTINF:-1 tvg-name="爱情喜剧" group-title="IPV6·数字",NewTv爱情喜剧「IPV6」•支持回看
+#EXTINF:-1 tvg-name="爱情喜剧" group-title="IPV6·数字",NewTv爱情喜剧「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb1a]/wh7f454c46tw2778199896_-991379679/ott.mobaibox.com/PLTV/3/224/3221227548/index.m3u8
-#EXTINF:-1 tvg-name="精品体育" group-title="IPV6·数字",NewTv精品体育「IPV6」•支持回看
+#EXTINF:-1 tvg-name="精品体育" group-title="IPV6·数字",NewTv精品体育「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb1b]/wh7f454c46tw2797725038_-2054878207/ott.mobaibox.com/PLTV/3/224/3221227615/index.m3u8
-#EXTINF:-1 tvg-name="精品大剧" group-title="IPV6·数字",NewTv精品大剧「IPV6」•支持回看
+#EXTINF:-1 tvg-name="精品大剧" group-title="IPV6·数字",NewTv精品大剧「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb1a]/wh7f454c46tw2817459161_-1430429466/ott.mobaibox.com/PLTV/3/224/3221227618/index.m3u8
-#EXTINF:-1 tvg-name="军事评论" group-title="IPV6·数字",NewTv军事评论「IPV6」•支持回看
+#EXTINF:-1 tvg-name="军事评论" group-title="IPV6·数字",NewTv军事评论「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb18]/wh7f454c46tw3373254713_-1111569189/ott.mobaibox.com/PLTV/3/224/3221227544/index.m3u8
-#EXTINF:-1 tvg-name="精品记录" group-title="IPV6·数字",NewTv精品记录「IPV6」•支持回看
+#EXTINF:-1 tvg-name="精品记录" group-title="IPV6·数字",NewTv精品记录「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb1a]/wh7f454c46tw2837435881_530071425/ott.mobaibox.com/PLTV/3/224/3221227547/index.m3u8
-#EXTINF:-1 tvg-name="明星大片" group-title="IPV6·数字",NewTv明星大片「IPV6」•支持回看
+#EXTINF:-1 tvg-name="明星大片" group-title="IPV6·数字",NewTv明星大片「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb18]/wh7f454c46tw2856695654_946966165/ott.mobaibox.com/PLTV/3/224/3221227594/index.m3u8
 #EXTINF:-1 tvg-name="null" group-title="IPV6·数字",iHOT爱悬疑「IPV6」
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000050630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000050630&livemode=1&stbId=3
