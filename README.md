@@ -2,9 +2,6 @@
 # 仓库简介
 #### 个人爱好，收集整合！佛系更新…
 ---
-* [分流参考](https://raw.githubusercontent.com/YanG-1989/list/main/IPTV.list)  
->部分源需要代理。  
----
 ### 直播集合
 * [live.m3u](https://raw.githubusercontent.com/YanG-1989/m3u/main/live.m3u)  
 >未创建
