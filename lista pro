@@ -1,0 +1,263 @@
+#PLAYLISTV: pltv-logo="https://fliperamaxxi.com/img/cms/one.png" pltv-name="Exclusivo Clientes" pltv-description="Filmes e Séries" pltv-cover="https://http2.mlstatic.com/lista-iptv-filmes-series-e-animes-13000-conteudos-lanca-D_NQ_NP_703799-MLB26626833973_012018-F.jpg" pltv-author="João Victor" pltv-site="xxxx" pltv-email="xxxx" pltv-phone="xxxx"
+
+***FILMES***
+
+#EXTINF:-1 tvg-logo="https://cdn.ome.lt/extras/capas/ligaPosterNacional.jpg" group-title="Filmes Lançamentos", Liga da Justiça
+http://cdn1.ntcdn.us/content/httpdelivery/filmes2018/JUSTICALIGA2017DUB-BAIXO.mp4
+
+#EXTINF:-1 tvg-logo="http://images.universohq.com//2017/10/ThorRagnarokPoster2.jpg" group-title="Filmes Lançamentos", THOR: RAGNAROK
+http://s007.thevid.net/v/560668f3da48c75f780138e1cd350b50.mp4?e=1518918281&sa=u72RRmlrZd51Rs81tyEfQQ&st=SEOnyDpEKni2YMsCuN_YEg
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w342/80UcpM7Sr8sahrtOTHOG5bZrBas.jpg" group-title="Filmes Lançamentos", Loucuras em Família
+http://cdn1.ntcdn.us/content/httpdelivery/filmes2018/LOUCURAS2018DUB-BAIXO.mp4
+
+#EXTINF:-1 tvg-logo="http://vigilianerd.com.br/wp-content/uploads/2017/09/odestinodeumanacao-420x445.jpg" group-title="Filmes Lançamentos", O Destino de uma Nação LEG
+http://cdn1.ntcdn.us/content/httpdelivery/filmes2018/DARKEST2017LEG-BAIXO.mp4
+
+#EXTINF:-1 tvg-logo="https://www.clickriomafra.com.br/emacite/wp-content/uploads/2017/10/Promo%C3%A7%C3%A3o-Curta-compartilhe-e-concorra-a-ingressos-para-assistir-A-Morte-te-d%C3%A1-Parab%C3%A9ns.jpg" group-title="Filmes Lançamentos", A Morte te da Parabéns
+http://cdn1.ntcdn.us/content/httpdelivery/filmes2018/HAPPYDEATHDDUB-BAIXO.mp4
+
+#EXTINF:-1 tvg-logo="http://www.megahfilmeshd.net/wp-content/uploads/2017/11/1jmfBgrBF8oIIAUd7pEydKmqwyK-300x450.jpg" group-title="Filmes Lançamentos", Kingsman: O Círculo Dourado
+http://cdn1.ntcdn.us/content/httpdelivery/filmes2017/KINGSMAN2017DUB-BAIXO.mp4
+
+#EXTINF:-1 tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2017/11/dupla-explosiva-1.jpg" group-title="Filmes Lançamentos", Dupla Explosiva
+http://cdn1.ntcdn.us/content/httpdelivery/filmes2017/DUPLA2DUB-BAIXO.mp4
+
+#EXTINF:-1 tvg-logo="http://filmesonline.online/uploads/posts/2017-11/1511359587_valerian-e-a-cidade-dos-mil-planetas.jpg" group-title="Filmes Lançamentos", Valerian e a Cidade dos Mil Planetas
+http://cdn1.ntcdn.us/content/httpdelivery/filmes2017/VCMDUB-BAIXO.mp4
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/10/q8zYVAvuPI3ImOkC1EsjDs7ilTk-min.jpg" group-title="Filmes Lançamentos", Piratas do Caribe – A Vingança de Salazar
+http://cdn1.ntcdn.us/content/httpdelivery/filmes2017/PIRATAS5DUB-BAIXO.mp4
+
+#EXTINF:-1 tvg-logo="https://img.fstatic.com/AurtQDCApMuSXpRxiCuTrfRatXA=/fit-in/290x478/smart/https://cdn.fstatic.com/media/movies/covers/2017/12/1200x630bb_bxAtMQU.jpg" group-title="Filmes Lançamentos", Paralisia
+http://cdnv18.ec.cx/RedeCanais/RedeCanais/RCFServer4/ondemand/PARLSIA.mp4
+
+***SERIES***
+
+****Lucifer****
+
+#EXTINF:-1 tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2017/07/content_pic.jpg" group-title="Lucifer Temporada 1", Episodio 1
+https://r1---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=132f5037132a31ff&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221120&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=7AD87DA4ECCAE9C4729D582C9045EA047BF2E875.69809CB3EDF4FC1A66754479A03F743030667C60&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519073540&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2017/07/content_pic.jpg" group-title="Lucifer Temporada 1", Episodio 2
+https://r1---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=bfa1dc99d4e7d31b&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221285&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=D191E0FD1DD9FF77B9845CBE558E9F79DF4D5D.01A8D3BAB775020CED6E6E7784BA04DDAA68C46E&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519073721&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2017/07/content_pic.jpg" group-title="Lucifer Temporada 1", Episodio 3
+https://r2---sn-gpv7enez.googlevideo.com/videoplayback?requiressl=yes&id=84814bf600f55b79&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221325&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=501FB08BF8AD08970EA5A4C602E549713AF81BE3.0880674C1E9B472C2FD5920B5F66C5923608E21A&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enez&ms=nxu&mt=1519073780&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2017/07/content_pic.jpg" group-title="Lucifer Temporada 1", Episodio 4
+https://r1---sn-gpv7dn7e.googlevideo.com/videoplayback?requiressl=yes&id=ccb255d63b4aacff&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221365&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=2D1BFB1AAC2F5A40F441C0C68B702B8D9C3BA2EC.60AC9E6E7DAD1C3082C2D50D7F7A849FA6B6D702&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7dn7e&ms=nxu&mt=1519073841&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2017/07/content_pic.jpg" group-title="Lucifer Temporada 1", Episodio 5
+https://r2---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=3be9493a580b5a73&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221419&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=7624DC9F4B3AC22CCD076F957FAF06449852BB0C.38475F8D92F894D726F6CAB021AE05A0313A52FF&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519073841&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2017/07/content_pic.jpg" group-title="Lucifer Temporada 1", Episodio 6
+https://r4---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=a7b5c14dde932ddc&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221444&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=51603E219F42870A97C61046F021731FD99C9BDE.59EEA7B51E2A55D598780DD06ECAC42904DFECA4&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519073900&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2017/07/content_pic.jpg" group-title="Lucifer Temporada 1", Episodio 7
+https://r2---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=c5ac87269491e136&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221472&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=0AD097ABC1CE155F0D4F033B8BCC7354323EE7CF.361979C756D76F587F7B1C72205DD1507422E1DB&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519073900&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2017/07/content_pic.jpg" group-title="Lucifer Temporada 1", Episodio 8
+https://r4---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=87fe1e0340899956&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221510&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=420136D12392A8FD206F6FA59A57B3442BC650A8.4ED1243856F05498066CDAD862B8A4A61752DFBC&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519073960&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2017/07/content_pic.jpg" group-title="Lucifer Temporada 1", Episodio 9
+https://r5---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=52ae7b828df6d28f&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221537&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=75F68A5904B9A396B69F609D8DD78A264B4D5CA5.44D469CAC2581D9FABE2F93201AF29B586F49C85&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519073960&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2017/07/content_pic.jpg" group-title="Lucifer Temporada 1", Episodio 10
+https://r4---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=cc0f80d284727f61&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221560&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=6060CEA07E6B14914163CF69CEAC5E3010A5178E.4C3582759A19A1BA85B5147C0EEB47EFC5FA317F&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519073960&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2017/07/content_pic.jpg" group-title="Lucifer Temporada 1", Episodio 11
+https://r6---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=fcf993ba5f3fb584&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221600&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=4346A4CB47BADE8F71E68FE961775A6705568BE4.219337B9A179B0937C2EF7F565845CF1BC2A8BBD&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519074028&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2017/07/content_pic.jpg" group-title="Lucifer Temporada 1", Episodio 12
+https://r4---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=5a06ef688325eccb&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221627&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=12077C0E8F13BEBBFA30C1DA3E9D9DDC04BB1F8A.3EEECE599467EA45BFFFA8C75C4A1BCD99EAEFC3&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519074028&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://cdnstk.ntcdn.us/wp-content/uploads/2017/07/content_pic.jpg" group-title="Lucifer Temporada 1", Episodio 13
+https://r2---sn-gpv7dn7e.googlevideo.com/videoplayback?requiressl=yes&id=2ac31829e6b481a6&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221654&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=2D446FA45DF86EDD4AB7B153C61E0214C7B6A454.2BFCE60EFDF5B556EE981CAA3829FC52D4C84859&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7dn7e&ms=nxu&mt=1519074028&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 1
+https://r5---sn-gpv7dn7l.googlevideo.com/videoplayback?requiressl=yes&id=20c2419831095e65&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221738&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=09BFB0510BBB7BD5CA8BCD2DD9435D313F6DB15C.29B572C00C271EE9C9E78DB4A17222DF79E356DF&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7dn7l&ms=nxu&mt=1519074141&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 2
+https://r1---sn-gpv7dn7l.googlevideo.com/videoplayback?requiressl=yes&id=4d0365b5be160220&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521221896&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=592EE453347FD5F24333217B1B5F70A937194494.1DADB82AF8B30C4D68AA9FD07CCE7C8F5ECFD604&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7dn7l&ms=nxu&mt=1519074320&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 3 LEG
+https://r4---sn-gpv7dn7e.googlevideo.com/videoplayback?requiressl=yes&id=a78bf0f3cd04abf2&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222067&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=0D2CBF63D9860C8E3B3A8895A89B824221662753.6DBD52F8FFEEEB1AF54172C11067CE290AC4FC66&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7dn7e&ms=nxu&mt=1519074500&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 4 LEG
+https://r6---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=5bf09192a55da3c4&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222093&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=312554A5283976744BF7A1AC66E7093CFA1F321D.665310D1F9D8FB53B803AF0B9FC3AACE67CEF5A7&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519074500&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 5 LEG
+https://r4---sn-gpv7enez.googlevideo.com/videoplayback?requiressl=yes&id=85faaea9a04d86c5&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222117&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=25BC73848A4F2689781E182F429F5341F8D421CD.5747FC859C988EB997963061EC067B451AA81561&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enez&ms=nxu&mt=1519074563&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 6 LEG
+https://r4---sn-gpv7enez.googlevideo.com/videoplayback?requiressl=yes&id=0f9fc58d6fdc9320&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222151&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=52B5BE784A0084F27D23E9A3B1F012EC90345393.6CAA0CEC478EA6A1B9EC05C81618D65DC339DB39&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enez&ms=nxu&mt=1519074563&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 7 LEG
+https://r1---sn-gpv7dn7e.googlevideo.com/videoplayback?requiressl=yes&id=779eabd345f28612&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222177&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=69FD276BD5A3310491E93A8517951495688B1423.3BA389C9EC128B1C0D4F5E7E538BDFA233CCA424&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7dn7e&ms=nxu&mt=1519074621&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 8 LEG
+https://r5---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=72501bf0d971368e&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222193&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=56ED2594524095E848CDD0F2C5A8D9F61BD3F20A.35C99D2BB92DC1866D8AF7BB147658F5FC765522&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519074621&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 9 LEG
+https://r4---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=6b14b32eab57b49a&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222221&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=52F16C6CEB2BB917A5BA18A22FF216502533256F.0642E508FD021BD99D71674A797196D6D5375513&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519074621&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 10 LEG
+https://r5---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=76a6d0a302f33f22&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222251&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=688C5EAC0C19643B2EEE9EC4458297A2C5A3FA8B.5F9C99E19FE4158578F024554B27252BF424D150&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519074679&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 11 LEG
+https://r1---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=1972de6c2ac630f8&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222269&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=68BCCB2C9E2D631C03F12DB93ED5BE535B204AA5.10F16440100948AA80443A4C34EEF0473FE3D6C0&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519074679&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 12 LEG
+https://r2---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=263e7423f846fe19&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222399&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=7A503ACB404509D964A2A2EE25C20DA76991DFDD.1F7455B41CC2FAFBCAFA09A86431B7E9141DB880&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519074799&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 13 LEG
+https://r2---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=add6a349267bc5a8&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222407&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=785A2A3E2225D4E14EBBB0163C749F523FE4F9A1.40419D3544133E310329E51844E574B120404B94&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519074859&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 14 LEG
+https://r1---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=7234fe3badfabef0&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222436&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=246088589AFEC35FEAA0EF5115FA222C6220CDE2.1B45D9B1B865E7CE25C4F88302D4A32ABF9E44DA&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519074922&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 15 LEG
+https://r4---sn-gpv7dn7l.googlevideo.com/videoplayback?requiressl=yes&id=8b4c4b5bcda45000&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222462&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=680D764AF9703DD2AFA38DD371AC884F991E20F0.10A0EA09509C7CF74E2E2AE884A6816E8828E2F9&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7dn7l&ms=nxu&mt=1519074859&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 16 LEG
+https://r6---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=38484ca42c9fcae7&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222504&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=608F1D6C2CE04A74F33947008BEC92DC83479044.5DC5579B598C70D4192A61B97A0E8D4FD88E97DA&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519074922&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 17 LEG
+https://r4---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=fe985c8a6bc6064c&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222525&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=492E12D491FCBFF9E9986AEB03FB57BB9DBE1566.78702EB6EAD0C3D7E9C9B8664010482A2B21F6C4&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519074981&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://4.bp.blogspot.com/-sNtjkoVXEIY/WfVNzumM-ZI/AAAAAAAAB-I/8ItZlLO0_DMVit9Du_Y0futhS97-APMegCLcBGAs/s320/lucifer2.jpg" group-title="Lucifer Temporada 2", Episodio 18 LEG
+https://r4---sn-gpv7enez.googlevideo.com/videoplayback?requiressl=yes&id=7a7647aa9df5e6a1&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222548&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=21394A5111257B228546AD21575F5BC819D9B761.4C2C16F03A03FB233FF2B7D77912CD8351CE3BF9&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enez&ms=nxu&mt=1519074981&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/11/4tfVjOc5mD0dnakllL8nxyooxmO-min.jpg" group-title="Lucifer Temporada 3", Episodio 1 LEG
+https://r4---sn-gpv7enez.googlevideo.com/videoplayback?requiressl=yes&id=07eea682866502e4&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222907&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=7349B77486972E4C41A79907CDF42A326449BE4C.0ED04406630987AD478FCA6B81F77E0CDE8DC996&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enez&ms=nxu&mt=1519075338&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/11/4tfVjOc5mD0dnakllL8nxyooxmO-min.jpg" group-title="Lucifer Temporada 3", Episodio 2 LEG
+https://r5---sn-gpv7dn7e.googlevideo.com/videoplayback?requiressl=yes&id=05c7b955459e1f88&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222943&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=59DCCF198B54110A6C9BCBCE3E87DD63D720527C.819281CF036899857689F356B435F3ADED08981A&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7dn7e&ms=nxu&mt=1519075400&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/11/4tfVjOc5mD0dnakllL8nxyooxmO-min.jpg" group-title="Lucifer Temporada 3", Episodio 3 LEG
+https://r1---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=f93b34ccd7bd82c8&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521222974&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=3432889C506208CD8664CB1282A7958DB72804FE.46DBBB921C5E995E9500164FAC31A866EFD411A0&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519075400&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/11/4tfVjOc5mD0dnakllL8nxyooxmO-min.jpg" group-title="Lucifer Temporada 3", Episodio 4 LEG
+https://r5---sn-gpv7dn7l.googlevideo.com/videoplayback?requiressl=yes&id=0f9edbca32f10c94&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521223027&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=563DEFC3F18430EAE408D142B9C8C4C1F867490E.3B0445957C324E5C263D0314CEAEB13B35C2D94D&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7dn7l&ms=nxu&mt=1519075459&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/11/4tfVjOc5mD0dnakllL8nxyooxmO-min.jpg" group-title="Lucifer Temporada 3", Episodio 5 LEG
+https://r3---sn-gpv7enez.googlevideo.com/videoplayback?requiressl=yes&id=54352dc21183840d&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521223051&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=209C6454B9C811AE3387CC5101BA0F514FD39EA7.1F6EAC9AF03F601A021D1BCD5610548072A93451&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enez&ms=nxu&mt=1519075519&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/11/4tfVjOc5mD0dnakllL8nxyooxmO-min.jpg" group-title="Lucifer Temporada 3", Episodio 6 LEG
+https://r6---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=e3244e95c4c55316&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521223096&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=4C543F01FE3DC6C7749530AD3CE0F030D68AF352.0C0968230A326BABF322A5E02AA7477E9B0CAF8C&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519075519&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/11/4tfVjOc5mD0dnakllL8nxyooxmO-min.jpg" group-title="Lucifer Temporada 3", Episodio 7 LEG
+https://r2---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=4630a234e5170b6c&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521223115&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=069CE046D2134EFDEB1F3D2DE5DE5D2F93E91F4D.6B5FB503F1C9AA79ED2DCC19AA1E6743F438ACD1&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519075581&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/11/4tfVjOc5mD0dnakllL8nxyooxmO-min.jpg" group-title="Lucifer Temporada 3", Episodio 8 LEG
+https://r6---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=36a9f03b571a6306&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521223137&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=0D24E4C5829BD9E257E7E59DCEEFEF2AC9DC6EF7.7E6580F2780431F8E452601AB5FC29EF823B93A5&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519075581&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/11/4tfVjOc5mD0dnakllL8nxyooxmO-min.jpg" group-title="Lucifer Temporada 3", Episodio 9 LEG
+https://r6---sn-gpv7dn7e.googlevideo.com/videoplayback?requiressl=yes&id=f1bc7051aeac7353&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521223189&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=090E7985BDA5FE6E0378AF9BB0C2B81C21096E9B.37D96C36AF68C3470C0C92252A33EA52459E63F7&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7dn7e&ms=nxu&mt=1519075581&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/11/4tfVjOc5mD0dnakllL8nxyooxmO-min.jpg" group-title="Lucifer Temporada 3", Episodio 10 LEG
+https://r5---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=0d3c351ec763d856&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521223208&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=3A778CBD2B11ECBF444B7323275FEB706F7CA166.6420AF271F7A429D39B37E5FB8927B8D5BF7A025&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519075581&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/11/4tfVjOc5mD0dnakllL8nxyooxmO-min.jpg" group-title="Lucifer Temporada 3", Episodio 11 LEG
+https://r5---sn-gpv7enez.googlevideo.com/videoplayback?requiressl=yes&id=b5ce4bf9cb0d222b&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521223230&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=1EE8D6762E3788CC818DC0FD9D83D23879AEFAEB.452B3E40E2953FFA28FF222EDBAC7E017DC35E97&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enez&ms=nxu&mt=1519075581&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/11/4tfVjOc5mD0dnakllL8nxyooxmO-min.jpg" group-title="Lucifer Temporada 3", Episodio 12 LEG
+https://r1---sn-gpv7enez.googlevideo.com/videoplayback?requiressl=yes&id=8083d1b203e1c950&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521223246&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=21BD0929510A05CE08F64AC84063F29B80805B70.38CBDB1100CAC97F56C1755C6E2D8E4804156B82&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enez&ms=nxu&mt=1519075700&mv=m&pl=24&sc=yes&ir=1&rr=12
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/11/4tfVjOc5mD0dnakllL8nxyooxmO-min.jpg" group-title="Lucifer Temporada 3", Episodio 13 LEG
+https://r5---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=ff6356d4550c9456&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521223272&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=75833F09EAF815E4611A4F829D0312030BFEA42F.551869BFD2895522753C3E0ADE64F27B3AB57C69&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519075700&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://g1filmesonline.info/wp-content/uploads/2017/11/4tfVjOc5mD0dnakllL8nxyooxmO-min.jpg" group-title="Lucifer Temporada 3", Episodio 14 LEG
+https://r3---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=ce291b7a5ea64baf&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521223180&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=52B153BE351346665E3C7E17FDB65B5B79EAAA78.1210ECF87B37A1055633EC11CAB788C485D6B963&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519075581&mv=m&pl=24&sc=yes
+
+
+******Vikings******
+
+#EXTINF:-1 tvg-logo="http://www.megafilmeshd21.org/wp-content/uploads/2016/09/1-26.jpg" group-title="Vikings Temporada 1", Episodio 1
+https://r5---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=b2db5d25e72f2a10&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521224684&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=36AC337032D64D4B8CFC282D001FCB10E4CF7407.478C70ED6068B535ADFFFFFFD7EA2D4FC8D5B623&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519077139&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://www.megafilmeshd21.org/wp-content/uploads/2016/09/1-26.jpg" group-title="Vikings Temporada 1", Episodio 2
+https://r2---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=33bb4856b203eb80&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521224849&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=0415D0E0B343AFE09383F82A0F8DA79146532283.664512899FE2DD5862995E127AD2EBDCFF91E4F7&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519077257&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://www.megafilmeshd21.org/wp-content/uploads/2016/09/1-26.jpg" group-title="Vikings Temporada 1", Episodio 3
+https://r5---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=252fd0b967572af2&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521224873&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=CA40534F32EDA5A34723C8EEA7AA1B0BD751FE.2438F082650C4648C6246D951E84944BDF8E39D1&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519077318&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://www.megafilmeshd21.org/wp-content/uploads/2016/09/1-26.jpg" group-title="Vikings Temporada 1", Episodio 4
+https://r6---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=e2fd7f141f92afc9&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521224901&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=3A5182C1693F46412BDC3640239C47F2EE7D288B.68FE7228B36EEEC03128D027B8891D1338CB5936&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519077318&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://www.megafilmeshd21.org/wp-content/uploads/2016/09/1-26.jpg" group-title="Vikings Temporada 1", Episodio 5
+https://r2---sn-gpv7dn7l.googlevideo.com/videoplayback?requiressl=yes&id=77c113076da6b5c3&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521224923&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=572B8873DBAC7193B1260984D4A9C0438F9EF2AA.6258D95007A3C9E54EFAE21178367E8FDEEE48F2&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7dn7l&ms=nxu&mt=1519077377&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://www.megafilmeshd21.org/wp-content/uploads/2016/09/1-26.jpg" group-title="Vikings Temporada 1", Episodio 6
+https://r1---sn-gpv7enez.googlevideo.com/videoplayback?requiressl=yes&id=1a13bc1eaf8e61f5&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521224948&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=3B880EAD4D3E62A0A50E21EB2E79067389487FE4.7F96717E57C5EF70CB85BBCE51D6824A2769FE7B&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enez&ms=nxu&mt=1519077377&mv=m&pl=24&sc=yes&ir=1&rr=12
+
+#EXTINF:-1 tvg-logo="http://www.megafilmeshd21.org/wp-content/uploads/2016/09/1-26.jpg" group-title="Vikings Temporada 1", Episodio 7
+https://r6---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=a48ce5c5723a08c1&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521224966&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=0604A09D8117B5A0463756162BFA59176EF6DB4F.4A9B7163D2486CBBEE5EAAD3B5810099E9032BE2&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519077377&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://www.megafilmeshd21.org/wp-content/uploads/2016/09/1-26.jpg" group-title="Vikings Temporada 1", Episodio 8
+https://r5---sn-gpv7enez.googlevideo.com/videoplayback?requiressl=yes&id=4098a94a1b58e937&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521224983&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=2BAD440DB934C678962C580358E7AD0625E0D207.45DCC04F0D33CEBD6DA849EE3B00DDCE0A200F8E&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7enez&ms=nxu&mt=1519077438&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="http://www.megafilmeshd21.org/wp-content/uploads/2016/09/1-26.jpg" group-title="Vikings Temporada 1", Episodio 9
+https://r6---sn-gpv7dn7l.googlevideo.com/videoplayback?requiressl=yes&id=2e74e3e6eea7a949&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521225003&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=765A5D9B8D8EE29ED00C264BE34AD8DF453F22DF.2C7568069EC2A9BF8CCCD53F11E6761B2BCDCDF6&key=cms1&cms_redirect=yes&mip=192.141.72.0&mm=30&mn=sn-gpv7dn7l&ms=nxu&mt=1519077438&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7a/Vikings_Temporada_2_Poster.jpg/240px-Vikings_Temporada_2_Poster.jpg" group-title="Vikings Temporada 2", Episodio 1
+https://r3---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=280d7434a3fc31b6&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521309196&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=7E16236C7273812A0ECA65F521354E5CBC046F8F.07BFBA09841274161995283CA2E9727F419A6070&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519161564&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7a/Vikings_Temporada_2_Poster.jpg/240px-Vikings_Temporada_2_Poster.jpg" group-title="Vikings Temporada 2", Episodio 2
+https://r3---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=af00888d87f851ad&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521309234&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=49A3528C1003B9E7BF8462BD46583FCC0C82D8EF.60222F7AFD0A58E15F95D6C1C5E2A52C59E1B8&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519161681&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7a/Vikings_Temporada_2_Poster.jpg/240px-Vikings_Temporada_2_Poster.jpg" group-title="Vikings Temporada 2", Episodio 3
+https://r5---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=36b394bc24ae9062&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521309215&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=51CF9314C32A10F4247910F8A40436B20CC2266A.7A4C3360C94445444565F3F45BD4459EAB33522D&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519161564&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7a/Vikings_Temporada_2_Poster.jpg/240px-Vikings_Temporada_2_Poster.jpg" group-title="Vikings Temporada 2", Episodio 4
+https://r4---sn-gpv7dn7e.googlevideo.com/videoplayback?requiressl=yes&id=92a2a216cd9c0938&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521309289&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=32C68601A73392EAEB8C8475CFDE531361726A1E.3EC463029D33A90B5F2E8D2293AA537DB30B9C54&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7dn7e&ms=nxu&mt=1519161741&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7a/Vikings_Temporada_2_Poster.jpg/240px-Vikings_Temporada_2_Poster.jpg" group-title="Vikings Temporada 2", Episodio 5
+https://r3---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=c801f3caa6736f6f&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521309323&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=697D3BFF6C421DC7651D316E23BD853DBF14D550.7972E531752E035ED4D1BD2EAAAC79C2C93D3E4F&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519161741&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7a/Vikings_Temporada_2_Poster.jpg/240px-Vikings_Temporada_2_Poster.jpg" group-title="Vikings Temporada 2", Episodio 6
+https://r6---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=447e6a3fef1374f6&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521309333&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=212BB5B3722C39D6BAE9450EFE45224C231BA8BA.378D538E1A58AC32715C6CAC7629A19F95DD49E8&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519161741&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7a/Vikings_Temporada_2_Poster.jpg/240px-Vikings_Temporada_2_Poster.jpg" group-title="Vikings Temporada 2", Episodio 7
+https://r1---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=0905ab01cf980093&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521309371&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=0D1A01BFD716649209A4B50CB2ED63A60C96FB04.5055C0D7D8EC7C97023F8FE62E8443E5B1E1E640&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519161803&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7a/Vikings_Temporada_2_Poster.jpg/240px-Vikings_Temporada_2_Poster.jpg" group-title="Vikings Temporada 2", Episodio 8
+https://r3---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=d1025b96e730fc64&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521309388&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=77DC17135DEE715CDC7C64855FEA72E6825F0C66.1079CC70C1E399FA355593D076B42485BF169166&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519161803&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7a/Vikings_Temporada_2_Poster.jpg/240px-Vikings_Temporada_2_Poster.jpg" group-title="Vikings Temporada 2", Episodio 9
+https://r1---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=c4c238b5a59ed5a4&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521309401&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=5C0ECB8D2323C7702C96CA493DA9FED265A84482.4867F035EC52DC9B1EB74626C4CE72B9804D25B9&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519161803&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7a/Vikings_Temporada_2_Poster.jpg/240px-Vikings_Temporada_2_Poster.jpg" group-title="Vikings Temporada 2", Episodio 10
+https://r1---sn-gpv7dn7e.googlevideo.com/videoplayback?requiressl=yes&id=5ce4ffa42a17fbde&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521309425&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=3232C5928654B80F36CB9F63F2088A8E71A1ACEF.26A81AFE75C156BFC3B3016084C878A7FBC61DA6&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7dn7e&ms=nxu&mt=1519161803&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/6/61/Vikings_Temporada_3_Poster.jpg/240px-Vikings_Temporada_3_Poster.jpg" group-title="Vikings Temporada 3", Episodio 1
+https://r4---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=daeee2649e0f9b66&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521309791&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=0317EC8E70D6BBB685271301AA19B9F7CE39B5D2.1A0A5E7F07C1CA98D416E498A787B787055C3B40&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519162220&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/6/61/Vikings_Temporada_3_Poster.jpg/240px-Vikings_Temporada_3_Poster.jpg" group-title="Vikings Temporada 3", Episodio 2
+https://r3---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=d94d6818aaeb88bd&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521309793&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=7B84E0BFC95DE0C97B6176F472B7FBD629079CC6.60AF08BCD748210E3D91F416D55770CCEF77D021&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519162220&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/6/61/Vikings_Temporada_3_Poster.jpg/240px-Vikings_Temporada_3_Poster.jpg" group-title="Vikings Temporada 3", Episodio 3
+https://r1---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=f3dee3f5ea30c5d2&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521309793&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=2385CBC50DBFEC0BAF4BD265E085DDB54A47BA20.489A7A4C53FE325187E477EAFCE87042B488D9B5&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519162220&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/6/61/Vikings_Temporada_3_Poster.jpg/240px-Vikings_Temporada_3_Poster.jpg" group-title="Vikings Temporada 3", Episodio 4
+https://r1---sn-gpv7eney.googlevideo.com/videoplayback?requiressl=yes&id=8bda6a9f1d4bfb0d&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521310421&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=1347D43C5C962EF2FE957E778367DC1F95EB860C.781546AC52AD111009E731B76AC451CA98F6F5BF&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7eney&ms=nxu&mt=1519162820&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/6/61/Vikings_Temporada_3_Poster.jpg/240px-Vikings_Temporada_3_Poster.jpg" group-title="Vikings Temporada 3", Episodio 5
+https://r2---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=1ef6c31fdbbe78a3&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521310446&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=7DC950AA4E28A5E8A2FFD3EB93FFF9287BFAF9CF.187B79FA01054F2F296941ABD12929BFE7523E28&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519162881&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/6/61/Vikings_Temporada_3_Poster.jpg/240px-Vikings_Temporada_3_Poster.jpg" group-title="Vikings Temporada 3", Episodio 6
+https://r3---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=95f57eeb0323204c&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521310462&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=78690DA3FBFFA5D640DDC193D5203D9AC180B1F2.3B537EC1848B4B16756527D14CA6E11D8F4839BA&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519162941&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/6/61/Vikings_Temporada_3_Poster.jpg/240px-Vikings_Temporada_3_Poster.jpg" group-title="Vikings Temporada 3", Episodio 7
+https://r2---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=e40b110ef134da73&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521310489&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=3365BE12BDE9626E38A8F989CD9623081B2203D6.5B8BCC3EB700840AF837E8F2F53DD9F2ABE3B554&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519162941&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/6/61/Vikings_Temporada_3_Poster.jpg/240px-Vikings_Temporada_3_Poster.jpg" group-title="Vikings Temporada 3", Episodio 8
+https://r5---sn-gpv7ener.googlevideo.com/videoplayback?requiressl=yes&id=97becc2934c46b15&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521310511&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=79783E3B89249E687CB206912E2E38EDCBAFA576.28FC0D85243988C251922C25B192D42925C688EF&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7ener&ms=nxu&mt=1519162941&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/6/61/Vikings_Temporada_3_Poster.jpg/240px-Vikings_Temporada_3_Poster.jpg" group-title="Vikings Temporada 3", Episodio 9
+https://r2---sn-gpv7dn7l.googlevideo.com/videoplayback?requiressl=yes&id=ee320d5759641210&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521310531&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=625681A1E3F3A64711904CE2BB4756AC862300E6.6E9FB68414C71F313A69AEF11A1E3D33DE61619D&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7dn7l&ms=nxu&mt=1519162941&mv=m&pl=24&sc=yes
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/6/61/Vikings_Temporada_3_Poster.jpg/240px-Vikings_Temporada_3_Poster.jpg" group-title="Vikings Temporada 3", Episodio 10
+https://r3---sn-gpv7enek.googlevideo.com/videoplayback?requiressl=yes&id=614a6d42ff0e68d1&itag=18&source=blogger&app=blogger&ip=0.0.0.0&ipbits=0&expire=1521310562&sparams=expire,id,ip,ipbits,itag,mip,mm,mn,ms,mv,pl,requiressl,sc,source&signature=2411E4FAFD530D49BC8FA9B3CA0E35B9BF27BEF4.5DCE5192628CC6E4476A09D24292B8B666649801&key=cms1&cms_redirect=yes&mip=192.141.72.93&mm=30&mn=sn-gpv7enek&ms=nxu&mt=1519163001&mv=m&pl=24&sc=yes
+
