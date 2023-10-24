@@ -1523,18 +1523,14 @@ https://tv.iill.top/cqyx/golfHD
 https://tv.iill.top/cqyx/bqkjHD
 #EXTINF:-1 group-title="•卫视「CQYX」",江苏卫视
 https://tv.iill.top/cqyx/jiangsuHD
-#EXTINF:-1 group-title="•卫视「CQYX」",北京卫视
-https://tv.iill.top/cqyx/beijingHD
-#EXTINF:-1 group-title="•卫视「CQYX」",卡酷少儿
-https://tv.iill.top/cqyx/bjkakuSD
-#EXTINF:-1 group-title="•卫视「CQYX」",纪实科教
-https://tv.iill.top/cqyx/bjayjsSD
 #EXTINF:-1 group-title="•卫视「CQYX」",浙江卫视
 https://tv.iill.top/cqyx/zhejiangHD
 #EXTINF:-1 group-title="•卫视「CQYX」",东方卫视
 https://tv.iill.top/cqyx/shanghaiHD
 #EXTINF:-1 group-title="•卫视「CQYX」",深圳卫视
 https://tv.iill.top/cqyx/shenzhenHD
+#EXTINF:-1 group-title="•卫视「CQYX」",北京卫视
+https://tv.iill.top/cqyx/beijingHD
 #EXTINF:-1 group-title="•卫视「CQYX」",辽宁卫视
 https://tv.iill.top/cqyx/liaoningHD
 #EXTINF:-1 group-title="•卫视「CQYX」",天津卫视
@@ -1567,8 +1563,6 @@ https://tv.iill.top/cqyx/guangxiHD
 https://tv.iill.top/cqyx/neimengkuSD
 #EXTINF:-1 group-title="•卫视「CQYX」",湖南卫视
 https://tv.iill.top/cqyx/hunanHD
-#EXTINF:-1 group-title="•卫视「CQYX」",金鹰卡通
-https://tv.iill.top/cqyx/jinyingSD
 #EXTINF:-1 group-title="•卫视「CQYX」",广东卫视
 https://tv.iill.top/cqyx/guangdongHD
 #EXTINF:-1 group-title="•卫视「CQYX」",河南卫视
@@ -1599,6 +1593,12 @@ https://tv.iill.top/cqyx/chcgqdyHD
 https://tv.iill.top/cqyx/hxjc_4K
 #EXTINF:-1 group-title="•数字「CQYX」",中国天气
 https://tv.iill.top/cqyx/tianqiSD
+#EXTINF:-1 group-title="•数字「CQYX」",卡酷少儿
+https://tv.iill.top/cqyx/bjkakuSD
+#EXTINF:-1 group-title="•数字「CQYX」",纪实科教
+https://tv.iill.top/cqyx/bjayjsSD
+#EXTINF:-1 group-title="•数字「CQYX」",金鹰卡通
+https://tv.iill.top/cqyx/jinyingSD
 #EXTINF:-1 group-title="•数字「CQYX」",生活时尚
 https://tv.iill.top/cqyx/shenghuo
 #EXTINF:-1 group-title="•数字「CQYX」",都市剧场
