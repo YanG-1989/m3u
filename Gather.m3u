@@ -1219,7 +1219,7 @@ https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
 #EXTINF:-1 group-title="特色",广东4k
 http://113.117.74.17:8081/hls/145/index.m3u8
-#EXTINF:-1  group-title="特色",CCTV 4K
+#EXTINF:-1 group-title="特色",CCTV 4K
 http://113.117.74.17:8081/hls/144/index.m3u8
 #EXTINF:-1 group-title="特色",广东卫视
 http://113.117.74.17:8081/hls/140/index.m3u8
@@ -1312,7 +1312,7 @@ https://tv.iill.top/bestv/cctv12
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="•央视「Best」",CCTV13
 https://tv.iill.top/bestv/cctv13
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="•央视「Best」",CCTV14
-https://tv.iill.top/bestv/cctvse
+https://tv.iill.top/bestv/cctv14
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="•央视「Best」",CCTV15
 https://tv.iill.top/bestv/cctv15
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="•央视「Best」",CCTV16
@@ -1324,7 +1324,7 @@ https://tv.iill.top/bestv/cetv1
 #EXTINF:-1 tvg-id="CETV4" tvg-name="CETV4" tvg-logo="https://epg.112114.xyz/logo/CETV4.png" group-title="•央视「Best」",CETV4
 https://tv.iill.top/bestv/cetv4
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.112114.xyz/logo/湖南卫视.png" group-title="•卫视「Best」",湖南卫视
-https://tv.iill.top/bestv/hunanws
+https://tv.iill.top/bestv/hunws
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.112114.xyz/logo/浙江卫视.png" group-title="•卫视「Best」",浙江卫视
 https://tv.iill.top/bestv/zjws
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.112114.xyz/logo/东方卫视.png" group-title="•卫视「Best」",东方卫视
@@ -1372,7 +1372,7 @@ https://tv.iill.top/bestv/ynws
 #EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://epg.112114.xyz/logo/贵州卫视.png" group-title="•卫视「Best」",贵州卫视
 https://tv.iill.top/bestv/gzws
 #EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://epg.112114.xyz/logo/海南卫视.png" group-title="•卫视「Best」",海南卫视
-https://tv.iill.top/bestv/hainanws
+https://tv.iill.top/bestv/hnws
 #EXTINF:-1 group-title="•数字「Best」",五星体育
 https://tv.iill.top/bestv/wxty
 #EXTINF:-1 group-title="•数字「Best」",东方财经
@@ -1414,7 +1414,7 @@ https://tv.iill.top/bestv/hxjc
 #EXTINF:-1 group-title="•数字「Best」",劲爆体育
 https://tv.iill.top/bestv/jbty
 #EXTINF:-1 group-title="•数字「Best」",超级体育
-https://tv.iill.top/bestv/qcsj
+https://tv.iill.top/bestv/cjty
 #EXTINF:-1 group-title="•数字「Best」",快乐垂钓
 https://tv.iill.top/bestv/klcd
 #EXTINF:-1 group-title="•数字「Best」",金鹰纪实
@@ -1445,20 +1445,20 @@ https://tv.iill.top/bestv/bbkt
 https://tv.iill.top/bestv/ktxjx
 #EXTINF:-1 group-title="•数字「Best」",电竞天堂
 https://tv.iill.top/bestv/djtt
-#EXTINF:-1 group-title="•数字「Best」",陶瓷高清
+#EXTINF:-1 group-title="•数字「Best」",陶瓷频道
 https://tv.iill.top/bestv/tcpd
 #EXTINF:-1 group-title="•数字「Best」",北京纪实科教
-https://tv.iill.top/bestv/bjjjsk
+https://tv.iill.top/bestv/bjjsk
 #EXTINF:-1 group-title="•数字「Best」",茶频道
-https://tv.iill.top/bestv/cpdhdavs
+https://tv.iill.top/bestv/cpd
 #EXTINF:-1 group-title="•数字「Best」",足球高清
 https://tv.iill.top/bestv/zqpd
 #EXTINF:-1 group-title="•数字「Best」",法治天地
 https://tv.iill.top/bestv/fztd
 #EXTINF:-1 group-title="•数字「Best」",金色学堂
-https://tv.iill.top/bestv/jingsepd
+https://tv.iill.top/bestv/jspd
 #EXTINF:-1 group-title="•数字「Best」",魅力足球
-https://tv.iill.top/bestv/mlyy
+https://tv.iill.top/bestv/mlzq
 #EXTINF:-1 tvg-name="CCTV4K" group-title="•央视「CQYX」",CCTV4K 超高清
 https://tv.iill.top/cqyx/CCTV4K
 #EXTINF:-1 tvg-name="CCTV1" group-title="•央视「CQYX」",CCTV1 综合
@@ -1677,31 +1677,31 @@ https://tv.iill.top/cqyx/ysgw
 https://tv.iill.top/cqyx/jygw
 #EXTINF:-1 group-title="•数字「CQYX」",央广购物
 https://tv.iill.top/cqyx/yggw
-#EXTINF:-1 group-title="•地区",「重庆」,爱看导视
+#EXTINF:-1 group-title="•地区",爱看导视
 https://tv.iill.top/cqyx/aikanHD
-#EXTINF:-1 group-title="•地区",「重庆」,重广融媒
+#EXTINF:-1 group-title="•地区",重广融媒
 https://tv.iill.top/cqyx/cqrongmei
-#EXTINF:-1 group-title="•地区",「重庆」,﻿重庆卫视
+#EXTINF:-1 group-title="•地区",﻿重庆卫视
 https://tv.iill.top/cqyx/chongqingHD
-#EXTINF:-1 group-title="•地区",「重庆」,重庆新闻
+#EXTINF:-1 group-title="•地区",重庆新闻
 https://tv.iill.top/cqyx/CQTVNewsHD
-#EXTINF:-1 group-title="•地区",「重庆」,重庆影视
+#EXTINF:-1 group-title="•地区",重庆影视
 https://tv.iill.top/cqyx/cqyingshiHD
-#EXTINF:-1 group-title="•地区",「重庆」,重庆社会与法
+#EXTINF:-1 group-title="•地区",重庆社会与法
 https://tv.iill.top/cqyx/CQTVTrendyHD
-#EXTINF:-1 group-title="•地区",「重庆」,重庆时尚生活
+#EXTINF:-1 group-title="•地区",重庆时尚生活
 https://tv.iill.top/cqyx/cqssgwHD
-#EXTINF:-1 group-title="•地区",「重庆」,重庆文体娱乐
+#EXTINF:-1 group-title="•地区",重庆文体娱乐
 https://tv.iill.top/cqyx/cqwtylHD
-#EXTINF:-1 group-title="•地区",「重庆」,重庆新农村
+#EXTINF:-1 group-title="•地区",重庆新农村
 https://tv.iill.top/cqyx/cqggncHD
-#EXTINF:-1 group-title="•地区",「重庆」,重庆少儿
+#EXTINF:-1 group-title="•地区",重庆少儿
 https://tv.iill.top/cqyx/cqseHD
-#EXTINF:-1 group-title="•地区",「重庆」,重庆科教
+#EXTINF:-1 group-title="•地区",重庆科教
 https://tv.iill.top/cqyx/CQTVkejiaoHD
-#EXTINF:-1 group-title="•地区",「重庆」,重庆汽摩
+#EXTINF:-1 group-title="•地区",重庆汽摩
 https://tv.iill.top/cqyx/cqcarSD
-#EXTINF:-1 group-title="•地区",「重庆」,重庆移动
+#EXTINF:-1 group-title="•地区",重庆移动
 https://tv.iill.top/cqyx/mryyHD
 #EXTINF:-1 group-title="•地区",「安徽」安徽经济生活
 http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8?zanhd
@@ -3223,7 +3223,7 @@ http://123.254.72.24:1935/tvlive/livestream2/playlist.m3u8
 http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
 #EXTINF:-1 group-title="•韩国",NBS
 https://media.joycorp.co.kr:4443/live/live_720p/playlist.m3u8
-#EXTINF:-1 group-title="•韩国",SBS 
+#EXTINF:-1 group-title="•韩国",SBS
 http://1.222.207.80:1935/live/cjbtv/chunklist_w1357270949.m3u8
 #EXTINF:-1 group-title="•韩国",TBS Seoul
 https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
