@@ -1,4 +1,4 @@
-﻿#EXTM3U
+#EXTM3U
 #EXTINF:-1 group-title="4K",Clarity 4K
 https://d3thiix3tzne5u.cloudfront.net/playlist2160p.m3u8
 #EXTINF:-1 tvg-name="LoveNrture" group-title="4K",Love Nrture 4K「自然」
@@ -1217,15 +1217,15 @@ https://yang-1989.eu.org/live/huya/880223
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips&checkedby:iptvcat.com
 #EXTINF:-1 group-title="•特色",Red Bull TV「体育」
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
-#EXTINF:-1 group-title="特色",广东4k
+#EXTINF:-1 group-title="•特色",广东4k
 http://113.117.74.17:8081/hls/145/index.m3u8
-#EXTINF:-1 group-title="特色",CCTV 4K
+#EXTINF:-1 group-title="•特色",CCTV 4K
 http://113.117.74.17:8081/hls/144/index.m3u8
-#EXTINF:-1 group-title="特色",广东卫视
+#EXTINF:-1 group-title="•特色",广东卫视
 http://113.117.74.17:8081/hls/140/index.m3u8
-#EXTINF:-1 group-title="特色",广东经济科教
+#EXTINF:-1 group-title="•特色",广东经济科教
 http://113.117.74.17:8081/hls/66/index.m3u8
-#EXTINF:-1 group-title="特色",大湾区卫视
+#EXTINF:-1 group-title="•特色",大湾区卫视
 http://113.117.74.17:8081/hls/80/index.m3u8
 #EXTINF:-1 group-title="•特色",广东珠江
 https://php.17186.eu.org/gdtv/web/gdzj.m3u8
@@ -2349,7 +2349,7 @@ http://live1.plus.wifizs.cn/ggsh/sd/live.m3u8?zzhed
 http://live1.plus.wifizs.cn/xwzh/sd/live.m3u8?zzhed
 #EXTINF:-1 group-title="•地区",「浙江」诸暨新闻综合
 http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed#EXTINF:-1%20group-title=%22%E2%80%A2%E9%9F%B3%E4%B9%90%22,%E9%9F%B3%E4%B9%90%E7%9F%B3%E6%A6%B4
-#EXTINF:-1 group-title="•地区",「浙江」诸暨新闻综合
+#EXTINF:-1 group-title="•音乐",音乐石榴
 https://yang-1989.eu.org/live/huya/17091681
 #EXTINF:-1 group-title="•音乐",治愈•放松
 https://yang-1989.eu.org/live/huya/21241811
