@@ -1,8 +1,8 @@
 
 # 仓库简介
 #### 个人爱好，收集整合！佛系更新…
->iOS 推荐[APTV](https://apps.apple.com/cn/app/aptv/id1630403500​)「国区」
->安卓 推荐TiviMate「电视端」 Televizo「手机端」  
+>iOS 推荐 [APTV](https://apps.apple.com/cn/app/aptv/id1630403500​)「国区」  
+>安卓 推荐 TiviMate「电视端」 Televizo「手机端」    
 ---
 ### 订阅地址「懒人必备」
 * [Gather.m3u](https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u)  
