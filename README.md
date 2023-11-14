@@ -4,7 +4,7 @@
 ---
 ### 推荐软件  
 * iOS系统  
->[APTV](https://apps.apple.com/cn/app/aptv/id1630403500​)
+>APTV「多端」
 * 安卓系统  
 >TiviMate「电视端」  
 >Televizo「手机端」    
