@@ -40,41 +40,41 @@ http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/32212281
 #EXTINF:-1 group-title="IPV6·央视",CCTV8K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw1981574683_-2118700426/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8
 #EXTINF:-1 tvg-name="CCTV1" group-title="IPV6·央视",CCTV1「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001022/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001022/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV2" group-title="IPV6·央视",CCTV2「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001220/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001220/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV3" group-title="IPV6·央视",CCTV3「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001186/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001186/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV4" group-title="IPV6·央视",CCTV4「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001221/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001221/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV5" group-title="IPV6·央视",CCTV5「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001187/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001187/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV5+" group-title="IPV6·央视",CCTV5+「IPV6」
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001334/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-name="CCTV6" group-title="IPV6·央视",CCTV6「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001188/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001188/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV7" group-title="IPV6·央视",CCTV7「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001236/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001236/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV8" group-title="IPV6·央视",CCTV8「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001189/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001189/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV9" group-title="IPV6·央视",CCTV9「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001237/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001237/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV10" group-title="IPV6·央视",CCTV10「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001238/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001238/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV11" group-title="IPV6·央视",CCTV11「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001309/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001309/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV12" group-title="IPV6·央视",CCTV12「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001239/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001239/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV13" group-title="IPV6·央视",CCTV13「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001328/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001328/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV14" group-title="IPV6·央视",CCTV14「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001240/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001240/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV15" group-title="IPV6·央视",CCTV15「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001338/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001338/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV16" group-title="IPV6·央视",CCTV16「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001258/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001258/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CCTV17" group-title="IPV6·央视",CCTV17「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001241/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001241/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="兵器科技" group-title="IPV6·央视",CCTV兵器科技「IPV6」
 http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226975/index.m3u8
 #EXTINF:-1 tvg-name="怀旧剧场" group-title="IPV6·央视",CCTV怀旧剧场「IPV6」
@@ -100,63 +100,63 @@ http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002525/index.m3
 #EXTINF:-1 tvg-name="女性时尚" group-title="IPV6·央视",CCTV女性时尚「IPV6」
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002475/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-name="CETV1" group-title="IPV6·央视",CETV1「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001020/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001020/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CETV4" group-title="IPV6·央视",CETV4「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001348/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001348/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="CGTV" group-title="IPV6·央视",CGTV「IPV6」
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001024/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-name="湖南卫视" group-title="IPV6·卫视",湖南卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001026/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001026/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="浙江卫视" group-title="IPV6·卫视",浙江卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001023/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001023/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="江苏卫视" group-title="IPV6·卫视",江苏卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001033/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001033/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="东方卫视" group-title="IPV6·卫视",东方卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001013/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001013/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="广东卫视" group-title="IPV6·卫视",广东卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001032/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001032/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="广西卫视" group-title="IPV6·卫视",广西卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001224/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001224/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="深圳卫视" group-title="IPV6·卫视",深圳卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001030/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001030/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="北京卫视" group-title="IPV6·卫视",北京卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001029/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001029/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="东南卫视" group-title="IPV6·卫视",东南卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001201/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001201/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="四川卫视" group-title="IPV6·卫视",四川卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001130/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001130/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="天津卫视" group-title="IPV6·卫视",天津卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001036/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001036/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="安徽卫视" group-title="IPV6·卫视",安徽卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001037/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001037/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="山东卫视" group-title="IPV6·卫视",山东卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001028/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001028/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="江西卫视" group-title="IPV6·卫视",江西卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001034/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001034/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="河北卫视" group-title="IPV6·卫视",河北卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001229/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001229/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="河南卫视" group-title="IPV6·卫视",河南卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001222/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001222/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="海南卫视" group-title="IPV6·卫视",海南卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001183/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001183/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="湖北卫视" group-title="IPV6·卫视",湖北卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001027/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001027/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="贵州卫视" group-title="IPV6·卫视",贵州卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001184/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001184/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="辽宁卫视" group-title="IPV6·卫视",辽宁卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001035/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001035/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="重庆卫视" group-title="IPV6·卫视",重庆卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001129/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001129/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="甘肃卫视" group-title="IPV6·卫视",甘肃卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001298/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001298/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="吉林卫视" group-title="IPV6·卫视",吉林卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001225/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001225/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="云南卫视" group-title="IPV6·卫视",云南卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001223/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001223/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="三沙卫视" group-title="IPV6·卫视",三沙卫视「IPV6」
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8?IAS
 #EXTINF:-1 tvg-name="黑龙江卫视" group-title="IPV6·卫视",黑龙江卫视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001031/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001031/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="凤凰香港" group-title="IPV6·数字",凤凰香港「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb1d]/ott.mobaibox.com/PLTV/3/224/3221228530/1.m3u8
 #EXTINF:-1 tvg-name="凤凰中文" group-title="IPV6·数字",凤凰中文「IPV6」
@@ -164,11 +164,11 @@ http://[2409:8087:2001:20:2800:0:df6e:eb27]/ott.mobaibox.com/PLTV/3/224/32212285
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="IPV6·数字",凤凰资讯「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb24]/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8
 #EXTINF:-1 tvg-name="第一财经" group-title="IPV6·数字",第一财经「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001017/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001017/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="金鹰纪实" group-title="IPV6·数字",金鹰纪实「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001230/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001230/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="纪实人文" group-title="IPV6·数字",纪实人文「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001019/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001019/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="纪实科教" group-title="IPV6·数字",纪实科教「IPV6」
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001329/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-name="求索动物" group-title="IPV6·数字",求索动物「IPV6」
@@ -180,9 +180,9 @@ http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000032344/index.
 #EXTINF:-1 tvg-name="求索纪录" group-title="IPV6·数字",求索纪录「IPV6」
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000032052/index.m3u8?channel-id=wasusyt&Contentid=6000000002000032052&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="卡酷少儿" group-title="IPV6·数字",卡酷少儿「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001245/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001245/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="哈哈炫动" group-title="IPV6·数字",哈哈炫动「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001232/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001232/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="精彩综艺" group-title="IPV6·数字",精彩综艺「IPV6」
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001273/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-name="null" group-title="IPV6·数字",精彩影视「IPV6」
@@ -194,27 +194,27 @@ http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/322122
 #EXTINF:-1 tvg-name="CHC家庭影院" group-title="IPV6·数字",CHC家庭影院「IPV6」
 http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8
 #EXTINF:-1 tvg-name="生活时尚" group-title="IPV6·数字",SiTV五星体育「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001018/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001018/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="东方财经" group-title="IPV6·数字",SiTV东方财经「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001318/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001318/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="欢笑剧场" group-title="IPV6·数字",SiTV欢笑剧场「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001193/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001193/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="法治天地" group-title="IPV6·数字",SiTV法治天地「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001195/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001195/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="七彩戏剧" group-title="IPV6·数字",SiTV七彩戏剧「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001308/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001308/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="乐游" group-title="IPV6·数字",SiTV乐游「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001200/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001200/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="动漫秀场" group-title="IPV6·数字",SiTV动漫秀场「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001196/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001196/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="游戏风云" group-title="IPV6·数字",SiTV游戏风云「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001192/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001192/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="生活时尚" group-title="IPV6·数字",SiTV生活时尚「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001199/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001199/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="都市剧场" group-title="IPV6·数字",SiTV都市剧场「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001203/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001203/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="金色学堂" group-title="IPV6·数字",SiTV金色学堂「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001194/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001194/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="超级电影" group-title="IPV6·数字",NewTv超级电影「IPV6」
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
 #EXTINF:-1 tvg-name="超级电视剧" group-title="IPV6·数字",NewTv超级电视剧「IPV6」
@@ -332,25 +332,25 @@ http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000130630/index.
 #EXTINF:-1 tvg-name="null" group-title="IPV6·数字",iHOT爱院线「IPV6」
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000030630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000030630&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="快乐垂钓" group-title="IPV6·数字",快乐垂钓「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001235/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001235/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="茶频道" group-title="IPV6·数字",茶频道「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001234/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001234/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="中国交通" group-title="IPV6·数字",中国交通「IPV6」
 http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/08984400000000060000000000000438/index.m3u8?IAS
 #EXTINF:-1 group-title="IPV6·数字",央广购物「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001420/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001420/index.m3u8?love=freedom
 #EXTINF:-1 group-title="IPV6·数字",东方购物「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001039/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001039/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="上海东方影视" group-title="IPV6·地区",「上海」东方影视「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001016/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001016/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="上海都市" group-title="IPV6·地区",「上海」都市「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001015/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001015/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="上海教育电视台" group-title="IPV6·地区",「上海」教育电视台「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001268/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001268/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="上海外语频道" group-title="IPV6·地区",「上海」外语频道「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001128/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001128/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="上海新闻综合" group-title="IPV6·地区",「上海」新闻综合「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001014/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001014/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="null" group-title="IPV6·地区",「江苏」江苏交通广播「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb02]/wh7f454c46tw546624575_-1910844548/ott.mobaibox.com/PLTV/3/224/3221227937/index.m3u8
 #EXTINF:-1 tvg-name="null" group-title="IPV6·地区",「江苏」江苏健康广播「IPV6」
@@ -532,27 +532,27 @@ http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/322122
 #EXTINF:-1 group-title="IPV6·地区",「陕西」佛坪电视台「IPV6」
 http://[2409:8087:7002:20::3]/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226454/index.m3u8
 #EXTINF:-1 group-title="IPV6·BesTV",BesTV-1「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001148/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001148/index.m3u8?love=freedom
 #EXTINF:-1 group-title="IPV6·BesTV",BesTV-2「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001149/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001149/index.m3u8?love=freedom
 #EXTINF:-1 group-title="IPV6·BesTV",BesTV-3「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001150/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001150/index.m3u8?love=freedom
 #EXTINF:-1 group-title="IPV6·BesTV",BesTV-4「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001151/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001151/index.m3u8?love=freedom
 #EXTINF:-1 group-title="IPV6·BesTV",BesTV-5「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001152/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001152/index.m3u8?love=freedom
 #EXTINF:-1 group-title="IPV6·BesTV",BesTV-6「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001153/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001153/index.m3u8?love=freedom
 #EXTINF:-1 group-title="IPV6·BesTV",BesTV-7「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001154/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001154/index.m3u8?love=freedom
 #EXTINF:-1 group-title="IPV6·BesTV",BesTV-8「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001359/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001359/index.m3u8?love=freedom
 #EXTINF:-1 group-title="IPV6·BesTV",BesTV-9「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001378/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001378/index.m3u8?love=freedom
 #EXTINF:-1 group-title="IPV6·BesTV",BesTV-10「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001388/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001388/index.m3u8?love=freedom
 #EXTINF:-1 group-title="IPV6·BesTV",BesTV-11「IPV6」
-http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001398/index.m3u8?
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001398/index.m3u8?love=freedom
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/L5frXm2p/mg.jpg" group-title="IPV6·咪咕",咪咕直播4K-1「IPV6」
 http://[2409:8087:1a01:df::4001]/PLTV/88888888/224/3221225655/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/L5frXm2p/mg.jpg" group-title="IPV6·咪咕",咪咕直播4K-2「IPV6」
