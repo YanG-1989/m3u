@@ -5,6 +5,8 @@ CCTV13「IPV6」,http://[2409:8087:1e03:21::42]:6610/cms001/ch000000909900000013
 广东卫视「IPV6」,http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001032/index.m3u8?love=freedom
 广东珠江,https://php.17186.eu.org/gdtv/web/gdzj.m3u8
 翡翠台,http://198.16.100.90:8278/jade_twn/playlist.m3u8?tid=ME6E1330319113303191&ct=19225&tsum=d76985c4965fd63807e131035f66af09
+「HK」翡翠台,http://r.jdshipin.com/n90gt
+「HK」翡翠台,http://r.jdshipin.com/qClQf
 
 4K,#genre#
 Clarity 4K,https://d3thiix3tzne5u.cloudfront.net/playlist2160p.m3u8
