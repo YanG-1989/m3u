@@ -1,3 +1,10 @@
+常看,#genre#
+CCTV1「IPV6」,http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001022/index.m3u8?love=freedom
+CCTV6「IPV6」,http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001188/index.m3u8?love=freedom
+CCTV13「IPV6」,http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001328/index.m3u8?love=freedom
+广东卫视「IPV6」,http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001032/index.m3u8?love=freedom
+广东珠江,https://php.17186.eu.org/gdtv/web/gdzj.m3u8
+
 4K,#genre#
 Clarity 4K,https://d3thiix3tzne5u.cloudfront.net/playlist2160p.m3u8
 Love Nrture 4K「自然」,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
