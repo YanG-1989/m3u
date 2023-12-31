@@ -1,37 +1,31 @@
-#EXTM3U
-#EXTINF:-1 tvg-name="LoveNrture" group-title="4K",Love Nrture 4K「自然」
+﻿#EXTM3U
+#EXTINF:-1 tvg-name="LoveNrture" group-title="·4K",Love Nrture 4K「自然」
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 group-title="4K",Fashion 4K「时尚」
+#EXTINF:-1 group-title="·4K",Fashion 4K「时尚」
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
-#EXTINF:-1 group-title="4K",苏州4K
+#EXTINF:-1 group-title="·4K",苏州4K
 http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
-#EXTINF:-1 group-title="4K",CCTV16 4K
-https://tv.iill.top/bestv/cctv164k
-#EXTINF:-1 group-title="4K",CCTV 4K
-https://tv.iill.top/bestv/cctv4k
-#EXTINF:-1 group-title="4K",欢笑剧场 4k
-https://tv.iill.top/bestv/hxjc4k
-#EXTINF:-1 group-title="4K",影视 4K「移动」
+#EXTINF:-1 group-title="·4K",影视 4K「移动」
 http://111.11.123.37:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3
 #EXTINF:-1 group-title="IPV6·4K",8K测试「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb04]/wh7f454c46tW1782571424_-1576923679/ott.mobaibox.com/PLTV/3/224/3221228132/index.m3u8
 #EXTINF:-1 group-title="IPV6·4K",爱上4K 「IPV6」
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000459/index.m3u8?IAS
 #EXTINF:-1 group-title="IPV6·4K",4K 修复「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb15]/wh7f454c46tw1958249448_-1314265822/ott.mobaibox.com/PLTV/3/224/3221228141/index.m3u8
+http://[2409:8087:2001:20:2800:0:df6e:eb15]/ott.mobaibox.com/PLTV/3/224/3221228141/index.m3u8
 #EXTINF:-1 tvg-name="纯享4K" group-title="IPV6·4K",纯享 4K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb10]:80/ott.mobaibox.com/PLTV/4/224/3221228242/index.m3u8
 #EXTINF:-1 tvg-name="欢笑剧场" group-title="IPV6·4K",SiTV欢笑剧场4K 「IPV6」
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-name="null" group-title="IPV6·4K",华数4K「IPV6」
 http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3
-#EXTINF:-1 tvg-name="CCTV1" group-title="IPV6·央视",CCTV [随机4K] 「IPV6」
+#EXTINF:-1 tvg-name="CCTV1" group-title="IPV6·央视",CCTV1 4K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb03]:80/PLTV/1/224/3221230805/1.m3u8
-#EXTINF:-1 tvg-name="CCTV1" group-title="IPV6·央视",CCTV [随机4K] 「IPV6」
+#EXTINF:-1 tvg-name="CCTV1" group-title="IPV6·央视",CCTV5 4K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228502/index.m3u8
-#EXTINF:-1 tvg-name="纯享4K" group-title="IPV6·4K",CCTV 4K「IPV6」
+#EXTINF:-1 tvg-name="纯享4K" group-title="IPV6·4K",CCTV4K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8
-#EXTINF:-1 tvg-name="CCTV16" group-title="IPV6·央视",CCTV16 4K 「IPV6」
+#EXTINF:-1 tvg-name="CCTV16" group-title="IPV6·央视",CCTV16 4K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
 #EXTINF:-1 tvg-name="CCTV8K" group-title="IPV6·央视",CCTV8K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb03]/ott.mobaibox.com/PLTV/4/224/3221228165/index.m3u8
@@ -1078,93 +1072,93 @@ http://198.16.100.90:8278/ctient/playlist.m3u8?tid=m6780c60bd34a13540795&ct=1787
 #EXTINF:-1 group-title="港澳台「P」",中天綜合
 http://198.16.100.90:8278/ctizhonghe/playlist.m3u8?tid=m85005aeec85b14021104&ct=17874&tsum=69f19f4b12ab79d2ee683b28cdb1c8ca
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」英雄联盟-1
-https://yang-1989.eu.org/live/huya/660000
+https://epg.112114.eu.org/huya/660000
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」英雄联盟-2
-https://yang-1989.eu.org/live/huya/660001
+https://epg.112114.eu.org/huya/660001
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」英雄联盟-3
-https://yang-1989.eu.org/live/douyu/288016
+https://epg.112114.eu.org/douyu/288016
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」英雄联盟-4
-https://yang-1989.eu.org/live/douyu/705690
+https://epg.112114.eu.org/douyu/705690
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」王者荣耀-1
-https://yang-1989.eu.org/live/huya/660002
+https://epg.112114.eu.org/huya/660002
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」王者荣耀-2
-https://yang-1989.eu.org/live/huya/660164
+https://epg.112114.eu.org/huya/660164
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-3
-https://yang-1989.eu.org/live/douyu/1863767
+https://epg.112114.eu.org/douyu/1863767
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-4
-https://yang-1989.eu.org/live/douyu/1984839
+https://epg.112114.eu.org/douyu/1984839
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-5
-https://yang-1989.eu.org/live/douyu/2045445
+https://epg.112114.eu.org/douyu/2045445
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-6
-https://yang-1989.eu.org/live/douyu/3606468
+https://epg.112114.eu.org/douyu/3606468
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」王者荣耀-♀
-https://yang-1989.eu.org/live/douyu/667319
+https://epg.112114.eu.org/douyu/667319
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生-1
-https://yang-1989.eu.org/live/huya/660004
+https://epg.112114.eu.org/huya/660004
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生-2
-https://yang-1989.eu.org/live/huya/660005
+https://epg.112114.eu.org/huya/660005
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」绝地求生-3
-https://yang-1989.eu.org/live/huya/660136
+https://epg.112114.eu.org/huya/660136
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」绝地求生-4
-https://yang-1989.eu.org/live/douyu/100
+https://epg.112114.eu.org/douyu/100
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」和平精英-1
-https://yang-1989.eu.org/live/huya/660006
+https://epg.112114.eu.org/huya/660006
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」和平精英-2
-https://yang-1989.eu.org/live/douyu/999
+https://epg.112114.eu.org/douyu/999
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」金铲铲之战-1
-https://yang-1989.eu.org/live/huya/660579
+https://epg.112114.eu.org/huya/660579
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」金铲铲之战-2
-https://yang-1989.eu.org/live/douyu/9715241
+https://epg.112114.eu.org/douyu/9715241
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」CSGO
-https://yang-1989.eu.org/live/huya/eslcsgo
+https://epg.112114.eu.org/huya/eslcsgo
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」DOTA2-1
-https://yang-1989.eu.org/live/huya/660118
+https://epg.112114.eu.org/huya/660118
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」DOTA2-2
-https://yang-1989.eu.org/live/douyu/30
+https://epg.112114.eu.org/douyu/30
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」云顶之弈
-https://yang-1989.eu.org/live/douyu/522423
+https://epg.112114.eu.org/douyu/522423
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」永劫无间
-https://yang-1989.eu.org/live/huya/660115
+https://epg.112114.eu.org/huya/660115
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」使命召唤·手游-1
-https://yang-1989.eu.org/live/huya/11718629
+https://epg.112114.eu.org/huya/11718629
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」使命召唤·手游-2
-https://yang-1989.eu.org/live/douyu/9223245
+https://epg.112114.eu.org/douyu/9223245
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」穿越火线-1
-https://yang-1989.eu.org/live/huya/660101
+https://epg.112114.eu.org/huya/660101
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」穿越火线-2
-https://yang-1989.eu.org/live/douyu/605964
+https://epg.112114.eu.org/douyu/605964
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」穿越火线-3
-https://yang-1989.eu.org/live/douyu/5388537
+https://epg.112114.eu.org/douyu/5388537
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」穿越火线·手游
-https://yang-1989.eu.org/live/huya/660102
+https://epg.112114.eu.org/huya/660102
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」第五人格-1
-https://yang-1989.eu.org/live/huya/idvesports
+https://epg.112114.eu.org/huya/idvesports
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」第五人格-2
-https://yang-1989.eu.org/live/douyu/3226194
+https://epg.112114.eu.org/douyu/3226194
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」第五人格-3
-https://yang-1989.eu.org/live/douyu/11030737
+https://epg.112114.eu.org/douyu/11030737
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」逆战
-https://yang-1989.eu.org/live/huya/nsl2021
+https://epg.112114.eu.org/huya/nsl2021
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」原神
-https://yang-1989.eu.org/live/douyu/10853239
+https://epg.112114.eu.org/douyu/10853239
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」QQ飞车·手游
-https://yang-1989.eu.org/live/douyu/5040227
+https://epg.112114.eu.org/douyu/5040227
 #EXTINF:-1 group-title="•游戏赛事",「虎牙」无畏契约-1
-https://yang-1989.eu.org/live/huya/660679
+https://epg.112114.eu.org/huya/660679
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」无畏契约-2
-https://yang-1989.eu.org/live/douyu/4585645
+https://epg.112114.eu.org/douyu/4585645
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」JJ斗地主
-https://yang-1989.eu.org/live/douyu/488743
+https://epg.112114.eu.org/douyu/488743
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」我的世界
-https://yang-1989.eu.org/live/douyu/738878
+https://epg.112114.eu.org/douyu/738878
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」FIFA
-https://yang-1989.eu.org/live/douyu/7692166
+https://epg.112114.eu.org/douyu/7692166
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」火影忍者
-https://yang-1989.eu.org/live/douyu/1997723
+https://epg.112114.eu.org/douyu/1997723
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」跑跑卡丁车
-https://yang-1989.eu.org/live/douyu/7722576
+https://epg.112114.eu.org/douyu/7722576
 #EXTINF:-1 group-title="•游戏赛事",「斗鱼」跑跑卡丁车·手游
-https://yang-1989.eu.org/live/douyu/6672862
+https://epg.112114.eu.org/douyu/6672862
 #EXTINF:-1 group-title="•游戏赛事",穿越火线
 http://tc-tct.douyucdn2.cn/dyliveflv1/605964rzzgGEOZHr.flv?wsAuth=43ef2d796067cbec9c238c73235a1005&token=cpn-androidmpro-0-605964-b9be22700076c085e82232beb0fbe7838e28994acafb3964&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play1
 #EXTINF:-1 group-title="•游戏赛事",和平精英·手游
@@ -1200,13 +1194,13 @@ http://[2409:8087:2001:20:2800:0:df6e:eb27]:80/PLTV/1/224/3221231236/1.m3u8
 #EXTINF:-1 group-title="•特色",享受文学声音「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb22]:80/PLTV/1/224/3221231174/1.m3u8
 #EXTINF:-1 group-title="•特色",村AB·贵州
-https://yang-1989.eu.org/live/huya/17455052
+https://epg.112114.eu.org/huya/17455052
 #EXTINF:-1 group-title="•特色",斯诺克-1
-https://yang-1989.eu.org/live/huya/880214
+https://epg.112114.eu.org/huya/880214
 #EXTINF:-1 group-title="•特色",斯诺克-2
-https://yang-1989.eu.org/live/huya/880625
+https://epg.112114.eu.org/huya/880625
 #EXTINF:-1 group-title="•特色",UFC
-https://yang-1989.eu.org/live/huya/880223
+https://epg.112114.eu.org/huya/880223
 #EXTINF:-1 group-title="•特色",Deluxe Lounge HD「自然」
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips&checkedby:iptvcat.com
 #EXTINF:-1 group-title="•特色",Red Bull TV「体育」
@@ -2192,13 +2186,13 @@ http://live1.plus.wifizs.cn/xwzh/sd/live.m3u8?zzhed
 #EXTINF:-1 group-title="•地区",「浙江」诸暨新闻综合
 http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed#EXTINF:-1%20group-title=%22%E2%80%A2%E9%9F%B3%E4%B9%90%22,%E9%9F%B3%E4%B9%90%E7%9F%B3%E6%A6%B4
 #EXTINF:-1 group-title="•音乐",音乐石榴
-https://yang-1989.eu.org/live/huya/17091681
+https://epg.112114.eu.org/huya/17091681
 #EXTINF:-1 group-title="•音乐",治愈•放松
-https://yang-1989.eu.org/live/huya/21241811
+https://epg.112114.eu.org/huya/21241811
 #EXTINF:-1 group-title="•音乐",新歌速递
-https://yang-1989.eu.org/live/huya/19439762
+https://epg.112114.eu.org/huya/19439762
 #EXTINF:-1 group-title="•音乐",阅读•学习
-https://yang-1989.eu.org/live/huya/21241813
+https://epg.112114.eu.org/huya/21241813
 #EXTINF:-1 group-title="•音乐",PMC
 https://hls.pmchd.live/hls/stream.m3u8
 #EXTINF:-1 group-title="•音乐",Retro
@@ -2750,83 +2744,83 @@ http://stream.rcs.revma.com/ks4vsmg3qtzuv
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/radio/重庆广播.png" group-title="•广播",重庆广播
 https://satellitepull.cnr.cn/live/wxcqyygb/playlist.m3u8
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆1
-https://yang-1989.eu.org/live/huya/23749096
+https://epg.112114.eu.org/huya/23749096
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆2
-https://yang-1989.eu.org/live/huya/23735126
+https://epg.112114.eu.org/huya/23735126
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆3
-https://yang-1989.eu.org/live/huya/23865152
+https://epg.112114.eu.org/huya/23865152
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆4
-https://yang-1989.eu.org/live/huya/23903196
+https://epg.112114.eu.org/huya/23903196
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆5
-https://yang-1989.eu.org/live/huya/23740156
+https://epg.112114.eu.org/huya/23740156
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆6
-https://yang-1989.eu.org/live/huya/23728660
+https://epg.112114.eu.org/huya/23728660
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆7
-https://yang-1989.eu.org/live/huya/23865058
+https://epg.112114.eu.org/huya/23865058
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆8
-https://yang-1989.eu.org/live/huya/23734183
+https://epg.112114.eu.org/huya/23734183
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆9
-https://yang-1989.eu.org/live/huya/23865036
+https://epg.112114.eu.org/huya/23865036
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆10
-https://yang-1989.eu.org/live/huya/23734246
+https://epg.112114.eu.org/huya/23734246
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆11
-https://yang-1989.eu.org/live/huya/23863796
+https://epg.112114.eu.org/huya/23863796
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆12
-https://yang-1989.eu.org/live/huya/23749083
+https://epg.112114.eu.org/huya/23749083
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆13
-https://yang-1989.eu.org/live/huya/23824164
+https://epg.112114.eu.org/huya/23824164
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆14
-https://yang-1989.eu.org/live/huya/23863804
+https://epg.112114.eu.org/huya/23863804
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆15
-https://yang-1989.eu.org/live/huya/23865142
+https://epg.112114.eu.org/huya/23865142
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆16
-https://yang-1989.eu.org/live/huya/23903183
+https://epg.112114.eu.org/huya/23903183
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆17
-https://yang-1989.eu.org/live/huya/23903130
+https://epg.112114.eu.org/huya/23903130
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆18
-https://yang-1989.eu.org/live/huya/23734169
+https://epg.112114.eu.org/huya/23734169
 #EXTINF:-1 group-title="•埋堆堆",埋堆堆19
-https://yang-1989.eu.org/live/huya/23728674
+https://epg.112114.eu.org/huya/23728674
 #EXTINF:-1 group-title="•影视",「动画」茶啊二中
-https://yang-1989.eu.org/live/huya/11213191
+https://epg.112114.eu.org/huya/11213191
 #EXTINF:-1 group-title="•影视",「解说」大象放映室
-https://yang-1989.eu.org/live/huya/21277391
+https://epg.112114.eu.org/huya/21277391
 #EXTINF:-1 group-title="•影视",「解说」电视剧
-https://yang-1989.eu.org/live/huya/25018873
+https://epg.112114.eu.org/huya/25018873
 #EXTINF:-1 group-title="•影视",「解说」电影•1
-https://yang-1989.eu.org/live/huya/20289754
+https://epg.112114.eu.org/huya/20289754
 #EXTINF:-1 group-title="•影视",「解说」电影•2
-https://yang-1989.eu.org/live/huya/24983280
+https://epg.112114.eu.org/huya/24983280
 #EXTINF:-1 group-title="•影视",「解说」电影•3
-https://yang-1989.eu.org/live/huya/24396428
+https://epg.112114.eu.org/huya/24396428
 #EXTINF:-1 group-title="•影视",「解说」动漫•1
-https://yang-1989.eu.org/live/huya/19757963
+https://epg.112114.eu.org/huya/19757963
 #EXTINF:-1 group-title="•影视",「解说」恐怖电影
-https://yang-1989.eu.org/live/huya/23419131
+https://epg.112114.eu.org/huya/23419131
 #EXTINF:-1 group-title="•影视",「解说」漫威
-https://yang-1989.eu.org/live/huya/17089779
+https://epg.112114.eu.org/huya/17089779
 #EXTINF:-1 group-title="•影视",「解说」美剧
-https://yang-1989.eu.org/live/huya/20488841
+https://epg.112114.eu.org/huya/20488841
 #EXTINF:-1 group-title="•影视",「解说」七龙珠
-https://yang-1989.eu.org/live/huya/25650806
+https://epg.112114.eu.org/huya/25650806
 #EXTINF:-1 group-title="•影视",「解说」止戈电影
-https://yang-1989.eu.org/live/huya/19863777
+https://epg.112114.eu.org/huya/19863777
 #EXTINF:-1 group-title="•影视",「录像」 挨饿德•1
-https://yang-1989.eu.org/live/huya/20985858
+https://epg.112114.eu.org/huya/20985858
 #EXTINF:-1 group-title="•影视",「录像」 挨饿德•2
-https://yang-1989.eu.org/live/huya/17693860
+https://epg.112114.eu.org/huya/17693860
 #EXTINF:-1 group-title="•影视",「录像」 互扇巴掌大赛
-https://yang-1989.eu.org/live/huya/20072873
+https://epg.112114.eu.org/huya/20072873
 #EXTINF:-1 group-title="•影视",「录像」 荒野求生
-https://yang-1989.eu.org/live/huya/593667
+https://epg.112114.eu.org/huya/593667
 #EXTINF:-1 group-title="•影视",「录像」 野行者
-https://yang-1989.eu.org/live/huya/20072663
+https://epg.112114.eu.org/huya/20072663
 #EXTINF:-1 group-title="•影视",「轮播」跳舞
-https://yang-1989.eu.org/live/huya/24634408
+https://epg.112114.eu.org/huya/24634408
 #EXTINF:-1 group-title="•影视",「轮播」乐高大师赛
-https://yang-1989.eu.org/live/huya/26355776
+https://epg.112114.eu.org/huya/26355776
 #EXTINF:-1 group-title="•影视",「轮播」国产悬疑
-https://yang-1989.eu.org/live/huya/11342395
+https://epg.112114.eu.org/huya/11342395
 #EXTINF:-1 group-title="•影视",奥特曼
 http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c57_lb_210_600_t10/c57_lb_210_600_t10.m3u8?key
 #EXTINF:-1 group-title="•影视",「轮播」成龙
@@ -2834,11 +2828,11 @@ http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=34460526
 #EXTINF:-1 group-title="•影视",「轮播」电影•1
 http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=1353059120
 #EXTINF:-1 group-title="•影视",「轮播」哆啦A梦
-https://yang-1989.eu.org/live/huya/11601963
+https://epg.112114.eu.org/huya/11601963
 #EXTINF:-1 group-title="•影视",「轮播」动漫
 http://tc-tct.douyucdn2.cn/dyliveflv1a/206858rtesHKjl.flv?wsAuth=874ec8068853bd13e2fa21a68f258440&token=cpn-androidmpro-0-206858-355488b41ed19088616f37e791a58fcf3679923943a09438&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="•影视",「动漫」航海王
-https://yang-1989.eu.org/live/huya/16913382
+https://epg.112114.eu.org/huya/16913382
 #EXTINF:-1 group-title="•影视",怀旧动画
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c53_lb_86_600_t10/c53_lb_86_600_t10.m3u8?key=0b292c335e5837e943a226d3c381f872a
 #EXTINF:-1 group-title="•影视",「轮播」经典小品
@@ -2858,19 +2852,19 @@ http://lvbaiducdncmn.inter.iqiyi.com/tslive/c54_lb_157_600_t10/c54_lb_157_600_t1
 #EXTINF:-1 group-title="•影视",「欧美」电影•1
 http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=37988782
 #EXTINF:-1 group-title="•影视",七龙珠改
-https://yang-1989.eu.org/live/huya/11601966
+https://epg.112114.eu.org/huya/11601966
 #EXTINF:-1 group-title="•影视",猫和老鼠
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c52_lb_83_600_t10/c52_lb_83_600_t10.m3u8?key=0b292c335e5837e94e2f0ba45f46717fa
 #EXTINF:-1 group-title="•影视",猫和老鼠
-https://yang-1989.eu.org/live/huya/11352879
+https://epg.112114.eu.org/huya/11352879
 #EXTINF:-1 group-title="•影视",童年经典
 http://lvbaiducdncmn.inter.iqiyi.com/tslive/c57_lb_211_600_t10/c57_lb_211_600_t10.m3u8?key=0f2a06793124310bce6ba95fc0ac76131
 #EXTINF:-1 group-title="•影视",香港电影
-https://yang-1989.eu.org/live/huya/11602058
+https://epg.112114.eu.org/huya/11602058
 #EXTINF:-1 group-title="•影视",樱桃小丸子「中配」
 http://zzy789.xyz/bili.php?id=23242774
 #EXTINF:-1 group-title="•影视",中华小当家
-https://yang-1989.eu.org/live/huya/11342413
+https://epg.112114.eu.org/huya/11342413
 #EXTINF:-1 group-title="•影视",T-ARA
 http://tc-tct.douyucdn2.cn/dyliveflv3/17732rtara.flv?wsAuth=444b28368bc6cf374a8f22734242cdec&token=cpn-androidmpro-0-17732-2c028a7d8b69ac4c6a43608933105351f464f9543343a70c&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play3
 #EXTINF:-1 group-title="•少儿",「电影」棉花糖和云朵妈妈
@@ -2894,7 +2888,7 @@ http://aliyuncdnct.inter.ptqy.gitv.tv/tslive/c56_lb_188_600_t10/c56_lb_188_600_t
 #EXTINF:-1 group-title="•少儿",成都大熊猫繁育研究基地
 https://gcwbcdtxy.liveplay.myqcloud.com/gcwbcd/cdrmipanda_1/index.m3u8
 #EXTINF:-1 group-title="•少儿",漫画说历史
-https://yang-1989.eu.org/live/huya/20985824
+https://epg.112114.eu.org/huya/20985824
 #EXTINF:-1 group-title="•少儿",「轮播」二次猿动画
 http://tc-tct.douyucdn2.cn/dyliveflv1a/206858rtesHKjl.flv?wsAuth=9eaefce6cc13570baaeff857204a4d5c&token=cpn-androidmpro-0-206858-355488b41ed19088c77925a51949944b3aeedf4a96fd30f8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="•少儿",金鹰卡通
@@ -2904,7 +2898,7 @@ http://live.nbs.cn/channels/njtv/sepd/m3u8:500k/live.m3u8
 #EXTINF:-1 group-title="•少儿",山东少儿
 http://119.164.216.162:9901/tsfile/live/1006_1.m3u8
 #EXTINF:-1 group-title="•少儿",喜仔的动画世界
-https://yang-1989.eu.org/live/huya/20036751
+https://epg.112114.eu.org/huya/20036751
 #EXTINF:-1 group-title="•少儿",浙江少儿
 http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8
 #EXTINF:-1 group-title="•国际",「CA」 CA
