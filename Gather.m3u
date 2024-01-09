@@ -1,4 +1,4 @@
-﻿#EXTM3U
+#EXTM3U
 #EXTINF:-1 tvg-name="LoveNrture" group-title="·4K",Love Nrture 4K「自然」
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 #EXTINF:-1 group-title="·4K",Fashion 4K「时尚」
@@ -148,7 +148,7 @@ http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000319/ind
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://epg.112114.xyz/logo/黑龙卫视.png" group-title="IPV6·卫视",黑龙江卫视「IPV6」
 http://[2409:8087:1e03:21::36]:6610/cms001/ch00000090990000001031/index.m3u8?love=freedom
 #EXTINF:-1 tvg-name="凤凰香港" group-title="IPV6·数字",凤凰香港「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb1d]/ott.mobaibox.com/PLTV/3/224/3221228530/1.m3u8
+http://[2409:8087:2001:20:2800:0:df6e:eb22]:80/ott.mobaibox.com/PLTV/1/224/3221228530/1.m3u8
 #EXTINF:-1 tvg-name="凤凰中文" group-title="IPV6·数字",凤凰中文「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb27]/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="IPV6·数字",凤凰资讯「IPV6」
