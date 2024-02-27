@@ -1152,18 +1152,12 @@ http://tc-tct.douyucdn2.cn/dyliveflv1a/6672862r90xSwiRP_2000.flv?wsAuth=1c2c516d
 http://tc-tct.douyucdn2.cn/dyliveflv1a/9662891rlaeIAP3A_2000.flv?wsAuth=07d3125e1ec93068330e14be22a09454&token=cpn-androidmpro-0-9662891-7de7dc707e1a51dddb241f8ecad4f36806d04b45752cbbd8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 group-title="•特色",未知电影之旅「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb04]:80/PLTV/1/224/3221230435/1.m3u8
-#EXTINF:-1 group-title="•特色",欢快集体舞蹈「IPV6」
-http://[2409:8087:2001:20:2800:0:df6e:eb27]:80/PLTV/1/224/3221231236/1.m3u8
 #EXTINF:-1 group-title="•特色",享受文学声音「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb22]:80/PLTV/1/224/3221231174/1.m3u8
-#EXTINF:-1 group-title="•特色",特殊-锻炼 「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
-#EXTINF:-1 group-title="•特色",未知 电视剧「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
-#EXTINF:-1 group-title="•特色",未知 电影 国内「IPV6」
+#EXTINF:-1 group-title="•特色",未知电视剧旅「IPV6」
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
-#EXTINF:-1 group-title="•特色",未知 电影 国外「IPV6」
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
+#EXTINF:-1 group-title="•特色",欢快集体锻炼「IPV6」
+http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
 #EXTINF:-1 group-title="•特色",斯诺克-1
 https://tv.iill.top/huya/880214
 #EXTINF:-1 group-title="•特色",斯诺克-2
@@ -1174,20 +1168,6 @@ https://tv.iill.top/huya/880223
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips&checkedby:iptvcat.com
 #EXTINF:-1 group-title="•特色",Red Bull TV「体育」
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
-#EXTINF:-1 group-title="•特色",广东珠江
-https://php.17186.eu.org/gdtv/web/gdzj.m3u8
-#EXTINF:-1 tvg-name="翡翠台" group-title="•港澳台",「HK」翡翠台
-http://r.jdshipin.com/n90gt
-#EXTINF:-1 tvg-name="翡翠台" group-title="•港澳台",「HK」翡翠台
-http://r.jdshipin.com/qClQf
-#EXTINF:-1 tvg-name="翡翠台" group-title="•港澳台",「HK」翡翠台
-http://r.jdshipin.com/62WM7
-#EXTINF:-1 tvg-name="明珠台" group-title="•港澳台",「HK」明珠台
-http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxEzv3SLBhKEUmYG73triGDY/ts
-#EXTINF:-1 tvg-name="J2" group-title="•港澳台",「HK」J2
-http://r.jdshipin.com/ndGgS
-#EXTINF:-1 tvg-name="J2" group-title="•港澳台",「HK」J2
-http://r.jdshipin.com/Nr5jq
 #EXTINF:-1 tvg-name="无线新闻" group-title="•港澳台",「HK」无线新闻
 https://tv.iill.top/tvb/4
 #EXTINF:-1 tvg-name="无线财经体育资讯台" group-title="•港澳台",「HK」无线财经体育资讯台
@@ -1196,18 +1176,14 @@ https://tv.iill.top/tvb/6
 https://tv.iill.top/tvb/8
 #EXTINF:-1 tvg-name="事件直播頻道2" group-title="•港澳台",「HK」事件直播頻道2
 https://tv.iill.top/tvb/10
-#EXTINF:-1 tvg-name="VIUTV" group-title="•港澳台",「HK」VIU TV
-http://r.jdshipin.com/vSJvl
-#EXTINF:-1 tvg-name="凤凰中文" group-title="•港澳台",「HK」凤凰中文
-http://113.117.74.17:8081/hls/37/index.m3u8
-#EXTINF:-1 tvg-name="凤凰资讯" group-title="•港澳台",「HK」凤凰资讯
-http://113.117.74.18:8081/hls/36/index.m3u8
-#EXTINF:-1 tvg-name="凤凰香港" group-title="•港澳台",「HK」凤凰香港
-http://113.117.74.18:8081/hls/38/index.m3u8
-#EXTINF:-1 tvg-name="星河台" group-title="•港澳台",「HK」星河台
-http://113.117.74.17:8081/hls/135/index.m3u8
 #EXTINF:-1 tvg-name="澳门莲花" group-title="•港澳台",「MO」澳门莲花
-https://p.ggiptv.com/v/macaulotustv.php
+http://moss.hk3.345888.xyz.cdn.cloudflare.net/11/lotus.php
+#EXTINF:-1 tvg-name="澳门葡语" group-title="•港澳台",「MO」澳门葡语
+http://61.244.22.5/ch2/ch2.live/chunklist_w1632175875.m3u8
+#EXTINF:-1 tvg-name="澳门Macau" group-title="•港澳台",「MO」澳门Macau
+http://61.244.22.5/ch3/ch3.live/chunklist_w1228316132.m3u8
+#EXTINF:-1 tvg-name="澳门信息" group-title="•港澳台",「MO」澳门信息
+http://61.244.22.5/ch5/info_ch5.live/chunklist_w105010641.m3u8
 #EXTINF:-1 group-title="•港澳台",大爱2
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 group-title="•港澳台",大立电视
