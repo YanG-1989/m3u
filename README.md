@@ -17,12 +17,13 @@
 * [live.m3u](https://raw.githubusercontent.com/YanG-1989/m3u/main/live.m3u)  
 >多平台集合「未创建」
 * [XX.m3u](https://tv.iill.top/xx)  
->直接使用此地址,过滤 XX.m3u 中的无效直播.
+>直接使用此地址,过滤 XX.m3u 中的无效直播.  
 ---
-### 垃圾话语录
-* 2023.12.14
->维护 Adult.
-* 2023.12.31
->维护 Gather
-* 2024.2.27
->维护 Gather「修复大部分失效ipv6源」
+### 垃圾话语录  
+* 2023.12.31  
+>维护 Gather  
+* 2024.2.27  
+>维护 Gather「修复大部分失效ipv6源」  
+* 2024.2.28
+>维护 Gather「增加[ipv6·其他]分组」
+
