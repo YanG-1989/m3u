@@ -1,4 +1,4 @@
-﻿#EXTM3U
+#EXTM3U
 #EXTINF:-1 tvg-name="LoveNrture" group-title="•4K",Love Nrture 4K「自然」
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 #EXTINF:-1 tvg-name="Loupe" group-title="•4K",Loupe 4K
@@ -152,7 +152,7 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-name="三沙卫视" tvg-logo="https://epg.112114.xyz/logo/三沙卫视.png" group-title="IPV6•卫视",三沙卫视「IPV6」
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8?IAS
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://epg.112114.xyz/logo/云南卫视.png" group-title="IPV6•卫视",云南卫视「IPV6」
-hhttp://[2409:8087:7000:20:1000::22]:6060/000000001000/1000000002000024694/index.m3u8
+http://[2409:8087:7000:20:1000::22]:6060/000000001000/1000000002000024694/index.m3u8
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://epg.112114.xyz/logo/甘肃卫视.png" group-title="IPV6•卫视",甘肃卫视「IPV6」
 http://[2409:8087:7000:20:1000::22]:6060/000000001000/1000000002000017827/index.m3u8
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://epg.112114.xyz/logo/青海卫视.png" group-title="IPV6•卫视",青海卫视「IPV6」
