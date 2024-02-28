@@ -155,7 +155,7 @@ http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000319/ind
 http://[2409:8087:7000:20:1000::22]:6060/000000001000/1000000002000024694/index.m3u8
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://epg.112114.xyz/logo/甘肃卫视.png" group-title="IPV6•卫视",甘肃卫视「IPV6」
 http://[2409:8087:7000:20:1000::22]:6060/000000001000/1000000002000017827/index.m3u8
-#EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://epg.112114.xyz/logo/青海卫视.png" group-title="IPV6•卫视",青海卫视「IPV6」
+#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://epg.112114.xyz/logo/青海卫视.png" group-title="IPV6•卫视",青海卫视「IPV6」
 http://[2409:8087:7000:20:1000::22]:6060/000000001000/1000000002000013359/index.m3u8
 #EXTINF:-1 tvg-name="凤凰香港" group-title="IPV6•数字",凤凰香港「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb22]:80/ott.mobaibox.com/PLTV/1/224/3221228530/1.m3u8
