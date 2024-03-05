@@ -1159,16 +1159,148 @@ http://tc-tct.douyucdn2.cn/dyliveflv1a/6672862r90xSwiRP_2000.flv?wsAuth=1c2c516d
 http://tc-tct.douyucdn2.cn/dyliveflv1a/9662891rlaeIAP3A_2000.flv?wsAuth=07d3125e1ec93068330e14be22a09454&token=cpn-androidmpro-0-9662891-7de7dc707e1a51dddb241f8ecad4f36806d04b45752cbbd8&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 #EXTINF:-1 tvg-name="重温经典" group-title="•特色",重温经典
 http://43.141.130.70/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225563/index.m3u8
-#EXTINF:-1 group-title="•特色",斯诺克-1
-https://tv.iill.top/huya/880214
-#EXTINF:-1 group-title="•特色",斯诺克-2
-https://tv.iill.top/huya/880625
-#EXTINF:-1 group-title="•特色",UFC
-https://tv.iill.top/huya/880223
+#EXTINF:-1 group-title="•特色",广州综合
+https://yang-1989.eu.org/gz/zh
+#EXTINF:-1 group-title="•特色",广州新闻
+https://yang-1989.eu.org/gz/xw
+#EXTINF:-1 group-title="•特色",广州竞赛
+https://yang-1989.eu.org/gz/jj
+#EXTINF:-1 group-title="•特色",广州影视
+https://yang-1989.eu.org/gz/ys
+#EXTINF:-1 group-title="•特色",广州法治
+https://yang-1989.eu.org/gz/fz
+#EXTINF:-1 group-title="•特色",广州南国都市
+https://yang-1989.eu.org/gz/ngds
 #EXTINF:-1 group-title="•特色",Deluxe Lounge HD「自然」
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips&checkedby:iptvcat.com
 #EXTINF:-1 group-title="•特色",Red Bull TV「体育」
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
+#EXTINF:-1 group-title="IPV4•央视",CCTV-4k
+https://yang-1989.eu.org/live/cctv4k
+#EXTINF:-1 group-title="IPV4•央视",CCTV-8k
+https://yang-1989.eu.org/live/cctv8k
+#EXTINF:-1 group-title="IPV4•央视",CCTV1
+https://yang-1989.eu.org/live/cctv1
+#EXTINF:-1 group-title="IPV4•央视",CCTV2
+https://yang-1989.eu.org/live/cctv2
+#EXTINF:-1 group-title="IPV4•央视",CCTV3
+https://yang-1989.eu.org/live/cctv3
+#EXTINF:-1 group-title="IPV4•央视",CCTV4
+https://yang-1989.eu.org/live/cctv4
+#EXTINF:-1 group-title="IPV4•央视",CCTV5
+https://yang-1989.eu.org/live/cctv5
+#EXTINF:-1 group-title="IPV4•央视",CCTV5+
+https://yang-1989.eu.org/live/cctv5p
+#EXTINF:-1 group-title="IPV4•央视",CCTV6
+https://yang-1989.eu.org/live/cctv6
+#EXTINF:-1 group-title="IPV4•央视",CCTV7
+https://yang-1989.eu.org/live/cctv7
+#EXTINF:-1 group-title="IPV4•央视",CCTV8
+https://yang-1989.eu.org/live/cctv8
+#EXTINF:-1 group-title="IPV4•央视",CCTV9
+https://yang-1989.eu.org/live/cctv9
+#EXTINF:-1 group-title="IPV4•央视",CCTV10
+https://yang-1989.eu.org/live/cctv10
+#EXTINF:-1 group-title="IPV4•央视",CCTV11
+https://yang-1989.eu.org/live/cctv11
+#EXTINF:-1 group-title="IPV4•央视",CCTV12
+https://yang-1989.eu.org/live/cctv12
+#EXTINF:-1 group-title="IPV4•央视",CCTV13
+https://yang-1989.eu.org/live/cctv13
+#EXTINF:-1 group-title="IPV4•央视",CCTV14
+https://yang-1989.eu.org/live/cctv14
+#EXTINF:-1 group-title="IPV4•央视",CCTV15
+https://yang-1989.eu.org/live/cctv15
+#EXTINF:-1 group-title="IPV4•央视",CCTV16
+https://yang-1989.eu.org/live/cctv16
+#EXTINF:-1 group-title="IPV4•央视",CCTV16-4k
+https://yang-1989.eu.org/live/cctv16-4k
+#EXTINF:-1 group-title="IPV4•央视",CCTV17
+https://yang-1989.eu.org/live/cctv17
+#EXTINF:-1 group-title="IPV4•央视",CCTV兵器科技
+https://yang-1989.eu.org/live/bqkj
+#EXTINF:-1 group-title="IPV4•央视",CCTV第一剧场
+https://yang-1989.eu.org/live/dyjc
+#EXTINF:-1 group-title="IPV4•央视",CCTV怀旧剧场
+https://yang-1989.eu.org/live/hjjc
+#EXTINF:-1 group-title="IPV4•央视",CCTV风云剧场
+https://yang-1989.eu.org/live/fyjc
+#EXTINF:-1 group-title="IPV4•央视",CCTV风云音乐
+https://yang-1989.eu.org/live/fyyy
+#EXTINF:-1 group-title="IPV4•央视",CCTV风云足球
+https://yang-1989.eu.org/live/fyzq
+#EXTINF:-1 group-title="IPV4•央视",CCTV电视指南
+https://yang-1989.eu.org/live/dszn
+#EXTINF:-1 group-title="IPV4•央视",CCTV女性时尚
+https://yang-1989.eu.org/live/nxss
+#EXTINF:-1 group-title="IPV4•央视",CCTV央视文化精品
+https://yang-1989.eu.org/live/whjp
+#EXTINF:-1 group-title="IPV4•央视",CCTV世界地理
+https://yang-1989.eu.org/live/sjdl
+#EXTINF:-1 group-title="IPV4•央视",CCTV高尔夫网球
+https://yang-1989.eu.org/live/gefwq
+#EXTINF:-1 group-title="IPV4•央视",CCTV央视台球
+https://yang-1989.eu.org/live/ystq
+#EXTINF:-1 group-title="IPV4•央视",CCTV卫生健康
+https://yang-1989.eu.org/live/wsjk
+#EXTINF:-1 group-title="IPV4•央视",CGTN
+https://yang-1989.eu.org/live/cgtn
+#EXTINF:-1 group-title="IPV4•央视",CGTN纪录
+https://yang-1989.eu.org/live/cgtnjl
+#EXTINF:-1 group-title="IPV4•央视",CGTN西语
+https://yang-1989.eu.org/live/cgtne
+#EXTINF:-1 group-title="IPV4•央视",CGTN法语
+https://yang-1989.eu.org/live/cgtnf
+#EXTINF:-1 group-title="IPV4•央视",CGTN阿语
+https://yang-1989.eu.org/live/cgtna
+#EXTINF:-1 group-title="IPV4•央视",CGTN俄语
+https://yang-1989.eu.org/live/cgtnr
+#EXTINF:-1 group-title="IPV4•卫视",北京卫视
+https://yang-1989.eu.org/live/bjws
+#EXTINF:-1 group-title="IPV4•卫视",东方卫视
+https://yang-1989.eu.org/live/dfws
+#EXTINF:-1 group-title="IPV4•卫视",天津卫视
+https://yang-1989.eu.org/live/tjws
+#EXTINF:-1 group-title="IPV4•卫视",重庆卫视
+https://yang-1989.eu.org/live/cqws
+#EXTINF:-1 group-title="IPV4•卫视",黑龙江卫视
+https://yang-1989.eu.org/live/hljws
+#EXTINF:-1 group-title="IPV4•卫视",辽宁卫视
+https://yang-1989.eu.org/live/lnws
+#EXTINF:-1 group-title="IPV4•卫视",河北卫视
+https://yang-1989.eu.org/live/hbws
+#EXTINF:-1 group-title="IPV4•卫视",山东卫视
+https://yang-1989.eu.org/live/sdws
+#EXTINF:-1 group-title="IPV4•卫视",安徽卫视
+https://yang-1989.eu.org/live/ahws
+#EXTINF:-1 group-title="IPV4•卫视",河南卫视
+https://yang-1989.eu.org/live/hnws
+#EXTINF:-1 group-title="IPV4•卫视",湖北卫视
+https://yang-1989.eu.org/live/hubws
+#EXTINF:-1 group-title="IPV4•卫视",湖南卫视
+https://yang-1989.eu.org/live/hunws
+#EXTINF:-1 group-title="IPV4•卫视",江西卫视
+https://yang-1989.eu.org/live/jxws
+#EXTINF:-1 group-title="IPV4•卫视",江苏卫视
+https://yang-1989.eu.org/live/jsws
+#EXTINF:-1 group-title="IPV4•卫视",浙江卫视
+https://yang-1989.eu.org/live/zjws
+#EXTINF:-1 group-title="IPV4•卫视",东南卫视
+https://yang-1989.eu.org/live/dnws
+#EXTINF:-1 group-title="IPV4•卫视",广东卫视
+https://yang-1989.eu.org/live/gdws
+#EXTINF:-1 group-title="IPV4•卫视",深圳卫视
+https://yang-1989.eu.org/live/szws
+#EXTINF:-1 group-title="IPV4•卫视",广西卫视
+https://yang-1989.eu.org/live/gxws
+#EXTINF:-1 group-title="IPV4•卫视",贵州卫视
+https://yang-1989.eu.org/live/gzws
+#EXTINF:-1 group-title="IPV4•卫视",四川卫视
+https://yang-1989.eu.org/live/scws
+#EXTINF:-1 group-title="IPV4•卫视",新疆卫视
+https://yang-1989.eu.org/live/xjws
+#EXTINF:-1 group-title="IPV4•卫视",海南卫视
+https://yang-1989.eu.org/live/hinws
 #EXTINF:-1 tvg-name="无线新闻" group-title="•港澳台",「HK」无线新闻
 https://tv.iill.top/tvb/4
 #EXTINF:-1 tvg-name="无线财经体育资讯台" group-title="•港澳台",「HK」无线财经体育资讯台
@@ -2157,100 +2289,6 @@ http://stream.rcs.revma.com/78fm9wyy2tzuv
 http://stream.rcs.revma.com/ks4vsmg3qtzuv
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/radio/重庆广播.png" group-title="•广播",重庆广播
 https://satellitepull.cnr.cn/live/wxcqyygb/playlist.m3u8
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆1
-https://tv.iill.top/huya/23749096
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆2
-https://tv.iill.top/huya/23735126
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆3
-https://tv.iill.top/huya/23865152
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆4
-https://tv.iill.top/huya/23903196
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆5
-https://tv.iill.top/huya/23740156
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆6
-https://tv.iill.top/huya/23728660
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆7
-https://tv.iill.top/huya/23865058
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆8
-https://tv.iill.top/huya/23734183
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆9
-https://tv.iill.top/huya/23865036
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆10
-https://tv.iill.top/huya/23734246
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆11
-https://tv.iill.top/huya/23863796
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆12
-https://tv.iill.top/huya/23749083
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆13
-https://tv.iill.top/huya/23824164
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆14
-https://tv.iill.top/huya/23863804
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆15
-https://tv.iill.top/huya/23865142
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆16
-https://tv.iill.top/huya/23903183
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆17
-https://tv.iill.top/huya/23903130
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆18
-https://tv.iill.top/huya/23734169
-#EXTINF:-1 group-title="•埋堆堆",埋堆堆19
-https://tv.iill.top/huya/23728674
-#EXTINF:-1 group-title="•影视",「动画」茶啊二中
-https://tv.iill.top/huya/11213191
-#EXTINF:-1 group-title="•影视",「解说」大象放映室
-https://tv.iill.top/huya/21277391
-#EXTINF:-1 group-title="•影视",「解说」电视剧
-https://tv.iill.top/huya/25018873
-#EXTINF:-1 group-title="•影视",「解说」电影•1
-https://tv.iill.top/huya/20289754
-#EXTINF:-1 group-title="•影视",「解说」电影•2
-https://tv.iill.top/huya/24983280
-#EXTINF:-1 group-title="•影视",「解说」电影•3
-https://tv.iill.top/huya/24396428
-#EXTINF:-1 group-title="•影视",「解说」动漫•1
-https://tv.iill.top/huya/19757963
-#EXTINF:-1 group-title="•影视",「解说」恐怖电影
-https://tv.iill.top/huya/23419131
-#EXTINF:-1 group-title="•影视",「解说」漫威
-https://tv.iill.top/huya/17089779
-#EXTINF:-1 group-title="•影视",「解说」美剧
-https://tv.iill.top/huya/20488841
-#EXTINF:-1 group-title="•影视",「解说」七龙珠
-https://tv.iill.top/huya/25650806
-#EXTINF:-1 group-title="•影视",「解说」止戈电影
-https://tv.iill.top/huya/19863777
-#EXTINF:-1 group-title="•影视",「录像」 挨饿德•1
-https://tv.iill.top/huya/20985858
-#EXTINF:-1 group-title="•影视",「录像」 挨饿德•2
-https://tv.iill.top/huya/17693860
-#EXTINF:-1 group-title="•影视",「录像」 互扇巴掌大赛
-https://tv.iill.top/huya/20072873
-#EXTINF:-1 group-title="•影视",「录像」 荒野求生
-https://tv.iill.top/huya/593667
-#EXTINF:-1 group-title="•影视",「录像」 野行者
-https://tv.iill.top/huya/20072663
-#EXTINF:-1 group-title="•影视",「轮播」跳舞
-https://tv.iill.top/huya/24634408
-#EXTINF:-1 group-title="•影视",「轮播」国产悬疑
-https://tv.iill.top/huya/11342395
-#EXTINF:-1 group-title="•影视",「轮播」哆啦A梦
-https://tv.iill.top/huya/11601963
-#EXTINF:-1 group-title="•影视",「轮播」动漫
-http://tc-tct.douyucdn2.cn/dyliveflv1a/206858rtesHKjl.flv?wsAuth=874ec8068853bd13e2fa21a68f258440&token=cpn-androidmpro-0-206858-355488b41ed19088616f37e791a58fcf3679923943a09438&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
-#EXTINF:-1 group-title="•影视",「动漫」航海王
-https://tv.iill.top/huya/16913382
-#EXTINF:-1 group-title="•影视",「轮播」经典小品
-http://tc-tct.douyucdn2.cn/dyliveflv3/10153463r0oBSmAG.flv?wsAuth=327f9acf257abce343423d9ca46ef9ae&token=cpn-androidmpro-0-10153463-ee6c60cb51b36154827caa4c2303ce140c03be821c37ac32&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play3
-#EXTINF:-1 group-title="•影视",七龙珠改
-https://tv.iill.top/huya/11601966
-#EXTINF:-1 group-title="•影视",猫和老鼠
-https://tv.iill.top/huya/11352879
-#EXTINF:-1 group-title="•影视",香港电影
-https://tv.iill.top/huya/11602058
-#EXTINF:-1 group-title="•影视",中华小当家
-https://tv.iill.top/huya/11342413
-#EXTINF:-1 group-title="•影视",T-ARA
-http://tc-tct.douyucdn2.cn/dyliveflv3/17732rtara.flv?wsAuth=444b28368bc6cf374a8f22734242cdec&token=cpn-androidmpro-0-17732-2c028a7d8b69ac4c6a43608933105351f464f9543343a70c&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play3
 #EXTINF:-1 group-title="•国际",「CA」 CA
 https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
 #EXTINF:-1 group-title="•国际",「CA」 CanadaOne
@@ -2477,6 +2515,182 @@ https://stream01.willfonk.com/live_playlist.m3u8?cid=BS200&r=FHD&ccode=JP&m=d0:2
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS201&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
 #EXTINF:-1 group-title="•日本",スターチャンネル3
 https://stream01.willfonk.com/live_playlist.m3u8?cid=BS202&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+#EXTINF:-1 group-title="•杂货",30A Investment Pitch
+http://www.30a-tv.com/InvPit.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",30A Music
+http://30a-tv.com/music.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",88 Stereo
+http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",ABC News
+https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8
+#EXTINF:-1 group-title="•杂货",Action Hollywood Movies
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Al Horreya TV
+http://media.smc-host.com:1935/alhorreya.tv/_definst_/mp4:alhorreya3/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Al Maali TV
+https://kali.vdopanel.com:3986/live/mbashalive.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",5TV Corrientes
+http://www.coninfo.net:1935/tvcinco/live1/chunklist_w1546509083.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",BBC World News
+http://103.199.161.254/Content/bbcworld/Live/Channel%28BBCworld%29/index.m3u8
+#EXTINF:-1 group-title="•杂货",Bloomberg Quicktake
+http://bloomberg-quicktake-1-nl.samsung.wurl.tv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",CafeTV24 Veneto
+https://srvx1.selftv.video/cafe/live/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Camp Spoopy「少儿」
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=269&livestream=1&live=1&app_bundle=com.plexapp.desktop&did=df8e1a36-847d-5096-86a7-3803ed330ede&app_domain=app.plex.tv&app_name=plex&h=691&w=1224&content_title=MorUy57ijWhGe4ixZb_T&content_series=5f77a99416621400402b3dc1&custom4=plex&gdpr=1&device_make=Windows&device_model=Firefox&coppa=1&us_privacy=1---&checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Canal 13 La Rioja
+http://arcast.net:1935/mp/mp/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Canal 4 Jujuy
+http://190.52.32.13:1935/canal4/smil:manifest.smil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Christian Youth Channel
+http://media.smc-host.com:1935/cycnow.com/cyc2/chunklist_w884806316.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",CineView
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-rialto-samsungnz/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Cloudflare TV
+https://cloudflare.tv/hls/live.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Clubbing TV
+https://clubbingtv-samsungnz.amagi.tv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Colosal TV
+http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Comet TV
+http://usgeowall.sinclairstoryline.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",DC Council Channel
+http://video.oct.dc.gov/out/u/15_12.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Dunya News
+http://imob.dunyanews.tv/live/_definst_/dunyalive_1/FluxusTV.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Eman Channel
+https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Entertainment TV:Charge
+https://usgeowall.sinclairstoryline.com/channel/37eb732888614810b512fdd82604244e.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Failarmy International
+http://failarmy-international-in.samsung.wurl.tv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Folk TV
+http://584b0aa350b92.streamlock.net:1935/folk-tv/myStream.sdp/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",GB News
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Gems TV
+http://57d6b85685bb8.streamlock.net:1935/abrgemporiaukgfx/livestream_360p/index.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Gigant FM
+https://video.uitzending.tv:19360/gigantfm/gigantfm.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Gusto TV
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gustotvnz-samsungnz/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",HollyWire
+https://bozztv.com/hwotta/playlist/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Horse and Country
+https://hncfree-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="•杂货",Iqra TV
+https://ap02.iqplay.tv:8082/iqb8002/iq6a7k/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",KBEV Spectrum Channel 6 [Beverly Hills]
+https://s3-us-west-2.amazonaws.com/beverly-hills-high-school.castus-vod/live/ch1/video.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Legislative Assembly of Ontario
+http://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",LON TV (Lokale Omroep Nuenen)
+https://streamingserver02.omroepnuenen.nl/lon/lonweb_720p/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Midpen Media Center Arts Issues and Lifestyles Channel 30
+https://5c2974786200d.streamlock.net/live-chan30/ngrp:ch30_all/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Midpen Media Center Diversity and Culture Channel 75
+https://5c2974786200d.streamlock.net/live-chan75/ngrp:ch75_all/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Midpen Media Center Government etc Channel 26
+https://5c2974786200d.streamlock.net/live-chan26/ngrp:ch26_all/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Midpen Media Center Government etc Channel 29
+https://5c2974786200d.streamlock.net/live-chan29/ngrp:ch29_all/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Midpen Media Center Youth Education and Sports Channel 28
+https://5c2974786200d.streamlock.net/live-chan28/ngrp:ch28_all/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Morro Bay Channel 20
+https://agp-nimble.streamguys1.com/MBCh20/MBCh20/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",NRBTV
+http://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",PequeRadio TV「少儿」
+http://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Realitatea Plus
+https://edge.realitatea.net/realitatea/plus_fq/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Regio8 TV
+https://ms7.mx-cd.net/dtv-10/91-475821/Regio8TV.smil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",RTV Rijnstreek TV
+https://ms7.mx-cd.net/tv/290-3222276/RTV_Rijnstreek.smil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Ryan and Friends
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00286-pocketwatch-ryanandfriends-samsungnz/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Satran TV
+http://139.162.182.79/live/test/index.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",SEA TV
+http://203.176.130.123:8989/live/seatv_480k.stream/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Smithsonian Channel
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01553-blueantmediaasi-smithsoniannz-samsungnz/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Smithsonian Channel Asia
+https://smithsonianaus-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="•杂货",Stingray Classic Rock「音乐」
+https://ott-linear-channels.stingray.com/hls/stirr/101.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Stingray Everything 80s「音乐」
+https://ott-linear-channels.stingray.com/hls/stirr/128.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Stingray Flashback 70s「音乐」
+https://ott-linear-channels.stingray.com/hls/stirr/115.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Stingray Hit List「音乐」
+https://ott-linear-channels.stingray.com/hls/stirr/107.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Stingray Holiday Hits「音乐」
+https://ott-linear-channels.stingray.com/hls/stirr/155.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Stingray Hot Country「音乐」
+https://ott-linear-channels.stingray.com/hls/stirr/108.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Stingray Rock Alternative「音乐」
+https://ott-linear-channels.stingray.com/hls/stirr/102.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Stingray Today's Latin Pop「音乐」
+https://ott-linear-channels.stingray.com/hls/stirr/190.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Stingray Urban Beats「音乐」
+https://ott-linear-channels.stingray.com/hls/stirr/133.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Super Radyo DZBB
+http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",SWR 3 Visual Radio
+https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",TBD
+http://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",TelePegaso
+https://flash2.xdevel.com/telepegasocanale812/telepegasocanale812/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",TeleUno TV
+http://tv.teleunotv.cr:1935/TVUNO/TVUNO/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",The 360 Channel
+https://www.filmon.com/vr-streams/4136.high/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",The Shopping Channel
+https://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Tierramia TV
+http://live-edge01.telecentro.net.ar/live/smil:trm.smil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Time Line Australia
+https://lds-timeline-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="•杂货",TJB「韩国」
+http://1.245.74.5:1935/live/tv/.m3u8
+#EXTINF:-1 group-title="•杂货",Trace Sports Stars
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",TV 41
+http://stream.taksimbilisim.com:1935/tv41/smil:tv41.smil/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",TV Brusque
+https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8df00d/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",TV Ellef
+https://61ae39677a1ab.streamlock.net/tvellef/tvellef/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",TV Guará
+https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",UCTV - University of California
+https://59e8e1c60a2b2.streamlock.net/509/509.stream/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Akaal TV
+http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/akaal_tv/hls1_smart_akaal/akaal_tv.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",CBS 6 WRGB
+https://content.uplynk.com/channel/bba3e7da884a49bba96341ecf5128f0f.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",ABC 7 KMGH
+https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",WABI 5 - Bangor - Maine
+https://ad-playlistserver.aws.syncbak.com/playlist/13613390/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOjEzNjEzMzkwLCJtZDUiOiI2Y2M5MzczYjIxZWIwNzQ4ZDA0YTRlYzYyMjU2YjBhMiIsImlhdCI6MTQ5NzM4MTU5NywiaXNzIjoiU3luY2JhayIsInN1YiI6IkdyYXkifQ.qJPiMCbnGjAn9wgPrGjVl3M9Xfc4CVSyoZTZ5OH-1jo&checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",WCCA-TV
+http://worcester.vod.castus.tv/live/ch1.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Wicked Tuna
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-wickedtunanl-samsungnl/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",WJLA
+https://content.uplynk.com/40cec2bf074c40f08932da03ab4510be.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",WKAQ-DT1 (Telemundo Puerto Rico)
+https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Wonder
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-wondernz-samsungnz/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="•杂货",Wonder
+https://lds-wonder-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="•杂货",Xplore
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00111-hearstmediaprod-xploreintlnl-samsungnl/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="•MTV",「韩」DJ Soda Remix 2021
 https://vd3.bdstatic.com/mda-mev3hw0htz28h5wn/1080p/cae_h264/1622343504467773766/mda-mev3hw0htz28h5wn.mp4
 #EXTINF:-1 group-title="•MTV",「韩」佳仁-ParadiseLost
@@ -3409,182 +3623,6 @@ http://vd3.bdstatic.com/mda-ihai9qt3yny3sx53/hd/mda-ihai9qt3yny3sx53.mp4?pd=19&v
 https://vdse.bdstatic.com//b35227847ccb42d48ea6414d47087ce9.mp4?authorization=bce-auth-v1%2F40f207e648424f47b2e3dfbb1014b1a5%2F2020-01-31T15%3A26%3A59Z%2F-1%2Fhost
 #EXTINF:-1 group-title="•MTV",「中」sheep张艺兴
 https://vdse.bdstatic.com/971347deaddd6fdb5ada6e87e4722ece.mp4?authorization=bce-auth-v1%2Ffb297a5cc0fb434c971b8fa103e8dd7b%2F2017-05-11T09%3A02%3A31Z%2F-1%2F
-#EXTINF:-1 group-title="•杂货",30A Investment Pitch
-http://www.30a-tv.com/InvPit.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",30A Music
-http://30a-tv.com/music.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",88 Stereo
-http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",ABC News
-https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8
-#EXTINF:-1 group-title="•杂货",Action Hollywood Movies
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Al Horreya TV
-http://media.smc-host.com:1935/alhorreya.tv/_definst_/mp4:alhorreya3/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Al Maali TV
-https://kali.vdopanel.com:3986/live/mbashalive.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",5TV Corrientes
-http://www.coninfo.net:1935/tvcinco/live1/chunklist_w1546509083.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",BBC World News
-http://103.199.161.254/Content/bbcworld/Live/Channel%28BBCworld%29/index.m3u8
-#EXTINF:-1 group-title="•杂货",Bloomberg Quicktake
-http://bloomberg-quicktake-1-nl.samsung.wurl.tv/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",CafeTV24 Veneto
-https://srvx1.selftv.video/cafe/live/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Camp Spoopy「少儿」
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=269&livestream=1&live=1&app_bundle=com.plexapp.desktop&did=df8e1a36-847d-5096-86a7-3803ed330ede&app_domain=app.plex.tv&app_name=plex&h=691&w=1224&content_title=MorUy57ijWhGe4ixZb_T&content_series=5f77a99416621400402b3dc1&custom4=plex&gdpr=1&device_make=Windows&device_model=Firefox&coppa=1&us_privacy=1---&checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Canal 13 La Rioja
-http://arcast.net:1935/mp/mp/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Canal 4 Jujuy
-http://190.52.32.13:1935/canal4/smil:manifest.smil/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Christian Youth Channel
-http://media.smc-host.com:1935/cycnow.com/cyc2/chunklist_w884806316.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",CineView
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-rialto-samsungnz/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Cloudflare TV
-https://cloudflare.tv/hls/live.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Clubbing TV
-https://clubbingtv-samsungnz.amagi.tv/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Colosal TV
-http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Comet TV
-http://usgeowall.sinclairstoryline.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",DC Council Channel
-http://video.oct.dc.gov/out/u/15_12.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Dunya News
-http://imob.dunyanews.tv/live/_definst_/dunyalive_1/FluxusTV.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Eman Channel
-https://ap02.iqplay.tv:8082/iqb8002/3m9n/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Entertainment TV:Charge
-https://usgeowall.sinclairstoryline.com/channel/37eb732888614810b512fdd82604244e.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Failarmy International
-http://failarmy-international-in.samsung.wurl.tv/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Folk TV
-http://584b0aa350b92.streamlock.net:1935/folk-tv/myStream.sdp/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",GB News
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Gems TV
-http://57d6b85685bb8.streamlock.net:1935/abrgemporiaukgfx/livestream_360p/index.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Gigant FM
-https://video.uitzending.tv:19360/gigantfm/gigantfm.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Gusto TV
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gustotvnz-samsungnz/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",HollyWire
-https://bozztv.com/hwotta/playlist/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Horse and Country
-https://hncfree-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="•杂货",Iqra TV
-https://ap02.iqplay.tv:8082/iqb8002/iq6a7k/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",KBEV Spectrum Channel 6 [Beverly Hills]
-https://s3-us-west-2.amazonaws.com/beverly-hills-high-school.castus-vod/live/ch1/video.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Legislative Assembly of Ontario
-http://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",LON TV (Lokale Omroep Nuenen)
-https://streamingserver02.omroepnuenen.nl/lon/lonweb_720p/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Midpen Media Center Arts Issues and Lifestyles Channel 30
-https://5c2974786200d.streamlock.net/live-chan30/ngrp:ch30_all/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Midpen Media Center Diversity and Culture Channel 75
-https://5c2974786200d.streamlock.net/live-chan75/ngrp:ch75_all/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Midpen Media Center Government etc Channel 26
-https://5c2974786200d.streamlock.net/live-chan26/ngrp:ch26_all/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Midpen Media Center Government etc Channel 29
-https://5c2974786200d.streamlock.net/live-chan29/ngrp:ch29_all/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Midpen Media Center Youth Education and Sports Channel 28
-https://5c2974786200d.streamlock.net/live-chan28/ngrp:ch28_all/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Morro Bay Channel 20
-https://agp-nimble.streamguys1.com/MBCh20/MBCh20/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",NRBTV
-http://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",PequeRadio TV「少儿」
-http://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Realitatea Plus
-https://edge.realitatea.net/realitatea/plus_fq/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Regio8 TV
-https://ms7.mx-cd.net/dtv-10/91-475821/Regio8TV.smil/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",RTV Rijnstreek TV
-https://ms7.mx-cd.net/tv/290-3222276/RTV_Rijnstreek.smil/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Ryan and Friends
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00286-pocketwatch-ryanandfriends-samsungnz/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Satran TV
-http://139.162.182.79/live/test/index.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",SEA TV
-http://203.176.130.123:8989/live/seatv_480k.stream/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Smithsonian Channel
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01553-blueantmediaasi-smithsoniannz-samsungnz/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Smithsonian Channel Asia
-https://smithsonianaus-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="•杂货",Stingray Classic Rock「音乐」
-https://ott-linear-channels.stingray.com/hls/stirr/101.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Stingray Everything 80s「音乐」
-https://ott-linear-channels.stingray.com/hls/stirr/128.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Stingray Flashback 70s「音乐」
-https://ott-linear-channels.stingray.com/hls/stirr/115.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Stingray Hit List「音乐」
-https://ott-linear-channels.stingray.com/hls/stirr/107.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Stingray Holiday Hits「音乐」
-https://ott-linear-channels.stingray.com/hls/stirr/155.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Stingray Hot Country「音乐」
-https://ott-linear-channels.stingray.com/hls/stirr/108.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Stingray Rock Alternative「音乐」
-https://ott-linear-channels.stingray.com/hls/stirr/102.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Stingray Today's Latin Pop「音乐」
-https://ott-linear-channels.stingray.com/hls/stirr/190.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Stingray Urban Beats「音乐」
-https://ott-linear-channels.stingray.com/hls/stirr/133.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Super Radyo DZBB
-http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",SWR 3 Visual Radio
-https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",TBD
-http://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",TelePegaso
-https://flash2.xdevel.com/telepegasocanale812/telepegasocanale812/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",TeleUno TV
-http://tv.teleunotv.cr:1935/TVUNO/TVUNO/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",The 360 Channel
-https://www.filmon.com/vr-streams/4136.high/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",The Shopping Channel
-https://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Tierramia TV
-http://live-edge01.telecentro.net.ar/live/smil:trm.smil/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Time Line Australia
-https://lds-timeline-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="•杂货",TJB「韩国」
-http://1.245.74.5:1935/live/tv/.m3u8
-#EXTINF:-1 group-title="•杂货",Trace Sports Stars
-https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",TV 41
-http://stream.taksimbilisim.com:1935/tv41/smil:tv41.smil/chunklist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",TV Brusque
-https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8df00d/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",TV Ellef
-https://61ae39677a1ab.streamlock.net/tvellef/tvellef/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",TV Guará
-https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",UCTV - University of California
-https://59e8e1c60a2b2.streamlock.net/509/509.stream/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Akaal TV
-http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/akaal_tv/hls1_smart_akaal/akaal_tv.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",CBS 6 WRGB
-https://content.uplynk.com/channel/bba3e7da884a49bba96341ecf5128f0f.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",ABC 7 KMGH
-https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",WABI 5 - Bangor - Maine
-https://ad-playlistserver.aws.syncbak.com/playlist/13613390/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOjEzNjEzMzkwLCJtZDUiOiI2Y2M5MzczYjIxZWIwNzQ4ZDA0YTRlYzYyMjU2YjBhMiIsImlhdCI6MTQ5NzM4MTU5NywiaXNzIjoiU3luY2JhayIsInN1YiI6IkdyYXkifQ.qJPiMCbnGjAn9wgPrGjVl3M9Xfc4CVSyoZTZ5OH-1jo&checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",WCCA-TV
-http://worcester.vod.castus.tv/live/ch1.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Wicked Tuna
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-wickedtunanl-samsungnl/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",WJLA
-https://content.uplynk.com/40cec2bf074c40f08932da03ab4510be.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",WKAQ-DT1 (Telemundo Puerto Rico)
-https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Wonder
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-wondernz-samsungnz/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 group-title="•杂货",Wonder
-https://lds-wonder-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="•杂货",Xplore
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00111-hearstmediaprod-xploreintlnl-samsungnl/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="•动物世界",爱吃鱼的棕熊
 https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/79c7bb4495f74ca698f3111a6f7ba567/1200.m3u8
 #EXTINF:-1 group-title="•动物世界",爱的奉献1
