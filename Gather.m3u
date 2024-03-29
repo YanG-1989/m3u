@@ -1308,15 +1308,15 @@ https://yang-1989.eu.org/live/xjws
 #EXTINF:-1 group-title="•卫视「IPV4」",海南卫视
 https://yang-1989.eu.org/live/hinws
 #EXTINF:-1 tvg-name="无线新闻" group-title="•港澳台",「HK」无线新闻
-https://yang-1989.eu.org/tvb/4
+https://yang-1989.eu.org/tvb/2
 #EXTINF:-1 tvg-name="无线财经体育资讯台" group-title="•港澳台",「HK」无线财经体育资讯台
-https://yang-1989.eu.org/tvb/6
+https://yang-1989.eu.org/tvb/3
 #EXTINF:-1 tvg-name="事件直播頻道1" group-title="•港澳台",「HK」事件直播頻道1
 https://yang-1989.eu.org/tvb/8
 #EXTINF:-1 tvg-name="事件直播頻道2" group-title="•港澳台",「HK」事件直播頻道2
-https://yang-1989.eu.org/tvb/10
+https://yang-1989.eu.org/tvb/9
 #EXTINF:-1 tvg-name="澳门莲花" group-title="•港澳台",「MO」澳门莲花
-http://moss.hk3.345888.xyz.cdn.cloudflare.net/11/lotus.php
+https://yang-1989.eu.org/mo/lhws
 #EXTINF:-1 tvg-name="澳门葡语" group-title="•港澳台",「MO」澳门葡语
 http://61.244.22.5/ch2/ch2.live/chunklist_w1632175875.m3u8
 #EXTINF:-1 tvg-name="澳门Macau" group-title="•港澳台",「MO」澳门Macau
