@@ -21,11 +21,12 @@
 * [XX.m3u](http://tv.iill.top/xx.php)  
 >直接使用此地址,过滤 XX.m3u 中的无效直播.  
 ---
-### 垃圾话语录 「历史记录」 
-* 2024.2.27  
->维护 Gather「修复 部分失效ipv6源」  
+ https://tv.iill.top/xx
+### 垃圾话语录 「历史记录」  
 * 2024.2.28
->维护 Gather「增加 ipv6·其他分组 」
+>维护 Gather「增加 ipv6·其他分组」
 * 2023.3.6  
->维护 Gather「增加 ipv4.央卫视 」  
+>维护 Gather「增加 ipv4.央卫视」
+* 2024.4.4 
+>维护 Gather「替换 域名」 
 ---
