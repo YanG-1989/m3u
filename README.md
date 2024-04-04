@@ -18,8 +18,6 @@
 ### 直播集合「一切随缘」   
 * [live.m3u](https://raw.githubusercontent.com/YanG-1989/m3u/main/live.m3u)  
 >多平台集合「未创建」
-* [XX.m3u](http://tv.iill.top/xx.php)  
->直接使用此地址,过滤 XX.m3u 中的无效直播.  
 ---
  https://tv.iill.top/xx
 ### 垃圾话语录 「历史记录」  
