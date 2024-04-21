@@ -14,7 +14,7 @@
 ---
 ### 订阅地址「懒人必备」 
 * [Gather.m3u](https://yang-1989.eu.org/m3u/Gather)
-> 新的订阅地址...
+> 完整版订阅地址「非Github文件」...
 * [Adult.m3u](https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u)
 ---
 ### 直播集合「一切随缘」   
