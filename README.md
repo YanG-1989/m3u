@@ -7,9 +7,10 @@
 >APTV「多端」
 * 安卓系统  
 >Tivimate「电视端」  
->Televizo「手机端」
-* Win系统
->RedStar 「电脑端」    
+>Televizo「手机端」  
+* Win系统   
+>RedStar 「电脑端」  
+>PotPlayer「电脑端」  
 ---
 ### 订阅地址「懒人必备」 
 * [Gather.m3u](https://yang-1989.eu.org/m3u/Gather)
