@@ -3,15 +3,17 @@
 #### 个人爱好，收集整合！佛系更新…
 ---
 ### 推荐软件「你说了算」  
-* iOS系统  
+* IOS系统  
 >APTV「多端」
 * 安卓系统  
 >Tivimate「电视端」  
->Televizo「手机端」  
+>Televizo「手机端」
+* Win系统
+>RedStar 「电脑端」    
 ---
 ### 订阅地址「懒人必备」 
 * [Gather.m3u](https://yang-1989.eu.org/m3u/Gather)
->新的订阅地址...
+> 新的订阅地址...
 * [Adult.m3u](https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u)
 ---
 ### 直播集合「一切随缘」   
