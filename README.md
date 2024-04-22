@@ -16,6 +16,7 @@
 * [Gather.m3u](https://yang-1989.eu.org/m3u/Gather)
 > 完整版订阅地址「非Github文件」...
 * [Adult.m3u](https://yang-1989.eu.org/m3u/Adult)
+> 近期不维护,排在live后面...
 ---
 ### 直播集合「一切随缘」   
 * [live.m3u](https://yang-1989.eu.org/m3u/live)  
