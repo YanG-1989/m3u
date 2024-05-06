@@ -6,7 +6,7 @@
 * IOS系统  
 >APTV「多端」
 * 安卓系统  
->Tivimate「电视端」  
+>TiviMate「电视端」  
 >Televizo「手机端」  
 * Win系统   
 >RedStar 「电脑端」  
