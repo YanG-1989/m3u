@@ -222,188 +222,188 @@ http://[2409:8087:1a01:df::4068]/PLTV/88888888/224/3221226031/index.m3u8
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/咪咕.png" group-title="•咪咕「IPV6」",咪咕直播 𝟛𝟞「IPV6」
 http://[2409:8087:1a01:df::4062]/PLTV/88888888/224/3221226046/index.m3u8
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」英雄联盟 𝟙
-https://tv.iill.top/huya/660000
+http://live.iill.top/huya.php?id=198201660000
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」英雄联盟 𝟚
-https://tv.iill.top/huya/660001
+http://live.iill.top/huya.php?id=198201660001
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」英雄联盟 𝟙
-https://tv.iill.top/douyu/288016
+http://live.iill.top/douyu.php?id=198201288016
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」英雄联盟 𝟚
-https://tv.iill.top/douyu/998
+http://live.iill.top/douyu.php?id=198201998
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」王者荣耀 𝟙
-https://tv.iill.top/huya/660002
+http://live.iill.top/huya.php?id=198201660002
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」王者荣耀 𝟚
-https://tv.iill.top/huya/660164
+http://live.iill.top/huya.php?id=198201660164
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」王者荣耀 𝟙
-https://tv.iill.top/douyu/1863767
+http://live.iill.top/douyu.php?id=1982011863767
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」王者荣耀 𝟚
-https://tv.iill.top/douyu/1984839
+http://live.iill.top/douyu.php?id=1982011984839
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」绝地求生 𝟙
-https://tv.iill.top/huya/660004
+http://live.iill.top/huya.php?id=198201660004
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」绝地求生 𝟚
-https://tv.iill.top/huya/660005
+http://live.iill.top/huya.php?id=198201660005
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」绝地求生
-https://tv.iill.top/douyu/100
+http://live.iill.top/douyu.php?id=198201100
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」和平精英
-https://tv.iill.top/huya/660006
+http://live.iill.top/huya.php?id=198201660006
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」和平精英
-https://tv.iill.top/douyu/999
+http://live.iill.top/douyu.php?id=198201999
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」金铲铲之战
-https://tv.iill.top/huya/660579
+http://live.iill.top/huya.php?id=198201660579
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」金铲铲之战
-https://tv.iill.top/douyu/9715241
+http://live.iill.top/douyu.php?id=1982019715241
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」CSGO
-https://tv.iill.top/douyu/601514
+http://live.iill.top/douyu.php?id=198201601514
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」DOTA2
-https://tv.iill.top/huya/660118
+http://live.iill.top/huya.php?id=198201660118
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」DOTA2
-https://tv.iill.top/douyu/3811559
+http://live.iill.top/douyu.php?id=1982013811559
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」云顶之弈
-https://tv.iill.top/douyu/522423
+http://live.iill.top/douyu.php?id=198201522423
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」永劫无间
-https://tv.iill.top/huya/660115
+http://live.iill.top/huya.php?id=198201660115
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」使命召唤•手游
-https://tv.iill.top/huya/11718629
+http://live.iill.top/huya.php?id=19820111718629
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」使命召唤•手游
-https://tv.iill.top/douyu/9223245
+http://live.iill.top/douyu.php?id=1982019223245
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」穿越火线
-https://tv.iill.top/huya/660101
+http://live.iill.top/huya.php?id=198201660101
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」穿越火线 𝟙
-https://tv.iill.top/douyu/605964
+http://live.iill.top/douyu.php?id=198201605964
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」穿越火线 𝟚
-https://tv.iill.top/douyu/5388537
+http://live.iill.top/douyu.php?id=1982015388537
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」穿越火线•手游
-https://tv.iill.top/huya/660102
+http://live.iill.top/huya.php?id=198201660102
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」第五人格
-https://tv.iill.top/huya/idvesports
+http://live.iill.top/huya.php?id=198201idvesports
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」第五人格 𝟙
-https://tv.iill.top/douyu/3226194
+http://live.iill.top/douyu.php?id=1982013226194
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」第五人格 𝟚
-https://tv.iill.top/douyu/11030737
+http://live.iill.top/douyu.php?id=19820111030737
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」逆战
-https://tv.iill.top/huya/nsl2021
+http://live.iill.top/huya.php?id=198201nsl2021
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」原神
-https://tv.iill.top/douyu/10853239
+http://live.iill.top/douyu.php?id=19820110853239
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」QQ飞车•手游
-https://tv.iill.top/douyu/5040227
+http://live.iill.top/douyu.php?id=1982015040227
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」无畏契约 𝟙
-https://tv.iill.top/huya/660679
+http://live.iill.top/huya.php?id=198201660679
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」无畏契约 𝟚
-https://tv.iill.top/douyu/4585645
+http://live.iill.top/douyu.php?id=1982014585645
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」JJ斗地主
-https://tv.iill.top/douyu/488743
+http://live.iill.top/douyu.php?id=198201488743
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」我的世界
-https://tv.iill.top/douyu/738878
+http://live.iill.top/douyu.php?id=198201738878
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」FIFA
-https://tv.iill.top/douyu/7692166
+http://live.iill.top/douyu.php?id=1982017692166
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」火影忍者
-https://tv.iill.top/douyu/1997723
+http://live.iill.top/douyu.php?id=1982011997723
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」跑跑卡丁车
-https://tv.iill.top/douyu/7722576
+http://live.iill.top/douyu.php?id=1982017722576
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」跑跑卡丁车•手游
-https://tv.iill.top/douyu/6672862
+http://live.iill.top/douyu.php?id=1982016672862
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟙
-https://tv.iill.top/huya/23740156
+http://live.iill.top/huya.php?id=19820123740156
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟚
-https://tv.iill.top/huya/23749096
+http://live.iill.top/huya.php?id=19820123749096
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟛
-https://tv.iill.top/huya/23735126
+http://live.iill.top/huya.php?id=19820123735126
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟜
-https://tv.iill.top/huya/23903123
+http://live.iill.top/huya.php?id=19820123903123
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟝
-https://tv.iill.top/huya/23734169
+http://live.iill.top/huya.php?id=19820123734169
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟞
-https://tv.iill.top/huya/23863804
+http://live.iill.top/huya.php?id=19820123863804
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟟
-https://tv.iill.top/huya/23865080
+http://live.iill.top/huya.php?id=19820123865080
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟠
-https://tv.iill.top/huya/23864973
+http://live.iill.top/huya.php?id=19820123864973
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟡
-https://tv.iill.top/huya/23903130
+http://live.iill.top/huya.php?id=19820123903130
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟙𝟘
-https://tv.iill.top/huya/23860039
+http://live.iill.top/huya.php?id=19820123860039
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟙𝟙
-https://tv.iill.top/huya/23903183
+http://live.iill.top/huya.php?id=19820123903183
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟙𝟚
-https://tv.iill.top/huya/23903196
+http://live.iill.top/huya.php?id=19820123903196
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟙𝟛
-https://tv.iill.top/huya/23728674
+http://live.iill.top/huya.php?id=19820123728674
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟙𝟜
-https://tv.iill.top/huya/23865036
+http://live.iill.top/huya.php?id=19820123865036
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟙𝟝
-https://tv.iill.top/huya/23829543
+http://live.iill.top/huya.php?id=19820123829543
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟙𝟞
-https://tv.iill.top/huya/23865161
+http://live.iill.top/huya.php?id=19820123865161
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟙𝟟
-https://tv.iill.top/huya/23865058
+http://live.iill.top/huya.php?id=19820123865058
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟙𝟠
-https://tv.iill.top/huya/23824164
+http://live.iill.top/huya.php?id=19820123824164
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟙𝟡
-https://tv.iill.top/huya/23863796
+http://live.iill.top/huya.php?id=19820123863796
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟚𝟘
-https://tv.iill.top/huya/23734183
+http://live.iill.top/huya.php?id=19820123734183
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟚𝟙
-https://tv.iill.top/huya/23728660
+http://live.iill.top/huya.php?id=19820123728660
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟚𝟚
-https://tv.iill.top/huya/23865142
+http://live.iill.top/huya.php?id=19820123865142
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟚𝟛
-https://tv.iill.top/huya/23734246
+http://live.iill.top/huya.php?id=19820123734246
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟚𝟜
-https://tv.iill.top/huya/23865171
+http://live.iill.top/huya.php?id=19820123865171
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟚𝟝
-https://tv.iill.top/huya/23734256
+http://live.iill.top/huya.php?id=19820123734256
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/埋堆堆.png" group-title="•埋堆堆",埋堆堆 𝟚𝟞
-https://tv.iill.top/huya/23749083
+http://live.iill.top/huya.php?id=19820123749083
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",音乐石榴「音乐」
-https://tv.iill.top/huya/17091681
+http://live.iill.top/huya.php?id=19820117091681
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",音乐速递「音乐」
-https://tv.iill.top/huya/19439762
+http://live.iill.top/huya.php?id=19820119439762
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",治愈•放松「音乐」
-https://tv.iill.top/huya/21241811
+http://live.iill.top/huya.php?id=19820121241811
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",阅读•学习「音乐」
-https://tv.iill.top/huya/21241813
+http://live.iill.top/huya.php?id=19820121241813
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",电视剧•1「解说」
-https://tv.iill.top/huya/21277391
+http://live.iill.top/huya.php?id=19820121277391
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",电视剧•2「解说」
-https://tv.iill.top/huya/25018873
+http://live.iill.top/huya.php?id=19820125018873
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",电影•1「解说」
-https://tv.iill.top/huya/20289754
+http://live.iill.top/huya.php?id=19820120289754
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",电影•2「解说」
-https://tv.iill.top/huya/24983280
+http://live.iill.top/huya.php?id=19820124983280
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",电影•3「解说」
-https://tv.iill.top/huya/24396428
+http://live.iill.top/huya.php?id=19820124396428
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",动漫•1「解说」
-https://tv.iill.top/huya/19757963
+http://live.iill.top/huya.php?id=19820119757963
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",恐怖电影「解说」
-https://tv.iill.top/huya/23419131
+http://live.iill.top/huya.php?id=19820123419131
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",漫威「解说」
-https://tv.iill.top/huya/17089779
+http://live.iill.top/huya.php?id=19820117089779
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",美剧「解说」
-https://tv.iill.top/huya/20488841
+http://live.iill.top/huya.php?id=19820120488841
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",七龙珠「解说」
-https://tv.iill.top/huya/25650806
+http://live.iill.top/huya.php?id=19820125650806
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",止戈电影「解说」
-https://tv.iill.top/huya/19863777
+http://live.iill.top/huya.php?id=19820119863777
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",挨饿德•1「其他」
-https://tv.iill.top/huya/20985858
+http://live.iill.top/huya.php?id=19820120985858
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",挨饿德•2「其他」
-https://tv.iill.top/huya/17693860
+http://live.iill.top/huya.php?id=19820117693860
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",互扇巴掌大赛「其他」
-https://tv.iill.top/huya/20072873
+http://live.iill.top/huya.php?id=19820120072873
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",荒野求生「其他」
-https://tv.iill.top/huya/593667
+http://live.iill.top/huya.php?id=198201593667
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",野行者「其他」
-https://tv.iill.top/huya/20072663
+http://live.iill.top/huya.php?id=19820120072663
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",跳舞「其他」
-https://tv.iill.top/huya/24634408
+http://live.iill.top/huya.php?id=19820124634408
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",茶啊二中「动画」
-https://tv.iill.top/huya/11213191
+http://live.iill.top/huya.php?id=19820111213191
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",哆啦A梦「动漫」
-https://tv.iill.top/huya/11601963
+http://live.iill.top/huya.php?id=19820111601963
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",航海王「动漫」
-https://tv.iill.top/huya/16913382
+http://live.iill.top/huya.php?id=19820116913382
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",七龙珠「动漫」
-https://tv.iill.top/huya/11601966
+http://live.iill.top/huya.php?id=19820111601966
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",猫和老鼠「动漫」
-https://tv.iill.top/huya/11352879
+http://live.iill.top/huya.php?id=19820111352879
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•影视",中华小当家「动漫」
-https://tv.iill.top/huya/11342413
+http://live.iill.top/huya.php?id=19820111342413
