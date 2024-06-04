@@ -7,8 +7,8 @@
 >APTV「多端」
 * 安卓系统  
 >TiviMate「电视端」  
->Televizo「手机端」
->>OTT「双端」 
+>Televizo「手机端」  
+>OTT「双端」 
 * Win系统     
 >PotPlayer「电脑端」
 >RedStar 「电脑端」 
@@ -33,7 +33,8 @@
 >维护 live「更新 直播代理地址...」  
 * 2024.5.30  
 >维护 Gather「优化 咪咕·体育与TV稳定性,临时解除限制.」
-* 2024.6.4  
->维护 Gather「增加 海外可看央视...」 
->新增 Live「内容 直播M3U生成器.详细自己体验.」
+* 2024.6.4
+>新增 Live「内容 直播M3U生成器.详细自己体验.」  
+>维护 Gather「增加 海外可看央视...」  
+>维护 Adult「优化 Stripchat分组·logo与name的体验」  
 ---
