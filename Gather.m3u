@@ -221,6 +221,10 @@ http://[2409:8087:1a01:df::4027]/PLTV/88888888/224/3221225914/index.m3u8
 http://[2409:8087:1a01:df::4068]/PLTV/88888888/224/3221226031/index.m3u8
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/咪咕.png" group-title="•咪咕「IPV6」",咪咕直播 𝟛𝟞「IPV6」
 http://[2409:8087:1a01:df::4062]/PLTV/88888888/224/3221226046/index.m3u8
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/哔哩哔哩.png" group-title="•游戏赛事",「B站」CS 2
+http://live.iill.top/bilibili.php?id=21622811
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/哔哩哔哩.png" group-title="•游戏赛事",「B站」英雄联盟
+http://live.iill.top/bilibili.php?id=6
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」英雄联盟 𝟙
 http://live.iill.top/huya.php?id=660000
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」英雄联盟 𝟚
@@ -228,7 +232,13 @@ http://live.iill.top/huya.php?id=660001
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」英雄联盟 𝟙
 http://live.iill.top/douyu.php?id=288016
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」英雄联盟 𝟚
-http://live.iill.top/douyu.php?id=998
+http://live.iill.top/douyu.php?id=424559
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/哔哩哔哩.png" group-title="•游戏赛事",「B站」英雄联盟•手游
+http://live.iill.top/bilibili.php?id=23138275
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/哔哩哔哩.png" group-title="•游戏赛事",「B站」王者荣耀 𝟙
+http://live.iill.top/bilibili.php?id=55
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/哔哩哔哩.png" group-title="•游戏赛事",「B站」王者荣耀 𝟚
+http://live.iill.top/bilibili.php?id=21654762
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」王者荣耀 𝟙
 http://live.iill.top/huya.php?id=660002
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」王者荣耀 𝟚
@@ -237,6 +247,8 @@ http://live.iill.top/huya.php?id=660164
 http://live.iill.top/douyu.php?id=1863767
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」王者荣耀 𝟚
 http://live.iill.top/douyu.php?id=1984839
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/哔哩哔哩.png" group-title="•游戏赛事",「B站」绝地求生
+http://live.iill.top/bilibili.php?id=98
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」绝地求生 𝟙
 http://live.iill.top/huya.php?id=660004
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」绝地求生 𝟚
@@ -251,8 +263,6 @@ http://live.iill.top/douyu.php?id=999
 http://live.iill.top/huya.php?id=660579
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」金铲铲之战
 http://live.iill.top/douyu.php?id=9715241
-#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」CSGO
-http://live.iill.top/douyu.php?id=601514
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」DOTA2
 http://live.iill.top/huya.php?id=660118
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」DOTA2
@@ -261,6 +271,10 @@ http://live.iill.top/douyu.php?id=3811559
 http://live.iill.top/douyu.php?id=522423
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」永劫无间
 http://live.iill.top/huya.php?id=660115
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」永劫无间
+http://live.iill.top/huya.php?id=9662891
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/哔哩哔哩.png" group-title="•游戏赛事",「B站」使命召唤•手游
+http://live.iill.top/bilibili.php?id=22741849
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」使命召唤•手游
 http://live.iill.top/huya.php?id=11718629
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」使命召唤•手游
@@ -273,22 +287,32 @@ http://live.iill.top/douyu.php?id=605964
 http://live.iill.top/douyu.php?id=5388537
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」穿越火线•手游
 http://live.iill.top/huya.php?id=660102
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/哔哩哔哩.png" group-title="•游戏赛事",「B站」第五人格
+http://live.iill.top/bilibili.php?id=5555
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」第五人格
 http://live.iill.top/huya.php?id=idvesports
-#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」第五人格 𝟙
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」第五人格 
 http://live.iill.top/douyu.php?id=3226194
-#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」第五人格 𝟚
-http://live.iill.top/douyu.php?id=11030737
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」逆战
 http://live.iill.top/huya.php?id=nsl2021
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/哔哩哔哩.png" group-title="•游戏赛事",「B站」无畏契约 
+http://live.iill.top/bilibili.php?id=22908869
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」无畏契约 
+http://live.iill.top/huya.php?id=660679
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」无畏契约 
+http://live.iill.top/douyu.php?id=4585645
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」原神
 http://live.iill.top/douyu.php?id=10853239
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/哔哩哔哩.png" group-title="•游戏赛事",「B站」QQ飞车•手游
+http://live.iill.top/bilibili.php?id=21743919
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」QQ飞车•手游
 http://live.iill.top/douyu.php?id=5040227
-#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/虎牙.png" group-title="•游戏赛事",「虎牙」无畏契约 𝟙
-http://live.iill.top/huya.php?id=660679
-#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」无畏契约 𝟚
-http://live.iill.top/douyu.php?id=4585645
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」梦幻西游·手游
+http://live.iill.top/huya.php?id=9163712
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」街霸
+http://live.iill.top/huya.php?id=11437
+#EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/哔哩哔哩.png" group-title="•游戏赛事",「B站」JJ斗地主
+http://live.iill.top/bilibili.php?id=22021983
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」JJ斗地主
 http://live.iill.top/douyu.php?id=488743
 #EXTINF:-1 tvg-logo="https://yang-1989.eu.org/logo/斗鱼.png" group-title="•游戏赛事",「斗鱼」我的世界
