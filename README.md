@@ -4,13 +4,13 @@
 ---
 ### 推荐软件「你说了算」  
 * IOS系统  
->APTV「多端」
+>APTV「多端」  
 * 安卓系统  
 >TiviMate「电视端」  
 >Televizo「手机端」  
->OTT「双端」 
-* Win系统     
->PotPlayer「电脑端」
+>OTT「双端」  
+* Win系统  
+>PotPlayer「电脑端」  
 >RedStar 「电脑端」 
 ---
 ### 订阅地址「懒人必备」 
