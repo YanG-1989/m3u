@@ -11,7 +11,8 @@
 >OTT「双端」  
 * Win系统  
 >PotPlayer「电脑端」  
->RedStar 「电脑端」 
+>RedStar 「电脑端」
+>QMPlay2 「电脑端」
 ---
 ### 订阅地址「懒人必备」 
 * [Gather.m3u](https://yang-1989.eu.org/m3u/Gather)
