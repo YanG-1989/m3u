@@ -8,7 +8,6 @@
 * 安卓系统  
 >TiviMate「电视端」  
 >Televizo「手机端」  
->OTT「双端」  
 * Win系统  
 >PotPlayer「电脑端」  
 >RedStar 「电脑端」  
