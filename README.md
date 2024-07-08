@@ -24,7 +24,7 @@
 ### 直播集合「一切随缘」  
 * [Live.m3u](https://yang-1989.eu.org/m3u/Live)  
 >多平台订阅集合「收集网友喜欢的直播间...」
-* [直播M3U生成器](https://tv.iill.top/live.html)  
+* [直播M3U生成器](https://m.iill.top)  
 >定制自己的直播M3U列表「可以分享自己喜欢的主播..」
 ---
 ### 垃圾话语录「历史记录」     
