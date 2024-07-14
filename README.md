@@ -14,9 +14,9 @@
 >QMPlay2 「电脑端」  
 ---
 ### 订阅地址「懒人必备」 
-* [Gather.m3u](https://yang-1989.eu.org/m3u/Gather)  
+* [Gather.m3u](https://tv.iill.top/m3u/Gather)  
 > 完整版订阅地址「请勿直接打开」...
-* [Adult.m3u](https://yang-1989.eu.org/m3u/Adult)  
+* [Adult.m3u](https://tv.iill.top/m3u/Adult)  
 > 近期不维护,排在live后面...
 * [Adult-1.m3u 不再提供订阅,文件保存在TG](https://t.me/WangPanBOT?start=file23fb4c49257f2457)  
 > 集合大佬们的资源,进行整合去重去失效...
@@ -28,8 +28,6 @@
 >定制自己的直播M3U列表「可以分享自己喜欢的主播..」
 ---
 ### 垃圾话语录「历史记录」     
-* 2024.6.6  
->删除 yu ya「建议 自定义主播...」
 * 2024.6.8    
 >维护 Live「增加 AfreecaTV 平台..」  
 >维护 Gather「维护 特色频道恢复限制..」
@@ -39,7 +37,9 @@
 >维护 Gather「修复 咪咕IPV6...」  
 * 2024.6.16  
 >维护 Live「增加 BIGO 平台..」  
->维护 Gather「修复 代理源在APTV中,预览图显示错误问题...」  
+>维护 Gather「修复 代理源在APTV中,预览图显示错误问题...」
+* 2024.6.6  
+>维护 订阅 「因为域名被多处屏蔽换一个...」
 ---
 
 ### 声明「佛曰需要」
