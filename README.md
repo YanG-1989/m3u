@@ -16,10 +16,6 @@
 ### 订阅地址「懒人必备」 
 * [Gather.m3u](https://tv.iill.top/m3u/Gather)  
 > 完整版订阅地址「请勿直接打开」...
-* [Adult.m3u](https://tv.iill.top/m3u/Adult)  
-> 佛系维护...
-* [Adult-1.m3u 不再提供订阅,文件保存在TG](https://t.me/WangPanBOT?start=file23fb4c49257f2457)  
-> 集合大佬们的资源,进行整合去重去失效...
 ---
 ### 直播集合「一切随缘」  
 * [Live.m3u](https:///tv.iill.top/m3u/Live)  
