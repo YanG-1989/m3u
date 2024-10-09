@@ -136,7 +136,7 @@ http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/322
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225670/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iill.top/logo/NewTV精品记录.png" tvg-name="精品记录" group-title="•NewTV「IPV6」",NewTV 精品记录「IPV6」
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225672/index.m3u8
-#EXTINF:-1 tvg-id="全民热练" tvg-name="全民热练"  tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•体育「IPV6」」",晴彩青少「IPV6」
+#EXTINF:-1 tvg-id="全民热练" tvg-name="全民热练"  tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•体育「IPV6」",晴彩青少「IPV6」
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226508/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name=""  tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="•体育「IPV6」",晴彩竞技「IPV6」
 http://[2409:8087:1a01:df::404d]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226124/index.m3u8
