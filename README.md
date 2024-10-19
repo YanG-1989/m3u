@@ -10,7 +10,7 @@
 >TiviMate「电视端」  
 >Televizo「手机端」  
 * Win系统
->ZyPlayer「电脑端」
+>ZyPlayer「电脑端」  
 >PotPlayer「电脑端」    
 ---
 ### 订阅地址「懒人必备」 
