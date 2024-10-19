@@ -9,9 +9,9 @@
 >影视TV「双端」   
 >TiviMate「电视端」  
 >Televizo「手机端」  
-* Win系统  
->PotPlayer「电脑端」  
->RedStar 「电脑端」   
+* Win系统
+>ZyPlayer「电脑端」
+>PotPlayer「电脑端」    
 ---
 ### 订阅地址「懒人必备」 
 * [Gather.m3u](https://tv.iill.top/m3u/Gather)  
@@ -36,6 +36,8 @@
 >维护 Gather「加入 myTV 频道 / 整理删减列表 」
 * 2024.9.29  
 >维护 Gather「新增·咪咕「足球」分组」
+* 2024.10.6
+>维护 Gather「更新 咪咕「全网」域名」
 ---
 
 ### 声明「佛曰需要」
