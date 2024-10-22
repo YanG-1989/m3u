@@ -1052,31 +1052,6 @@ uninstall_1panel() {
     echo -e "${GREEN}1Panel 卸载完成。${RESET}"
 }
 
-# 更新 SH 脚本
-download_pixman() {
-    REMOTE_VERSION=$(curl -s "https://yang-1989.eu.org/pixman_version.txt")
-    if [ -f "$SCRIPT_PATH" ]; then
-        LOCAL_VERSION=$(grep -oP '(?<=^# 最新版本：).*' "$SCRIPT_PATH")
-    else
-        LOCAL_VERSION="" 
-    fi
-
-    if [ "$REMOTE_VERSION" != "$LOCAL_VERSION" ]; then
-        echo "正在下载最新版本的 Pixman 脚本..."
-        curl -o "$SCRIPT_PATH" "https://yang-1989.eu.org/pixman.sh"
-        chmod +x "$SCRIPT_PATH"
-        echo -e "${GREEN}最新 $REMOTE_VERSION 版本下载已完成。${RESET}"
-        # echo "设置 'y' 为快捷启动命令..."
-        if [ ! -f ~/.bashrc ]; then
-            touch ~/.bashrc
-        fi
-        if ! grep -q "alias y=" ~/.bashrc; then
-            echo "alias y='bash \"$SCRIPT_PATH\" --from-y'" >> ~/.bashrc
-            source ~/.bashrc
-        fi
-    fi
-}
-
 #############  辅助函数  #############
 
 # 检查 网络 是否支持外网
@@ -1242,6 +1217,37 @@ generate_random_port() {
         port=$(shuf -i 20000-65535 -n 1)
         ss -tuln | grep -q :$port || { echo "$port"; break; }
     done
+}
+
+# 更新 SH 脚本
+download_pixman() {
+    REMOTE_VERSION=$(curl -s "https://yang-1989.eu.org/pixman_version.txt")
+
+    if [ $? -ne 0 ]; then
+        echo -e "${RED}无法检测版本，请检查网络连接。${RESET}"
+        return
+    fi
+
+    if [ -f "$SCRIPT_PATH" ]; then
+        LOCAL_VERSION=$(grep -oP '(?<=^# 最新版本：).*' "$SCRIPT_PATH")
+    else
+        LOCAL_VERSION="" 
+    fi
+
+    if [ "$REMOTE_VERSION" != "$LOCAL_VERSION" ]; then
+        echo "正在下载最新版本的 Pixman 脚本..."
+        curl -o "$SCRIPT_PATH" "https://yang-1989.eu.org/pixman.sh"
+        chmod +x "$SCRIPT_PATH"
+        echo -e "${GREEN}最新 $REMOTE_VERSION 版本下载已完成。${RESET}"
+        # echo "设置 'y' 为快捷启动命令..."
+        if [ ! -f ~/.bashrc ]; then
+            touch ~/.bashrc
+        fi
+        if ! grep -q "alias y=" ~/.bashrc; then
+            echo "alias y='bash \"$SCRIPT_PATH\" --from-y'" >> ~/.bashrc
+            source ~/.bashrc
+        fi
+    fi
 }
 
 # 脚本信息
