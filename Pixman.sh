@@ -3,7 +3,7 @@
 
 # @小白直播搭建脚本
 # 项目地址：https://pixman.io/
-# 最新版本：1.9.5
+# 最新版本：1.9.6
 
 ###############################
 
@@ -21,7 +21,6 @@ HAMI_SERIAL_NO=""  # Hami 参数
 HAMI_SESSION_IP=""  # Hami 参数
 HTTP_PROXY=""  # 设置代理
 HTTPS_PROXY=""  # 设置代理
-
 
 # 设置颜色变量
 RED="\033[1;31m"  # 红
@@ -77,9 +76,8 @@ show_allinone_menu() {
     echo "---------------------"
     echo "1) 安装 Allinone 项目"
     echo "2) 安装   av3a   助手"
-    echo "3) 设置   IPTV   启停"
-    echo "4) 设置 反向代理 地址 "
-    echo "5) 卸载 Allinone 项目"
+    echo "3) 设置 反向代理 地址 "
+    echo "4) 卸载 Allinone 项目"
     echo "---------------------"
     echo "0)    返回主菜单     "
     echo "---------------------"
@@ -87,17 +85,17 @@ show_allinone_menu() {
 
 # 工具箱 菜单
 show_toolbox_menu() {
-    echo "-------------------"
-    echo "     工具箱菜单：   "
-    echo "-------------------"
-    echo "1)   1Panle 面板   "
-    echo "2)  [Docker] o11   "
-    echo "3) [Docker] 3X-UI  "
-    echo "~~~~~~~~~~~~~~~~~~~"
-    echo "4) Docker 一键清理  "
-    echo "-------------------"
-    echo "0)   返回主菜单     "
-    echo "-------------------"
+    echo "----------------------"
+    echo "       工具箱菜单：   "
+    echo "----------------------"
+    echo "1)  1Panle 面板        "
+    echo "2)  [Docker] o11       "
+    echo "3)  [Docker] 3X-UI     "
+    echo "~~~~~~~~~~~~~~~~~~~~~~"
+    echo "5)  Docker 一键清理    "
+    echo "----------------------"
+    echo "0)     返回主菜单      "
+    echo "----------------------"
 }
 
 # 1Panel 菜单
@@ -109,30 +107,42 @@ show_1panel_menu() {
     echo "2)   卸载 1Panel   "
     echo "3)   设置 1Panel   "
     echo "-------------------"
-    echo "0)   返回上级菜单   "
+    echo "0)  返回上级菜单    "
     echo "-------------------"
 }
 
 # 3X-UI 菜单
 show_3x_ui_menu() {
     echo "-------------------"
-    echo "   3X-UI 面板菜单： "
+    echo "    3X-UI 菜单： "
     echo "-------------------"
     echo "1)   安装 3X-UI    "
     echo "2)   更新 3X-UI    "
     echo "3)   卸载 3X-UI    "
     echo "-------------------"
-    echo "0)   返回上级菜单   "
+    echo "0)  返回上级菜单    "
     echo "-------------------"
 }
 
 # o11 菜单
 show_o11_menu() {
     echo "-------------------"
-    echo "    o11 面板菜单：  "
+    echo "     o11 菜单：     "
     echo "-------------------"
     echo "1)    安装 o11     "
     echo "2)    卸载 o11     "
+    echo "-------------------"
+    echo "0)  返回上级菜单    "
+    echo "-------------------"
+}
+
+# subs 菜单
+show_subs_menu() {
+    echo "-------------------"
+    echo "   Sub Store 菜单： "
+    echo "-------------------"
+    echo "1) 安装 Sub Store  "
+    echo "2) 卸载 Sub Store  "
     echo "-------------------"
     echo "0)  返回上级菜单    "
     echo "-------------------"
@@ -247,7 +257,7 @@ set_parameters() {
           "$HTTP_PROXY" != "$original_http_proxy" || \
           "$HTTPS_PROXY" != "$original_https_proxy" ]]; then
         echo -e "${CYAN}检测到参数变化，正在卸载旧的 Pixman 容器...${RESET}"
-        docker rm -f pixman
+        docker rm -f pixman > /dev/null 2>&1
         check_update
     else
         echo -e "${CYAN}参数未发生变化，无需重启 Pixman 容器${RESET}"
@@ -285,9 +295,9 @@ check_update() {
 
         if [ "$current_image_version" != "$latest_image_version" ]; then
             echo -e "${GREEN}发现新版本 ($latest_image_version)，正在更新...${RESET}"
-            docker rm -f pixman
-            docker rmi -f "$IMAGE_SOURCE"
-            docker pull "$IMAGE_SOURCE"
+            docker rm -f pixman > /dev/null 2>&1
+            docker rmi -f "$IMAGE_SOURCE" > /dev/null 2>&1
+            docker pull "$IMAGE_SOURCE" > /dev/null 2>&1
             start_container "$IMAGE_SOURCE" "$MODE"
         else
             echo -e "${GREEN}当前版本 ($current_image_version)，无需更新...${RESET}"
@@ -356,12 +366,15 @@ uninstall_pixman() {
     
     if [[ "$input" =~ ^[Yy]$ ]]; then
         echo -e "${CYAN}正在卸载 Pixman 项目...${RESET}"
-        docker rm -f pixman || { echo "卸载容器失败"; return 1; }
-        docker rmi -f pixman/pixman:latest || { echo "删除镜像失败"; return 1; }
-        crontab -l | grep -v "$SCRIPT_PATH" | crontab - || { echo "删除定时任务失败"; return 1; }
-        # rm -f "$SCRIPT_PATH" || { echo "删除脚本文件失败"; return 1; }
-        # rm -f "$CONFIG_FILE" || { echo "删除配置文件失败"; return 1; }
-        # sed -i '/alias y=/d' ~/.bashrc || { echo "删除快捷指令失败"; return 1; }
+        docker stop pixman > /dev/null 2>&1
+        docker rm -f pixman > /dev/null 2>&1
+        for image in $(docker images --format '{{.Repository}}:{{.Tag}}' | grep 'pixman/pixman'); do
+            docker rmi "$image" > /dev/null 2>&1
+        done
+        crontab -l | grep -v "$SCRIPT_PATH"
+        # rm -f "$SCRIPT_PATH"
+        # rm -f "$CONFIG_FILE"
+        # sed -i '/alias y=/d' ~/.bashrc
         echo -e "${RED}Pixman 项目已成功卸载。${RESET}"
     else
         echo -e "${GREEN}取消卸载操作。${RESET}"
@@ -477,8 +490,19 @@ Convert_pixman() {
 
 #############  Allinone #############
 
-# 安装 Allinone
+ # 安装 Allinone
 install_allinone() {
+
+    if docker ps -a --format '{{.Names}}' | grep -q "^allinone$"; then
+        echo "检测到已存在的 Allinone 容器，将进行手动更新..."
+        docker stop allinone > /dev/null 2>&1
+        docker rm allinone > /dev/null 2>&1
+        for image in $(docker images --format '{{.Repository}}:{{.Tag}}' | grep 'youshandefeiyang/allinone'); do
+            docker rmi "$image" > /dev/null 2>&1
+        done
+        echo -e "${CYAN}已停止并删除旧的 Allinone 项目。${RESET}"
+    fi
+
     echo "请选择部署方式（默认: 1):"
     echo "1) 使用 host 网络模式"
     echo "2) 使用 bridge 网络模式"
@@ -488,39 +512,40 @@ install_allinone() {
 
     local public_ip
     local PORT=35455
-    local reverse_proxy_option=""
 
     if check_if_in_china; then
-        public_ip="{路由IP}"  # 获取本地 IP
-        reverse_proxy_option="-e REVERSE_PROXY=$REVERSE_PROXY"
+        public_ip="{路由IP}"
     else
         public_ip=$(curl -s ifconfig.me || echo "{公网IP}")
-        reverse_proxy_option="-tv=false"
-        echo -e "${RED}境外已禁止开启 IPTV 服务。${RESET}"
+    fi
+
+    IMAGE_SOURCE="youshandefeiyang/allinone"
+    PROXY_IMAGE_SOURCE="$REVERSE_PROXY/youshandefeiyang/allinone"
+
+    if ! docker pull "$IMAGE_SOURCE" > /dev/null 2>&1; then
+        echo -e "${CYAN}尝试使用代理拉取镜像...${RESET}"
+        if ! docker pull "$PROXY_IMAGE_SOURCE" > /dev/null 2>&1; then
+            echo -e "${RED}安装 Allinone 失败，请检查代理或网络连接。${RESET}"
+            exit 1
+        fi
+        IMAGE_SOURCE="$PROXY_IMAGE_SOURCE"
     fi
 
     case $option in
         1)
             echo "正在使用 host 网络模式安装 Allinone..."
-            docker run -d \
-                --restart unless-stopped \
-                --net=host \
-                --privileged=true \
-                $reverse_proxy_option \
-                --name allinone \
-                youshandefeiyang/allinone
-
+            port=$PORT
+            docker run -d --restart unless-stopped --net=host --privileged=true --name allinone "$IMAGE_SOURCE"
             echo -e "${GREEN}Allinone 安装完成。${RESET}"
 
-            install_watchtower
+            install_watchtower "allinone"
             
             echo "---------------------------------------------------------"
             echo "■ 订阅地址："
             if check_if_in_china; then
-                echo "■ TV 集合 : http://$public_ip:$PORT/tv.m3u"
-                echo "■ TPTV : http://$public_ip:$PORT/tptv.m3u"
+                echo "■ TV 集合 : http://$public_ip:$port/tv.m3u"
+                echo "■ TPTV : http://$public_ip:$port/tptv.m3u"
             fi
-
             ;;
 
         2)
@@ -534,17 +559,11 @@ install_allinone() {
                 return 1
             fi
 
-            docker run -d \
-                --restart unless-stopped \
-                -p $port:35455 \
-                --privileged=true \
-                $reverse_proxy_option \
-                --name allinone \
-                youshandefeiyang/allinone
+            docker run -d --restart unless-stopped --net=bridge --privileged=true -p "$port:35455" --name allinone "$IMAGE_SOURCE"
 
             echo -e "${GREEN}Allinone 安装完成。${RESET}"
 
-            install_watchtower # 定时任务
+            install_watchtower "allinone"
 
             echo "---------------------------------------------------------"
             echo "■ 订阅地址："
@@ -552,7 +571,6 @@ install_allinone() {
                 echo "■ TV 集合 : http://$public_ip:$port/tv.m3u"
                 echo "■ TPTV : http://$public_ip:$port/tptv.m3u"
             fi
-
             ;;
 
         *)
@@ -589,57 +607,6 @@ live_allinone() {
     read -p "按 回车键 返回 主菜单 ..."
 }
 
-# 设置 IPTV 启停
-set_allinone() {
-    if docker ps -q -f name=allinone; then
-
-        if ! check_if_in_china; then
-            echo "境外已禁用 IPTV 服务，无法进行开启。"
-            return
-        fi
-
-        current_args=$(docker inspect --format '{{.Args}}' allinone)
-        tv_setting=$(echo "$current_args" | grep -oP '(-tv=\w+)')
-        is_host_mode=$(echo "$current_args" | grep -oP '(^--net=host)')
-        
-        if [[ "$tv_setting" == "-tv=false" ]]; then
-            read -p "当前 TV 直播服务已关闭，是否要开启？(y/n): " tv_option
-            if [[ "$tv_option" == "y" || "$tv_option" == "Y" ]]; then
-                echo "正在开启 TV 直播服务..."
-                docker stop allinone
-                docker rm allinone
-                if [[ $is_host_mode ]]; then
-                    docker run -d --restart unless-stopped --net=host --privileged=true --name allinone youshandefeiyang/allinone
-                else
-                    port=$(echo "$current_args" | grep -oP '(-p\s+\d+:\d+)' | awk -F':' '{print $1}' | tr -d '-p ')
-                    docker run -d --restart unless-stopped -p $port:35455 --privileged=true --name allinone youshandefeiyang/allinone
-                fi
-                echo "Allinone 已开启 TV 直播服务。"
-            else
-                echo "保持 TV 直播服务关闭。"
-            fi
-        else
-            read -p "当前 TV 直播服务已开启，是否要关闭？(y/n): " tv_option
-            if [[ "$tv_option" == "y" || "$tv_option" == "Y" ]]; then
-                echo "正在关闭 TV 直播服务..."
-                docker stop allinone
-                docker rm allinone
-                if [[ $is_host_mode ]]; then
-                    docker run -d --restart unless-stopped --net=host --privileged=true --name allinone -tv=false youshandefeiyang/allinone
-                else
-                    port=$(echo "$current_args" | grep -oP '(-p\s+\d+:\d+)' | awk -F':' '{print $1}' | tr -d '-p ')
-                    docker run -d --restart unless-stopped -p $port:35455 --privileged=true --name allinone -tv=false youshandefeiyang/allinone
-                fi
-                echo "Allinone 已关闭 TV 直播服务。"
-            else
-                echo "保持 TV 直播服务开启。"
-            fi
-        fi
-    else
-        echo "当前 Allinone 未安装，请先安装 Allinone 项目。"
-    fi
-}
-
 # 设置反向代理参数
 proxy_allinone() {
     read -p "请输入反向代理地址 (回车跳过保持当前值: $REVERSE_PROXY): " input_reverse_proxy
@@ -658,47 +625,26 @@ uninstall_allinone() {
         return
     fi
     if docker ps -a | grep -q allinone; then
-        docker stop allinone
-        docker rm allinone
+        docker stop allinone > /dev/null 2>&1
+        docker rm allinone > /dev/null 2>&1
     fi
     if docker ps -a | grep -q av3a-assistant; then
-        docker stop av3a-assistant
-        docker rm av3a-assistant
+        docker stop av3a-assistant > /dev/null 2>&1
+        docker rm av3a-assistant > /dev/null 2>&1
     fi
     if [ -d "/av3a" ]; then
         rm -rf /av3a
     fi
-    if docker ps -a | grep -q watchtower; then
-        docker stop watchtower
-        docker rm watchtower
-    fi
+
+    for image in $(docker images --format '{{.Repository}}:{{.Tag}}' | grep 'youshandefeiyang/allinone'); do
+        docker rmi "$image" > /dev/null 2>&1
+    done
+
+    for image in $(docker images --format '{{.Repository}}:{{.Tag}}' | grep 'av3a-assistant'); do
+        docker rmi "$image" > /dev/null 2>&1
+    done
+
     echo -e "${GREEN}Allinone 及其所有相关文件已完全卸载。${RESET}"
-}
-
-# 设置 Allinone 更新
-install_watchtower() {
-    echo "正在安装或配置 Watchtower 并监控 Allinone 镜像更新..."
-
-    if check_if_in_china; then
-        reverse_proxy_option="-e REVERSE_PROXY=$REVERSE_PROXY"
-    else
-        reverse_proxy_option=""
-    fi
-
-    if [ "$(docker ps -a -q -f name=watchtower)" ]; then
-        echo "Watchtower 已经存在，更新定时任务..."
-        docker stop watchtower
-        docker rm watchtower
-    fi
-    
-    docker run -d \
-        --name watchtower \
-        --restart unless-stopped \
-        -v /var/run/docker.sock:/var/run/docker.sock \
-        $reverse_proxy_option \
-        containrrr/watchtower allinone -c --schedule "0 0 2 * * *"
-    echo "---------------------------------------------------------"
-    echo -e "${CYAN}■ 服务器将于每天凌晨两点，进行检测更新。${RESET}"
 }
 
 # 检查 Docker Compose 是否安装
@@ -711,7 +657,6 @@ install_Docker_Compose() {
         if ! command -v docker-compose &> /dev/null; then
             echo "Docker Compose 安装失败，请手动安装。"
             echo "参考资料:https://blog.csdn.net/Jimu2018/article/details/138325666"
-            read -p "按 回车键 返回 主菜单 ..."
             exit 1
         fi
         
@@ -724,7 +669,7 @@ install_Docker_Compose() {
 # 安装 av3a
 install_av3a() {
     if ! check_if_in_china; then
-        echo -e "${RED}境外已禁止开启 av3a 服务。{RESET}"
+        echo -e "${RED}境外已禁止开启 av3a 服务。${RESET}"
         return
     fi
 
@@ -762,15 +707,15 @@ install_av3a() {
 
     if docker ps -a --format '{{.Names}}' | grep -q '^allinone$'; then
         echo "检测到已存在的 allinone 容器，正在停止并删除..."
-        docker stop allinone
-        docker rm allinone
+        docker stop allinone > /dev/null 2>&1
+        docker rm allinone > /dev/null 2>&1
     fi
 
     if generate_docker_compose "$ARCH" "$INSTALL_PATH"; then
         cd "$INSTALL_PATH"
         if docker-compose up -d; then
             echo "---------------------------------------------------------"
-            echo -e "${CYAN}Allinone 和 av3a-assistant 均已启动${RESET}"
+            echo -e "${GREEN}Allinone 和 av3a-assistant 均已安装${RESET}"
             echo "---------------------------------------------------------"
             echo "■ 订阅地址："
             echo "■ TV 集合 : http://$public_ip:35442/tv.m3u  (av3a)" 
@@ -854,6 +799,101 @@ EOF
     fi 
 }
 
+#############  watchtower  #############
+
+# 设置 watchtower 任务
+install_watchtower() {
+    local name=$1
+
+    if [ "$(docker ps -q -f name=watchtower)" ]; then
+        existing_args=$(docker inspect --format '{{.Args}}' watchtower)
+        monitored_containers=$(echo "$existing_args" | grep -oP '(\w+)' | tr '\n' ' ')
+
+        if echo "$monitored_containers" | grep -qw "$name"; then
+            echo "---------------------------------------------------------"
+            echo -e "${CYAN}■ 服务器将于每天凌晨五点，进行检测更新。${RESET}"
+            return
+        fi
+
+        monitored_containers+="$name"
+
+        docker stop watchtower > /dev/null 2>&1
+        docker rm watchtower > /dev/null 2>&1
+    else
+        monitored_containers="$name"
+    fi
+
+    echo "正在安装或配置 Watchtower 并监控 $name 镜像更新..."
+
+    IMAGE_SOURCE="containrrr/watchtower"
+    PROXY_IMAGE_SOURCE="$REVERSE_PROXY/containrrr/watchtower"
+
+    if ! docker pull "$IMAGE_SOURCE" > /dev/null 2>&1; then
+        echo -e "${CYAN}尝试使用代理拉取镜像...${RESET}"
+        if ! docker pull "$PROXY_IMAGE_SOURCE" > /dev/null 2>&1; then
+            echo -e "${RED}安装 watchtower 失败，请检查代理或网络连接。${RESET}"
+            return
+        fi
+        IMAGE_SOURCE="$PROXY_IMAGE_SOURCE"
+    fi 
+
+    docker run -d --name watchtower --restart unless-stopped -v /var/run/docker.sock:/var/run/docker.sock "$IMAGE_SOURCE" $monitored_containers -c --schedule "0 5 * * *"
+    echo "---------------------------------------------------------"
+    echo -e "${CYAN}■ 服务器将于每天凌晨五点，进行检测更新。${RESET}"
+}
+
+# 卸载 Watchtower 监控指定容器
+uninstall_watchtower() {
+    local name=$1
+
+    if [ "$(docker ps -q -f name=watchtower)" ]; then
+        echo "正在检查 Watchtower 监控的容器..."
+
+        existing_args=$(docker inspect --format '{{.Args}}' watchtower)
+        monitored_containers=$(echo "$existing_args" | grep -oP '(\w+)' | tr '\n' ' ')
+
+        if echo "$monitored_containers" | grep -qw "$name"; then
+
+            monitored_containers=$(echo "$monitored_containers" | sed "s/\b$name\b//g")
+            
+            if [ -z "$monitored_containers" ]; then
+                echo "没有其他监控的容器，正在停止并删除 Watchtower..."
+                docker stop watchtower > /dev/null 2>&1
+                docker rm watchtower > /dev/null 2>&1
+                
+                for image in $(docker images --format '{{.Repository}}:{{.Tag}}' | grep 'containrrr/watchtower'); do
+                    docker rmi "$image" > /dev/null 2>&1
+                done
+                
+                echo "Watchtower 已成功卸载。"
+            else
+                docker stop watchtower > /dev/null 2>&1
+                docker rm watchtower > /dev/null 2>&1
+                echo "正在更新 Watchtower，仅监控剩余容器..."
+                
+                IMAGE_SOURCE="containrrr/watchtower"
+                PROXY_IMAGE_SOURCE="$REVERSE_PROXY/containrrr/watchtower"
+
+                if ! docker pull "$IMAGE_SOURCE" > /dev/null 2>&1; then
+                    echo -e "${CYAN}尝试使用代理拉取镜像...${RESET}"
+                    if ! docker pull "$PROXY_IMAGE_SOURCE" > /dev/null 2>&1; then
+                        echo -e "${RED}安装 watchtower 失败，请检查代理或网络连接。${RESET}"
+                        return
+                    fi
+                    IMAGE_SOURCE="$PROXY_IMAGE_SOURCE"
+                fi 
+
+                docker run -d --name watchtower --restart unless-stopped -v /var/run/docker.sock:/var/run/docker.sock "$IMAGE_SOURCE" $monitored_containers -c --schedule "0 5 * * *"
+                echo "· "$name" 容器已从监控中删除。"
+            fi
+        else
+            echo "容器 $name 未被 Watchtower 监控。"
+        fi
+    else
+        echo "Watchtower 当前未安装。"
+    fi
+}
+
 #############  3X-UI  #############
 
 # 安装 3X-UI 
@@ -861,7 +901,8 @@ install_3x_ui() {
     echo "请选择部署方式："
     echo "1) 使用 host 网络模式 (添加节点方便)"
     echo "2) 使用 bridge 网络模式 (添加节点,需映射端口)"
-    read -rp "输入选项 (1 或 2): " option
+    echo "3) 使用 sh 脚本 直接安装 (推荐)"
+    read -rp "输入选项 (1-3): " option
 
     if check_if_in_china; then
         local public_ip="{路由IP}"
@@ -891,7 +932,7 @@ install_3x_ui() {
             local default_port=17878
             
             read -rp "请输入要映射的端口 (默认: $default_port): " port
-            port=${port:-$default_port}  # 如果用户没有输入，则使用默认端口
+            port=${port:-$default_port} 
 
             if ! [[ "$port" =~ ^[0-9]+$ ]] || [ "$port" -lt 1024 ] || [ "$port" -gt 65535 ]; then
                 echo "无效端口。请使用 1024 到 65535 之间的数字。"
@@ -900,6 +941,7 @@ install_3x_ui() {
 
             local node_port1=$(generate_random_port)
             local node_port2=$(generate_random_port)
+            local node_port3=$(generate_random_port)
 
             docker run -d \
                 -e XRAY_VMESS_AEAD_FORCED=false \
@@ -915,14 +957,20 @@ install_3x_ui() {
             echo -e "${GREEN}3X-UI 安装完成。${RESET}"
             echo "访问信息："
             echo "URL: http://$public_ip:$port"
-            echo "随机生成两个节点端口，后续直接添加。"
+            echo "随机生成两个节点端口，后续自行添加。"
             echo "节点端口: $node_port1"
             echo "节点端口: $node_port2"
+            echo "节点端口: $node_port3"
             ;;
+        3)
+            bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 
-        *)
-            echo "无效选项，请选择 1 或 2。"
+            echo -e "${GREEN}3X-UI 安装完成。${RESET}"
+            echo "访问信息："
+            echo "输入 x-ui 进行修改设置"
+            echo "URL: http://$public_ip:2053"
             ;;
+        *)  echo "无效的选项，请输入 0-3。" ;;
     esac
 
     echo "------------------"
@@ -940,8 +988,8 @@ install_3x_ui() {
 update_3x_ui() {
     echo "正在更新 3X-UI 面板至最新版本..."
     if docker ps -a | grep -q 3x-ui; then
-        docker stop 3x-ui
-        docker rm 3x-ui
+        docker stop 3x-ui > /dev/null 2>&1
+        docker rm 3x-ui > /dev/null 2>&1
         install_3x_ui
         echo "3X-UI 面板已更新至最新版本。"
     else
@@ -957,19 +1005,16 @@ uninstall_3x_ui() {
         echo "卸载操作已取消。"
         return
     fi
-
-    echo "正在卸载 3X-UI 面板..."
     if docker ps -a | grep -q 3x-ui; then
-        docker stop 3x-ui
-        docker rm 3x-ui
-    else
-        echo "警告：未找到 3x-ui 容器。"
+        docker stop 3x-ui > /dev/null 2>&1
+        docker rm 3x-ui > /dev/null 2>&1
     fi
-    
     if [ -d "$PWD/db" ]; then
         rm -rf "$PWD/db"
-        echo "配置文件已删除。"
     fi
+    for image in $(docker images --format '{{.Repository}}:{{.Tag}}' | grep 'mhsanaei/3x-ui'); do
+        docker rmi "$image" > /dev/null 2>&1
+    done
 
     echo -e "${GREEN}3X-UI 卸载完成。${RESET}"
 }
@@ -987,11 +1032,7 @@ install_o11() {
         local public_ip=$(curl -s ifconfig.me || echo "{公网IP}")
     fi
 
-    docker run -d \
-        --restart=always \
-        -p $port:1234 \
-        --name o11 \
-        wechatofficial/o11:latest
+    docker run -d --restart=always -p $port:1234 --name o11 wechatofficial/o11:latest
 
     echo -e "${GREEN}o11 安装完成。${RESET}"
     echo "访问信息："
@@ -1008,14 +1049,13 @@ uninstall_o11() {
         echo "卸载操作已取消。"
         return
     fi
-
-    echo "正在卸载 o11 面板..."
     if docker ps -a | grep -q o11; then
-        docker stop o11
-        docker rm o11
-    else
-        echo "警告：未找到 o11 容器。"
+        docker stop o11 > /dev/null 2>&1
+        docker rm o11 > /dev/null 2>&1
     fi
+    for image in $(docker images --format '{{.Repository}}:{{.Tag}}' | grep 'wechatofficial/o11'); do
+        docker rmi "$image" > /dev/null 2>&1
+    done
     echo -e "${GREEN}o11 卸载完成。${RESET}"
 }
 
@@ -1042,12 +1082,8 @@ uninstall_1panel() {
         echo "卸载操作已取消。"
         return
     fi
-
-    echo "正在卸载 1Panel..."
     if command -v 1pctl > /dev/null 2>&1; then
         1pctl uninstall
-    else
-        echo "警告：未找到 1Panel 安装。"
     fi
     echo -e "${GREEN}1Panel 卸载完成。${RESET}"
 }
@@ -1065,12 +1101,20 @@ check_internet_connection() {
 
 # 检查 IP 归属地
 check_if_in_china() {
-    country=$(curl -s https://ipinfo.io/country)
-    if [ "$country" = "CN" ]; then
-        return 0  # 在中国
-    else
-        return 1  # 不在中国
-    fi
+    local sources=(
+        "https://myip.ipip.net"
+        "https://ipinfo.io/country"
+        "http://ip-api.com/json/"
+    )
+    
+    for source in "${sources[@]}"; do
+        response=$(curl -s "$source")
+        if echo "$response" | grep -qiE "中国|China|CN"; then
+            return 0 
+        fi
+    done
+    
+    return 1
 }
 
 # 检查 Docker 是否安装
@@ -1258,8 +1302,8 @@ script_log() {
     echo "脚本日志: https://pixman.io/topics/142"
     echo "作者: YanG"
     echo "当前版本号: $(grep -oP '(?<=^# 最新版本：).*' "$SCRIPT_PATH")"
-    echo "最后更新时间: 2024.10.21"
-    echo "更新内容: 修复BUG，部署 Pixman 将不再自动判断，改为手动模式。"
+    echo "最后更新时间: 2024.10.24"
+    echo "更新内容: 优化 CN 判断，修复 Allinone 部署 BUG。计划 增加 Sub Store 部署，独立 watchtower 设置"
     echo "------------------------------------------------"
     read -p "按 回车键 返回 主菜单 ..."
 }
@@ -1268,6 +1312,7 @@ script_log() {
 
 load_parameters  # 加载配置参数
 download_pixman  # 检查脚本更新
+
 
 # 检查是否启动定时任务
 if [ "$1" == "--auto" ]; then
@@ -1319,15 +1364,14 @@ while true; do
         2)  # 显示 allinone 菜单
             while true; do
                 show_allinone_menu
-                read -p "请输入选项 (0-5): " allinone_choice
+                read -p "请输入选项 (0-4): " allinone_choice
                 case "$allinone_choice" in
                     1) check_docker ; install_allinone ;;
                     2) check_docker ; install_av3a ;;
-                    3) set_allinone ;;
-                    4) proxy_allinone ;;
-                    5) uninstall_allinone ;;
+                    3) proxy_allinone ;;
+                    4) uninstall_allinone ;;
                     0) echo "返回主菜单。" ; break ;;
-                    *) echo "无效的选项，请输入 0-5。" ;;
+                    *) echo "无效的选项，请输入 0-4。" ;;
                 esac
             done
             ;;
