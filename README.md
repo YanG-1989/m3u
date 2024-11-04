@@ -1,6 +1,8 @@
 
 # 仓库简介
 #### 个人爱好，收集整合！佛系更新…
+
+>[疑难杂症「传送门」](https://github.com/YanG-1989/m3u/issues) 
 ---
 ### 推荐软件「你说了算」  
 * IOS系统  
@@ -16,15 +18,17 @@
 >QMPlay2「电脑端」  
 >ZyPlayer「电脑端」   
 ---
-### 订阅地址「懒人必备」 
-* [Gather.m3u](https://tv.iill.top/m3u/Gather)  
-> 完整版订阅地址「请勿直接打开」...
+### 订阅地址「懒人必备」   
+* [Gather.m3u「精简版」](https://bit.ly/IPTV-Gather)  
+> 订阅地址「GitHub版」,ipv6·源为主...  
+* [Gather.m3u「完整版」](https://tv.iill.top/m3u/Gather)  
+> 订阅地址「VPS版」,请勿直接打开...  
 ---
 ### 直播集合「一切随缘」  
-* [Live.m3u](https:///tv.iill.top/m3u/Live)  
->多平台订阅集合「收集网友喜欢的直播间...」
-* [直播M3U生成器](https://m.iill.top)  
->定制自己的直播M3U列表「可以分享自己喜欢的主播..」
+* [Live.m3u「多平台」](https:///tv.iill.top/m3u/Live)  
+>直播平台 订阅地址「收集网友喜欢的直播间...」
+* [个性化 M3U 定制](https://m.iill.top)  
+>定制自己的直播 M3U 列表「分享自己喜欢的主播..」
 ---
 ### 垃圾话语录「历史记录」     
 * 2024.11.5
@@ -39,7 +43,6 @@
 >维护 Gather「移除 咪咕「全网」·有需求的移步 GitHub订阅」
 * 2024.10.6
 >维护 Gather「更新 咪咕「全网」域名」
-
 ---
 
 ### 声明「佛曰需要」
