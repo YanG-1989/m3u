@@ -1,0 +1,19 @@
+咪咕全网-解决方案
+
+解决方法一劫持DNS:
+(QX的劫持dns写法,其他软件同理.)
+
+[DNS]
+alias = /studentlive.migucloud.com/pixman.io.fifalive.dnsany.com
+alias = /zqhswlive.itv.cmvideo.cn/pixman.io.fifalive.dnsany.com
+
+「劫持 DNS 引用 pixman 大佬部署好的解析,咪咕全网即可享有全网体验」
+
+解决方法二修改hosts:
+
+通过 ping “pixman.io.fifalive.dnsany.com” 获得一个 IP 地址，然后将该 IP 地址用于 hosts 文件中。
+
+47.75.18.65 studentlive.migucloud.com
+47.75.18.65 zqhswlive.itv.cmvideo.cn
+
+「每个设备的hosts文件位置,不一样自行寻找」
