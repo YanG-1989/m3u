@@ -1,11 +1,13 @@
 咪咕全网-解决方案 ( itv 方法通用,注意URL的域名.)
 
 解决方法一劫持DNS:
-(QX的劫持dns写法,其他软件同理.)
+(QX的劫持dns写法,其他代理软件同理.)
+(pixman.io.fifalive.dnsany.com 可替换成 dns 域名 其中一个)
 
 [DNS]
 alias = /studentlive.migucloud.com/pixman.io.fifalive.dnsany.com
 alias = /zqhswlive.itv.cmvideo.cn/pixman.io.fifalive.dnsany.com
+
 
 「劫持 DNS 引用 pixman 大佬部署好的解析,咪咕全网即可享有全网体验」
 
@@ -13,7 +15,6 @@ alias = /zqhswlive.itv.cmvideo.cn/pixman.io.fifalive.dnsany.com
 (IP具有时效性,需自行替换.)
 
 通过 ping「dns 域名」获得一个 IP 地址 (https://www.itdog.cn/ping)，然后将该 IP 地址用于 hosts 文件中 (建议修改路由器hosts文件) 。
-
 
 0.0.0.0 studentlive.migucloud.com
 0.0.0.0 zqhswlive.itv.cmvideo.cn
