@@ -12,7 +12,8 @@ alias = /zqhswlive.itv.cmvideo.cn/pixman.io.fifalive.dnsany.com
 解决方法二修改hosts:
 (IP具有时效性,需自行替换.)
 
-通过 ping「dns 域名」获得一个 IP 地址，然后将该 IP 地址用于 hosts 文件中 (建议修改路由器hosts文件) 。
+通过 ping「dns 域名」获得一个 IP 地址 (https://www.itdog.cn/ping)，然后将该 IP 地址用于 hosts 文件中 (建议修改路由器hosts文件) 。
+
 
 0.0.0.0 studentlive.migucloud.com
 0.0.0.0 zqhswlive.itv.cmvideo.cn
