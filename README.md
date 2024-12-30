@@ -11,13 +11,13 @@
 >APTV「多端」  
 * 安卓系统
 >OK影视「双端」  
->天光云影「电视端」  
+>天光云影「电视端」   
 >TiviMate「电视端」   
 >OTT「电视端」   
 >Televizo「手机端」  
 * Win系统
->VideoPlayer「浏览器」
->SFVIP-Player「电脑端」
+>VideoPlayer「浏览器」  
+>SFVIP-Player「电脑端」  
 >PotPlayer「电脑端」  
 >QMPlay2「电脑端」  
 >ZyPlayer「电脑端」   
