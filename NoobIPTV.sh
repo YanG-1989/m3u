@@ -3,7 +3,7 @@
 # 名称: NoobIPTV (IPTV 项目相关脚本集合 @小白神器) 
 # 作者: YanG-1989
 # 项目地址：https://github.com/YanG-1989
-# 最新版本：2.0.7
+# 最新版本：2.0.8
 ###############################
 
 # 设置路径
@@ -375,13 +375,17 @@ start_container() {
     echo -e "${CYAN}启动 Pixman 容器...${RESET}"
 
     if [ "$mode" != "bridge" ] && [ "$mode" != "host" ]; then
-        echo "请选择 Docker 模式："
-        echo "1. Bridge 模式 (默认)"
-        echo "2. Host 模式"
+        echo "请选择 Pixman 部署方式（默认: 2):"
+        echo "1) 使用 host 网络模式 (建议:软路由)"
+        echo "2) 使用 bridge 网络模式 (建议:VPS)"
 
         read -p "输入选择 [1/2]: " user_choice
-        mode="bridge" 
-        [[ "$user_choice" == "2" ]] && mode="host"
+        user_choice=${user_choice:-2}
+        if [ "$user_choice" == "1" ]; then
+            mode="host"
+        else
+            mode="bridge"
+        fi
     fi
 
     if [[ "$mode" == "host" ]]; then
@@ -414,7 +418,7 @@ start_container() {
 
 # 卸载 Pixman 项目
 uninstall_pixman() {
-    echo "是否确定要卸载 Pixman 项目？[y/n]"
+    echo "是否确定要卸载 Pixman 项目？[y/n]（默认：n）"
     read -r -t 10 input
     input=${input:-n}
     
@@ -531,7 +535,6 @@ Convert_pixman() {
 # 安装 Fourgtv
 install_Fourgtv() {
     local public_ip
-    local port=8000
     local ENV_VARS
 
     if check_if_in_china; then
@@ -545,7 +548,7 @@ install_Fourgtv() {
     echo "正在安装 Fourgtv 项目 作者: @刘墉..."
 
     if docker ps -a --format '{{.Names}}' | grep -q "^fourgtv$"; then
-        echo -e "${CYAN}检测到已存在的 Fourgtv 容器，将进行检测更新...${RESET}"
+        echo -e "${CYAN}检测到已存在的 Fourgtv 容器，将进行重新安装...${RESET}"
         ENV_VARS=$(docker inspect --format '{{range .Config.Env}}{{println .}}{{end}}' fourgtv)
         port=$(echo "$ENV_VARS" | grep -oP 'PORT=\K\d+')
         port=${PORT:-8000}
@@ -562,6 +565,8 @@ install_Fourgtv() {
         docker stop fourgtv > /dev/null 2>&1
         docker rm -f fourgtv > /dev/null 2>&1
         docker images --format '{{.Repository}}:{{.Tag}}' | grep 'liuyong1987/fourgtv' | xargs -r docker rmi > /dev/null 2>&1
+    else
+        local port=$(check_and_allocate_port 8000)
     fi
 
     pull_image "$IMAGE_SOURCE" "$PROXY_IMAGE_SOURCE"
@@ -586,28 +591,28 @@ install_Fourgtv() {
     fi
 
     echo "请选择 Fourgtv 部署方式（默认: 2):"
-    echo "1) 使用 host 网络模式"
-    echo "2) 使用 bridge 网络模式"
+    echo "1) 使用 host 网络模式 (建议:软路由)"
+    echo "2) 使用 bridge 网络模式 (建议:VPS)"
     read -rp "输入选项 (1 或 2): " option_fourgtv
     option_fourgtv=${option_fourgtv:-2}
 
     case $option_fourgtv in
         1|host)
             echo "正在使用 host 网络模式安装 Fourgtv..."
-            docker run -d --restart always --net=host --privileged=true -p "$port:8000" --name fourgtv \
-                ${NOWSESSIONID:+-e NOWSESSIONID="$NOWSESSIONID"} \
-                ${NOWUSERAGENT:+-e NOWUSERAGENT="$NOWUSERAGENT"} \
-                ${MYTVSUPER_TOKEN:+-e MYTVSUPER_TOKEN="$MYTVSUPER_TOKEN"} \
-                "$IMAGE_SOURCE"
+            docker run -d --restart always --net=host -p $port:8000 --name fourgtv \
+                ${NOWSESSIONID:+-e NOWSESSIONID=$NOWSESSIONID} \
+                ${NOWUSERAGENT:+-e NOWUSERAGENT=$NOWUSERAGENT} \
+                ${MYTVSUPER_TOKEN:+-e MYTVSUPER_TOKEN=$MYTVSUPER_TOKEN} \
+                $IMAGE_SOURCE
             ;;
 
         2|bridge)
             echo "正在使用 bridge 网络模式安装 Fourgtv..."
-            docker run -d --restart always --net=bridge --privileged=true -p "$port:8000" --name fourgtv \
-                ${NOWSESSIONID:+-e NOWSESSIONID="$NOWSESSIONID"} \
-                ${NOWUSERAGENT:+-e NOWUSERAGENT="$NOWUSERAGENT"} \
-                ${MYTVSUPER_TOKEN:+-e MYTVSUPER_TOKEN="$MYTVSUPER_TOKEN"} \
-                "$IMAGE_SOURCE"
+            docker run -d --restart always --net=bridge -p $port:8000 --name fourgtv \
+                ${NOWSESSIONID:+-e NOWSESSIONID=$NOWSESSIONID} \
+                ${NOWUSERAGENT:+-e NOWUSERAGENT=$NOWUSERAGENT} \
+                ${MYTVSUPER_TOKEN:+-e MYTVSUPER_TOKEN=$MYTVSUPER_TOKEN} \
+                $IMAGE_SOURCE
             ;;
     esac
 
@@ -643,7 +648,7 @@ live_Fourgtv() {
 
 # 卸载 Fourgtv
 uninstall_Fourgtv() {
-    echo "是否确定要卸载 Fourgtv 项目？[y/n]"
+    echo "是否确定要卸载 Fourgtv 项目？[y/n]（默认：n）"
     read -r -t 10 input
     input=${input:-n}
 
@@ -663,17 +668,15 @@ uninstall_Fourgtv() {
 
 # 安装 Doubebly
 install_Doubebly() {
+    local public_ip
+
     echo "请选择安装方式："
-    echo "1) 安装 doube-ofiii"
-    echo "2) 安装 doube-itv"
-    echo "3) 同时安装 doube-ofiii 和 doube-itv"
-    
+    echo "1) 安装 Doube-ofiii"
+    echo "2) 安装 Doube-itv"
+    echo "3) 同时安装 Doube-ofiii 和 Doube-itv"
+
     read -rp "输入选项 (1, 2 或 3): " option
     option=${option:-1}
-
-    local public_ip
-    local port_ofiii=50002
-    local port_itv=50001
 
     if check_if_in_china; then
         public_ip="{路由IP}"
@@ -686,31 +689,82 @@ install_Doubebly() {
     PROXY_IMAGE_SOURCE_OFIII="$REVERSE_PROXY/doubebly/doube-ofiii"
     PROXY_IMAGE_SOURCE_ITV="$REVERSE_PROXY/doubebly/doube-itv"
 
-    # 安装 doube-ofiii
+    # 下载镜像
     if [[ "$option" == "1" || "$option" == "3" ]]; then
         echo "正在安装 Doube-ofiii 项目 作者: @沐辰..."
         if docker ps -a --format '{{.Names}}' | grep -q "^doube-ofiii$"; then
-            echo -e "${CYAN}检测到已存在的 doube-ofiii 容器，将进行检测更新...${RESET}"
+            echo -e "${CYAN}检测到已存在的 doube-ofiii 容器，将进行重新安装...${RESET}"
             docker stop doube-ofiii > /dev/null 2>&1
             docker rm doube-ofiii > /dev/null 2>&1
             docker images --format '{{.Repository}}:{{.Tag}}' | grep 'doubebly/doube-ofiii' | xargs -r docker rmi > /dev/null 2>&1
         fi
         pull_image "$IMAGE_SOURCE_OFIII" "$PROXY_IMAGE_SOURCE_OFIII"
-        docker run -d --restart always --net=bridge --privileged=true -p "$port_ofiii:5000" --name doube-ofiii "$IMAGE_SOURCE_OFIII"
-        echo -e "${GREEN}doube-ofiii 安装完成。${RESET}"
     fi
 
-    # 安装 doube-itv
     if [[ "$option" == "2" || "$option" == "3" ]]; then
         echo "正在安装 Doube-itv 项目 作者: @沐辰..."
         if docker ps -a --format '{{.Names}}' | grep -q "^doube-itv$"; then
-            echo -e "${CYAN}检测到已存在的 doube-itv 容器，将进行检测更新...${RESET}"
+            echo -e "${CYAN}检测到已存在的 doube-itv 容器，将进行重新安装...${RESET}"
             docker stop doube-itv > /dev/null 2>&1
             docker rm doube-itv > /dev/null 2>&1
             docker images --format '{{.Repository}}:{{.Tag}}' | grep 'doubebly/doube-itv' | xargs -r docker rmi > /dev/null 2>&1
         fi
         pull_image "$IMAGE_SOURCE_ITV" "$PROXY_IMAGE_SOURCE_ITV"
-        docker run -d --restart always --net=bridge --privileged=true -p "$port_itv:5000" --name doube-itv "$IMAGE_SOURCE_ITV"
+    fi
+
+    # 配置 Doube-ofiii 部署
+    if [[ "$option" == "1" || "$option" == "3" ]]; then
+        local port_ofiii=$(check_and_allocate_port 50002)
+        echo "请选择 Doube-ofiii 部署方式（默认: 2):"
+        echo "1) 使用 host 网络模式 (建议: 软路由)"
+        echo "2) 使用 bridge 网络模式 (建议: VPS)"
+    
+        read -rp "输入选项 (1 或 2): " deploy_mode_ofiii
+        deploy_mode_ofiii=${deploy_mode_ofiii:-2}
+        echo "当前 Doube-ofiii 使用的端口是 $port_ofiii，是否需要修改？[y/n]（默认：n）"
+        read -r -t 10 input_port
+        input_port=${input_port:-n}
+
+        if [[ "$input_port" =~ ^[Yy]$ ]]; then
+            read -rp "请输入新的端口号: " port_ofiii
+        fi
+
+        if [ "$deploy_mode_ofiii" == "1" ]; then
+            net_mode_ofiii="host"
+        else
+            net_mode_ofiii="bridge"
+        fi
+        
+        docker run -d --restart always --net=$net_mode_ofiii -p $port_ofiii:5000 --name doube-ofiii $IMAGE_SOURCE_OFIII
+        echo -e "${GREEN}doube-ofiii 安装完成。${RESET}"
+    fi
+
+    # 配置 Doube-itv 部署
+    if [[ "$option" == "2" || "$option" == "3" ]]; then
+        local port_itv=$(check_and_allocate_port 50001)
+
+        echo "请选择 Doube-itv 部署方式（默认: 2):"
+        echo "1) 使用 host 网络模式 (建议: 软路由)"
+        echo "2) 使用 bridge 网络模式 (建议: VPS)"
+    
+        read -rp "输入选项 (1 或 2): " deploy_mode_itv
+        deploy_mode_itv=${deploy_mode_itv:-2}
+
+        echo "当前 Doube-itv 使用的端口是 $port_itv，是否需要修改？[y/n]（默认：n）"
+        read -r -t 10 input_port
+        input_port=${input_port:-n}
+
+        if [[ "$input_port" =~ ^[Yy]$ ]]; then
+            read -rp "请输入新的端口号: " port_itv
+        fi
+
+        if [ "$deploy_mode_itv" == "1" ]; then
+            net_mode_itv="host"
+        else
+            net_mode_itv="bridge"
+        fi
+        
+        docker run -d --restart always --net=$net_mode_itv -p $port_itv:5000 --name doube-itv $IMAGE_SOURCE_ITV
         echo -e "${GREEN}doube-itv 安装完成。${RESET}"
     fi
 
@@ -1157,7 +1211,7 @@ update_3x_ui() {
 
 # 卸载 3X-UI 
 uninstall_3x_ui() {
-    read -p "您确定要卸载 3X-UI 面板吗？(y/n): " confirm
+    read -p "您确定要卸载 3X-UI 面板吗？[y/n]（默认：n）" confirm
     if [[ "$confirm" != "y" && "$confirm" != "Y" ]]; then
         echo "卸载操作已取消。"
         return
@@ -1181,8 +1235,7 @@ install_o11() {
     if [[ "$ARCH" != "arm"* && "$ARCH" != "aarch64" ]]; then
         echo "系统架构: $ARCH，支持安装 o11。"
         echo "正在安装 o11 面板..."
-        local port=$(generate_random_port)
-
+        local port=$(check_and_allocate_port 1234)
         if check_if_in_china; then
             local public_ip="{路由IP}"
         else
@@ -1205,7 +1258,7 @@ install_o11() {
 
 # 卸载 o11 
 uninstall_o11() {
-    read -p "您确定要卸载 o11 面板吗？(y/n): " confirm
+    read -p "您确定要卸载 o11 面板吗？[y/n]（默认：n）" confirm
     if [[ "$confirm" != "y" && "$confirm" != "Y" ]]; then
         echo "卸载操作已取消。"
         return
@@ -1234,7 +1287,7 @@ set_1panel() {
 
 # 卸载 1Panel
 uninstall_1panel() {
-    read -p "您确定要卸载 1Panel 吗？(y/n): " confirm
+    read -p "您确定要卸载 1Panel 吗？[y/n]（默认：n）" confirm
     if [[ "$confirm" != "y" && "$confirm" != "Y" ]]; then
         echo "卸载操作已取消。"
         return
@@ -1296,7 +1349,7 @@ install_sub_store() {
 
 # 卸载 Sub Store
 uninstall_sub_store() {
-    read -p "是否卸载 Sub Store？(y/n): " confirm
+    read -p "是否卸载 Sub Store？[y/n]（默认：n）" confirm
     if [[ $confirm == "y" || $confirm == "Y" ]]; then
         echo "正在卸载 Sub Store..."
         docker stop sub-store > /dev/null 2>&1
@@ -1546,6 +1599,16 @@ generate_random_port() {
             break
         fi
     done
+}
+
+# 检查端口
+check_and_allocate_port() {
+    local port=$1
+    if ss -tuln | grep -q ":$port "; then
+        echo "端口 $port 已被占用，正在分配新的端口..."
+        port=$(generate_random_port)
+    fi
+    echo "$port"
 }
 
 # # 检查并更新 SH 脚本
