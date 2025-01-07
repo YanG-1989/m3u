@@ -3,7 +3,7 @@
 # 名称: NoobIPTV (IPTV 项目相关脚本集合 @小白神器) 
 # 作者: YanG-1989
 # 项目地址：https://github.com/YanG-1989
-# 最新版本：2.0.6
+# 最新版本：2.0.7
 ###############################
 
 # 设置路径
@@ -543,6 +543,7 @@ install_Fourgtv() {
     IMAGE_SOURCE="liuyong1987/fourgtv"
     PROXY_IMAGE_SOURCE="$REVERSE_PROXY/liuyong1987/fourgtv"
     echo "正在安装 Fourgtv 项目 作者: @刘墉..."
+
     if docker ps -a --format '{{.Names}}' | grep -q "^fourgtv$"; then
         echo -e "${CYAN}检测到已存在的 Fourgtv 容器，将进行检测更新...${RESET}"
         ENV_VARS=$(docker inspect --format '{{range .Config.Env}}{{println .}}{{end}}' fourgtv)
@@ -554,14 +555,17 @@ install_Fourgtv() {
 
         echo -e "${CYAN}当前 Fourgtv 配置参数：${RESET}"
         echo "端口: $port"
-        echo "NOWSESSIONID: $NOWSESSIONID"
-        echo "NOWUSERAGENT: $NOWUSERAGENT"
-        echo "MYTVSUPER_TOKEN: $MYTVSUPER_TOKEN"
+        [ -n "$NOWSESSIONID" ] && echo "NOWSESSIONID: $NOWSESSIONID"
+        [ -n "$NOWUSERAGENT" ] && echo "NOWUSERAGENT: $NOWUSERAGENT"
+        [ -n "$MYTVSUPER_TOKEN" ] && echo "MYTVSUPER_TOKEN: $MYTVSUPER_TOKEN"
+
         docker stop fourgtv > /dev/null 2>&1
         docker rm -f fourgtv > /dev/null 2>&1
         docker images --format '{{.Repository}}:{{.Tag}}' | grep 'liuyong1987/fourgtv' | xargs -r docker rmi > /dev/null 2>&1
     fi
+
     pull_image "$IMAGE_SOURCE" "$PROXY_IMAGE_SOURCE"
+
     echo "请输入 Fourgtv 配置参数："
     echo "当前 Fourgtv 使用的端口是 $port，是否需要修改？[y/n]（默认：n）"
     read -r -t 10 input_port
@@ -570,6 +574,7 @@ install_Fourgtv() {
     if [[ "$input_port" =~ ^[Yy]$ ]]; then
         read -rp "请输入新的端口号: " port
     fi
+
     echo "是否需要修改其他环境变量？[y/n]（默认：n）"
     read -r -t 10 input_vars
     input_vars=${input_vars:-n}
@@ -579,6 +584,7 @@ install_Fourgtv() {
         read -rp "请输入 NOWUSERAGENT: " NOWUSERAGENT
         read -rp "请输入 MYTVSUPER_TOKEN: " MYTVSUPER_TOKEN
     fi
+
     echo "请选择 Fourgtv 部署方式（默认: 2):"
     echo "1) 使用 host 网络模式"
     echo "2) 使用 bridge 网络模式"
@@ -589,18 +595,18 @@ install_Fourgtv() {
         1|host)
             echo "正在使用 host 网络模式安装 Fourgtv..."
             docker run -d --restart always --net=host --privileged=true -p "$port:8000" --name fourgtv \
-                -e NOWSESSIONID="$NOWSESSIONID" \
-                -e NOWUSERAGENT="$NOWUSERAGENT" \
-                -e MYTVSUPER_TOKEN="$MYTVSUPER_TOKEN" \
+                ${NOWSESSIONID:+-e NOWSESSIONID="$NOWSESSIONID"} \
+                ${NOWUSERAGENT:+-e NOWUSERAGENT="$NOWUSERAGENT"} \
+                ${MYTVSUPER_TOKEN:+-e MYTVSUPER_TOKEN="$MYTVSUPER_TOKEN"} \
                 "$IMAGE_SOURCE"
             ;;
 
         2|bridge)
             echo "正在使用 bridge 网络模式安装 Fourgtv..."
             docker run -d --restart always --net=bridge --privileged=true -p "$port:8000" --name fourgtv \
-                -e NOWSESSIONID="$NOWSESSIONID" \
-                -e NOWUSERAGENT="$NOWUSERAGENT" \
-                -e MYTVSUPER_TOKEN="$MYTVSUPER_TOKEN" \
+                ${NOWSESSIONID:+-e NOWSESSIONID="$NOWSESSIONID"} \
+                ${NOWUSERAGENT:+-e NOWUSERAGENT="$NOWUSERAGENT"} \
+                ${MYTVSUPER_TOKEN:+-e MYTVSUPER_TOKEN="$MYTVSUPER_TOKEN"} \
                 "$IMAGE_SOURCE"
             ;;
     esac
@@ -1624,7 +1630,7 @@ script_log() {
 
 check_first_run  # 检查是否是第一次运行
 download_NoobIPTV  # 检查并更新 SH 脚本
-source "$CONFIG_FILE" # 加载配置文件中的参数
+[ -f "$CONFIG_FILE" ] && source "$CONFIG_FILE"  # 加载配置文件中的参数
 
 # 主循环
 while true; do
