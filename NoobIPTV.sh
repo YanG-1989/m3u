@@ -3,7 +3,7 @@
 # 名称: NoobIPTV (IPTV 项目相关脚本集合 @小白神器) 
 # 作者: YanG-1989
 # 项目地址：https://github.com/YanG-1989
-# 最新版本：2.0.5
+# 最新版本：2.0.6
 ###############################
 
 # 设置路径
@@ -87,11 +87,11 @@ show_fourgtv_menu() {
 # Doubebly  菜单
 show_doubebly_menu() {
     echo "---------------------"
-    echo "     Doubebly  菜单： "
+    echo "    Doubebly  菜单： "
     echo "---------------------"
-    echo "1) 安装 Doubebly  项目"
-    echo "2) 卸载 Doubebly  项目"
-    echo "3) 设置 反向代理 地址  "
+    echo "1) 安装 Doubebly 项目"
+    echo "2) 卸载 Doubebly 项目"
+    echo "3) 设置 反向代理  地址"
     echo "---------------------"
     echo "0)    返回主菜单     "
     echo "---------------------"
@@ -1669,7 +1669,7 @@ while true; do
                 show_fourgtv_menu
                 read -p "请输入选项 (0-3): " fourgtv_choice
                 case "$fourgtv_choice" in
-                    1) install_Fourgtv ;;
+                    1) check_docker ; install_Fourgtv ;;
                     2) uninstall_Fourgtv ;;
                     3) proxy_allinone ;;
                     0) echo "返回主菜单。" ; break ;;
@@ -1682,7 +1682,7 @@ while true; do
                 show_doubebly_menu
                 read -p "请输入选项 (0-3): " doubebly_choice
                 case "$doubebly_choice" in
-                    1) install_Doubebly ;;
+                    1) check_docker ; install_Doubebly ;;
                     2) uninstall_Doubebly ;;
                     3) proxy_allinone ;;
                     0) echo "返回主菜单。" ; break ;;
