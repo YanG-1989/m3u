@@ -624,7 +624,7 @@ live_Fourgtv() {
     echo "◆ 订阅地址："
     echo "■ iTV : http://$public_ip:$port/itv.m3u （需消耗服务器流量）"
     echo "■ Beesport : http://$public_ip:$port/beesport.m3u （部分地区可直连）"
-    echo "■ Now : http://$public_ip:$port/now.m3u （需填写会员参数）"
+    echo "■ Now : http://$public_ip:$port/now.m3u （需填写会员参数,且需要原生IP）"
     echo "■ 4GTV : http://$public_ip:$port/4gtv.m3u (部分节目需要解锁台湾IP)"
     echo "■ MytvSuper  : http://$public_ip:$port/mytvsuper.m3u（需填写会员参数）"
     echo "---------------------------------------------------------"
