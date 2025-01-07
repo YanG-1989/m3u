@@ -682,7 +682,7 @@ install_Doubebly() {
 
     # 安装 doube-ofiii
     if [[ "$option" == "1" || "$option" == "3" ]]; then
-        echo "正在安装 Doube-ofiii 项目 作者: @沐晨..."
+        echo "正在安装 Doube-ofiii 项目 作者: @沐辰..."
         if docker ps -a --format '{{.Names}}' | grep -q "^doube-ofiii$"; then
             echo -e "${CYAN}检测到已存在的 doube-ofiii 容器，将进行检测更新...${RESET}"
             docker stop doube-ofiii > /dev/null 2>&1
@@ -696,7 +696,7 @@ install_Doubebly() {
 
     # 安装 doube-itv
     if [[ "$option" == "2" || "$option" == "3" ]]; then
-        echo "正在安装 Doube-itv 项目 作者: @沐晨..."
+        echo "正在安装 Doube-itv 项目 作者: @沐辰..."
         if docker ps -a --format '{{.Names}}' | grep -q "^doube-itv$"; then
             echo -e "${CYAN}检测到已存在的 doube-itv 容器，将进行检测更新...${RESET}"
             docker stop doube-itv > /dev/null 2>&1
@@ -734,7 +734,7 @@ live_Doubebly() {
         echo "■ ofiii : http://${public_ip}:${port_ofiii}/help (浏览器获取订阅地址)"
     fi
     if [[ "$option" == "2" || "$option" == "3" ]]; then
-        echo "■ itv : http://${public_ip}:${port_itv}/help (浏览器获取订阅地址)"
+        echo "■ iTV : http://${public_ip}:${port_itv}/help (浏览器获取订阅地址)"
     fi
     echo "---------------------------------------------------------"
     echo "---   Doubebly 详细使用说明: https://t.me/doubebly003 ---"
@@ -1613,7 +1613,7 @@ script_log() {
     echo "最后更新时间: 2024.1.7"
     echo "1) 修复 Watchtower 删除容器的BUG "
     echo "2) 新增 Fourgtv 项目 作者: @刘墉 "
-    echo "3) 新增 Doubebly 项目 作者: @沐晨 "
+    echo "3) 新增 Doubebly 项目 作者: @沐辰 "
     echo "4) 删除 Allinone 项目 应 Token 受限 "
     echo "5) 删除 SH 定时任务 更新镜像 功能 "
     echo "------------------------------------------------"
