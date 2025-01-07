@@ -323,7 +323,7 @@ check_update() {
         PROXY_IMAGE_SOURCE="$REVERSE_PROXY/pixman/pixman"
     fi
 
-
+    echo "正在安装 Pixman 项目 作者: @Pixman..."
     if docker ps -a --format '{{.Names}}' | grep -q "^pixman$"; then
         current_image_version=$(docker inspect --format='{{index .Config.Labels "org.opencontainers.image.version"}}' pixman)
 
@@ -542,7 +542,7 @@ install_Fourgtv() {
 
     IMAGE_SOURCE="liuyong1987/fourgtv"
     PROXY_IMAGE_SOURCE="$REVERSE_PROXY/liuyong1987/fourgtv"
-
+    echo "正在安装 Fourgtv 项目 作者: @刘墉..."
     if docker ps -a --format '{{.Names}}' | grep -q "^fourgtv$"; then
         echo -e "${CYAN}检测到已存在的 Fourgtv 容器，将进行检测更新...${RESET}"
         ENV_VARS=$(docker inspect --format '{{range .Config.Env}}{{println .}}{{end}}' fourgtv)
@@ -682,7 +682,7 @@ install_Doubebly() {
 
     # 安装 doube-ofiii
     if [[ "$option" == "1" || "$option" == "3" ]]; then
-        echo "正在安装 doube-ofiii..."
+        echo "正在安装 Doube-ofiii 项目 作者: @沐晨..."
         if docker ps -a --format '{{.Names}}' | grep -q "^doube-ofiii$"; then
             echo -e "${CYAN}检测到已存在的 doube-ofiii 容器，将进行检测更新...${RESET}"
             docker stop doube-ofiii > /dev/null 2>&1
@@ -696,7 +696,7 @@ install_Doubebly() {
 
     # 安装 doube-itv
     if [[ "$option" == "2" || "$option" == "3" ]]; then
-        echo "正在安装 doube-itv..."
+        echo "正在安装 Doube-itv 项目 作者: @沐晨..."
         if docker ps -a --format '{{.Names}}' | grep -q "^doube-itv$"; then
             echo -e "${CYAN}检测到已存在的 doube-itv 容器，将进行检测更新...${RESET}"
             docker stop doube-itv > /dev/null 2>&1
