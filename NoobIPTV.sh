@@ -3,7 +3,7 @@
 # 名称: NoobIPTV (IPTV 项目相关脚本集合 @小白神器) 
 # 作者: YanG-1989
 # 项目地址：https://github.com/YanG-1989
-# 最新版本：2.0.8
+# 最新版本：2.0.9
 ###############################
 
 # 设置路径
@@ -12,7 +12,6 @@ CONFIG_FILE="$HOME/.NoobIPTV"  # 配置文件路径
 
 # 设置默认环境变量
 REVERSE_PROXY="docker.zhai.cm" # 设置反向代理地址
-CRON_SCHEDULE="0 5 * * *"  # 默认定时任务时间
 PORT="52055"  # 默认端口
 MYTVSUPER_TOKEN=""  # myTV 参数
 HAMI_SESSION_ID=""  # Hami 参数
@@ -222,7 +221,6 @@ save_parameters() {
         echo "REVERSE_PROXY=$REVERSE_PROXY"
         echo "SCRIPT_PATH=$SCRIPT_PATH"
         [ -n "$PORT" ] && echo "PORT=$PORT"
-        [ -n "$CRON_SCHEDULE" ] && echo "CRON_SCHEDULE=$CRON_SCHEDULE"
         [ -n "$MYTVSUPER_TOKEN" ] && echo "MYTVSUPER_TOKEN=$MYTVSUPER_TOKEN"
         [ -n "$HAMI_SESSION_ID" ] && echo "HAMI_SESSION_ID=$HAMI_SESSION_ID"
         [ -n "$HAMI_SERIAL_NO" ] && echo "HAMI_SERIAL_NO=$HAMI_SERIAL_NO"
@@ -245,16 +243,6 @@ set_parameters() {
     read -p "请输入反向代理地址 (回车跳过保持当前值: $REVERSE_PROXY, 输入null清空): " input_reverse_proxy
     if [ -n "$input_reverse_proxy" ]; then
         [ "$input_reverse_proxy" = "null" ] && REVERSE_PROXY="" || REVERSE_PROXY="$input_reverse_proxy"
-    fi
-
-    read -p "请确认脚本路径 (回车跳过保持当前值: $SCRIPT_PATH, 输入null清空): " input_path
-    if [ -n "$input_path" ]; then
-        [ "$input_path" = "null" ] && SCRIPT_PATH="" || SCRIPT_PATH="$input_path"
-    fi
-
-    read -p "请输入定时任务时间 (cron格式，回车跳过保持当前值: $CRON_SCHEDULE, 输入null清空): " input_cron
-    if [ -n "$input_cron" ]; then
-        [ "$input_cron" = "null" ] && CRON_SCHEDULE="" || CRON_SCHEDULE="$input_cron"
     fi
 
     read -p "请输入端口 (回车跳过保持当前值: $PORT, 输入null清空): " input_port
@@ -636,8 +624,9 @@ live_Fourgtv() {
     echo "■ iTV : http://$public_ip:$port/itv.m3u （需消耗服务器流量）"
     echo "■ Beesport : http://$public_ip:$port/beesport.m3u （部分地区可直连）"
     echo "■ Now : http://$public_ip:$port/now.m3u （需填写会员参数,且需要原生IP）"
-    echo "■ 4GTV : http://$public_ip:$port/4gtv.m3u (部分节目需要解锁台湾IP)"
-    echo "■ MytvSuper  : http://$public_ip:$port/mytvsuper.m3u（需填写会员参数）"
+    echo "■ 4GTV : http://$public_ip:$port/4gtv.m3u （部分节目需要解锁台湾IP)"
+    echo "■ MytvSuper : http://$public_ip:$port/mytvsuper.m3u （需填写会员参数）"
+    echo "■ YouTube : http://$public_ip:$port/youtube/{房间号} （支持列表 list/{列表号} ）"
     echo "---------------------------------------------------------"
     echo "---  Fourgtv 详细使用说明: https://t.me/livednowgroup  ---"
     echo "--- NoobIPTV.sh 脚本日志: https://pixman.io/topics/142 ---"
