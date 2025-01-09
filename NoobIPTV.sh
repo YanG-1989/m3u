@@ -1433,7 +1433,7 @@ setup_shortcut() {
     fi
 }
 
-# 展示广告
+# 彩图横幅
 show_NoobIPTV() {
 echo -e "${CYAN}───────────────────────────────────────────────────────────────────────${RESET}
 ${RED}   ███╗   ██╗ ██████╗  ██████╗ ██████╗ ██╗██████╗ ████████╗██╗   ██╗${RESET}
@@ -1444,9 +1444,8 @@ ${RED}   ██║ ╚████║╚██████╔╝╚████�
 ${RED}   ╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝╚═╝        ╚═╝     ╚═══╝  ${RESET}  
 ${GREEN}            欢迎关注我们的 ${YELLOW}Telegram ${GREEN}频道: ${CYAN}@Y_anGGGGGG${RESET}
 ${CYAN}───────────────────────────────────────────────────────────────────────${RESET}
-${YELLOW}        IPTV项目小白必备的搭建脚本和便捷工具箱，输入 ${GREEN}y${YELLOW} 快捷启动！${RESET}"
+${YELLOW}        NoobIPTV小白必备的搭建脚本和便捷工具箱，输入 ${GREEN}y${YELLOW} 快捷启动！${RESET}"
 }
-
 
 # 检查是否是第一次运行
 check_first_run() {
@@ -1486,7 +1485,7 @@ script_log() {
 
 #############  主程序逻辑  #############
 
-show_NoobIPTV
+show_NoobIPTV # 展示横幅
 check_first_run  # 检查是否是第一次运行
 download_NoobIPTV  # 检查并更新 SH 脚本
 [ -f "$CONFIG_FILE" ] && source "$CONFIG_FILE"  # 加载配置文件中的参数
