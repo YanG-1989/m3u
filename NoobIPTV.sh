@@ -3,22 +3,13 @@
 # 名称: NoobIPTV (IPTV 项目相关脚本集合 @小白神器) 
 # 作者: YanG-1989
 # 项目地址：https://github.com/YanG-1989
-# 最新版本：2.0.9
+# 最新版本：2.1.1
 ###############################
 
 # 设置路径
 SCRIPT_PATH="$HOME/NoobIPTV.sh"  # 定义脚本路径
 CONFIG_FILE="$HOME/.NoobIPTV"  # 配置文件路径
-
-# 设置默认环境变量
 REVERSE_PROXY="docker.zhai.cm" # 设置反向代理地址
-PORT="52055"  # 默认端口
-MYTVSUPER_TOKEN=""  # myTV 参数
-HAMI_SESSION_ID=""  # Hami 参数
-HAMI_SERIAL_NO=""  # Hami 参数
-HAMI_SESSION_IP=""  # Hami 参数
-HTTP_PROXY=""  # 设置代理
-HTTPS_PROXY=""  # 设置代理
 
 # 设置颜色变量
 RED="\033[1;31m"  # 红
@@ -33,9 +24,6 @@ RESET="\033[0m"  # 重置
 
 # 显示 菜单
 show_menu() {
-    echo "-------------------"
-    echo "  NoobIPTV 工具盒子 "
-    echo "   输入 y 快捷启动  "
     echo "-------------------"
     echo "   请选择一个项目： "
     echo "-------------------"
@@ -52,7 +40,6 @@ show_menu() {
     echo "0)      退出       "
     echo "     [ Ctrl+C ]    "
     echo "-------------------"
-
 }
 
 # Pixman 菜单
@@ -60,11 +47,9 @@ show_pixman_menu() {
     echo "-------------------"
     echo "    Pixman 菜单：  "
     echo "-------------------"
-    echo "1) 安装 Pixman 项目"
-    echo "2) 设置 Pixman 参数"
-    echo "3) 生成 Pixman 订阅"
-    echo "4) 转换  myTV  订阅"
-    echo "5) 卸载 Pixman 项目"
+    echo "1) 安装 Pixman  项目"
+    echo "2) 卸载 Pixman  项目"
+    echo "3) 设置 反向代理 地址"
     echo "-------------------"
     echo "0)   返回主菜单     "
     echo "-------------------"
@@ -108,7 +93,7 @@ show_watchtower_menu() {
     echo "0)    返回主菜单       "
     echo "----------------------"
 }
-
+ 
 # 工具箱 菜单
 show_toolbox_menu() {
     echo "---------------------"
@@ -177,132 +162,95 @@ show_subs_menu() {
 
 #############  Pixman  #############
 
-# 加载 Pixman 参数
-reload_configuration() {
-    if docker ps -a --format '{{.Names}}' | grep -q "pixman"; then
-        check_and_install_jq
-        check_and_install_grep
-        extract_container_parameters
-        source "$CONFIG_FILE"
-    else
-        return 1
-    fi
-}
-
-# 提取 Pixman 参数
-extract_container_parameters() {
-    container_info=$(docker inspect "pixman")
-
-    PORT=$(echo "$container_info" | jq -r '.[0].HostConfig.PortBindings."5000/tcp"[0].HostPort // empty')
-
-    if [ -z "$PORT" ]; then
-        PORT=5000
-    fi
-
-    MYTVSUPER_TOKEN=$(echo "$container_info" | jq -r '.[0].Config.Env[] | select(startswith("MYTVSUPER_TOKEN="))' | cut -d= -f2)
-    HAMI_SESSION_ID=$(echo "$container_info" | jq -r '.[0].Config.Env[] | select(startswith("HAMI_SESSION_ID="))' | cut -d= -f2)
-    HAMI_SERIAL_NO=$(echo "$container_info" | jq -r '.[0].Config.Env[] | select(startswith("HAMI_SERIAL_NO="))' | cut -d= -f2)
-    HAMI_SESSION_IP=$(echo "$container_info" | jq -r '.[0].Config.Env[] | select(startswith("HAMI_SESSION_IP="))' | cut -d= -f2)
-    HTTP_PROXY=$(echo "$container_info" | jq -r '.[0].Config.Env[] | select(startswith("HTTP_PROXY="))' | cut -d= -f2)
-    HTTPS_PROXY=$(echo "$container_info" | jq -r '.[0].Config.Env[] | select(startswith("HTTPS_PROXY="))' | cut -d= -f2)
-
-    echo "PORT=$PORT" > "$CONFIG_FILE"
-    echo "MYTVSUPER_TOKEN=$MYTVSUPER_TOKEN" >> "$CONFIG_FILE"
-    echo "HAMI_SESSION_ID=$HAMI_SESSION_ID" >> "$CONFIG_FILE"
-    echo "HAMI_SERIAL_NO=$HAMI_SERIAL_NO" >> "$CONFIG_FILE"
-    echo "HAMI_SESSION_IP=$HAMI_SESSION_IP" >> "$CONFIG_FILE"
-    echo "HTTP_PROXY=$HTTP_PROXY" >> "$CONFIG_FILE"
-    echo "HTTPS_PROXY=$HTTPS_PROXY" >> "$CONFIG_FILE"
-}
-
-# 保存 Pixman 参数
-save_parameters() {
-    {
-        echo "REVERSE_PROXY=$REVERSE_PROXY"
-        echo "SCRIPT_PATH=$SCRIPT_PATH"
-        [ -n "$PORT" ] && echo "PORT=$PORT"
-        [ -n "$MYTVSUPER_TOKEN" ] && echo "MYTVSUPER_TOKEN=$MYTVSUPER_TOKEN"
-        [ -n "$HAMI_SESSION_ID" ] && echo "HAMI_SESSION_ID=$HAMI_SESSION_ID"
-        [ -n "$HAMI_SERIAL_NO" ] && echo "HAMI_SERIAL_NO=$HAMI_SERIAL_NO"
-        [ -n "$HAMI_SESSION_IP" ] && echo "HAMI_SESSION_IP=$HAMI_SESSION_IP"
-        [ -n "$HTTP_PROXY" ] && echo "HTTP_PROXY=$HTTP_PROXY"
-        [ -n "$HTTPS_PROXY" ] && echo "HTTPS_PROXY=$HTTPS_PROXY"
-    } > "$CONFIG_FILE"
-}
-
-# 设置 Pixman 参数
-set_parameters() {
-    local original_port="$PORT"
-    local original_token="$MYTVSUPER_TOKEN" 
-    local original_session_id="$HAMI_SESSION_ID"
-    local original_serial_no="$HAMI_SERIAL_NO"
-    local original_session_ip="$HAMI_SESSION_IP"
-    local original_http_proxy="$HTTP_PROXY"
-    local original_https_proxy="$HTTPS_PROXY"
-
-    read -p "请输入反向代理地址 (回车跳过保持当前值: $REVERSE_PROXY, 输入null清空): " input_reverse_proxy
-    if [ -n "$input_reverse_proxy" ]; then
-        [ "$input_reverse_proxy" = "null" ] && REVERSE_PROXY="" || REVERSE_PROXY="$input_reverse_proxy"
-    fi
-
-    read -p "请输入端口 (回车跳过保持当前值: $PORT, 输入null清空): " input_port
-    if [ -n "$input_port" ]; then
-        [ "$input_port" = "null" ] && PORT="" || PORT="$input_port"
-    fi
-
-    read -p "请输入 MYTVSUPER_TOKEN (回车跳过保持当前值: $MYTVSUPER_TOKEN, 输入null清空): " input_token
-    if [ -n "$input_token" ]; then
-        [ "$input_token" = "null" ] && MYTVSUPER_TOKEN="" || MYTVSUPER_TOKEN="$input_token"
-    fi
-
-    read -p "请输入 HAMI_SESSION_ID (回车跳过保持当前值: $HAMI_SESSION_ID, 输入null清空): " input_id
-    if [ -n "$input_id" ]; then
-        [ "$input_id" = "null" ] && HAMI_SESSION_ID="" || HAMI_SESSION_ID="$input_id"
-    fi
-
-    read -p "请输入 HAMI_SERIAL_NO (回车跳过保持当前值: $HAMI_SERIAL_NO, 输入null清空): " input_serial
-    if [ -n "$input_serial" ]; then
-        [ "$input_serial" = "null" ] && HAMI_SERIAL_NO="" || HAMI_SERIAL_NO="$input_serial"
-    fi
-
-    read -p "请输入 HAMI_SESSION_IP (回车跳过保持当前值: $HAMI_SESSION_IP, 输入null清空): " input_ip
-    if [ -n "$input_ip" ]; then
-        [ "$input_ip" = "null" ] && HAMI_SESSION_IP="" || HAMI_SESSION_IP="$input_ip"
-    fi
-
-    read -p "请输入 HTTP_PROXY (回车跳过保持当前值: $HTTP_PROXY, 输入null清空): " input_http_proxy
-    if [ -n "$input_http_proxy" ]; then
-        [ "$input_http_proxy" = "null" ] && HTTP_PROXY="" || HTTP_PROXY="$input_http_proxy"
-    fi
-
-    read -p "请输入 HTTPS_PROXY (回车跳过保持当前值: $HTTPS_PROXY, 输入null清空): " input_https_proxy
-    if [ -n "$input_https_proxy" ]; then
-        [ "$input_https_proxy" = "null" ] && HTTPS_PROXY="" || HTTPS_PROXY="$input_https_proxy"
-    fi
-
-    save_parameters  
-
-    if [[ "$PORT" != "$original_port" || \
-          "$MYTVSUPER_TOKEN" != "$original_token" || \
-          "$HAMI_SESSION_ID" != "$original_session_id" || \
-          "$HAMI_SERIAL_NO" != "$original_serial_no" || \
-          "$HAMI_SESSION_IP" != "$original_session_ip" || \
-          "$HTTP_PROXY" != "$original_http_proxy" || \
-          "$HTTPS_PROXY" != "$original_https_proxy" ]]; then
-        echo -e "${CYAN}检测到参数变化，正在卸载旧的 Pixman 容器...${RESET}"
-        docker rm -f pixman > /dev/null 2>&1
-        check_update
-    else
-        echo -e "${CYAN}参数未发生变化，无需重启 Pixman 容器${RESET}"
-        return 0
-    fi
-}
-
 # 判断 Pixman 容器
-check_update() {
+judge_Pixman() {
+    local NETWORK_MODE PORT env_vars
+
+    echo "正在安装 Pixman 项目 作者: @Pixman..."
+
+    if docker ps -a --format '{{.Names}}' | grep -q "^pixman$"; then
+        local MODE ENV_VARS
+
+        ENV_VARS=$(docker inspect --format '{{range .Config.Env}}{{println .}}{{end}}' pixman)
+        MYTVSUPER_TOKEN=$(echo "$ENV_VARS" | grep -oP 'MYTVSUPER_TOKEN=\K.*')
+        HAMI_SESSION_ID=$(echo "$ENV_VARS" | grep -oP 'HAMI_SESSION_ID=\K.*')
+        HAMI_SERIAL_NO=$(echo "$ENV_VARS" | grep -oP 'HAMI_SERIAL_NO=\K.*')
+        HAMI_SESSION_IP=$(echo "$ENV_VARS" | grep -oP 'HAMI_SESSION_IP=\K.*')
+        HTTP_PROXY=$(echo "$ENV_VARS" | grep -oP 'HTTP_PROXY=\K.*')
+        HTTPS_PROXY=$(echo "$ENV_VARS" | grep -oP 'HTTPS_PROXY=\K.*')
+
+        echo -e "${CYAN}检测到已存在的 Pixman 容器，将进行重新安装...${RESET}"
+        echo -e "当前 ${GREEN}Pixman${RESET} 配置参数："
+        [ -n "$MYTVSUPER_TOKEN" ] && echo "MYTVSUPER_TOKEN: $MYTVSUPER_TOKEN" || echo "MYTVSUPER_TOKEN: 未设置"
+        [ -n "$HAMI_SESSION_ID" ] && echo "HAMI_SESSION_ID: $HAMI_SESSION_ID" || echo "HAMI_SESSION_ID: 未设置"
+        [ -n "$HAMI_SERIAL_NO" ] && echo "HAMI_SERIAL_NO: $HAMI_SERIAL_NO" || echo "HAMI_SERIAL_NO: 未设置"
+        [ -n "$HAMI_SESSION_IP" ] && echo "HAMI_SESSION_IP: $HAMI_SESSION_IP" || echo "HAMI_SESSION_IP: 未设置"
+        [ -n "$HTTP_PROXY" ] && echo "HTTP_PROXY: $HTTP_PROXY" || echo "HTTP_PROXY: 未设置"
+        [ -n "$HTTPS_PROXY" ] && echo "HTTPS_PROXY: $HTTPS_PROXY" || echo "HTTPS_PROXY: 未设置"
+
+
+        docker rm -f pixman > /dev/null 2>&1
+        docker rmi -f "$IMAGE_SOURCE" > /dev/null 2>&1
+        install_Pixman "$MYTVSUPER_TOKEN" "$HAMI_SESSION_ID" "$HAMI_SERIAL_NO" "$HAMI_SESSION_IP" "$HTTP_PROXY" "$HTTPS_PROXY"
+    else
+        install_Pixman
+    fi
+}
+
+# 安装 Pixman 容器
+install_Pixman() {
+    local PORT=$(check_and_allocate_port 5000)
+    local ARCH IMAGE_SOURCE PROXY_IMAGE_SOURCE
+    local MYTVSUPER_TOKEN="$1"
+    local HAMI_SESSION_ID="$2"
+    local HAMI_SERIAL_NO="$3"
+    local HAMI_SESSION_IP="$4"
+    local HTTP_PROXY="$5"
+    local HTTPS_PROXY="$6"
+
+    echo -e "${CYAN}开始配置 Pixman 参数...${RESET}"
+
+    echo "请选择 Pixman 部署方式（默认: 2):"
+    echo "1) 使用 host 网络模式 (建议:软路由)"
+    echo "2) 使用 bridge 网络模式 (建议:VPS)"
+    read -rp "输入选项 (1 或 2): " option_fourgtv
+    option_fourgtv=${option_fourgtv:-2}
+    case "$option_fourgtv" in
+        1) NETWORK_MODE="host" ;;
+        2) NETWORK_MODE="bridge" ;;
+        *) 
+            echo -e "${RED}无效选项，使用默认的 bridge 模式。${RESET}"
+            NETWORK_MODE="bridge"
+            ;;
+    esac
+
+    if [[ "$NETWORK_MODE" == "bridge" ]]; then
+        read -p "请输入 Pixman 容器端口 (当前值: $PORT 输入null清空): " input_port
+        if [ -n "$input_port" ]; then
+            [ "$input_port" = "null" ] && PORT="" || PORT=$(check_and_allocate_port "$input_port")
+        fi
+    else
+        PORT=""
+    fi
+
+    echo "是否需要设置其他环境变量？[y/n]（默认：n）"
+    read -rp "输入选项: " configure_all_vars
+    configure_all_vars=${configure_all_vars:-n}
+    if [[ "$configure_all_vars" =~ ^[Yy]$ ]]; then
+        local env_vars=("MYTVSUPER_TOKEN" "HAMI_SESSION_ID" "HAMI_SERIAL_NO" "HAMI_SESSION_IP" "HTTP_PROXY" "HTTPS_PROXY")
+        for var in "${env_vars[@]}"; do
+            local current_value=$(eval echo \$$var)
+            read -p "请输入 ${var} (当前值: ${current_value:-未设置}, 输入null清空): " input_value
+            if [ -n "$input_value" ]; then
+                [ "$input_value" = "null" ] && eval $var="" || eval $var="$input_value"
+            fi
+        done
+    else
+        echo -e "${YELLOW}已跳过所有环境变量的设置。${RESET}"
+    fi
 
     ARCH=$(uname -m)
-    
+
     if [[ "$ARCH" == "armv7"* ]]; then
         IMAGE_SOURCE="pixman/pixman-armv7"
         PROXY_IMAGE_SOURCE="$REVERSE_PROXY/pixman-armv7"
@@ -311,211 +259,69 @@ check_update() {
         PROXY_IMAGE_SOURCE="$REVERSE_PROXY/pixman/pixman"
     fi
 
-    echo "正在安装 Pixman 项目 作者: @Pixman..."
-    if docker ps -a --format '{{.Names}}' | grep -q "^pixman$"; then
-        current_image_version=$(docker inspect --format='{{index .Config.Labels "org.opencontainers.image.version"}}' pixman)
+    pull_image "$IMAGE_SOURCE" "$PROXY_IMAGE_SOURCE"
 
-        MODE=$(docker inspect --format='{{.HostConfig.NetworkMode}}' pixman)
+    local docker_command="docker run -d --name pixman --restart always"
 
-        if ! docker pull "$IMAGE_SOURCE" > /dev/null 2>&1; then
-            echo -e "${CYAN}尝试使用代理...${RESET}"
-            if ! docker pull "$PROXY_IMAGE_SOURCE" > /dev/null 2>&1; then
-                echo -e "${RED}安装 Pixman 失败，请检查反向代理或网络连接。${RESET}"
-                exit 1
-            fi
-            IMAGE_SOURCE="$PROXY_IMAGE_SOURCE"
-        fi
-
-        latest_image_version=$(docker inspect --format='{{index .Config.Labels "org.opencontainers.image.version"}}' "$IMAGE_SOURCE")
-
-        if [ "$current_image_version" != "$latest_image_version" ]; then
-            echo -e "${GREEN}发现新版本 ($latest_image_version)，正在更新...${RESET}"
-            docker rm -f pixman > /dev/null 2>&1
-            docker rmi -f "$IMAGE_SOURCE" > /dev/null 2>&1
-            docker pull "$IMAGE_SOURCE" > /dev/null 2>&1
-            start_container "$IMAGE_SOURCE" "$MODE"
-        else
-            echo -e "${GREEN}当前版本 ($current_image_version)，无需更新...${RESET}"
-        fi
+    if [[ "$NETWORK_MODE" == "host" ]]; then
+        docker_command+=" --net=host"
     else
-        if ! docker images --format '{{.Repository}}:{{.Tag}}' | grep -q "^pixman/pixman$"; then
-            if ! docker pull "$IMAGE_SOURCE" > /dev/null 2>&1; then
-                echo "尝试使用代理..."
-                if ! docker pull "$PROXY_IMAGE_SOURCE" > /dev/null 2>&1; then
-                    echo "使用代理拉取失败，请检查反向代理或网络连接。"
-                    return 1
-                fi
-                latest_image_version=$(docker inspect --format='{{index .Config.Labels "org.opencontainers.image.version"}}' "$IMAGE_SOURCE")
-                echo -e "${GREEN}目前版本 ($latest_image_version)，正在安装...${RESET}"
-                IMAGE_SOURCE="$PROXY_IMAGE_SOURCE"
-            fi
-        fi
-        start_container "$IMAGE_SOURCE"
-    fi
-}
-
-# 部署 Pixman 容器
-start_container() {
-    local image_source="$1"
-    local mode="$2"
-    local port="${PORT:-52055}"
-
-    echo -e "${CYAN}启动 Pixman 容器...${RESET}"
-
-    if [ "$mode" != "bridge" ] && [ "$mode" != "host" ]; then
-        echo "请选择 Pixman 部署方式（默认: 2):"
-        echo "1) 使用 host 网络模式 (建议:软路由)"
-        echo "2) 使用 bridge 网络模式 (建议:VPS)"
-
-        read -p "输入选择 [1/2]: " user_choice
-        user_choice=${user_choice:-2}
-        if [ "$user_choice" == "1" ]; then
-            mode="host"
-        else
-            mode="bridge"
-        fi
+        docker_command+=" --net=bridge -p $PORT:5000"
     fi
 
-    if [[ "$mode" == "host" ]]; then
-        echo "目前使用 host 模式，默认端口: 5000。"
-        docker_command="docker run -d --name pixman --restart always --net=host"
-    else
-        echo "目前使用 bridge 模式，默认端口: $port 。"
-        docker_command="docker run -d --name pixman --restart always -p $port:5000"
-    fi
+    for var in MYTVSUPER_TOKEN HAMI_SESSION_ID HAMI_SERIAL_NO HAMI_SESSION_IP HTTP_PROXY HTTPS_PROXY; do
+        local value=$(eval echo \$$var)
+        [ -n "$value" ] && docker_command+=" -e $var=$value"
+    done
 
-    [ -n "$MYTVSUPER_TOKEN" ] && docker_command+=" -e MYTVSUPER_TOKEN=$MYTVSUPER_TOKEN"
-    [ -n "$HAMI_SESSION_ID" ] && docker_command+=" -e HAMI_SESSION_ID=$HAMI_SESSION_ID"
-    [ -n "$HAMI_SERIAL_NO" ] && docker_command+=" -e HAMI_SERIAL_NO=$HAMI_SERIAL_NO"
-    [ -n "$HAMI_SESSION_IP" ] && docker_command+=" -e HAMI_SESSION_IP=$HAMI_SESSION_IP"
-    [ -n "$HTTP_PROXY" ] && docker_command+=" -e HTTP_PROXY=$HTTP_PROXY"
-    [ -n "$HTTPS_PROXY" ] && docker_command+=" -e HTTPS_PROXY=$HTTPS_PROXY"
+    docker_command+=" $IMAGE_SOURCE"
 
-    docker_command+=" $image_source"
+    echo -e "${CYAN}正在启动 Pixman 容器...${RESET}"
     eval "$docker_command"
-
-    echo -e "${GREEN}Pixman 容器已启动。${RESET}"
+    echo -e "${GREEN}Pixman 容器已成功启动！${RESET}"
 
     if check_internet_connection; then
         install_watchtower "pixman"
     else
         echo "---------------------------------------------------------"
     fi
-  
+
+    live_Pixman "$PORT"
+}
+
+# 生成 Pixman 订阅
+live_Pixman() {
+    local public_ip=$(get_public_ip)
+    local port="$1"
+
+    echo "◆ 订阅地址："
+    echo "■ 四季線上 4GTV : http://$public_ip:$port/4gtv.m3u （部分失效）"
+    echo "■ MytvSuper : http://$public_ip:$port/mytvsuper.m3u （需填写会员参数）"
+    echo "■ Hami Video : http://$public_ip:$port/hami.m3u （需填写会员参数）"
+    echo "---------------------------------------------------------"
+    echo "---  Pixman 详细使用说明: https://pixman.io/topics/17  ---"
+    echo "--- NoobIPTV.sh 脚本日志: https://pixman.io/topics/142 ---"
+    echo "---------------------------------------------------------"
+
+    read -p "按 回车键 返回 主菜单 ..."
 }
 
 # 卸载 Pixman 项目
-uninstall_pixman() {
+uninstall_Pixman() {
     echo "是否确定要卸载 Pixman 项目？[y/n]（默认：n）"
     read -r -t 10 input
     input=${input:-n}
-    
+
     if [[ "$input" =~ ^[Yy]$ ]]; then
         echo -e "${CYAN}正在卸载 Pixman 项目...${RESET}"
         docker stop pixman > /dev/null 2>&1
         docker rm -f pixman > /dev/null 2>&1
         docker images --format '{{.Repository}}:{{.Tag}}' | grep 'pixman/pixman' | xargs -r docker rmi > /dev/null 2>&1
-        # rm -f "$SCRIPT_PATH"
-        # rm -f "$CONFIG_FILE"
-        # sed -i '/alias y=/d' ~/.bashrc
         uninstall_watchtower "pixman"
         echo -e "${RED}Pixman 项目 已成功卸载。${RESET}"
     else
         echo -e "${GREEN}取消卸载操作。${RESET}"
     fi
-}
-
-# 生成 Pixman 订阅 
-live_pixman() {
-    local public_ip
-    local port
-    local container_id
-    container_id=$(docker ps -aq -f name=pixman 2>/dev/null)
-
-    if [ -z "$container_id" ]; then
-        echo -e "${RED}错误: Pixman 容器不存在。${RESET}"
-        return 1
-    fi
-
-    MODE=$(docker inspect --format='{{.HostConfig.NetworkMode}}' pixman)
-
-    if [[ "$MODE" == "host" ]]; then
-        port=5000
-    else
-        port=$(docker inspect -f '{{ (index (index .HostConfig.PortBindings "5000/tcp") 0).HostPort }}' pixman 2>/dev/null)
-    fi
-
-    if check_if_in_china; then
-        public_ip="{路由IP}"
-    else
-        public_ip=$(curl -s ifconfig.me || echo "{公网IP}")
-    fi
-
-    echo "◆ 订阅地址："
-    if check_internet_connection; then
-        echo "■ 四季線上 4GTV : http://${public_ip}:${port}/4gtv.m3u （部分失效）"
-        echo "■ MytvSuper : http://${public_ip}:${port}/mytvsuper.m3u （需填写会员参数）"
-        echo "■ Hami Video : http://${public_ip}:${port}/hami.m3u （需填写会员参数）"
-    fi
-    echo "---------------------------------------------------------"
-    echo "---  Pixman 详细使用说明: https://pixman.io/topics/17  ---"
-    echo "--- NoobIPTV.sh 脚本日志: https://pixman.io/topics/142 ---"
-    echo "---------------------------------------------------------"
-
-    read -p "按 回车键 返回 主菜单 ..."
-}
-
-# 生成 myTV 订阅
-Convert_pixman() {
-    local public_ip
-    local port
-    local container_id
-    container_id=$(docker ps -aq -f name=pixman 2>/dev/null)
-
-    if [ -z "$container_id" ]; then
-        echo -e "${RED}错误: Pixman 容器不存在。${RESET}"
-        return 1
-    fi
-
-    if [ -n "$MYTVSUPER_TOKEN" ]; then
-        if ping -c 1 google.com > /dev/null 2>&1; then
-            MODE=$(docker inspect --format='{{.HostConfig.NetworkMode}}' pixman)
-
-            if [[ "$MODE" == "host" ]]; then
-                port=5000
-            else
-                port=$(docker inspect -f '{{ (index (index .HostConfig.PortBindings "5000/tcp") 0).HostPort }}' pixman 2>/dev/null)
-            fi
-
-            if check_if_in_china; then
-                public_ip="{路由IP}"
-            else
-                public_ip=$(curl -s ifconfig.me || echo "{公网IP}")
-            fi
-
-            echo "生成订阅中..."
-            docker exec pixman sh -c 'flask mytvsuper_tivimate'
-            echo "---------------------------------------------------------"
-            echo "■ MytvSuper-tivimate : http://${public_ip}:${port}/mytvsuper-tivimate.m3u"
-
-            (crontab -l; echo "0 */12 * * * /usr/bin/docker exec pixman sh -c 'flask mytvsuper_tivimate'") | crontab -
-
-            echo "■ 定时任务已设置，每 12 小时自动更新 M3U。"
-        else
-            echo -e "${RED}网络环境不支持，目前已禁用 myTV 服务。${RESET}"
-            return 1
-        fi
-    else
-        echo -e "${CYAN}MYTVSUPER_TOKEN 参数不能为空，无法生成订阅。${RESET}"
-        return 1
-    fi
-
-    echo "---------------------------------------------------------"
-    echo "---  Pixman 详细使用说明: https://pixman.io/topics/17  ---"
-    echo "--- NoobIPTV.sh 脚本日志: https://pixman.io/topics/142 ---"
-    echo "---------------------------------------------------------"
-
-    read -p "按 回车键 返回 主菜单 ..."
 }
 
 #############  Fourgtv #############
@@ -524,12 +330,8 @@ Convert_pixman() {
 install_Fourgtv() {
     local public_ip
     local ENV_VARS
-
-    if check_if_in_china; then
-        public_ip="{路由IP}"
-    else
-        public_ip=$(curl -s ifconfig.me || echo "{公网IP}")
-    fi
+    local public_ip=$(get_public_ip)
+    local port=$(check_and_allocate_port 8000)
 
     IMAGE_SOURCE="liuyong1987/fourgtv"
     PROXY_IMAGE_SOURCE="$REVERSE_PROXY/liuyong1987/fourgtv"
@@ -538,23 +340,18 @@ install_Fourgtv() {
     if docker ps -a --format '{{.Names}}' | grep -q "^fourgtv$"; then
         echo -e "${CYAN}检测到已存在的 Fourgtv 容器，将进行重新安装...${RESET}"
         ENV_VARS=$(docker inspect --format '{{range .Config.Env}}{{println .}}{{end}}' fourgtv)
-        port=$(echo "$ENV_VARS" | grep -oP 'PORT=\K\d+')
-        port=${PORT:-8000}
         NOWSESSIONID=$(echo "$ENV_VARS" | grep -oP 'NOWSESSIONID=\K.*')
         NOWUSERAGENT=$(echo "$ENV_VARS" | grep -oP 'NOWUSERAGENT=\K.*')
         MYTVSUPER_TOKEN=$(echo "$ENV_VARS" | grep -oP 'MYTVSUPER_TOKEN=\K.*')
 
-        echo -e "${CYAN}当前 Fourgtv 配置参数：${RESET}"
-        echo "端口: $port"
-        [ -n "$NOWSESSIONID" ] && echo "NOWSESSIONID: $NOWSESSIONID"
-        [ -n "$NOWUSERAGENT" ] && echo "NOWUSERAGENT: $NOWUSERAGENT"
-        [ -n "$MYTVSUPER_TOKEN" ] && echo "MYTVSUPER_TOKEN: $MYTVSUPER_TOKEN"
+        echo -e "当前 ${GREEN}Fourgtv${RESET} 配置参数："
+        [ -n "$NOWSESSIONID" ] && echo "NOWSESSIONID: $NOWSESSIONID" || echo "NOWSESSIONID: 未设置"
+        [ -n "$NOWUSERAGENT" ] && echo "NOWUSERAGENT: $NOWUSERAGENT" || echo "NOWUSERAGENT: 未设置"
+        [ -n "$MYTVSUPER_TOKEN" ] && echo "MYTVSUPER_TOKEN: $MYTVSUPER_TOKEN" || echo "MYTVSUPER_TOKEN: 未设置"
 
         docker stop fourgtv > /dev/null 2>&1
         docker rm -f fourgtv > /dev/null 2>&1
         docker images --format '{{.Repository}}:{{.Tag}}' | grep 'liuyong1987/fourgtv' | xargs -r docker rmi > /dev/null 2>&1
-    else
-        local port=$(check_and_allocate_port 8000)
     fi
 
     pull_image "$IMAGE_SOURCE" "$PROXY_IMAGE_SOURCE"
@@ -623,9 +420,10 @@ live_Fourgtv() {
     echo "◆ 订阅地址："
     echo "■ iTV : http://$public_ip:$port/itv.m3u （需消耗服务器流量）"
     echo "■ Beesport : http://$public_ip:$port/beesport.m3u （部分地区可直连）"
-    echo "■ Now : http://$public_ip:$port/now.m3u （需填写会员参数,且需要原生IP）"
-    echo "■ 4GTV : http://$public_ip:$port/4gtv.m3u （部分节目需要解锁台湾IP)"
-    echo "■ MytvSuper : http://$public_ip:$port/mytvsuper.m3u （需填写会员参数）"
+    echo "■ 4GTV : http://$public_ip:$port/4gtv.m3u (部分节目需要解锁台湾IP)"
+    echo "■ MytvSuper : http://$public_ip:$port/mytvsuper.m3u（需填写会员参数）"
+    echo "■ Now : http://$public_ip:$port/now.m3u （收费频道,需填写会员参数、原生IP）"
+    echo "■ Now : http://$public_ip:$port/now-free.m3u （免费频道,需填写会员参数、原生IP）"
     echo "■ YouTube : http://$public_ip:$port/youtube/{房间号} （支持列表 list/{列表号} ）"
     echo "---------------------------------------------------------"
     echo "---  Fourgtv 详细使用说明: https://t.me/livednowgroup  ---"
@@ -657,7 +455,7 @@ uninstall_Fourgtv() {
 
 # 安装 Doubebly
 install_Doubebly() {
-    local public_ip
+    local public_ip=$(get_public_ip)
 
     echo "请选择安装方式："
     echo "1) 安装 Doube-ofiii"
@@ -666,12 +464,6 @@ install_Doubebly() {
 
     read -rp "输入选项 (1, 2 或 3): " option
     option=${option:-1}
-
-    if check_if_in_china; then
-        public_ip="{路由IP}"
-    else
-        public_ip=$(curl -s ifconfig.me || echo "{公网IP}")
-    fi
 
     IMAGE_SOURCE_OFIII="doubebly/doube-ofiii"
     IMAGE_SOURCE_ITV="doubebly/doube-itv"
@@ -786,7 +578,7 @@ live_Doubebly() {
         echo "■ iTV : http://${public_ip}:${port_itv}/help (浏览器获取订阅地址)"
     fi
     echo "---------------------------------------------------------"
-    echo "---   Doubebly 详细使用说明: https://t.me/doubebly003 ---"
+    echo "---   Doubebly 详细使用说明: https://t.me/doubebly003 ----"
     echo "--- NoobIPTV.sh 脚本日志: https://pixman.io/topics/142 ---"
     echo "---------------------------------------------------------"
 
@@ -1098,17 +890,13 @@ uninstall_watchtower() {
 
 # 安装 3X-UI 
 install_3x_ui() {
+    local public_ip=$(get_public_ip)
+
     echo "请选择部署方式："
     echo "1) 使用 host 网络模式 (添加节点方便)"
     echo "2) 使用 bridge 网络模式 (添加节点,需映射端口)"
     echo "3) 使用 sh 脚本 直接安装 (推荐)"
     read -rp "输入选项 (1-3): " option
-
-    if check_if_in_china; then
-        local public_ip="{路由IP}"
-    else
-        local public_ip=$(curl -s ifconfig.me || echo "{公网IP}")
-    fi
 
     case $option in
         1)
@@ -1225,11 +1013,7 @@ install_o11() {
         echo "系统架构: $ARCH，支持安装 o11。"
         echo "正在安装 o11 面板..."
         local port=$(check_and_allocate_port 1234)
-        if check_if_in_china; then
-            local public_ip="{路由IP}"
-        else
-            local public_ip=$(curl -s ifconfig.me || echo "{公网IP}")
-        fi
+        local public_ip=$(get_public_ip)
 
         docker run -d --restart=always -p $port:1234 --name o11 wechatofficial/o11:latest
 
@@ -1247,6 +1031,8 @@ install_o11() {
 
 # 卸载 o11 
 uninstall_o11() {
+    local public_ip=$(get_public_ip)
+
     read -p "您确定要卸载 o11 面板吗？[y/n]（默认：n）" confirm
     if [[ "$confirm" != "y" && "$confirm" != "Y" ]]; then
         echo "卸载操作已取消。"
@@ -1308,12 +1094,6 @@ install_sub_store() {
     local IMAGE_SOURCE="xream/sub-store"
     local PROXY_IMAGE_SOURCE="$REVERSE_PROXY/xream/sub-store"
     local frontend_backend_key=$(openssl rand -base64 15 | tr -dc 'a-zA-Z0-9' | head -c 20)
-
-    if check_if_in_china; then
-        local public_ip="{路由IP}"
-    else
-        local public_ip=$(curl -s ifconfig.me || echo "{公网IP}")
-    fi
 
     echo "拉取 Sub Store 镜像中..."
     if ! docker pull "$IMAGE_SOURCE" > /dev/null 2>&1; then
@@ -1393,6 +1173,8 @@ pull_image() {
             echo -e "${RED}安装失败，请检查反向代理或网络连接。${RESET}"
             exit 1
         fi
+        docker tag "$proxy_image" "$image"
+        docker rmi "$proxy_image"
     fi
 }
 
@@ -1421,6 +1203,15 @@ check_if_in_china() {
     done
     
     return 1
+}
+
+# 获取公网 IP
+get_public_ip() {
+    if check_if_in_china; then
+        echo "{路由IP}"
+    else
+        curl -s ifconfig.me || echo "{公网IP}"
+    fi
 }
 
 # 检查 Docker 是否安装
@@ -1546,18 +1337,18 @@ check_and_install_grep() {
     fi
 }
 
-
 # 设置反向代理参数
-proxy_allinone() {
-    read -p "请输入反向代理地址 (回车跳过保持当前值: $REVERSE_PROXY, 输入null清空): " input_reverse_proxy
+proxy() {
+    source "$CONFIG_FILE"
+
+    read -p "请输入反向代理地址 (当前值: ${REVERSE_PROXY:-未设置}, 输入null清空): " input_reverse_proxy
 
     if [ -n "$input_reverse_proxy" ]; then
         [ "$input_reverse_proxy" = "null" ] && REVERSE_PROXY="" || REVERSE_PROXY="$input_reverse_proxy"
     fi
 
     echo "反向代理地址已更新为: ${REVERSE_PROXY:-<空>}"
-
-    save_parameters
+    echo "REVERSE_PROXY=${REVERSE_PROXY:-}" > "$CONFIG_FILE"
 }
 
 # 清理 Docker 工具
@@ -1642,6 +1433,20 @@ setup_shortcut() {
     fi
 }
 
+# 展示广告
+show_NoobIPTV() {
+echo -e "${CYAN}───────────────────────────────────────────────────────────────────────${RESET}
+${RED}   ███╗   ██╗ ██████╗  ██████╗ ██████╗ ██╗██████╗ ████████╗██╗   ██╗${RESET}
+${RED}   ████╗  ██║██╔═══██╗██╔═══██╗██╔══██╗██║██╔══██╗╚══██╔══╝██║   ██║${RESET}
+${RED}   ██╔██╗ ██║██║   ██║██║   ██║██████╔╝██║██████╔╝   ██║   ██║   ██║${RESET}
+${RED}   ██║╚██╗██║██║   ██║██║   ██║██╔══██╗██║██╔═══╝    ██║   ╚██╗ ██╔╝${RESET}
+${RED}   ██║ ╚████║╚██████╔╝╚██████╔╝██████╔╝██║██║        ██║    ╚████╔╝ ${RESET}
+${RED}   ╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝╚═╝        ╚═╝     ╚═══╝  ${RESET}  
+${GREEN}            欢迎关注我们的 ${YELLOW}Telegram ${GREEN}频道: ${CYAN}@Y_anGGGGGG${RESET}
+${CYAN}───────────────────────────────────────────────────────────────────────${RESET}
+${YELLOW}        IPTV项目小白必备的搭建脚本和便捷工具箱，输入 ${GREEN}y${YELLOW} 快捷启动！${RESET}"
+}
+
 
 # 检查是否是第一次运行
 check_first_run() {
@@ -1654,7 +1459,7 @@ check_first_run() {
     
     if [ ! -f "$first_run_flag" ]; then
         echo -e "${CYAN}首次运行，正在进行初始化设置...${RESET}"
-        reload_configuration  # 加载配置参数
+        [ ! -f "$CONFIG_FILE" ] && echo "REVERSE_PROXY=$REVERSE_PROXY" > "$CONFIG_FILE" # 设置配置文件
         setup_shortcut   # 设置快捷键
         touch "$first_run_flag"
     fi
@@ -1662,6 +1467,7 @@ check_first_run() {
 
 # 脚本信息
 script_log() {
+    show_NoobIPTV
     echo "------------------------------------------------"
     echo "项目名称：NoobIPTV"
     echo "项目地址：https://github.com/YanG-1989"
@@ -1680,6 +1486,7 @@ script_log() {
 
 #############  主程序逻辑  #############
 
+show_NoobIPTV
 check_first_run  # 检查是否是第一次运行
 download_NoobIPTV  # 检查并更新 SH 脚本
 [ -f "$CONFIG_FILE" ] && source "$CONFIG_FILE"  # 加载配置文件中的参数
@@ -1692,33 +1499,13 @@ while true; do
         1)  # 部署 pixman 
             while true; do
                 show_pixman_menu
-                read -p "请输入选项 (0-5): " pixman_choice
+                read -p "请输入选项 (0-3): " pixman_choice
                 case "$pixman_choice" in
-                    1) 
-                        check_docker
-                        check_update
-                        live_pixman
-                        ;;
-                    2) 
-                        set_parameters
-                        live_pixman
-                        ;;
-                    3) 
-                        live_pixman
-                        ;;
-                    4) 
-                        Convert_pixman
-                        ;;
-                    5) 
-                        uninstall_pixman
-                        ;;
-                    0) 
-                        echo "返回主菜单。"
-                        break 
-                        ;;
-                    *) 
-                        echo "无效的选项，请输入 0-5。" 
-                        ;;
+                    1) check_docker ; judge_Pixman ;;
+                    2) uninstall_Pixman ;;
+                    3) proxy ;;
+                    0) echo "返回主菜单。" ; break ;;
+                    *) echo "无效的选项，请输入 0-3。" ;;
                 esac
             done
             ;;
@@ -1729,7 +1516,7 @@ while true; do
                 case "$fourgtv_choice" in
                     1) check_docker ; install_Fourgtv ;;
                     2) uninstall_Fourgtv ;;
-                    3) proxy_allinone ;;
+                    3) proxy ;;
                     0) echo "返回主菜单。" ; break ;;
                     *) echo "无效的选项，请输入 0-3。" ;;
                 esac
@@ -1742,7 +1529,7 @@ while true; do
                 case "$doubebly_choice" in
                     1) check_docker ; install_Doubebly ;;
                     2) uninstall_Doubebly ;;
-                    3) proxy_allinone ;;
+                    3) proxy ;;
                     0) echo "返回主菜单。" ; break ;;
                     *) echo "无效的选项，请输入 0-3。" ;;
                 esac
