@@ -3,7 +3,7 @@
 # 名称: NoobIPTV (IPTV 项目相关脚本集合 @小白神器) 
 # 作者: YanG-1989
 # 项目地址：https://github.com/YanG-1989
-# 最新版本：2.1.1
+# 最新版本：2.1.2
 ###############################
 
 # 设置路径
@@ -31,7 +31,7 @@ show_menu() {
     echo "2)  Fourgtv 项目   "
     echo "3)  Doubebly 项目  "
     echo "~~~~~~~~~~~~~~~~~~~"
-    echo "4) Docker 更新管理  "
+    echo "4) Docker 管理助手  "
     echo "~~~~~~~~~~~~~~~~~~~"
     echo "5)  -- 工具箱 --   "
     echo "~~~~~~~~~~~~~~~~~~~"
@@ -89,6 +89,7 @@ show_watchtower_menu() {
     echo "1) 一键更新 Docker 项目"
     echo "2) 管理 Docker 项目更新"
     echo "3) 一键清理 Docker 垃圾"
+    echo "4) 一键设置 Docker 日志"
     echo "----------------------"
     echo "0)    返回主菜单       "
     echo "----------------------"
@@ -99,12 +100,13 @@ show_toolbox_menu() {
     echo "---------------------"
     echo "      工具箱菜单：    "
     echo "---------------------"
-    echo "1) [233boy] Sing-box "
-    echo "2) [Docker] 1Panel   "
-    echo "3) [Docker] o11      "
-    echo "4) [Docker] 3X-UI    "
-    echo "5) [Docker] Sub Store"
-    echo "6) [Jimmy ] Alice DNS"
+    echo "1) [Docker] 1Panel   "
+    echo "2) [Docker] o11      "
+    echo "3) [Docker] 3X-UI    "
+    echo "4) [Docker] Sub Store"
+    echo "5) [Docker] LibreTV  "
+    echo "6) [233boy] Sing-box "
+    echo "7) [Jimmy ] Alice DNS"
     echo "---------------------"
     echo "0)    返回主菜单      "
     echo "---------------------"
@@ -155,6 +157,18 @@ show_subs_menu() {
     echo "-------------------"
     echo "1) 安装 Sub Store  "
     echo "2) 卸载 Sub Store  "
+    echo "-------------------"
+    echo "0)  返回上级菜单    "
+    echo "-------------------"
+}
+
+# libretv 菜单
+show_libretv_menu() {
+    echo "-------------------"
+    echo "   LibreTV 菜单：  "
+    echo "-------------------"
+    echo "1)  安装 LibreTV   "
+    echo "2)  卸载 LibreTV   "
     echo "-------------------"
     echo "0)  返回上级菜单    "
     echo "-------------------"
@@ -333,8 +347,8 @@ install_Fourgtv() {
     local public_ip=$(get_public_ip)
     local port=$(check_and_allocate_port 8000)
 
-    IMAGE_SOURCE="liuyong1987/fourgtv"
-    PROXY_IMAGE_SOURCE="$REVERSE_PROXY/liuyong1987/fourgtv"
+    IMAGE_SOURCE="ru2025/fourgtv:latest"
+    PROXY_IMAGE_SOURCE="$REVERSE_PROXY/ru2025/fourgtv:latest"
     echo "正在安装 Fourgtv 项目 作者: @刘墉..."
 
     if docker ps -a --format '{{.Names}}' | grep -q "^fourgtv$"; then
@@ -351,7 +365,7 @@ install_Fourgtv() {
 
         docker stop fourgtv > /dev/null 2>&1
         docker rm -f fourgtv > /dev/null 2>&1
-        docker images --format '{{.Repository}}:{{.Tag}}' | grep 'liuyong1987/fourgtv' | xargs -r docker rmi > /dev/null 2>&1
+        docker images --format '{{.Repository}}:{{.Tag}}' | grep 'ru2025/fourgtv:latest' | xargs -r docker rmi > /dev/null 2>&1
     fi
 
     pull_image "$IMAGE_SOURCE" "$PROXY_IMAGE_SOURCE"
@@ -443,7 +457,7 @@ uninstall_Fourgtv() {
         echo -e "${CYAN}正在卸载 Fourgtv 项目...${RESET}"
         docker stop fourgtv > /dev/null 2>&1
         docker rm -f fourgtv > /dev/null 2>&1
-        docker images --format '{{.Repository}}:{{.Tag}}' | grep 'liuyong1987/fourgtv' | xargs -r docker rmi > /dev/null 2>&1
+        docker images --format '{{.Repository}}:{{.Tag}}' | grep 'ru2025/fourgtv:latest' | xargs -r docker rmi > /dev/null 2>&1
         uninstall_watchtower "fourgtv"
         echo -e "${RED}Fourgtv 项目 已成功卸载。${RESET}"
     else
@@ -456,183 +470,87 @@ uninstall_Fourgtv() {
 # 安装 Doubebly
 install_Doubebly() {
     local public_ip=$(get_public_ip)
+    local port_ofiii=$(check_and_allocate_port 50002)
+    echo -e "${YELLOW}==================================================${RESET}"
+    echo -e "${YELLOW}提示：如果你使用的是软路由，请移步 Telegram 查看安装教程${RESET}"
+    echo -e "${CYAN}👉 https://t.me/doubebly003${RESET}"
+    echo -e "${YELLOW}==================================================${RESET}"
+    read -rp "是否继续安装 Doubebly？[y/n]（默认：n） " confirm_install
+    confirm_install=${confirm_install:-n}
 
-    echo "请选择安装方式："
-    echo "1) 安装 Doube-ofiii"
-    echo "2) 安装 Doube-itv"
-    echo "3) 同时安装 Doube-ofiii 和 Doube-itv"
-
-    read -rp "输入选项 (1, 2 或 3): " option
-    option=${option:-1}
-
-    IMAGE_SOURCE_OFIII="doubebly/doube-ofiii"
-    IMAGE_SOURCE_ITV="doubebly/doube-itv"
-    PROXY_IMAGE_SOURCE_OFIII="$REVERSE_PROXY/doubebly/doube-ofiii"
-    PROXY_IMAGE_SOURCE_ITV="$REVERSE_PROXY/doubebly/doube-itv"
-
-    # 下载镜像
-    if [[ "$option" == "1" || "$option" == "3" ]]; then
-        echo "正在安装 Doube-ofiii 项目 作者: @沐辰..."
-        if docker ps -a --format '{{.Names}}' | grep -q "^doube-ofiii$"; then
-            echo -e "${CYAN}检测到已存在的 doube-ofiii 容器，将进行重新安装...${RESET}"
-            docker stop doube-ofiii > /dev/null 2>&1
-            docker rm doube-ofiii > /dev/null 2>&1
-            docker images --format '{{.Repository}}:{{.Tag}}' | grep 'doubebly/doube-ofiii' | xargs -r docker rmi > /dev/null 2>&1
-        fi
-        pull_image "$IMAGE_SOURCE_OFIII" "$PROXY_IMAGE_SOURCE_OFIII"
+    if [[ ! "$confirm_install" =~ ^[Yy]$ ]]; then
+        echo -e "${RED}安装已取消。${RESET}"
+        return
     fi
-
-    if [[ "$option" == "2" || "$option" == "3" ]]; then
-        echo "正在安装 Doube-itv 项目 作者: @沐辰..."
-        if docker ps -a --format '{{.Names}}' | grep -q "^doube-itv$"; then
-            echo -e "${CYAN}检测到已存在的 doube-itv 容器，将进行重新安装...${RESET}"
-            docker stop doube-itv > /dev/null 2>&1
-            docker rm doube-itv > /dev/null 2>&1
-            docker images --format '{{.Repository}}:{{.Tag}}' | grep 'doubebly/doube-itv' | xargs -r docker rmi > /dev/null 2>&1
-        fi
-        pull_image "$IMAGE_SOURCE_ITV" "$PROXY_IMAGE_SOURCE_ITV"
-    fi
-
-    # 配置 Doube-ofiii 部署
-    if [[ "$option" == "1" || "$option" == "3" ]]; then
-        local port_ofiii=$(check_and_allocate_port 50002)
-        echo "请选择 Doube-ofiii 部署方式（默认: 2):"
-        echo "1) 使用 host 网络模式 (建议: 软路由)"
-        echo "2) 使用 bridge 网络模式 (建议: VPS)"
     
-        read -rp "输入选项 (1 或 2): " deploy_mode_ofiii
-        deploy_mode_ofiii=${deploy_mode_ofiii:-2}
-        echo "当前 Doube-ofiii 使用的端口是 $port_ofiii，是否需要修改？[y/n]（默认：n）"
-        read -r -t 10 input_port
-        input_port=${input_port:-n}
+    echo "请输入订阅使用的 Token（默认: Doubebly）:"
+    read -rp "Token: " my_token
+    my_token=${my_token:-Doubebly}
 
-        if [[ "$input_port" =~ ^[Yy]$ ]]; then
-            read -rp "请输入新的端口号: " port_ofiii
-        fi
+    echo "请输入 DNS 解锁 IP（例如 Alice 提供的）："
+    read -rp "DNS IP（默认: 8.8.8.8）: " custom_dns
+    custom_dns=${custom_dns:-8.8.8.8}
 
-        if [ "$deploy_mode_ofiii" == "1" ]; then
-            net_mode_ofiii="host"
-        else
-            net_mode_ofiii="bridge"
-        fi
-        
-        docker run -d --restart always --net=$net_mode_ofiii -p $port_ofiii:5000 --name doube-ofiii $IMAGE_SOURCE_OFIII
-        echo -e "${GREEN}doube-ofiii 安装完成。${RESET}"
+    if docker ps -a --format '{{.Names}}' | grep -q "^doube-ofiii$"; then
+        echo -e "${CYAN}检测到已存在的 doube-ofiii 容器，正在重新部署...${RESET}"
+        docker stop doube-ofiii >/dev/null 2>&1
+        docker rm doube-ofiii >/dev/null 2>&1
     fi
 
-    # 配置 Doube-itv 部署
-    if [[ "$option" == "2" || "$option" == "3" ]]; then
-        local port_itv=$(check_and_allocate_port 50001)
+    docker pull doubebly/doube-ofiii:1.1.3
+    docker run -d --name=doube-ofiii \
+        -p ${port_ofiii}:5000 \
+        -e MY_OFIII_TOKEN="${my_token}" \
+        --restart=always \
+        --dns=${custom_dns} \
+        doubebly/doube-ofiii:1.1.3
 
-        echo "请选择 Doube-itv 部署方式（默认: 2):"
-        echo "1) 使用 host 网络模式 (建议: 软路由)"
-        echo "2) 使用 bridge 网络模式 (建议: VPS)"
-    
-        read -rp "输入选项 (1 或 2): " deploy_mode_itv
-        deploy_mode_itv=${deploy_mode_itv:-2}
-
-        echo "当前 Doube-itv 使用的端口是 $port_itv，是否需要修改？[y/n]（默认：n）"
-        read -r -t 10 input_port
-        input_port=${input_port:-n}
-
-        if [[ "$input_port" =~ ^[Yy]$ ]]; then
-            read -rp "请输入新的端口号: " port_itv
-        fi
-
-        if [ "$deploy_mode_itv" == "1" ]; then
-            net_mode_itv="host"
-        else
-            net_mode_itv="bridge"
-        fi
-        
-        docker run -d --restart always --net=$net_mode_itv -p $port_itv:5000 --name doube-itv $IMAGE_SOURCE_ITV
-        echo -e "${GREEN}doube-itv 安装完成。${RESET}"
-    fi
-
+    echo -e "${GREEN}doube-ofiii 安装完成。${RESET}"
     if check_internet_connection; then
-        if [[ "$option" == "1" || "$option" == "3" ]]; then
-            install_watchtower "doube-ofiii"
-        fi
-        if [[ "$option" == "2" || "$option" == "3" ]]; then
-            install_watchtower "doube-itv"
-        fi
+        install_watchtower "doube-ofiii"
     else
         echo "---------------------------------------------------------"
     fi
 
-    live_Doubebly "$public_ip" "$port_ofiii" "$port_itv" "$option"
-}
-
-# 生成 Doubebly 订阅
-live_Doubebly() {
-    local public_ip="$1"
-    local port_ofiii="$2"
-    local port_itv="$3"
-    local option="$4"
-
     echo "◆ 订阅地址："
-    if [[ "$option" == "1" || "$option" == "3" ]]; then
-        echo "■ ofiii : http://${public_ip}:${port_ofiii}/help (浏览器获取订阅地址)"
-    fi
-    if [[ "$option" == "2" || "$option" == "3" ]]; then
-        echo "■ iTV : http://${public_ip}:${port_itv}/help (浏览器获取订阅地址)"
-    fi
+    echo "◆ 直播TXT订阅地址: http://${public_ip}:${port_ofiii}/Sub.txt"
+    echo "◆ 直播M3U订阅地址: http://${public_ip}:${port_ofiii}/Sub.m3u"
+    echo "◆ 点播M3U订阅地址: http://${public_ip}:${port_ofiii}/Sub.vod.m3u?pids=ofiii75"
+    echo
+    echo "📌 加参数方式示例："
+    echo "▶ http://${public_ip}:${port_ofiii}/Sub.m3u?token=${my_token}&sd=720&proxy=true"
+    echo "▶ http://${public_ip}:${port_ofiii}/Sub.vod.m3u?token=${my_token}&sd=720&proxy=true&pids=ofiii75,ofiii76"
     echo "---------------------------------------------------------"
     echo "---   Doubebly 详细使用说明: https://t.me/doubebly003 ----"
     echo "--- NoobIPTV.sh 脚本日志: https://pixman.io/topics/142 ---"
     echo "---------------------------------------------------------"
 
-    read -p "按 回车键 返回 主菜单 ..."
+    read -p "按 回车键 返回主菜单 ..."
 }
 
 # 卸载 Doubebly
-uninstall_Doubebly(){
-    echo "请选择要卸载的项目："
+uninstall_Doubebly() {
+    echo "是否卸载 doube-ofiii 容器？"
     echo "1) 卸载 doube-ofiii"
-    echo "2) 卸载 doube-itv"
-    echo "3) 同时卸载 doube-ofiii 和 doube-itv"
-    
-    read -rp "输入选项 (1, 2 或 3): " option
+    echo "2) 取消操作"
+
+    read -rp "输入选项 (1 或 2): " option
     option=${option:-1}
 
-    # 检查 doube-ofiii 和 doube-itv 容器是否存在
+    if [[ "$option" != "1" ]]; then
+        echo "已取消卸载操作。"
+        return
+    fi
+
     if docker ps -a --format '{{.Names}}' | grep -q "^doube-ofiii$"; then
-        DOUBE_OFIII_EXIST=true
+        echo -e "${CYAN}正在卸载 doube-ofiii...${RESET}"
+        docker stop doube-ofiii > /dev/null 2>&1
+        docker rm -f doube-ofiii > /dev/null 2>&1
+        docker images --format '{{.Repository}}:{{.Tag}}' | grep 'doubebly/doube-ofiii' | xargs -r docker rmi > /dev/null 2>&1
+        uninstall_watchtower "doube-ofiii"
+        echo -e "${RED}doube-ofiii 已成功卸载。${RESET}"
     else
-        DOUBE_OFIII_EXIST=false
-    fi
-
-    if docker ps -a --format '{{.Names}}' | grep -q "^doube-itv$"; then
-        DOUBE_ITV_EXIST=true
-    else
-        DOUBE_ITV_EXIST=false
-    fi
-
-    # 执行卸载操作
-    if [[ "$option" == "1" || "$option" == "3" ]]; then
-        if [ "$DOUBE_OFIII_EXIST" == true ]; then
-            echo -e "${CYAN}正在卸载 doube-ofiii...${RESET}"
-            docker stop doube-ofiii > /dev/null 2>&1
-            docker rm -f doube-ofiii > /dev/null 2>&1
-            docker images --format '{{.Repository}}:{{.Tag}}' | grep 'doubebly/doube-ofiii' | xargs -r docker rmi > /dev/null 2>&1
-            uninstall_watchtower "doube-ofiii"
-            echo -e "${RED}doube-ofiii 已成功卸载。${RESET}"
-        else
-            echo -e "${YELLOW}未找到 doube-ofiii 容器，跳过卸载操作。${RESET}"
-        fi
-    fi
-
-    if [[ "$option" == "2" || "$option" == "3" ]]; then
-        if [ "$DOUBE_ITV_EXIST" == true ]; then
-            echo -e "${CYAN}正在卸载 doube-itv...${RESET}"
-            docker stop doube-itv > /dev/null 2>&1
-            docker rm -f doube-itv > /dev/null 2>&1
-            docker images --format '{{.Repository}}:{{.Tag}}' | grep 'doubebly/doube-itv' | xargs -r docker rmi > /dev/null 2>&1
-            uninstall_watchtower "doube-itv"
-            echo -e "${RED}doube-itv 已成功卸载。${RESET}"
-        else
-            echo -e "${YELLOW}未找到 doube-itv 容器，跳过卸载操作。${RESET}"
-        fi
+        echo -e "${YELLOW}未找到 doube-ofiii 容器，跳过卸载操作。${RESET}"
     fi
 }
 
@@ -1077,6 +995,7 @@ uninstall_1panel() {
 
 # 安装 Sub Store
 install_sub_store() {
+    local public_ip=$(get_public_ip)
 
     if docker ps -a --format '{{.Names}}' | grep -q 'sub-store'; then
         echo -e "${RED}Sub Store 已经安装，请先卸载再重新安装。${RESET}"
@@ -1130,6 +1049,68 @@ uninstall_sub_store() {
     fi
 }
 
+#############  LibreTV  #############
+
+install_libretv() {
+
+    if docker ps -a --format '{{.Names}}' | grep -q 'libretv'; then
+        echo -e "${RED}LibreTV 已经安装，请先卸载再重新安装。${RESET}"
+        return 1
+    fi
+
+    echo "LibreTV 视频搜索引擎，是否决定安装？ (y/n)"
+    read -r confirmation
+    if [[ ! "$confirmation" =~ ^[Yy]$ ]]; then
+        echo "安装已取消。"
+        return 0
+    fi
+
+    echo "请输入访问密码（可留空，默认无密码）:"
+    read -r password
+
+    echo "开始安装 LibreTV..."
+    local IMAGE_SOURCE="bestzwei/libretv:latest"
+    local PROXY_IMAGE_SOURCE="$REVERSE_PROXY/bestzwei/libretv:latest"
+
+    echo "拉取 LibreTV 镜像中..."
+    if ! docker pull "$IMAGE_SOURCE" > /dev/null 2>&1; then
+        echo -e "${CYAN}尝试使用代理拉取镜像...${RESET}"
+        if ! docker pull "$PROXY_IMAGE_SOURCE" > /dev/null 2>&1; then
+            echo -e "${RED}安装 LibreTV 失败，请检查反向代理或网络连接。${RESET}"
+            return 1
+        fi
+        IMAGE_SOURCE="$PROXY_IMAGE_SOURCE"
+    fi
+
+    echo "正在启动 LibreTV 容器..."
+
+    if ! docker run -d --name libretv --restart=always -p 8899:80 -e PASSWORD="${password}" "$IMAGE_SOURCE"; then
+        echo "错误: 容器启动失败" >&2
+        return 1
+    fi
+
+    echo "LibreTV 安装成功!"
+    echo "访问地址: http://${public_ip}:8899"
+    if [[ -n "$password" ]]; then
+        echo "登录密码: ${password}"
+    else
+        echo "当前无访问密码保护。"
+    fi
+}
+
+uninstall_libretv() {
+    read -p "是否卸载 LibreTV？[y/n]（默认：n）" confirm
+    if [[ $confirm == "y" || $confirm == "Y" ]]; then
+        echo "正在卸载 LibreTV..."
+        docker stop libretv > /dev/null 2>&1
+        docker rm -f libretv > /dev/null 2>&1
+        docker images --format '{{.Repository}}:{{.Tag}}' | grep 'bestzwei/libretv' | xargs -r docker rmi > /dev/null 2>&1
+        echo -e "${RED}LibreTV 卸载完成。${RESET}"
+    else
+        echo -e "${GREEN}取消卸载操作。${RESET}"
+    fi
+}
+
 #############  sing-box  #############
 
 # 一键搭建节点
@@ -1178,40 +1159,45 @@ pull_image() {
     fi
 }
 
-# 检查 网络 是否支持外网
+# 检查 访问境外 是否受限
 check_internet_connection() {
-    if curl -s --max-time 8 google.com > /dev/null; then
-        return 0  # 能连接外网
+    if curl -s --connect-timeout 5 --max-time 10 --retry 2 google.com > /dev/null 2>&1; then
+        return 0  # 无受限
     else
-        return 1  # 不能连接外网
+        return 1  # 受限
     fi
+}
+
+# 获取公网 IP / 失败返回 {路由IP}
+get_public_ip() {
+    # IPv4
+    ip=$(curl -s --max-time 3 https://ipv4.icanhazip.com | grep -oE '([0-9]{1,3}\.){3}[0-9]{1,3}')
+    if [[ -n "$ip" ]]; then
+        echo "$ip"
+        return 0
+    fi
+
+    # IPv6
+    ip=$(curl -s --max-time 3 https://ipv6.icanhazip.com | grep -oE '([0-9a-fA-F:]+:+)+[0-9a-fA-F]+')
+    if [[ -n "$ip" ]]; then
+        echo "$ip"
+        return 0
+    fi
+
+    echo "{路由IP}"
+    return 1
 }
 
 # 检查 IP 归属地
 check_if_in_china() {
-    local sources=(
-        "https://myip.ipip.net"
-        "https://ipinfo.io/country"
-        "http://ip-api.com/json/"
-    )
-    
-    for source in "${sources[@]}"; do
-        response=$(curl -s "$source")
-        if echo "$response" | grep -qiE "中国|China|CN"; then
-            return 0 
-        fi
-    done
-    
-    return 1
-}
+    local ip="$1"
+    local response
 
-# 获取公网 IP
-get_public_ip() {
-    if check_if_in_china; then
-        echo "{路由IP}"
-    else
-        curl -s ifconfig.me || echo "{公网IP}"
+    response=$(curl -s --max-time 3 "http://ip-api.com/json/$ip")
+    if echo "$response" | grep -qiE '"country"[[:space:]]*:[[:space:]]*"?(CN|China)"?|中国'; then
+        return 0
     fi
+    return 1
 }
 
 # 检查 Docker 是否安装
@@ -1353,19 +1339,86 @@ proxy() {
 
 # 清理 Docker 工具
 cleanup_docker() {
-    echo -e "\n🚨 警告：此操作将删除所有已停止的容器、未使用的镜像和卷。"
-    read -p "你确认要继续吗？(y/n，默认n): " confirm
+    echo -e "\n${YELLOW}┌─────────────────── Docker 完全清理 ───────────────────┐${RESET}"
+    echo -e "${YELLOW}│${RESET} 此操作将执行:                                         ${YELLOW}│${RESET}"
+    echo -e "${YELLOW}│${RESET} • 删除所有已停止的容器                                ${YELLOW}│${RESET}"
+    echo -e "${YELLOW}│${RESET} • 删除所有未使用的镜像和构建缓存                      ${YELLOW}│${RESET}"
+    echo -e "${YELLOW}│${RESET} • 删除所有未使用的卷和网络                            ${YELLOW}│${RESET}"
+    echo -e "${YELLOW}│${RESET} • 清空所有容器的日志文件                              ${YELLOW}│${RESET}"
+    echo -e "${YELLOW}└───────────────────────────────────────────────────────┘${RESET}"
+    
+    echo -e "\n${RED}⚠️  警告：此操作将删除大量数据，且无法恢复!${RESET}"
+    read -p "$(echo -e "${CYAN}确认执行完全清理? (y/n，默认n): ${RESET}")" confirm
     confirm=${confirm:-n}
-
+    
     if [[ "$confirm" != "y" ]]; then
-        echo -e "清理已取消。\n"
+        echo -e "\n${YELLOW}清理操作已取消${RESET}"
+        read -p "$(echo -e "${CYAN}按回车键返回主菜单...${RESET}")"
         return
     fi
-
-    docker system prune -a --volumes -f
-
-    echo -e "🎉 清理完成。"
-    read -p "按 回车键 返回 主菜单 ..."
+    
+    # 统计数据
+    container_count=0
+    cleaned_logs=0
+    total_freed=0
+    
+    # 第1步：清理容器日志
+    echo -e "\n${YELLOW}[1/2] 正在清理容器日志...${RESET}"
+    
+    for container_id in $(docker ps -aq); do
+        container_count=$((container_count+1))
+        container_name=$(docker inspect --format '{{.Name}}' $container_id | sed 's/\///')
+        log_path=$(docker inspect --format='{{.LogPath}}' $container_id)
+        
+        if [ -f "$log_path" ]; then
+            log_size=$(du -b "$log_path" | awk '{print $1}')
+            total_freed=$((total_freed + log_size))
+            
+            if [ $log_size -ge 1073741824 ]; then 
+                log_size_h=$(echo "scale=2; $log_size/1073741824" | bc)
+                log_size_h="${log_size_h} GB"
+            elif [ $log_size -ge 1048576 ]; then
+                log_size_h=$(echo "scale=2; $log_size/1048576" | bc)
+                log_size_h="${log_size_h} MB"
+            elif [ $log_size -ge 1024 ]; then
+                log_size_h=$(echo "scale=2; $log_size/1024" | bc)
+                log_size_h="${log_size_h} KB"
+            else
+                log_size_h="${log_size} bytes"
+            fi
+            
+            echo -e "${GREEN}✓${RESET} 清理容器 ${CYAN}${container_name}${RESET} 日志 (${log_size_h})"
+            echo "" > "$log_path"
+            cleaned_logs=$((cleaned_logs+1))
+        fi
+    done
+    
+    if [ $total_freed -ge 1073741824 ]; then 
+        total_freed_h=$(echo "scale=2; $total_freed/1073741824" | bc)
+        total_freed_h="${total_freed_h} GB"
+    elif [ $total_freed -ge 1048576 ]; then
+        total_freed_h=$(echo "scale=2; $total_freed/1048576" | bc)
+        total_freed_h="${total_freed_h} MB"
+    elif [ $total_freed -ge 1024 ]; then
+        total_freed_h=$(echo "scale=2; $total_freed/1024" | bc)
+        total_freed_h="${total_freed_h} KB"
+    else
+        total_freed_h="${total_freed} bytes"
+    fi
+    
+    # 第2步：执行Docker系统清理
+    echo -e "\n${YELLOW}[2/2] 正在执行Docker系统清理...${RESET}"
+    docker_prune_output=$(docker system prune -a --volumes -f)
+    
+    # 总结结果
+    echo -e "\n${GREEN}══════════════ 清理完成 ══════════════${RESET}"
+    echo -e "${GREEN}• 检查了 ${container_count} 个容器${RESET}"
+    echo -e "${GREEN}• 清理了 ${cleaned_logs} 个日志文件 (释放约 ${total_freed_h})${RESET}"
+    echo -e "${GREEN}• 执行了Docker系统完全清理${RESET}"
+    echo -e "${GREEN}══════════════════════════════════════${RESET}"
+    
+    echo
+    read -p "$(echo -e "${CYAN}按回车键返回主菜单...${RESET}")"
 }
 
 # 生成随机端口
@@ -1433,7 +1486,7 @@ setup_shortcut() {
     fi
 }
 
-# 彩图横幅
+# 展示广告
 show_NoobIPTV() {
 echo -e "${CYAN}───────────────────────────────────────────────────────────────────────${RESET}
 ${RED}   ███╗   ██╗ ██████╗  ██████╗ ██████╗ ██╗██████╗ ████████╗██╗   ██╗${RESET}
@@ -1444,8 +1497,9 @@ ${RED}   ██║ ╚████║╚██████╔╝╚████�
 ${RED}   ╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝╚═╝        ╚═╝     ╚═══╝  ${RESET}  
 ${GREEN}            欢迎关注我们的 ${YELLOW}Telegram ${GREEN}频道: ${CYAN}@Y_anGGGGGG${RESET}
 ${CYAN}───────────────────────────────────────────────────────────────────────${RESET}
-${YELLOW}        NoobIPTV小白必备的搭建脚本和便捷工具箱，输入 ${GREEN}y${YELLOW} 快捷启动！${RESET}"
+${YELLOW}        IPTV项目小白必备的搭建脚本和便捷工具箱，输入 ${GREEN}y${YELLOW} 快捷启动！${RESET}"
 }
+
 
 # 检查是否是第一次运行
 check_first_run() {
@@ -1473,19 +1527,18 @@ script_log() {
     echo "脚本日志: https://pixman.io/topics/142"
     echo "作者: YanG-1989"
     echo "当前版本号: $(grep -oP '(?<=^# 最新版本：).*' "$SCRIPT_PATH")"
-    echo "最后更新时间: 2024.1.7"
-    echo "1) 修复 Watchtower 删除容器的BUG "
-    echo "2) 新增 Fourgtv 项目 作者: @刘墉 "
-    echo "3) 新增 Doubebly 项目 作者: @沐辰 "
-    echo "4) 删除 Allinone 项目 应 Token 受限 "
-    echo "5) 删除 SH 定时任务 更新镜像 功能 "
+    echo "最后更新时间: 2024.5.15"
+    echo "1) 优化 Docker 管理助手 "
+    echo "2) 新增 LibreTV 快捷部署"
+    echo "3) 修复 Fourgtv 项目 作者: @刘墉 "
+    echo "4) 更新 Doubebly 项目 作者: @沐辰 "
     echo "------------------------------------------------"
     read -p "按 回车键 返回 主菜单 ..."
 }
 
 #############  主程序逻辑  #############
 
-show_NoobIPTV # 展示横幅
+show_NoobIPTV
 check_first_run  # 检查是否是第一次运行
 download_NoobIPTV  # 检查并更新 SH 脚本
 [ -f "$CONFIG_FILE" ] && source "$CONFIG_FILE"  # 加载配置文件中的参数
@@ -1535,29 +1588,47 @@ while true; do
             done
             ;;
         4)  # 管理 Docker 
-            if ! check_internet_connection; then
-                echo -e "${RED}网络环境不支持，目前禁用 watchtower 服务。${RESET}"
-                break
-            fi
             while true; do
                 show_watchtower_menu
-                read -p "请输入选项 (0-3): " watchtower_choice
+                read -p "请输入选项 (0-4): " watchtower_choice
                 case "$watchtower_choice" in
-                    1) update_watchtower ;;
-                    2) manage_watchtower ;;
-                    3) cleanup_docker ;;
+                    1)  # 手动 watchtower 
+                        if check_internet_connection; then
+                            update_watchtower
+                        else
+                            echo -e "\n${RED}⚠️ 网络连接异常，无法执行更新操作${RESET}"
+                            echo -e "${YELLOW}请检查网络连接后再尝试此功能${RESET}"
+                            echo -e "按任意键继续..."
+                            read -n 1
+                        fi
+                        ;;
+                    2)  # 管理 watchtower 
+                        if check_internet_connection; then
+                            manage_watchtower
+                        else
+                            echo -e "\n${RED}⚠️ 网络连接异常，无法执行管理操作${RESET}"
+                            echo -e "${YELLOW}请检查网络连接后再尝试此功能${RESET}"
+                            echo -e "按任意键继续..."
+                            read -n 1
+                        fi
+                        ;;
+                    3) cleanup_docker ;; # 清理 Docker 垃圾
+                    4)  # 设置 Docker 全局日志大小 
+                       curl -L -s https://yang-1989.eu.org/docker.sh | sudo bash
+                       echo -e "\n配置完成! 按任意键继续..."
+                       read -n 1
+                       ;;
                     0) echo "返回主菜单。" ; break ;;
-                    *) echo "无效的选项，请输入 0-3。" ;;
+                    *) echo "无效的选项，请输入 0-4。" ;;
                 esac
             done
             ;;
-        5)  # 工具箱
+        5)  # 工具箱 
             while true; do
                 show_toolbox_menu
-                read -p "请输入选项 (0-6): " toolbox_choice
+                read -p "请输入选项 (0-7): " toolbox_choice
                 case "$toolbox_choice" in
-                    1) install_233boy ;;  # sing-box 
-                    2)  # 1Panel
+                    1)  # 1Panel
                         while true; do
                             show_1panel_menu
                             read -p "请输入选项 (0-3): " panel_choice
@@ -1570,7 +1641,7 @@ while true; do
                             esac
                         done
                         ;;
-                    3)  # o11
+                    2)  # o11
                         while true; do
                             show_o11_menu
                             read -p "请输入选项 (0-2): " o_choice
@@ -1582,7 +1653,7 @@ while true; do
                             esac
                         done
                         ;;
-                    4)  # 3X-UI
+                    3)  # 3X-UI
                         while true; do
                             show_3x_ui_menu
                             read -p "请输入选项 (0-3): " ui_choice
@@ -1595,7 +1666,7 @@ while true; do
                             esac
                         done
                         ;;
-                    5)  # Sub Store
+                    4)  # Sub Store
                         while true; do
                             show_subs_menu
                             read -p "请输入选项 (0-2): " Sub_choice
@@ -1607,9 +1678,22 @@ while true; do
                             esac
                         done
                         ;;
-                    6) install_Jimmy ;;  # Alice DNS
+                    5)  # LibreTV
+                        while true; do
+                            show_libretv_menu
+                            read -p "请输入选项 (0-2): " LibreTV_choice
+                            case "$LibreTV_choice" in
+                                1) check_docker ; install_libretv ;;    
+                                2) echo uninstall_libretv ;;
+                                0) echo "返回上级菜单。" ; break ;;
+                                *) echo "无效的选项，请输入 0-2。" ;;
+                            esac
+                        done
+                        ;;
+                    6) install_233boy ;;  # sing-box 
+                    7) install_Jimmy ;;  # Alice DNS
                     0) echo "返回主菜单。" ; break ;;
-                    *) echo "无效的选项，请输入 0-6。" ;;
+                    *) echo "无效的选项，请输入 0-7。" ;;
                 esac
             done
             ;;
