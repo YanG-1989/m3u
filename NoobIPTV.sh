@@ -1052,6 +1052,7 @@ uninstall_sub_store() {
 #############  LibreTV  #############
 
 install_libretv() {
+    local public_ip=$(get_public_ip)
 
     if docker ps -a --format '{{.Names}}' | grep -q 'libretv'; then
         echo -e "${RED}LibreTV 已经安装，请先卸载再重新安装。${RESET}"
@@ -1088,7 +1089,7 @@ install_libretv() {
         echo "错误: 容器启动失败" >&2
         return 1
     fi
-
+    echo "---------------------------------------------------------"
     echo "LibreTV 安装成功!"
     echo "访问地址: http://${public_ip}:8899"
     if [[ -n "$password" ]]; then
@@ -1096,6 +1097,10 @@ install_libretv() {
     else
         echo "当前无访问密码保护。"
     fi
+    echo "---------------------------------------------------------"
+    echo " LibreTV 详细使用说明: https://github.com/LibreSpark/LibreTV"
+    echo "--- NoobIPTV.sh 脚本日志: https://pixman.io/topics/142 ---"
+    echo "---------------------------------------------------------"
 }
 
 uninstall_libretv() {
