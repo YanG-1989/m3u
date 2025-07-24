@@ -35,6 +35,22 @@
 >定制自己的直播 M3U 列表「分享自己喜欢的主播..」
 ---
 ### 垃圾话语录「历史记录」 
+* 2025.7.24  
+>维护 Sport「修复 部分播放器 失效BUG / 兼容更多播放器」  
+* 2025.7.22  
+>维护 Live「优化 YouTube/Twitch 代理」  
+>维护 Gather「增加 翡翠/無綫新聞-随时拉闸」  
+* 2025.6.23  
+>维护 Live「新增 故障转移机制」  
+>维护 Live「更新 周期改为 20 分钟」  
+* 2025.6.4  
+>维护 Gather「增加 •咪咕「TV」FHD/HD 频道」  
+>维护 Live「替换 国内VPS 解析」  
+>维护 Sport「增加 两个频道」  
+>维护 myTV「替换 部分频道 LOGO」  
+>增加 [格式转换](https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/hosts.txt) 「偶尔可能有用」 
+* 2025.5.20  
+>恢复 Sport「请使用 APTV / TiviMate / 影视 」  
 * 2025.5.8  
 >维护 Live「优化 直播间在线 / 准确率 」  
 >维护 Live「修复 Youtube ID 识别 BUG 」  
