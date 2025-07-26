@@ -48,7 +48,7 @@
 >维护 Live「替换 国内VPS 解析」  
 >维护 Sport「增加 两个频道」  
 >维护 myTV「替换 部分频道 LOGO」  
->增加 [格式转换](https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/hosts.txt) 「偶尔可能有用」 
+>增加 [格式转换](https://yang-1989.eu.org/Conversion.php) 「偶尔可能有用」 
 * 2025.5.20  
 >恢复 Sport「请使用 APTV / TiviMate / 影视 」  
 * 2025.5.8  
