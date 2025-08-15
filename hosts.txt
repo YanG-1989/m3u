@@ -5,24 +5,16 @@
 (pixman.io.fifalive.dnsany.com 可替换成 dns 域名 其中一个)
 
 [DNS]
-alias = /studentlive.migucloud.com/pixman.io.fifalive.dnsany.com
-alias = /zqhswlive.itv.cmvideo.cn/pixman.io.fifalive.dnsany.com
+alias = /studentlive.migucloud.com/base-v4v6-cm-miguvideo.e.cdn.chinamobile.com
 
 「映射 DNS 引用 pixman 大佬部署好的解析,咪咕全网即可享有全网体验」
 
 解决方法二修改hosts:
 (IP具有时效性,需自行替换.)
 
-通过 ping「dns 域名」获得一个 IP 地址 (https://www.itdog.cn/dns/)，然后将该 IP 地址用于 hosts 文件中 (建议修改路由器hosts文件) 。
+通过 ping「base-v4v6-cm-miguvideo.e.cdn.chinamobile.com」选取一个 IP 地址 (https://www.itdog.cn/dns/)，然后将该 IP 地址用于 hosts 文件中 (建议修改路由器hosts文件) 。
 
-0.0.0.0 studentlive.migucloud.com
-0.0.0.0 zqhswlive.itv.cmvideo.cn
+39.136.156.38 studentlive.migucloud.com 
 
 「每个设备的hosts文件位置,不一样自行寻找..」
 ----------------------------------------------------
-dns 域名 (随便选一个):
-pixman.io.ystenlive.dnsany.com
-pixman.io.bestlive.dnsany.com
-pixman.io.wasulive.dnsany.com
-pixman.io.fifalive.dnsany.com
-pixman.io.hnbblive.dnsany.com
