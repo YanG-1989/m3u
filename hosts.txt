@@ -2,7 +2,6 @@
 
 解决方法一映射DNS:
 (QX的映射dns写法,其他代理软件同理.)
-(pixman.io.fifalive.dnsany.com 可替换成 dns 域名 其中一个)
 
 [DNS]
 alias = /studentlive.migucloud.com/base-v4v6-cm-miguvideo.e.cdn.chinamobile.com
