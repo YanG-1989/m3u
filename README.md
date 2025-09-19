@@ -29,7 +29,7 @@
 > 订阅地址「VPS版」,请勿直接打开...  
 ---
 ### 直播集合「一切随缘」  
-* [Live.m3u「多平台」](https:///tv.iill.top/m3u/Live)  
+* [Live.m3u「多平台」](https://m.iill.top/Live.m3u)  
 >直播平台 订阅地址「收集网友喜欢的直播间...」
 * [个性化 M3U 定制](https://m.iill.top)  
 >定制自己的直播 M3U 列表「分享自己喜欢的主播..」
