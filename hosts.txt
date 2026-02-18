@@ -18,6 +18,5 @@ alias = /cache.ott.fifalive.itv.cmvideo.cn/base-v4v6-cm-miguvideo.e.cdn.chinamob
 39.136.156.38 cache.ott.fifalive.itv.cmvideo.cn
 
 「每个设备的hosts文件位置,不一样自行寻找..」
--------------------------「IP域名」-------------------------------------------------------
-cache.ott.fifalive.itv.cmvideo.cn
+-----------------------------------「IP域名」-----------------------------------
 base-v4v6-cm-miguvideo.e.cdn.chinamobile.com
