@@ -6,16 +6,18 @@
 (QX的映射dns写法,其他代理软件同理.)
 
 [DNS]
-alias = /studentlive.migucloud.com/base-v4v6-cm-miguvideo.e.cdn.chinamobile.com
+alias = /cache.ott.fifalive.itv.cmvideo.cn/base-v4v6-cm-miguvideo.e.cdn.chinamobile.com
 
 --------------------------------------------------------------------------------------------
 
 解决方法二修改hosts:
 (IP具有时效性,需自行替换.)
 
-通过 ping「base-v4v6-cm-miguvideo.e.cdn.chinamobile.com」选取一个 IP 地址 (https://www.itdog.cn/dns/)，然后将该 IP 地址用于 hosts 文件中 (建议修改路由器hosts文件) 。
+通过 ping「IP域名」选取一个 IP 地址 (https://www.itdog.cn/dns/)，然后将该 IP 地址用于 hosts 文件中 (建议修改路由器hosts文件) 。
 
-39.136.156.38 studentlive.migucloud.com 
+39.136.156.38 cache.ott.fifalive.itv.cmvideo.cn
 
 「每个设备的hosts文件位置,不一样自行寻找..」
---------------------------------------------------------------------------------------------
+-------------------------「IP域名」-------------------------------------------------------
+cache.ott.fifalive.itv.cmvideo.cn
+base-v4v6-cm-miguvideo.e.cdn.chinamobile.com
