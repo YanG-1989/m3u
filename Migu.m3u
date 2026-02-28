@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg-1.iill.top/epg.xml"
+#EXTM3U x-tvg-url="https://epg-1.iill.top/epg.xml.gz"
 
 #EXTINF:-1 tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://epg-1.iill.top/logo/咪咕.png" group-title="•其他「运营商」",Github「使用说明」
 https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/hosts.txt
