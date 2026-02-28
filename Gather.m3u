@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epg-1.iill.top/epg.xml"
+#EXTM3U x-tvg-url="https://epg-1.iill.top/epg.xml.gz"
 
 #EXTINF:-1 tvg-id="免费订阅" tvg-name="免费订阅" tvg-logo="https://epg-1.iill.top/logo/温馨提示.png" group-title="•温馨「提示」",免费订阅：请勿贩卖...
 https://epg-1.iill.top/v/302.mp4
